@@ -9133,34 +9133,33 @@ router.get('/credit/:credit_id', function(req, res, next) {
 });
 
 router.get('/discover/movie', function(req, res, next) {
-
   if (req.query.with_genres == 20300 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/6Ra4oY_L1HM.jpg",
         "genre_ids": [
-          20300, 20301, 20302, 20304, 20300, 20300
+          18,
+          36
         ],
         "id": 2030088801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
+        "overview": "This discussion will provide a constitutional law analysis of certain serious criminal offenses in the Philippines: Robbery, Kidnapping, Arbitrary detention, Unlawful arrest, Arson.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/6Ra4oY_L1HM.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
         "video": false,
         "vote_average": 8.2,
-        "vote_count": 4588
+        "vote_count": 4588,
+		"url": "FOc_FnSXp6U"
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+        "backdrop_path": "/images/PNkPfxySMg0.jpg",
         "genre_ids": [
           27,
           9648
@@ -9168,19 +9167,20 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030088802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "RA No  11648 statutory rape",
+        "overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
+        "poster_path": "/images/PNkPfxySMg0.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "RA No  11648   statutory rape",
         "video": false,
         "vote_average": 8,
-        "vote_count": 2300
+        "vote_count": 2300,
+		"url": "FOc_FnSXp6U"
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/8OqZT7jfFn8.jpg",
         "genre_ids": [
           878,
           28,
@@ -9188,19 +9188,20 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030088803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "bigamy, illegal marriage   performance of illegal marriage",
+        "overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "poster_path": "/images/8OqZT7jfFn8.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "bigamy, illegal marriage   performance of illegal marriage",
         "video": false,
         "vote_average": 7.2,
-        "vote_count": 786
+        "vote_count": 786,
+		"url": "FOc_FnSXp6U"
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/KLdPUh7D0sU.jpg",
         "genre_ids": [
           28,
           12,
@@ -9208,34 +9209,36 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030088804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "error in personae, aberatiu ictus, praeter intentioneme",
+        "overview": "The discussion will examine the concepts of error in personae, aberatio ictus, and praeter intentionem in relation to Article 4 of the Revised Penal Code of the Philippines. Specifically, it will analyze: Error in personae, which refers to mistakes regarding the identity of the victim, Aberatio ictus, which relates to deviation of the criminal act from the initial plan, Praeter intentionem, or unintended consequences of an unlawful act.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/KLdPUh7D0sU.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "error in personae, aberatiu ictus, praeter intentioneme",
         "video": false,
         "vote_average": 6.4,
-        "vote_count": 741
+        "vote_count": 741,
+		"url": "FOc_FnSXp6U"
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/kxirVAw_-0s.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030088805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder,",
+        "overview": "The discussion will examine issues relating to different forms of homicide and related crimes within the framework of the Philippine Constitution. Specifically, it will analyze: Death under exceptional circumstances, Tumultuous affray, Abortion, Infanticide, Parricide, Murder.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/kxirVAw_-0s.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder,",
         "video": false,
         "vote_average": 7.6,
-        "vote_count": 2454
+        "vote_count": 2454,
+		"url": "FOc_FnSXp6U"
       }
     ],
     "total_pages": 1,
@@ -9245,33 +9248,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20301 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/zcYAnpJxV5g.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030188801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Impossible crime",
+        "overview": "The discussion will focus on the concept of impossible crimes under Philippine criminal law. An impossible crime refers to an act that is incapable of being performed due to factual or legal impossibility, yet there is criminal intent to commit the act.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/zcYAnpJxV5g.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Impossible crime",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+        "backdrop_path": "/images/ncg7TsrhiUY.jpg",
         "genre_ids": [
           27,
           9648
@@ -9279,19 +9280,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030188802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Stages of felony",
+        "overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
+        "poster_path": "/images/ncg7TsrhiUY.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Stages of felony",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/a6yRu-13OFc.jpg",
         "genre_ids": [
           878,
           28,
@@ -9299,19 +9300,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030188803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Plunder",
+        "overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "poster_path": "/images/a6yRu-13OFc.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Plunder",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/dLSWeutlFPA.jpg",
         "genre_ids": [
           28,
           12,
@@ -9319,31 +9320,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030188804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Treason, Rebellion, coup detat, sedition",
+        "overview": "The video will discuss and compare the crimes of treason, rebellion, coup d'etat and sedition under Philippine law. It will analyze the following elements: The offender, The criminal act, The mode, and the Criminal intent.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/dLSWeutlFPA.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Treason, Rebellion, coup detat, sedition",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/bhI5oNqfplk.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030188805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Violence against women RA No  9262",
+        "overview": "The discussion is all about RA No 9262 with cases in which the victim must be a woman with whom the offender has a marital sexual or dating relationship or the child is the biological child of the woman or the child is under the care of a woman.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/bhI5oNqfplk.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Violence against women RA No  9262",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9356,33 +9357,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20302 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/JgDpR8Xme4Y.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030288801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Amnesty and pardon",
+        "overview": "The discussion will focus on comparing and contrasting the concepts of amnesty and pardon under Philippine law. Specific points of analysis include: Defining amnesty and pardon, and how they differ in terms of effect and application, Requirements and procedures for granting each type of relief.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/JgDpR8Xme4Y.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Amnesty and pardon",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+        "backdrop_path": "/images/BB3yoKrF8DM.jpg",
         "genre_ids": [
           27,
           9648
@@ -9390,19 +9389,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030288802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Probation and community service",
+        "overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
+        "poster_path": "/images/BB3yoKrF8DM.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Probation and community service",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/JxsN19NL_Ds.jpg",
         "genre_ids": [
           878,
           28,
@@ -9410,19 +9409,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030288803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Three-fold rule and GCTA",
+        "overview": "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "poster_path": "/images/JxsN19NL_Ds.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Three-fold rule and GCTA",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/l1G9L8dF6zQ.jpg",
         "genre_ids": [
           28,
           12,
@@ -9430,31 +9429,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030288804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
+        "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/l1G9L8dF6zQ.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/Pgzb33HIBDQ.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030288805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Trafficking in person, child trafficking, child pornography, cyber sex",
+        "overview": "The discussion will focus on analyzing trafficking in persons based on Republic Act 9208 (The Anti-Trafficking in Persons Act of 2003), as amended by RA 11862. Specifically, it will examine the key elements that define trafficking offenses under this law.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/Pgzb33HIBDQ.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Trafficking in person, child trafficking, child pornography, cyber sex",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9467,33 +9466,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20303 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/O4WKPNUks5U.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030388801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Special complex crime",
+        "overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/O4WKPNUks5U.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Special complex crime",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+        "backdrop_path": "/images/B6-DJ-qWYKg.jpg",
         "genre_ids": [
           27,
           9648
@@ -9501,19 +9498,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030388802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Rape with homicide, robbery with homicide or rape",
+        "overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
+        "poster_path": "/images/B6-DJ-qWYKg.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Rape with homicide, robbery with homicide or rape",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/CaRrSRRAI8c.jpg",
         "genre_ids": [
           878,
           28,
@@ -9521,19 +9518,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030388803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Kidnapping with homicide or rape",
+        "overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "poster_path": "/images/CaRrSRRAI8c.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Kidnapping with homicide or rape",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/FZQmGvdWONY.jpg",
         "genre_ids": [
           28,
           12,
@@ -9541,31 +9538,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030388804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
+        "overview": "The discussion will focus on the special complex crime of kidnapping with rape, rape through forcible abduction, and kidnapping and robbery. For a crime to be called kidnapping with rape, the original design must be to commit kidnapping. If the original design however, is to rape the victim then the crime commited is complex crime of rape through forcible abduction.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/FZQmGvdWONY.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/ybOrhRO0uMM.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030388805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Theft and estafae",
+        "overview": "The discussion will focus on distinguishing the crimes of theft and estafa through misappropriation under Philippine law. Specifically, it will define the elements of theft as taking another's property without consent and explain estafa through misappropriation, which involves receiving property through trust, administration of an obligation, or duty to deliver, and later misappropriating, converting or denying the property.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/ybOrhRO0uMM.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Theft and estafa",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9578,33 +9575,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20304 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/bZ_Dn4SFniM.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030488801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
+        "overview": "The discussion is all about Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, and child cohabitation. The discussion will also include laws and example cases under it.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/bZ_Dn4SFniM.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/AYoZ07A0OWg.jpg",
         "genre_ids": [
           27,
           9648
@@ -9612,19 +9607,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030488802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Falsification, malversation, estafa, theft",
+        "overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/AYoZ07A0OWg.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Falsification, malversation, estafa, theft",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/4c6N2L9mO3A.jpg",
         "genre_ids": [
           878,
           28,
@@ -9632,19 +9627,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030488803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Terrorism",
+        "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/4c6N2L9mO3A.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Terrorism",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/-rxaYsUN3YY.jpg",
         "genre_ids": [
           28,
           12,
@@ -9652,10 +9647,10 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030488804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Generality and territoriality 1",
+        "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/-rxaYsUN3YY.jpg",
         "release_date": "2023-09-15",
         "title": "Bigamy illegal marriage performance of illegal marriage",
         "video": false,
@@ -9664,19 +9659,19 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/cNsyonG2K1o.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030488805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Territoriality, repeal and RA 10951 001 2",
+        "overview": "The discussion will continue examining the principle of territoriality in criminal law. Specifically, it will analyze specific types of crimes in relation to territorial jurisdiction issues, evaluate concepts like objective and subjective territoriality in more depth and discuss exceptions to territoriality such as crimes on the high seas.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/cNsyonG2K1o.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Territoriality, repeal and RA 10951 001 2",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9689,33 +9684,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20305 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/hzwrQOg7CqA.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030588801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Culpa and mistake of fact",
+        "overview": "The discussion will provide analyses of the doctrine of Culpa and the concept of Mistake of Fact in criminal law. Specifically, it will define Culpa and explain the two prevailing views on its scope and culpability standards, distinguish Culpa from Dolus and analyze their applications, and outline the rules governing mistakes of fact as exculpatory or inculpatory circumstances.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/hzwrQOg7CqA.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Culpa and mistake of fact",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/TDpAhpVcKXo.jpg",
         "genre_ids": [
           27,
           9648
@@ -9723,19 +9716,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030588802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Penalties special law",
+        "overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/TDpAhpVcKXo.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Penalties special law",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/Cf0TCYWhreQ.jpg",
         "genre_ids": [
           878,
           28,
@@ -9743,19 +9736,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030588803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Penalties for special law",
+        "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/Cf0TCYWhreQ.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Penalties for special law",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/QPIpzPG8GhI.jpg",
         "genre_ids": [
           28,
           12,
@@ -9763,31 +9756,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030588804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Lawas principle",
+        "overview": "The video will examine the legal concept and principles surrounding single criminal investure under Philippine law. As a foundational point, it will discuss Article 48 of the Revised Penal Code, which establishes the general rule regarding a single criminal act.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/QPIpzPG8GhI.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Lawas principle",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/Nhh2qyOpCiY.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030588805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Carnapping and piracy",
+        "overview": "The discussion centers around the issue of carnapping and how motor vehicles are used on public highways. Specifically, we will be exploring the legal implications when a motor vehicle is carnapped and subsequently utilized on public roadways.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/Nhh2qyOpCiY.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Carnapping and piracy",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9800,33 +9793,31 @@ router.get('/discover/movie', function(req, res, next) {
 
 
   if (req.query.with_genres == 20306 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/4P9MdLhfxvw.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030688801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Brigandage and hijacking",
+        "overview": "The crime of brigandage under Philippine law involves organized armed robbery carried out by groups of four or more individuals. Specifically brigandage refers to a form of aggravated robbery or theft committed by an association of four or more persons who are armed with firearms or other deadly weapons.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/4P9MdLhfxvw.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Brigandage and hijacking",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/nFK07TccaHc.jpg",
         "genre_ids": [
           27,
           9648
@@ -9834,19 +9825,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030688802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Syndicated estafa",
+        "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/nFK07TccaHc.png",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Syndicated estafa",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/kSqwVtztixg.jpg",
         "genre_ids": [
           878,
           28,
@@ -9854,19 +9845,19 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030688803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Voyuerism",
+        "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/kSqwVtztixg.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Voyuerism",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
       },
       {
         "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "backdrop_path": "/images/huREGMfs_54.jpg",
         "genre_ids": [
           28,
           12,
@@ -9874,31 +9865,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030688804,
         "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
+        "original_title": "Hazing",
+        "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
         "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "poster_path": "/images/huREGMfs_54.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Hazing",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
       },
       {
         "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
+        "backdrop_path": "/images/-e3At2-lqTk.jpg",
         "genre_ids": [
           28,
           53
         ],
         "id": 2030688805,
         "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
+        "original_title": "Cyber libel",
+        "overview": "The discussion will focus on analyzing key aspects of cyber libel law based on the Court of Appeals decision in People vs. Santos and Ressa of Rappler (CA-G.R. SP No. 151618). Specifically, it will examine the appellate court's rulings on applicability of traditional libel rules to online publications/blog posts, interpretation of actual malice in the context of digital media, and scope and limits of exemptions like fair comment and criticism.",
         "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+        "poster_path": "/images/-e3At2-lqTk.jpg",
         "release_date": "2023-07-08",
-        "title": "Complex Crime",
+        "title": "Cyber libel",
         "video": false,
         "vote_average": 7.6,
         "vote_count": 2454
@@ -9910,33 +9901,31 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
   if (req.query.with_genres == 20307 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "backdrop_path": "/images/yJyR5OOmcVQ.jpg",
         "genre_ids": [
           18,
           36
         ],
         "id": 2030788801,
         "original_language": "en",
-        "original_title": "Delito Continuado",
-        "overview": "Delito Continuado or continuing offense consists of a series of acts arising from. one criminal intent or resolution. In the above views, since there is only a single criminal intent, even though there. is a series of criminal acts.",
+        "original_title": "Complex crime",
+        "overview": "The video will examine the concept of complex crimes under Article 48 of the Revised Penal Code of the Philippines. Specifically, it will cover an overview of complex crimes as defined in the RPC and distinguishing between the two types such as the compound crime where one felony serves as a means for committing another and complex crime proper where a single act constitutes two or more grave/less grave felonies.",
         "popularity": 2590.24,
-        "poster_path": "/images/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "poster_path": "/images/yJyR5OOmcVQ.jpg",
         "release_date": "2023-07-19",
-        "title": "Delito Continuado",
+        "title": "Complex crime",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/t5zCBSB5xMDKcDqe91qahCOUYVV.png",
+        "backdrop_path": "/images/pnScrR_P5AM.jpg",
         "genre_ids": [
           27,
           9648
@@ -9944,19 +9933,19 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 2030788802,
         "original_language": "en",
-        "original_title": "Three fold rule and GCTA",
-        "overview": "Under the three-fold rule, of Article 70, a convict can be punished only up to three times the most severe penalty imposed, and such maximum period shall not exceed 40 years.",
+        "original_title": "Delito continuado",
+        "overview": "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
         "popularity": 1617.893,
-        "poster_path": "/images/A4j8S6moJS2zNtRR8oWF08gRnL5.png",
+        "poster_path": "/images/pnScrR_P5AM.jpg",
         "release_date": "2023-10-25",
-        "title": "Three fold rule and GCTA",
+        "title": "Delito continuado",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
       },
       {
         "adult": false,
-        "backdrop_path": "/images/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "backdrop_path": "/images/GQpnQnCKBDU.jpg",
         "genre_ids": [
           878,
           28,
@@ -9964,66 +9953,24 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030788803,
         "original_language": "en",
-        "original_title": "Falsification Malversation of Funds Estafa Theft",
-        "overview": "The crime of theft is included necessarily in that of robbery and therefore ... estafa with falsification through imprudence, but of intentional estafa with ...",
+        "original_title": "Delito continuado 2",
+        "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
-        "poster_path": "/images/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.png",
+        "poster_path": "/images/GQpnQnCKBDU.jpg",
         "release_date": "2023-09-27",
-        "title": "Falsification Malversation of Funds Estafa Theft",
+        "title": "Delito continuado 2",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
-        "genre_ids": [
-          28,
-          12,
-          53
-        ],
-        "id": 2030788804,
-        "original_language": "en",
-        "original_title": "Bigamy illegal marriage performance of illegal marriage",
-        "overview": "Bigamy can be intentional, where one spouse marries a second spouse knowing full well their initial marriage remains legally binding, or it can be unintentional, the result of an attempted divorce that was never legally finalized.",
-        "popularity": 1108.183,
-        "poster_path": "/images/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-        "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
-        "video": false,
-        "vote_average": 6.4,
-        "vote_count": 741
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/images/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-        "genre_ids": [
-          28,
-          53
-        ],
-        "id": 2030788805,
-        "original_language": "en",
-        "original_title": "Complex Crime",
-        "overview": "Complex Crime is defined as when a single act constitutes two or more grave or less grave felonies, or when an offense is a necessary means for committing the other, the penalty for the most serious crime shall be imposed, the same to be applied in its maximum period.",
-        "popularity": 1044.199,
-        "poster_path": "/images/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-        "release_date": "2023-07-08",
-        "title": "Complex Crime",
-        "video": false,
-        "vote_average": 7.6,
-        "vote_count": 2454
       }
     ],
     "total_pages": 1,
-    "total_results": 5
+    "total_results": 3
     });
  }
 
-
   if (req.query.with_genres == 30300 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
@@ -10046,19 +9993,19 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/x7YFlRd2a44.png",
+        "backdrop_path": "/images/x7YFlRd2a44.jpg",
         "genre_ids": [
         
         ],
 
         "id": 3030088802,
         "original_language": "en",
-        "original_title": "Political   Atty Loanzon   Lecture 2",
+        "original_title": "Political Atty Loanzon Lecture 2",
         "overview": "The discussion will focus on the second part of Political Law by Atty Loanzon.",
         "popularity": 1617.893,
-        "poster_path": "/images/x7YFlRd2a44.png",
+        "poster_path": "/images/x7YFlRd2a44.jpg",
         "release_date": "2023-10-25",
-        "title": "Political   Atty Loanzon   Lecture 2",
+        "title": "Political Atty Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10071,16 +10018,16 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030088803,
         "original_language": "en",
-        "original_title": "Political   Atty Loanzon   Lecture 3",
+        "original_title": "Political Atty Loanzon Lecture 3",
         "overview": "The discussion will focus on the third part of Political Law by Atty Loanzon.",
         "popularity": 1595.817,
-        "poster_path": "/images/9wdgsK5gBN0.png",
+        "poster_path": "/images/9wdgsK5gBN0.jpg",
         "release_date": "2023-09-27",
-        "title": "Political   Atty Loanzon   Lecture 3",
+        "title": "Political Atty Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
+      }
     ],
     "total_pages": 1,
     "total_results": 3
@@ -10088,9 +10035,7 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
   if (req.query.with_genres == 30301 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
@@ -10101,31 +10046,31 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030188801,
         "original_language": "en",
-        "original_title": "Political   Atty Loanzon   Lecture 4",
+        "original_title": "Political Atty Loanzon Lecture 4",
         "overview": "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
         "release_date": "2023-07-19",
-        "title": "Political   Atty Loanzon   Lecture 4",
+        "title": "Political Atty Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       },
       {
         "adult": false,
-        "backdrop_path": "/images/m1_rMY84MmM.png",
+        "backdrop_path": "/images/m1_rMY84MmM.jpg",
         "genre_ids": [
         
         ],
 
         "id": 3030188802,
         "original_language": "en",
-        "original_title": "Political   Atty Loanzon   Lecture 5",
+        "original_title": "Political Atty Loanzon Lecture 5",
         "overview": "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
         "popularity": 1617.893,
-        "poster_path": "/images/m1_rMY84MmM.png",
+        "poster_path": "/images/m1_rMY84MmM.jpg",
         "release_date": "2023-10-25",
-        "title": "Political   Atty Loanzon   Lecture 5",
+        "title": "Political Atty Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10138,16 +10083,16 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030188803,
         "original_language": "en",
-        "original_title": "Political   Atty Loanzon   Lecture 6",
+        "original_title": "Political Atty Loanzon Lecture 6",
         "overview": "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
         "popularity": 1595.817,
-        "poster_path": "/images/Ckd2JrSXI9A.png",
+        "poster_path": "/images/Ckd2JrSXI9A.jpg",
         "release_date": "2023-09-27",
-        "title": "Political   Atty Loanzon   Lecture 6",
+        "title": "Political Atty Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
+      }
     ],
     "total_pages": 1,
     "total_results": 3
@@ -10155,9 +10100,7 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
   if (req.query.with_genres == 30302 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
@@ -10180,9 +10123,9 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/CiaiqmGR3Bs.png",
+        "backdrop_path": "/images/CiaiqmGR3Bs.jpg",
         "genre_ids": [
-         
+        
         ],
 
         "id": 3030288802,
@@ -10190,7 +10133,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Political Atty Loanzon Lecture 8",
         "overview": "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
         "popularity": 1617.893,
-        "poster_path": "/images/CiaiqmGR3Bs.png",
+        "poster_path": "/images/CiaiqmGR3Bs.jpg",
         "release_date": "2023-10-25",
         "title": "Political Atty Loanzon Lecture 8",
         "video": false,
@@ -10201,20 +10144,20 @@ router.get('/discover/movie', function(req, res, next) {
         "adult": false,
         "backdrop_path": "/images/7QUIPi5-yF8.jpg",
         "genre_ids": [
-         
+        
         ],
         "id": 3030288803,
         "original_language": "en",
         "original_title": "Political Atty Loanzon Lecture 9",
         "overview": "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
         "popularity": 1595.817,
-        "poster_path": "/images/7QUIPi5-yF8.png",
+        "poster_path": "/images/7QUIPi5-yF8.jpg",
         "release_date": "2023-09-27",
         "title": "Political Atty Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
+      }
     ],
     "total_pages": 1,
     "total_results": 3
@@ -10222,9 +10165,7 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
   if (req.query.with_genres == 30303 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
@@ -10247,9 +10188,9 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/NhaoeTyNLkc.png",
+        "backdrop_path": "/images/NhaoeTyNLkc.jpg",
         "genre_ids": [
-         
+        
         ],
 
         "id": 3030388802,
@@ -10257,7 +10198,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Political Atty Loanzon Lecture 11",
         "overview": "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
         "popularity": 1617.893,
-        "poster_path": "/images/NhaoeTyNLkc.png",
+        "poster_path": "/images/NhaoeTyNLkc.jpg",
         "release_date": "2023-10-25",
         "title": "Political Atty Loanzon Lecture 11",
         "video": false,
@@ -10268,20 +10209,20 @@ router.get('/discover/movie', function(req, res, next) {
         "adult": false,
         "backdrop_path": "/images/FOc_FnSXp6U.jpg",
         "genre_ids": [
-         
+        
         ],
         "id": 3030388803,
         "original_language": "en",
         "original_title": "Political Atty Loanzon Lecture 12",
         "overview": "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
         "popularity": 1595.817,
-        "poster_path": "/images/FOc_FnSXp6U.png",
+        "poster_path": "/images/FOc_FnSXp6U.jpg",
         "release_date": "2023-09-27",
         "title": "Political Atty Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
-      },
+      }
     ],
     "total_pages": 1,
     "total_results": 3
@@ -10289,9 +10230,7 @@ router.get('/discover/movie', function(req, res, next) {
  }
 
   if (req.query.with_genres == 30304 ){
-      res.json(
-	  
-	  {
+      res.json({
     "page": 1,
     "results": [
       {
@@ -10314,7 +10253,7 @@ router.get('/discover/movie', function(req, res, next) {
       }
 	  ],
     "total_pages": 1,
-    "total_results": 1
+    "total_results": 3
     });
  }
 
@@ -12036,402 +11975,10 @@ router.get('/movie/now_playing', function(req, res, next) {
 },
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
-    "id": 507089,
-    "original_language": "en",
-    "original_title": "Five Nights at Freddy's",
-    "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-    "popularity": 1617.893,
-    "poster_path": "/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
-    "release_date": "2023-10-25",
-    "title": "Five Nights at Freddy's",
-    "video": false,
-    "vote_average": 7.945,
-    "vote_count": 2324
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-    "genre_ids": [
-      878,
-      28,
-      53
-    ],
-    "id": 670292,
-    "original_language": "en",
-    "original_title": "The Creator",
-    "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
-    "popularity": 1595.817,
-    "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-    "release_date": "2023-09-27",
-    "title": "The Creator",
-    "video": false,
-    "vote_average": 7.209,
-    "vote_count": 842
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/wl4NWiZwpzZH67HiDgpDImLyds9.jpg",
-    "genre_ids": [
-      28,
-      12,
-      53
-    ],
-    "id": 299054,
-    "original_language": "en",
-    "original_title": "Expend4bles",
-    "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
-    "popularity": 1108.183,
-    "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-    "release_date": "2023-09-15",
-    "title": "Expend4bles",
-    "video": false,
-    "vote_average": 6.408,
-    "vote_count": 753
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 695721,
-    "original_language": "en",
-    "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
-    "popularity": 734.432,
-    "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
-    "release_date": "2023-11-15",
-    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 184
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 609681,
-    "original_language": "en",
-    "original_title": "The Marvels",
-    "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
-    "popularity": 633.789,
-    "poster_path": "/Ag3D9qXjhJ2FUkrlJ0Cv1pgxqYQ.jpg",
-    "release_date": "2023-11-08",
-    "title": "The Marvels",
-    "video": false,
-    "vote_average": 6.5,
-    "vote_count": 438
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dZbLqRjjiiNCpTYzhzL2NMvz4J0.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 951491,
-    "original_language": "en",
-    "original_title": "Saw X",
-    "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
-    "popularity": 626.145,
-    "poster_path": "/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
-    "release_date": "2023-09-26",
-    "title": "Saw X",
-    "video": false,
-    "vote_average": 7.403,
-    "vote_count": 1079
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/pA3vdhadJPxF5GA1uo8OPTiNQDT.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
-    "id": 678512,
-    "original_language": "en",
-    "original_title": "Sound of Freedom",
-    "overview": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
-    "popularity": 614.334,
-    "poster_path": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
-    "release_date": "2023-07-03",
-    "title": "Sound of Freedom",
-    "video": false,
-    "vote_average": 8.1,
-    "vote_count": 1473
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      28,
-      878
-    ],
-    "id": 893723,
-    "original_language": "en",
-    "original_title": "PAW Patrol: The Mighty Movie",
-    "overview": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups.",
-    "popularity": 540.935,
-    "poster_path": "/oJkyw6TNEWIS0WkrxNspJfUTao4.jpg",
-    "release_date": "2023-09-21",
-    "title": "PAW Patrol: The Mighty Movie",
-    "video": false,
-    "vote_average": 6.925,
-    "vote_count": 173
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/gN79aDbZdaSJkFS1iVA17HplF2X.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 968051,
-    "original_language": "en",
-    "original_title": "The Nun II",
-    "overview": "In 1956 France, a priest is violently murdered, and Sister Irene begins to investigate. She once again comes face-to-face with a powerful evil.",
-    "popularity": 520.807,
-    "poster_path": "/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
-    "release_date": "2023-09-06",
-    "title": "The Nun II",
-    "video": false,
-    "vote_average": 6.912,
-    "vote_count": 1425
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/drfl2eWipiibW3u3Ybx9HQ8VgIn.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 841742,
-    "original_language": "fr",
-    "original_title": "Megalomaniac",
-    "overview": "Felix and Martha, the two offspring of legendary serial murderer The Skinner of Mons, grapple with the grotesque legacy bequeathed to them. While Martha works a menial janitorial job, Felix continues his father's reign of terror. But following a brutal attack at work, Martha quickly descends into madness, finding she must come to terms with the infamous blood that flows through her veins.",
-    "popularity": 502.741,
-    "poster_path": "/eAx5QKnboZpysIg1XBfjhbSgOPF.jpg",
-    "release_date": "2023-09-08",
-    "title": "Megalomaniac",
-    "video": false,
-    "vote_average": 6.2,
-    "vote_count": 13
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/iiXliCeykkzmJ0Eg9RYJ7F2CWSz.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 762430,
-    "original_language": "en",
-    "original_title": "Retribution",
-    "overview": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
-    "popularity": 489.304,
-    "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
-    "release_date": "2023-08-23",
-    "title": "Retribution",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 668
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/mRmRE4RknbL7qKALWQDz64hWKPa.jpg",
-    "genre_ids": [
-      80,
-      53
-    ],
-    "id": 800158,
-    "original_language": "en",
-    "original_title": "The Killer",
-    "overview": "After a fateful near-miss, an assassin battles his employers, and himself, on an international manhunt he insists isn't personal.",
-    "popularity": 447.212,
-    "poster_path": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg",
-    "release_date": "2023-10-25",
-    "title": "The Killer",
-    "video": false,
-    "vote_average": 6.758,
-    "vote_count": 771
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/azD31DjpV3PJfjF3h72LVw2WCSD.jpg",
-    "genre_ids": [
-      27
-    ],
-    "id": 807172,
-    "original_language": "en",
-    "original_title": "The Exorcist: Believer",
-    "overview": "When two girls disappear into the woods and return three days later with no memory of what happened to them, the father of one girl seeks out Chris MacNeil, who's been forever altered by what happened to her daughter fifty years ago.",
-    "popularity": 440.298,
-    "poster_path": "/fFXkAlMH2iQrNknv4eq7LGTkcti.jpg",
-    "release_date": "2023-10-04",
-    "title": "The Exorcist: Believer",
-    "video": false,
-    "vote_average": 6.146,
-    "vote_count": 575
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/45zVtZx6Tzx3RKeDziK25K9geFf.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      10402,
-      14,
-      35
-    ],
-    "id": 901362,
-    "original_language": "en",
-    "original_title": "Trolls Band Together",
-    "overview": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
-    "popularity": 393.236,
-    "poster_path": "/lxoPJR6eR5nd6nHSKIkEIV4FQWe.jpg",
-    "release_date": "2023-10-12",
-    "title": "Trolls Band Together",
-    "video": false,
-    "vote_average": 6.585,
-    "vote_count": 47
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/tj7mp7uWjVw5N73G5Hwm1bkMOcD.jpg",
-    "genre_ids": [
-      28,
-      10752
-    ],
-    "id": 975902,
-    "original_language": "en",
-    "original_title": "Boudica",
-    "overview": "Inspired by events in A.D. 60, Boudica follows the eponymous Celtic warrior who rules the Iceni people alongside her husband Prasutagus. When he dies at the hands of Roman soldiers, Boudica’s kingdom is left without a male heir and the Romans seize her land and property.  Driven to the edge of madness and determined to avenge her husband’s death, Boudica rallies the various tribes from the region and wages an epic war against the mighty Roman empire.",
-    "popularity": 379.271,
-    "poster_path": "/adMcxfUonnm9RvPImGHy25wYUks.jpg",
-    "release_date": "2023-10-26",
-    "title": "Boudica",
-    "video": false,
-    "vote_average": 6.159,
-    "vote_count": 82
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/lyHmhoRj3zXSdeCYbs2oOXLCF4K.jpg",
-    "genre_ids": [
-      16,
-      12,
-      10751,
-      14
-    ],
-    "id": 459003,
-    "original_language": "uk",
-    "original_title": "Мавка: Лісова пісня",
-    "overview": "Forest soul Mavka faces an impossible choice between her heart and her duty as guardian to the Heart of the Forest, when she falls in love with the talented young human musician Lukas.",
-    "popularity": 367.772,
-    "poster_path": "/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg",
-    "release_date": "2023-03-02",
-    "title": "Mavka: The Forest Song",
-    "video": false,
-    "vote_average": 7.268,
-    "vote_count": 503
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/iIvQnZyzgx9TkbrOgcXx0p7aLiq.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 1008042,
-    "original_language": "en",
-    "original_title": "Talk to Me",
-    "overview": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-    "popularity": 357.992,
-    "poster_path": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-    "release_date": "2023-07-26",
-    "title": "Talk to Me",
-    "video": false,
-    "vote_average": 7.196,
-    "vote_count": 1762
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/p9DKeXp6FPJtAQ1k13Z4zPWrCbN.jpg",
-    "genre_ids": [
-      18
-    ],
-    "id": 1058694,
-    "original_language": "en",
-    "original_title": "Radical",
-    "overview": "In a Mexican border town plagued by neglect, corruption, and violence, a frustrated teacher tries a radical new method to break through his students’ apathy and unlock their curiosity, their potential… and maybe even their genius.",
-    "popularity": 252.536,
-    "poster_path": "/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
-    "release_date": "2023-10-19",
-    "title": "Radical",
-    "video": false,
-    "vote_average": 7.273,
-    "vote_count": 11
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/cavK9ox37pxDg11RvJINMH63onU.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 744857,
-    "original_language": "es",
-    "original_title": "Cuando acecha la maldad",
-    "overview": "Residents of a small rural town discover that a demon is about to be born among them. They desperately try to escape before the evil is born, but it may be too late.",
-    "popularity": 248.36,
-    "poster_path": "/iQ7G9LhP7NRRIUM4Vlai3eOxBAc.jpg",
-    "release_date": "2023-10-05",
-    "title": "When Evil Lurks",
-    "video": false,
-    "vote_average": 7.333,
-    "vote_count": 216
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/jP3FatCTHc460ZGW57q9ypTdBqu.jpg",
-    "genre_ids": [
-      53,
-      878,
-      28
-    ],
-    "id": 937249,
-    "original_language": "en",
-    "original_title": "57 Seconds",
-    "overview": "When a tech blogger lands an interview with a tech guru and stops an attack on him, he finds a mysterious ring that takes him back 57 seconds into the past.",
-    "popularity": 228.47,
-    "poster_path": "/dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg",
-    "release_date": "2023-09-29",
-    "title": "57 Seconds",
-    "video": false,
-    "vote_average": 5.745,
-    "vote_count": 186
-  }
+
 ],
-"total_pages": 106,
-"total_results": 2106
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -12439,405 +11986,10 @@ router.get('/movie/popular', function(req, res, next) {
   res.json({
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
-    "genre_ids": [
-      18,
-      36
-    ],
-    "id": 872585,
-    "original_language": "en",
-    "original_title": "Oppenheimer",
-    "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-    "popularity": 2590.24,
-    "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-    "release_date": "2023-07-19",
-    "title": "Oppenheimer",
-    "video": false,
-    "vote_average": 8.197,
-    "vote_count": 4634
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
-    "id": 507089,
-    "original_language": "en",
-    "original_title": "Five Nights at Freddy's",
-    "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-    "popularity": 1617.893,
-    "poster_path": "/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
-    "release_date": "2023-10-25",
-    "title": "Five Nights at Freddy's",
-    "video": false,
-    "vote_average": 7.94,
-    "vote_count": 2330
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-    "genre_ids": [
-      878,
-      28,
-      53
-    ],
-    "id": 670292,
-    "original_language": "en",
-    "original_title": "The Creator",
-    "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
-    "popularity": 1595.817,
-    "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-    "release_date": "2023-09-27",
-    "title": "The Creator",
-    "video": false,
-    "vote_average": 7.207,
-    "vote_count": 847
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/wl4NWiZwpzZH67HiDgpDImLyds9.jpg",
-    "genre_ids": [
-      28,
-      12,
-      53
-    ],
-    "id": 299054,
-    "original_language": "en",
-    "original_title": "Expend4bles",
-    "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world’s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give “new blood” a whole new meaning.",
-    "popularity": 1108.183,
-    "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
-    "release_date": "2023-09-15",
-    "title": "Expend4bles",
-    "video": false,
-    "vote_average": 6.408,
-    "vote_count": 753
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/628Dep6AxEtDxjZoGP78TsOxYbK.jpg",
-    "genre_ids": [
-      28,
-      53
-    ],
-    "id": 575264,
-    "original_language": "en",
-    "original_title": "Mission: Impossible - Dead Reckoning Part One",
-    "overview": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
-    "popularity": 1044.199,
-    "poster_path": "/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-    "release_date": "2023-07-08",
-    "title": "Mission: Impossible - Dead Reckoning Part One",
-    "video": false,
-    "vote_average": 7.591,
-    "vote_count": 2466
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/4XM8DUTQb3lhLemJC51Jx4a2EuA.jpg",
-    "genre_ids": [
-      28,
-      80,
-      53
-    ],
-    "id": 385687,
-    "original_language": "en",
-    "original_title": "Fast X",
-    "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
-    "popularity": 770.248,
-    "poster_path": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
-    "release_date": "2023-05-17",
-    "title": "Fast X",
-    "video": false,
-    "vote_average": 7.215,
-    "vote_count": 4289
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 926393,
-    "original_language": "en",
-    "original_title": "The Equalizer 3",
-    "overview": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
-    "popularity": 741.736,
-    "poster_path": "/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
-    "release_date": "2023-08-30",
-    "title": "The Equalizer 3",
-    "video": false,
-    "vote_average": 7.42,
-    "vote_count": 1654
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 695721,
-    "original_language": "en",
-    "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
-    "popularity": 734.432,
-    "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
-    "release_date": "2023-11-15",
-    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 189
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
-    "id": 609681,
-    "original_language": "en",
-    "original_title": "The Marvels",
-    "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol’s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
-    "popularity": 633.789,
-    "poster_path": "/Ag3D9qXjhJ2FUkrlJ0Cv1pgxqYQ.jpg",
-    "release_date": "2023-11-08",
-    "title": "The Marvels",
-    "video": false,
-    "vote_average": 6.507,
-    "vote_count": 439
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dZbLqRjjiiNCpTYzhzL2NMvz4J0.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 951491,
-    "original_language": "en",
-    "original_title": "Saw X",
-    "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
-    "popularity": 626.145,
-    "poster_path": "/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
-    "release_date": "2023-09-26",
-    "title": "Saw X",
-    "video": false,
-    "vote_average": 7.403,
-    "vote_count": 1080
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/pA3vdhadJPxF5GA1uo8OPTiNQDT.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
-    "id": 678512,
-    "original_language": "en",
-    "original_title": "Sound of Freedom",
-    "overview": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
-    "popularity": 614.334,
-    "poster_path": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
-    "release_date": "2023-07-03",
-    "title": "Sound of Freedom",
-    "video": false,
-    "vote_average": 8.1,
-    "vote_count": 1473
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/3H9NA1KWEQN0ItL3Wl3SFZYP6yV.jpg",
-    "genre_ids": [
-      28,
-      878,
-      12
-    ],
-    "id": 565770,
-    "original_language": "en",
-    "original_title": "Blue Beetle",
-    "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
-    "popularity": 579.577,
-    "poster_path": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
-    "release_date": "2023-08-16",
-    "title": "Blue Beetle",
-    "video": false,
-    "vote_average": 6.983,
-    "vote_count": 1626
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/r7DuyYJ0N3cD8bRKsR5Ygq2P7oa.jpg",
-    "genre_ids": [
-      12,
-      28,
-      18
-    ],
-    "id": 980489,
-    "original_language": "en",
-    "original_title": "Gran Turismo",
-    "overview": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
-    "popularity": 556.183,
-    "poster_path": "/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg",
-    "release_date": "2023-08-09",
-    "title": "Gran Turismo",
-    "video": false,
-    "vote_average": 7.985,
-    "vote_count": 1453
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dRWhJ4godwy40JdmNuRZy23oViY.jpg",
-    "genre_ids": [
-      27
-    ],
-    "id": 830764,
-    "original_language": "en",
-    "original_title": "Pet Sematary: Bloodlines",
-    "overview": "In 1969, a young Jud Crandall has dreams of leaving his hometown of Ludlow, Maine behind, but soon discovers sinister secrets buried within and is forced to confront a dark family history that will forever keep him connected to Ludlow.",
-    "popularity": 553.407,
-    "poster_path": "/yqnNLn24shYnZ6kqGpbwuB3NJ0D.jpg",
-    "release_date": "2023-09-23",
-    "title": "Pet Sematary: Bloodlines",
-    "video": false,
-    "vote_average": 6.107,
-    "vote_count": 205
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
-    "genre_ids": [
-      28,
-      878,
-      27
-    ],
-    "id": 615656,
-    "original_language": "en",
-    "original_title": "Meg 2: The Trench",
-    "overview": "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
-    "popularity": 544.8,
-    "poster_path": "/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg",
-    "release_date": "2023-08-02",
-    "title": "Meg 2: The Trench",
-    "video": false,
-    "vote_average": 6.757,
-    "vote_count": 2549
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      28,
-      878
-    ],
-    "id": 893723,
-    "original_language": "en",
-    "original_title": "PAW Patrol: The Mighty Movie",
-    "overview": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups.",
-    "popularity": 540.935,
-    "poster_path": "/oJkyw6TNEWIS0WkrxNspJfUTao4.jpg",
-    "release_date": "2023-09-21",
-    "title": "PAW Patrol: The Mighty Movie",
-    "video": false,
-    "vote_average": 6.925,
-    "vote_count": 173
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/gN79aDbZdaSJkFS1iVA17HplF2X.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 968051,
-    "original_language": "en",
-    "original_title": "The Nun II",
-    "overview": "In 1956 France, a priest is violently murdered, and Sister Irene begins to investigate. She once again comes face-to-face with a powerful evil.",
-    "popularity": 520.807,
-    "poster_path": "/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
-    "release_date": "2023-09-06",
-    "title": "The Nun II",
-    "video": false,
-    "vote_average": 6.912,
-    "vote_count": 1425
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg",
-    "genre_ids": [
-      16,
-      35,
-      10751,
-      14,
-      10749
-    ],
-    "id": 976573,
-    "original_language": "en",
-    "original_title": "Elemental",
-    "overview": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
-    "popularity": 511.748,
-    "poster_path": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
-    "release_date": "2023-06-14",
-    "title": "Elemental",
-    "video": false,
-    "vote_average": 7.734,
-    "vote_count": 3000
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/drfl2eWipiibW3u3Ybx9HQ8VgIn.jpg",
-    "genre_ids": [
-      27,
-      9648,
-      53
-    ],
-    "id": 841742,
-    "original_language": "fr",
-    "original_title": "Megalomaniac",
-    "overview": "Felix and Martha, the two offspring of legendary serial murderer The Skinner of Mons, grapple with the grotesque legacy bequeathed to them. While Martha works a menial janitorial job, Felix continues his father's reign of terror. But following a brutal attack at work, Martha quickly descends into madness, finding she must come to terms with the infamous blood that flows through her veins.",
-    "popularity": 502.741,
-    "poster_path": "/eAx5QKnboZpysIg1XBfjhbSgOPF.jpg",
-    "release_date": "2023-09-08",
-    "title": "Megalomaniac",
-    "video": false,
-    "vote_average": 6.2,
-    "vote_count": 13
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/iiXliCeykkzmJ0Eg9RYJ7F2CWSz.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 762430,
-    "original_language": "en",
-    "original_title": "Retribution",
-    "overview": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
-    "popularity": 489.304,
-    "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
-    "release_date": "2023-08-23",
-    "title": "Retribution",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 668
-  }
+
 ],
-"total_pages": 41391,
-"total_results": 827816
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -12845,398 +11997,10 @@ router.get('/movie/top_rated', function(req, res, next) {
   res.json({
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "backdrop_path": "/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "id": 238,
-    "original_language": "en",
-    "original_title": "The Godfather",
-    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
-    "popularity": 170.364,
-    "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-    "release_date": "1972-03-14",
-    "title": "The Godfather",
-    "video": false,
-    "vote_average": 8.708,
-    "vote_count": 18957
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "id": 278,
-    "original_language": "en",
-    "original_title": "The Shawshank Redemption",
-    "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-    "popularity": 129.413,
-    "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-    "release_date": "1994-09-23",
-    "title": "The Shawshank Redemption",
-    "video": false,
-    "vote_average": 8.704,
-    "vote_count": 24947
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "id": 240,
-    "original_language": "en",
-    "original_title": "The Godfather Part II",
-    "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-    "popularity": 81.29,
-    "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
-    "release_date": "1974-12-20",
-    "title": "The Godfather Part II",
-    "video": false,
-    "vote_average": 8.589,
-    "vote_count": 11445
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/3f92DMBTFqr3wgXpfxzrb0qv8nG.jpg",
-    "genre_ids": [
-      18,
-      36,
-      10752
-    ],
-    "id": 424,
-    "original_language": "en",
-    "original_title": "Schindler's List",
-    "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
-    "popularity": 69.623,
-    "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
-    "release_date": "1993-12-15",
-    "title": "Schindler's List",
-    "video": false,
-    "vote_average": 8.571,
-    "vote_count": 14792
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/90ez6ArvpO8bvpyIngBuwXOqJm5.jpg",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
-    "id": 19404,
-    "original_language": "hi",
-    "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
-    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
-    "popularity": 47.74,
-    "poster_path": "/ktejodbcdCPXbMMdnpI9BUxW6O8.jpg",
-    "release_date": "1995-10-20",
-    "title": "Dilwale Dulhania Le Jayenge",
-    "video": false,
-    "vote_average": 8.546,
-    "vote_count": 4276
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
-    "genre_ids": [
-      18
-    ],
-    "id": 389,
-    "original_language": "en",
-    "original_title": "12 Angry Men",
-    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
-    "popularity": 48.272,
-    "poster_path": "/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg",
-    "release_date": "1957-04-10",
-    "title": "12 Angry Men",
-    "video": false,
-    "vote_average": 8.545,
-    "vote_count": 7793
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/mSDsSDwaP3E7dEfUPWy4J0djt4O.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      14
-    ],
-    "id": 129,
-    "original_language": "ja",
-    "original_title": "千と千尋の神隠し",
-    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-    "popularity": 111.257,
-    "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
-    "release_date": "2001-07-20",
-    "title": "Spirited Away",
-    "video": false,
-    "vote_average": 8.54,
-    "vote_count": 15109
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
-    "genre_ids": [
-      35,
-      53,
-      18
-    ],
-    "id": 496243,
-    "original_language": "ko",
-    "original_title": "기생충",
-    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
-    "popularity": 80.184,
-    "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
-    "release_date": "2019-05-30",
-    "title": "Parasite",
-    "video": false,
-    "vote_average": 8.515,
-    "vote_count": 16658
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
-    "genre_ids": [
-      18,
-      28,
-      80,
-      53
-    ],
-    "id": 155,
-    "original_language": "en",
-    "original_title": "The Dark Knight",
-    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-    "popularity": 126.243,
-    "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "release_date": "2008-07-16",
-    "title": "The Dark Knight",
-    "video": false,
-    "vote_average": 8.513,
-    "vote_count": 30920
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
-    "genre_ids": [
-      14,
-      18,
-      80
-    ],
-    "id": 497,
-    "original_language": "en",
-    "original_title": "The Green Mile",
-    "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
-    "popularity": 74.795,
-    "poster_path": "/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
-    "release_date": "1999-12-10",
-    "title": "The Green Mile",
-    "video": false,
-    "vote_average": 8.509,
-    "vote_count": 16139
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
-    "genre_ids": [
-      10749,
-      16,
-      18
-    ],
-    "id": 372058,
-    "original_language": "ja",
-    "original_title": "君の名は。",
-    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    "popularity": 96.707,
-    "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
-    "release_date": "2016-08-26",
-    "title": "Your Name.",
-    "video": false,
-    "vote_average": 8.5,
-    "vote_count": 10504
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-    "genre_ids": [
-      53,
-      80
-    ],
-    "id": 680,
-    "original_language": "en",
-    "original_title": "Pulp Fiction",
-    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-    "popularity": 66.281,
-    "poster_path": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
-    "release_date": "1994-09-10",
-    "title": "Pulp Fiction",
-    "video": false,
-    "vote_average": 8.489,
-    "vote_count": 26152
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/9DeGfFIqjph5CBFVQrD6wv9S7rR.jpg",
-    "genre_ids": [
-      12,
-      14,
-      28
-    ],
-    "id": 122,
-    "original_language": "en",
-    "original_title": "The Lord of the Rings: The Return of the King",
-    "overview": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
-    "popularity": 102.119,
-    "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-    "release_date": "2003-12-01",
-    "title": "The Lord of the Rings: The Return of the King",
-    "video": false,
-    "vote_average": 8.476,
-    "vote_count": 22579
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
-    "id": 13,
-    "original_language": "en",
-    "original_title": "Forrest Gump",
-    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-    "popularity": 98.079,
-    "poster_path": "/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
-    "release_date": "1994-06-23",
-    "title": "Forrest Gump",
-    "video": false,
-    "vote_average": 8.476,
-    "vote_count": 25664
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/eoCSp75lxatmIa6aGqfnzwtbttd.jpg",
-    "genre_ids": [
-      37
-    ],
-    "id": 429,
-    "original_language": "it",
-    "original_title": "Il buono, il brutto, il cattivo",
-    "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
-    "popularity": 64.826,
-    "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
-    "release_date": "1966-12-23",
-    "title": "The Good, the Bad and the Ugly",
-    "video": false,
-    "vote_average": 8.469,
-    "vote_count": 7876
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
-    "id": 769,
-    "original_language": "en",
-    "original_title": "GoodFellas",
-    "overview": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
-    "popularity": 78.324,
-    "poster_path": "/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
-    "release_date": "1990-09-12",
-    "title": "GoodFellas",
-    "video": false,
-    "vote_average": 8.466,
-    "vote_count": 11894
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dlC0ed9Ugh3FzydnkBtV5lRXUu4.jpg",
-    "genre_ids": [
-      16,
-      18,
-      10752
-    ],
-    "id": 12477,
-    "original_language": "ja",
-    "original_title": "火垂るの墓",
-    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
-    "popularity": 0.6,
-    "poster_path": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
-    "release_date": "1988-04-15",
-    "title": "Grave of the Fireflies",
-    "video": false,
-    "vote_average": 8.454,
-    "vote_count": 4947
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/gavyCu1UaTaTNPsVaGXT6pe5u24.jpg",
-    "genre_ids": [
-      35,
-      18
-    ],
-    "id": 637,
-    "original_language": "it",
-    "original_title": "La vita è bella",
-    "overview": "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.",
-    "popularity": 51.581,
-    "poster_path": "/mfnkSeeVOBVheuyn2lo4tfmOPQb.jpg",
-    "release_date": "1997-12-20",
-    "title": "Life Is Beautiful",
-    "video": false,
-    "vote_average": 8.454,
-    "vote_count": 12353
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
-    "id": 346,
-    "original_language": "ja",
-    "original_title": "七人の侍",
-    "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
-    "popularity": 41.565,
-    "poster_path": "/iAq0sq42vKTLneVGqHn1D4GzgrM.jpg",
-    "release_date": "1954-04-26",
-    "title": "Seven Samurai",
-    "video": false,
-    "vote_average": 8.453,
-    "vote_count": 3293
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
-    "genre_ids": [
-      18,
-      10749
-    ],
-    "id": 11216,
-    "original_language": "it",
-    "original_title": "Nuovo Cinema Paradiso",
-    "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
-    "popularity": 41.615,
-    "poster_path": "/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg",
-    "release_date": "1988-11-17",
-    "title": "Cinema Paradiso",
-    "video": false,
-    "vote_average": 8.448,
-    "vote_count": 4009
-  }
+
 ],
-"total_pages": 449,
-"total_results": 8962
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -13248,405 +12012,10 @@ router.get('/movie/upcoming', function(req, res, next) {
 },
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "backdrop_path": "/dZbLqRjjiiNCpTYzhzL2NMvz4J0.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
-    "id": 951491,
-    "original_language": "en",
-    "original_title": "Saw X",
-    "overview": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
-    "popularity": 626.145,
-    "poster_path": "/aQPeznSu7XDTrrdCtT5eLiu52Yu.jpg",
-    "release_date": "2023-09-26",
-    "title": "Saw X",
-    "video": false,
-    "vote_average": 7.401,
-    "vote_count": 1079
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/pA3vdhadJPxF5GA1uo8OPTiNQDT.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
-    "id": 678512,
-    "original_language": "en",
-    "original_title": "Sound of Freedom",
-    "overview": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
-    "popularity": 614.334,
-    "poster_path": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
-    "release_date": "2023-07-03",
-    "title": "Sound of Freedom",
-    "video": false,
-    "vote_average": 8.092,
-    "vote_count": 1472
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/iiXliCeykkzmJ0Eg9RYJ7F2CWSz.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
-    "id": 762430,
-    "original_language": "en",
-    "original_title": "Retribution",
-    "overview": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
-    "popularity": 489.304,
-    "poster_path": "/oUmmY7QWWn7OhKlcPOnirHJpP1F.jpg",
-    "release_date": "2023-08-23",
-    "title": "Retribution",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 668
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/azD31DjpV3PJfjF3h72LVw2WCSD.jpg",
-    "genre_ids": [
-      27
-    ],
-    "id": 807172,
-    "original_language": "en",
-    "original_title": "The Exorcist: Believer",
-    "overview": "When two girls disappear into the woods and return three days later with no memory of what happened to them, the father of one girl seeks out Chris MacNeil, who's been forever altered by what happened to her daughter fifty years ago.",
-    "popularity": 440.298,
-    "poster_path": "/fFXkAlMH2iQrNknv4eq7LGTkcti.jpg",
-    "release_date": "2023-10-04",
-    "title": "The Exorcist: Believer",
-    "video": false,
-    "vote_average": 6.146,
-    "vote_count": 575
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/45zVtZx6Tzx3RKeDziK25K9geFf.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      10402,
-      14,
-      35
-    ],
-    "id": 901362,
-    "original_language": "en",
-    "original_title": "Trolls Band Together",
-    "overview": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
-    "popularity": 393.236,
-    "poster_path": "/lxoPJR6eR5nd6nHSKIkEIV4FQWe.jpg",
-    "release_date": "2023-10-12",
-    "title": "Trolls Band Together",
-    "video": false,
-    "vote_average": 6.598,
-    "vote_count": 46
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/jP3FatCTHc460ZGW57q9ypTdBqu.jpg",
-    "genre_ids": [
-      53,
-      878,
-      28
-    ],
-    "id": 937249,
-    "original_language": "en",
-    "original_title": "57 Seconds",
-    "overview": "When a tech blogger lands an interview with a tech guru and stops an attack on him, he finds a mysterious ring that takes him back 57 seconds into the past.",
-    "popularity": 228.47,
-    "poster_path": "/dfS5qHWFuXyZQnwYREwb7N4qU5p.jpg",
-    "release_date": "2023-09-29",
-    "title": "57 Seconds",
-    "video": false,
-    "vote_average": 5.745,
-    "vote_count": 186
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/6WFfCMe7J7FxsnlHEo1wzU2JH6s.jpg",
-    "genre_ids": [
-      80,
-      18,
-      36
-    ],
-    "id": 466420,
-    "original_language": "en",
-    "original_title": "Killers of the Flower Moon",
-    "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
-    "popularity": 225.305,
-    "poster_path": "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
-    "release_date": "2023-10-18",
-    "title": "Killers of the Flower Moon",
-    "video": false,
-    "vote_average": 7.714,
-    "vote_count": 959
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/igwshQHV36aBkPyWp7En5P4Kn2V.jpg",
-    "genre_ids": [
-      27,
-      53,
-      9648
-    ],
-    "id": 1071215,
-    "original_language": "en",
-    "original_title": "Thanksgiving",
-    "overview": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the holiday. Picking off residents one by one, what begins as random revenge killings are soon revealed to be part of a larger, sinister holiday plan.",
-    "popularity": 193.702,
-    "poster_path": "/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg",
-    "release_date": "2023-11-16",
-    "title": "Thanksgiving",
-    "video": false,
-    "vote_average": 6.05,
-    "vote_count": 20
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/9sl9k7FjE4g0vCVNkPdR1Fs3Yx8.jpg",
-    "genre_ids": [
-      36,
-      18,
-      10752
-    ],
-    "id": 753342,
-    "original_language": "en",
-    "original_title": "Napoleon",
-    "overview": "A personal look at the French military leader’s origins and swift, ruthless climb to emperor, viewed through the prism of Napoleon’s addictive, volatile relationship with his wife and one true love, Josephine.",
-    "popularity": 186.421,
-    "poster_path": "/s46YI7diwlqDVLe55uOaO1VzTId.jpg",
-    "release_date": "2023-11-22",
-    "title": "Napoleon",
-    "video": false,
-    "vote_average": 6.2,
-    "vote_count": 4
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/rron9HAuS9s7zBF8iCX1tsafxUo.jpg",
-    "genre_ids": [
-      18,
-      10749
-    ],
-    "id": 666277,
-    "original_language": "en",
-    "original_title": "Past Lives",
-    "overview": "Nora and Hae Sung, two childhood friends, are reunited in New York for one fateful week as they confront notions of destiny, love, and the choices that make a life.",
-    "popularity": 162.801,
-    "poster_path": "/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
-    "release_date": "2023-06-02",
-    "title": "Past Lives",
-    "video": false,
-    "vote_average": 7.936,
-    "vote_count": 282
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      14,
-      12
-    ],
-    "id": 1022796,
-    "original_language": "en",
-    "original_title": "Wish",
-    "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force – a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
-    "popularity": 154.581,
-    "poster_path": "/vgJZSqKMXWDDx09iSIStGKfHMku.jpg",
-    "release_date": "2023-11-13",
-    "title": "Wish",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 6
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/1HzL603WOer58xtnrRYdSIL5K04.jpg",
-    "genre_ids": [
-      35,
-      12
-    ],
-    "id": 912908,
-    "original_language": "en",
-    "original_title": "Strays",
-    "overview": "When Reggie is abandoned on the mean city streets by his lowlife owner, Doug, Reggie is certain that his beloved owner would never leave him on purpose. But once Reggie falls in with Bug, a fast-talking, foul-mouthed stray who loves his freedom and believes that owners are for suckers, Reggie finally realizes he was in a toxic relationship and begins to see Doug for the heartless sleazeball that he is.",
-    "popularity": 148.894,
-    "poster_path": "/muDaKftykz9Nj1mhRheMdbuNI9Z.jpg",
-    "release_date": "2023-08-17",
-    "title": "Strays",
-    "video": false,
-    "vote_average": 7.544,
-    "vote_count": 518
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/f9ErVXAyR9EP5WOOp4i5ivBKsKC.jpg",
-    "genre_ids": [
-      35
-    ],
-    "id": 814776,
-    "original_language": "en",
-    "original_title": "Bottoms",
-    "overview": "Unpopular best friends PJ and Josie start a high school self-defense club to meet girls and lose their virginity. They soon find themselves in over their heads when the most popular students start beating each other up in the name of self-defense.",
-    "popularity": 140.923,
-    "poster_path": "/jeyTQrNEpyE1LZIgVlswYh3sc34.jpg",
-    "release_date": "2023-08-25",
-    "title": "Bottoms",
-    "video": false,
-    "vote_average": 7.017,
-    "vote_count": 173
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dp0rdbGSbZTyWumnbWspXQp87hA.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
-    "id": 1024773,
-    "original_language": "en",
-    "original_title": "It Lives Inside",
-    "overview": "Desperate to fit in at school, Sam rejects her East Indian culture and family to be like everyone else. However, when a mythological demonic spirit latches onto her former best friend, she must come to terms with her heritage to defeat it.",
-    "popularity": 121.501,
-    "poster_path": "/73gIfV8gDwkVgUrFDzt4TfZC9Zc.jpg",
-    "release_date": "2023-09-06",
-    "title": "It Lives Inside",
-    "video": false,
-    "vote_average": 5.695,
-    "vote_count": 82
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/hb0BeFvZNx2zLGWwuwENOIVeK1U.jpg",
-    "genre_ids": [
-      35,
-      18,
-      36
-    ],
-    "id": 792293,
-    "original_language": "en",
-    "original_title": "Dumb Money",
-    "overview": "Vlogger Keith Gill sinks his life savings into GameStop stock and posts about it. When social media starts blowing up, so do his life and the lives of everyone following him. As a stock tip becomes a movement, everyone gets rich—until the billionaires fight back, and both sides find their worlds turned upside down.",
-    "popularity": 105.245,
-    "poster_path": "/xYTymnjkVqhn3V66QmNJxFUesLT.jpg",
-    "release_date": "2023-09-15",
-    "title": "Dumb Money",
-    "video": false,
-    "vote_average": 6.661,
-    "vote_count": 96
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg",
-    "genre_ids": [
-      28,
-      12,
-      53
-    ],
-    "id": 646389,
-    "original_language": "en",
-    "original_title": "Plane",
-    "overview": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
-    "popularity": 93.561,
-    "poster_path": "/qi9r5xBgcc9KTxlOLjssEbDgO0J.jpg",
-    "release_date": "2023-01-12",
-    "title": "Plane",
-    "video": false,
-    "vote_average": 6.988,
-    "vote_count": 1845
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/hjyqNFHx5wIO8dqaRi0v2ix1wiR.jpg",
-    "genre_ids": [
-      53,
-      28,
-      80,
-      27
-    ],
-    "id": 808396,
-    "original_language": "en",
-    "original_title": "God Is a Bullet",
-    "overview": "Based on true events and the novel of the same name. Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-    "popularity": 80.564,
-    "poster_path": "/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
-    "release_date": "2023-06-22",
-    "title": "God Is a Bullet",
-    "video": false,
-    "vote_average": 6.315,
-    "vote_count": 108
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/a0GM57AnJtNi7lMOCamniiyV10W.jpg",
-    "genre_ids": [
-      16,
-      12,
-      14,
-      18
-    ],
-    "id": 508883,
-    "original_language": "ja",
-    "original_title": "君たちはどう生きるか",
-    "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the long-awaited one.",
-    "popularity": 80.497,
-    "poster_path": "/jDQPkgzerGophKRRn7MKm071vCU.jpg",
-    "release_date": "2023-07-14",
-    "title": "The Boy and the Heron",
-    "video": false,
-    "vote_average": 7.2,
-    "vote_count": 169
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/uIk2g2bRkNwNywKZIhC5oIU94Kh.jpg",
-    "genre_ids": [
-      35,
-      10751,
-      14
-    ],
-    "id": 787699,
-    "original_language": "en",
-    "original_title": "Wonka",
-    "overview": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
-    "popularity": 76.925,
-    "poster_path": "/dbABBH3DvFLkBUKwPUG0BlTYdmh.jpg",
-    "release_date": "2023-12-06",
-    "title": "Wonka",
-    "video": false,
-    "vote_average": 0,
-    "vote_count": 0
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/x0kI3Tbaqe6OqHXrOJDJ4c4SycM.jpg",
-    "genre_ids": [
-      28,
-      18,
-      878
-    ],
-    "id": 940721,
-    "original_language": "ja",
-    "original_title": "ゴジラ-1.0",
-    "overview": "In postwar Japan, a new terror rises. Will the devastated people be able to survive... let alone fight back?",
-    "popularity": 73.485,
-    "poster_path": "/kM5FcckjKbWSeV9Gj0hBTpvNuvi.jpg",
-    "release_date": "2023-11-03",
-    "title": "Godzilla Minus One",
-    "video": false,
-    "vote_average": 7.4,
-    "vote_count": 5
-  }
+
 ],
-"total_pages": 31,
-"total_results": 611
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -13742,91 +12111,7 @@ router.get('/movie/:movie_id/alternative_titles', function(req, res, next) {
   res.json({
 "id": 343611,
 "titles": [
-  {
-    "iso_3166_1": "US",
-    "title": "Jack Reacher: Never Look Back",
-    "type": "poster title"
-  },
-  {
-    "iso_3166_1": "US",
-    "title": "Jack Reacher 2",
-    "type": "working title"
-  },
-  {
-    "iso_3166_1": "PE",
-    "title": "Jack Reacher: Sin Regreso",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "BR",
-    "title": "Jack Reacher 2 - Sem Retorno",
-    "type": "DVD"
-  },
-  {
-    "iso_3166_1": "CN",
-    "title": "侠探杰克2",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "KR",
-    "title": "잭 리처 네버 고백",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "ES",
-    "title": "Jack Reacher Nunca vuelvas atrás",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "FR",
-    "title": "Jack Reacher 2 - Never go back",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "KR",
-    "title": "잭리처: 네버 고 백",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "KR",
-    "title": "잭리처: 네버고백",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "KR",
-    "title": "잭 리처: 네버고백",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "VN",
-    "title": "Jack Reacher: Không Quay Đầu",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "DE",
-    "title": "Jack Reacher: Kein Weg zurück",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "US",
-    "title": "Jack Reacher։ Never Go Back",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "TH",
-    "title": "ยอดคนสืบระห่ำ 2",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "JP",
-    "title": "ジャック・リーチャー NEVER GO BACK：2016",
-    "type": ""
-  },
-  {
-    "iso_3166_1": "US",
-    "title": "Jack Reacher：Never Go Back",
-    "type": "Full Title with alt char '：' for Windows filenames"
-  }
+
 ]
 });
 });
@@ -13841,2764 +12126,10 @@ router.get('/movie/:movie_id/credits', function(req, res, next) {
   res.json({
 "id": 343611,
 "cast": [
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 500,
-    "known_for_department": "Acting",
-    "name": "Tom Cruise",
-    "original_name": "Tom Cruise",
-    "popularity": 48.237,
-    "profile_path": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
-    "cast_id": 0,
-    "character": "Jack Reacher",
-    "credit_id": "5573971c9251413f6600024d",
-    "order": 0
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 71189,
-    "known_for_department": "Acting",
-    "name": "Cobie Smulders",
-    "original_name": "Cobie Smulders",
-    "popularity": 39.925,
-    "profile_path": "/aMvuD7RkxzKxGDifN9b1jTzHYVi.jpg",
-    "cast_id": 5,
-    "character": "Susan Turner",
-    "credit_id": "55fdcf53c3a368133b0016bb",
-    "order": 1
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1466613,
-    "known_for_department": "Acting",
-    "name": "Danika Yarosh",
-    "original_name": "Danika Yarosh",
-    "popularity": 14.54,
-    "profile_path": "/i0Z0XnAFxf2BlhfJe26ach2HAVz.jpg",
-    "cast_id": 7,
-    "character": "Samantha",
-    "credit_id": "55fdcf61925141529f0019b5",
-    "order": 2
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 83860,
-    "known_for_department": "Acting",
-    "name": "Aldis Hodge",
-    "original_name": "Aldis Hodge",
-    "popularity": 16.523,
-    "profile_path": "/jPpnaAGFXaIeOrRNUHIHxk3fIJL.jpg",
-    "cast_id": 6,
-    "character": "Espin",
-    "credit_id": "55fdcf5a92514152aa001927",
-    "order": 3
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1223163,
-    "known_for_department": "Acting",
-    "name": "Patrick Heusinger",
-    "original_name": "Patrick Heusinger",
-    "popularity": 14.876,
-    "profile_path": "/ddtKHbu7j2qW4PXFHk1qZIvTPO8.jpg",
-    "cast_id": 16,
-    "character": "The Hunter",
-    "credit_id": "57aed22b92514128f6001b22",
-    "order": 4
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1485114,
-    "known_for_department": "Acting",
-    "name": "Madalyn Horcher",
-    "original_name": "Madalyn Horcher",
-    "popularity": 19.626,
-    "profile_path": "/tgbI87CaMhNUFPdnqw9fpvh1hBW.jpg",
-    "cast_id": 24,
-    "character": "Sgt. Leach",
-    "credit_id": "588a1ee0c3a3684093018c3e",
-    "order": 5
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 55463,
-    "known_for_department": "Acting",
-    "name": "Jessica Stroup",
-    "original_name": "Jessica Stroup",
-    "popularity": 5.659,
-    "profile_path": "/qKpYNOim2YqAMEvJpgzzf9PlMir.jpg",
-    "cast_id": 131,
-    "character": "Lt. Sullivan",
-    "credit_id": "5de122a50cd44600143401b9",
-    "order": 6
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 7497,
-    "known_for_department": "Acting",
-    "name": "Holt McCallany",
-    "original_name": "Holt McCallany",
-    "popularity": 25.602,
-    "profile_path": "/a5ax2ICLrV6l0T74OSFvzssCQyQ.jpg",
-    "cast_id": 17,
-    "character": "Col. Morgan",
-    "credit_id": "57aed238c3a36821a20018cd",
-    "order": 7
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 17343,
-    "known_for_department": "Acting",
-    "name": "Robert Knepper",
-    "original_name": "Robert Knepper",
-    "popularity": 16.538,
-    "profile_path": "/w40AttR4OPQvjYyTVanq5Rm5iOb.jpg",
-    "cast_id": 20,
-    "character": "General Harkness",
-    "credit_id": "57aed27cc3a36821a5001b2d",
-    "order": 8
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 149590,
-    "known_for_department": "Acting",
-    "name": "Robert Catrini",
-    "original_name": "Robert Catrini",
-    "popularity": 12.1,
-    "profile_path": "/zmA6oHE0OXhMrasd8qG9lvYYRaI.jpg",
-    "cast_id": 19,
-    "character": "Colonel Moorcroft",
-    "credit_id": "57aed269c3a36821a5001b1d",
-    "order": 9
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 990136,
-    "known_for_department": "Acting",
-    "name": "Judd Lormand",
-    "original_name": "Judd Lormand",
-    "popularity": 7.135,
-    "profile_path": "/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg",
-    "cast_id": 25,
-    "character": "Local Deputy",
-    "credit_id": "5890e864c3a368701700a374",
-    "order": 10
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1173099,
-    "known_for_department": "Acting",
-    "name": "Christopher Berry",
-    "original_name": "Christopher Berry",
-    "popularity": 7.718,
-    "profile_path": "/8y2HybPVLxUabwnMPjdBREbitKZ.jpg",
-    "cast_id": 26,
-    "character": "Onlooker at Diner",
-    "credit_id": "5890e88bc3a368701700a398",
-    "order": 11
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1374151,
-    "known_for_department": "Acting",
-    "name": "Hunter Burke",
-    "original_name": "Hunter Burke",
-    "popularity": 5.821,
-    "profile_path": "/ibR2TL9jwKVDr9E3VJRnPcgcvHN.jpg",
-    "cast_id": 27,
-    "character": "Onlooker at Diner",
-    "credit_id": "5890e8a5c3a368700d009a38",
-    "order": 12
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 20496,
-    "known_for_department": "Acting",
-    "name": "Jason Douglas",
-    "original_name": "Jason Douglas",
-    "popularity": 8.719,
-    "profile_path": "/9vvygaziqPt23AafWHJY8TlUK8d.jpg",
-    "cast_id": 28,
-    "character": "Sheriff",
-    "credit_id": "5890e8cb92514103f700a054",
-    "order": 13
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1711523,
-    "known_for_department": "Acting",
-    "name": "Lizeth Hutchings",
-    "original_name": "Lizeth Hutchings",
-    "popularity": 1.442,
-    "profile_path": "/gyQDcZgeLeVGENoli47PlIyvHBD.jpg",
-    "cast_id": 29,
-    "character": "Smuggled Woman",
-    "credit_id": "5890e8e792514103f3009f83",
-    "order": 14
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1542879,
-    "known_for_department": "Acting",
-    "name": "Marisela Zumbado",
-    "original_name": "Marisela Zumbado",
-    "popularity": 3.743,
-    "profile_path": "/5049L8NXA6LKlnhhf4KHkYHCbU6.jpg",
-    "cast_id": 30,
-    "character": "Smuggled Woman",
-    "credit_id": "5890e90792514103ec009d7f",
-    "order": 15
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1748192,
-    "known_for_department": "Acting",
-    "name": "Alexandra Lucchesi",
-    "original_name": "Alexandra Lucchesi",
-    "popularity": 1.584,
-    "profile_path": "/26X02HYpYte0NIm5ocOPzssPG6n.jpg",
-    "cast_id": 31,
-    "character": "Smuggled Woman",
-    "credit_id": "5890e928c3a368700d009a9a",
-    "order": 16
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 202930,
-    "known_for_department": "Acting",
-    "name": "Anthony Molinari",
-    "original_name": "Anthony Molinari",
-    "popularity": 11.837,
-    "profile_path": "/8Gl1b5Y7QLrdv5vvOwAmJk29joM.jpg",
-    "cast_id": 156,
-    "character": "Buzzcut",
-    "credit_id": "5ea728b6b76cbb001ae3c779",
-    "order": 17
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 202955,
-    "known_for_department": "Crew",
-    "name": "Theo Kypri",
-    "original_name": "Theo Kypri",
-    "popularity": 3.199,
-    "profile_path": "/4JrpMbLip6wZY0BmHvnfM5OZO3j.jpg",
-    "cast_id": 157,
-    "character": "Passenger",
-    "credit_id": "5ea728c2b7fbbd001d384574",
-    "order": 18
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1190731,
-    "known_for_department": "Acting",
-    "name": "Talbott Lin",
-    "original_name": "Talbott Lin",
-    "popularity": 2.234,
-    "profile_path": "/fQVQaes0xVysbq7VUS24mBKUzlg.jpg",
-    "cast_id": 158,
-    "character": "Shop Owner",
-    "credit_id": "5ea728ee07291c0020ea05ea",
-    "order": 19
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1394025,
-    "known_for_department": "Acting",
-    "name": "M. Serrano",
-    "original_name": "M. Serrano",
-    "popularity": 0.6,
-    "profile_path": "/r8OBKdC6GZUUn0uBR74CKdqIAWV.jpg",
-    "cast_id": 159,
-    "character": "Cibelli",
-    "credit_id": "5ea728fcb7fbbd001b383f8e",
-    "order": 20
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 231855,
-    "known_for_department": "Acting",
-    "name": "Nicole Barré",
-    "original_name": "Nicole Barré",
-    "popularity": 7.05,
-    "profile_path": "/vy61iMo8cNWsBBFbRLnCdXp6Dej.jpg",
-    "cast_id": 160,
-    "character": "Mirkovich",
-    "credit_id": "5ea7290acc9683001eadfb03",
-    "order": 21
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1334321,
-    "known_for_department": "Acting",
-    "name": "Craig Henningsen",
-    "original_name": "Craig Henningsen",
-    "popularity": 4.872,
-    "profile_path": "/mWittaEYFxIFCaskmYFE0m9bJr9.jpg",
-    "cast_id": 161,
-    "character": "MP at Fort Dyer",
-    "credit_id": "5ea729a2bb070d001ca6f314",
-    "order": 22
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2573870,
-    "known_for_department": "Acting",
-    "name": "Giovanni Silva",
-    "original_name": "Giovanni Silva",
-    "popularity": 2.151,
-    "profile_path": "/xBhOBooucfKF0VdrybMPOf3uIMF.jpg",
-    "cast_id": 162,
-    "character": "Lead MP at Fort Dyer",
-    "credit_id": "5ea729babb070d0023a6f190",
-    "order": 23
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1629633,
-    "known_for_department": "Acting",
-    "name": "Ryan Broussard",
-    "original_name": "Ryan Broussard",
-    "popularity": 8.898,
-    "profile_path": "/9IJCebw6L5GTUfPEoonKYqwRQC6.jpg",
-    "cast_id": 163,
-    "character": "Prison Guard",
-    "credit_id": "5ea729cc07291c0020ea070d",
-    "order": 24
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 2004289,
-    "known_for_department": "Acting",
-    "name": "Josh Breslow",
-    "original_name": "Josh Breslow",
-    "popularity": 6.832,
-    "profile_path": "/70R8lKQFLMpXI2KsNp5D9j46Fuu.jpg",
-    "cast_id": 164,
-    "character": "OPS Center Worker",
-    "credit_id": "5ea729dcfdc1460022a2d62c",
-    "order": 25
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1704653,
-    "known_for_department": "Acting",
-    "name": "Ninja N. Devoe",
-    "original_name": "Ninja N. Devoe",
-    "popularity": 5.486,
-    "profile_path": "/85wHAJNTAHnsb6HgDZkYBYbWsmz.jpg",
-    "cast_id": 165,
-    "character": "MP at OPS Center",
-    "credit_id": "5ea729eab7fbbd001d38469e",
-    "order": 26
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1810485,
-    "known_for_department": "Acting",
-    "name": "Ernest Wells",
-    "original_name": "Ernest Wells",
-    "popularity": 2.958,
-    "profile_path": "/8b0olhIAyiltes3j8UN9Lral2Wt.jpg",
-    "cast_id": 166,
-    "character": "Cab Driver",
-    "credit_id": "5ea729f9b7fbbd001b38408f",
-    "order": 27
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1394280,
-    "known_for_department": "Acting",
-    "name": "Caroline Hebert",
-    "original_name": "Caroline Hebert",
-    "popularity": 6.45,
-    "profile_path": "/un3ZS9OxeVFmFTCWxyHyz36Ytv8.jpg",
-    "cast_id": 167,
-    "character": "Restaurant Hostess",
-    "credit_id": "5ea72a1bb76cbb001ae3c8a7",
-    "order": 28
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 20582,
-    "known_for_department": "Acting",
-    "name": "Michael Papajohn",
-    "original_name": "Michael Papajohn",
-    "popularity": 8.621,
-    "profile_path": "/hdTJBfIXfvRdlD1p8y6rra207UP.jpg",
-    "cast_id": 168,
-    "character": "DC Policeman at Restaurant",
-    "credit_id": "5ea72a2a426ae800264807fb",
-    "order": 29
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616808,
-    "known_for_department": "Acting",
-    "name": "Sharon E. Smith",
-    "original_name": "Sharon E. Smith",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 169,
-    "character": "Nancy Peters",
-    "credit_id": "5ea72a37b7fbbd001b3840df",
-    "order": 30
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1939706,
-    "known_for_department": "Acting",
-    "name": "Martin Covert",
-    "original_name": "Martin Covert",
-    "popularity": 1.624,
-    "profile_path": "/1aG46YTpob1UVlFA1izF4jm6HKs.jpg",
-    "cast_id": 170,
-    "character": "Art Teacher",
-    "credit_id": "5ea72a5607291c001eea0afb",
-    "order": 31
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1630319,
-    "known_for_department": "Acting",
-    "name": "Abbie Gayle",
-    "original_name": "Abbie Gayle",
-    "popularity": 16.106,
-    "profile_path": "/tRoyXGJPQqmHApLXk42s3k6EBUp.jpg",
-    "cast_id": 171,
-    "character": "Pembroke Student",
-    "credit_id": "5ea72a63bb070d0023a6f24a",
-    "order": 32
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2616809,
-    "known_for_department": "Acting",
-    "name": "Rae Varela",
-    "original_name": "Rae Varela",
-    "popularity": 1.628,
-    "profile_path": "/t0AnNm5Du8c4rZRiVxgzvXnOcMP.jpg",
-    "cast_id": 172,
-    "character": "Pembroke Student",
-    "credit_id": "5ea72a7107291c0025ea0626",
-    "order": 33
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1681921,
-    "known_for_department": "Acting",
-    "name": "Taylor Faye Ruffin",
-    "original_name": "Taylor Faye Ruffin",
-    "popularity": 0.863,
-    "profile_path": "/hspuaD1R4Iwz7UnnWuVBxMn8fWb.jpg",
-    "cast_id": 173,
-    "character": "Pembroke Student",
-    "credit_id": "5ea72a82b7fbbd001b38411c",
-    "order": 34
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1056052,
-    "known_for_department": "Writing",
-    "name": "Lee Child",
-    "original_name": "Lee Child",
-    "popularity": 4.265,
-    "profile_path": "/bJiJb69N2h4MdvdP2PjUpgJdCll.jpg",
-    "cast_id": 174,
-    "character": "Airport security",
-    "credit_id": "5ea72a91be55b7001de3e473",
-    "order": 35
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1458990,
-    "known_for_department": "Acting",
-    "name": "Robert Larriviere",
-    "original_name": "Robert Larriviere",
-    "popularity": 11.623,
-    "profile_path": "/9tJzMqhjDOHr3w6nSh4SFOudh4O.jpg",
-    "cast_id": 175,
-    "character": "Hotel Receptionist",
-    "credit_id": "5ea72a9ebb070d0023a6f2f6",
-    "order": 36
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 565501,
-    "known_for_department": "Acting",
-    "name": "Teri Wyble",
-    "original_name": "Teri Wyble",
-    "popularity": 10.113,
-    "profile_path": "/zOdjLw4GCDRT2kswPXIHH4ZT6d.jpg",
-    "cast_id": 23,
-    "character": "Prud'homme´s wife",
-    "credit_id": "57d9a383c3a36878e900867f",
-    "order": 37
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 563560,
-    "known_for_department": "Acting",
-    "name": "Gordon Alexander",
-    "original_name": "Gordon Alexander",
-    "popularity": 6.484,
-    "profile_path": "/d7Z5Rbctu6Jj9WmJJgrMHk8mhK6.jpg",
-    "cast_id": 176,
-    "character": "Cage Match Goon",
-    "credit_id": "5ea72b25d38b58002626e151",
-    "order": 38
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 86276,
-    "known_for_department": "Acting",
-    "name": "Sean Boyd",
-    "original_name": "Sean Boyd",
-    "popularity": 3.66,
-    "profile_path": "/kmcfU9S7ajCBVhCbNvTztHS2OJL.jpg",
-    "cast_id": 177,
-    "character": "Decoudreau",
-    "credit_id": "5ea72b32b7fbbd001d3847f2",
-    "order": 39
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1125009,
-    "known_for_department": "Acting",
-    "name": "Zachary James Rukavina",
-    "original_name": "Zachary James Rukavina",
-    "popularity": 4.164,
-    "profile_path": "/yzXQ9hi6J7ObmAJDRkjvxBfCctL.jpg",
-    "cast_id": 178,
-    "character": "Amputee Vet",
-    "credit_id": "5ea72b3f514c4a00268aa660",
-    "order": 40
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1668606,
-    "known_for_department": "Acting",
-    "name": "Jared Bankens",
-    "original_name": "Jared Bankens",
-    "popularity": 7.786,
-    "profile_path": "/6Wr4uihYoP6H7MBXY3EsAjOPthR.jpg",
-    "cast_id": 179,
-    "character": "Junkie",
-    "credit_id": "5ea72b4ccc9683001eadfd47",
-    "order": 41
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1578723,
-    "known_for_department": "Acting",
-    "name": "Robert Segari",
-    "original_name": "Robert Segari",
-    "popularity": 0.833,
-    "profile_path": null,
-    "cast_id": 180,
-    "character": "Junkie",
-    "credit_id": "5ea72b5a2d1e40001f82aa5b",
-    "order": 42
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1367847,
-    "known_for_department": "Acting",
-    "name": "Austin Hébert",
-    "original_name": "Austin Hébert",
-    "popularity": 7.426,
-    "profile_path": "/vOuRMtOtPVd8vuNCCxxavQSdGIC.jpg",
-    "cast_id": 18,
-    "character": "Prudhomme",
-    "credit_id": "57aed252c3a36878fe0029a6",
-    "order": 43
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1270862,
-    "known_for_department": "Acting",
-    "name": "Darcel White Moreno",
-    "original_name": "Darcel White Moreno",
-    "popularity": 3.062,
-    "profile_path": "/2OwTvQllbKsHBpuH1mnqpt9MtTs.jpg",
-    "cast_id": 181,
-    "character": "Apolline",
-    "credit_id": "5ea72b90d38b58002626e175",
-    "order": 44
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1671208,
-    "known_for_department": "Acting",
-    "name": "Jenny Ballard",
-    "original_name": "Jenny Ballard",
-    "popularity": 0.6,
-    "profile_path": "/jydalQK5bNXzmiryVbgCs4R0ULz.jpg",
-    "cast_id": 182,
-    "character": "Tech at Parasource OPS Center",
-    "credit_id": "5ea72ba3fdc146001da2d589",
-    "order": 45
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1684351,
-    "known_for_department": "Acting",
-    "name": "Jesse Malinowski",
-    "original_name": "Jesse Malinowski",
-    "popularity": 3.916,
-    "profile_path": "/mZK00u2EWDYdYd41vgnTLbdBy9V.jpg",
-    "cast_id": 183,
-    "character": "Aide at Parasource OPS Center",
-    "credit_id": "5ea72bb02d1e40001d82acd9",
-    "order": 46
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 62784,
-    "known_for_department": "Acting",
-    "name": "Billy Slaughter",
-    "original_name": "Billy Slaughter",
-    "popularity": 10.799,
-    "profile_path": "/wyKVHwnFodOmNsTgDTcL1GlJzqa.jpg",
-    "cast_id": 21,
-    "character": "Parasource Aide",
-    "credit_id": "57aed28692514128f6001b42",
-    "order": 47
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1455813,
-    "known_for_department": "Acting",
-    "name": "Ben VanderMey",
-    "original_name": "Ben VanderMey",
-    "popularity": 6.306,
-    "profile_path": "/lkPNTxvIiV0WtBVOV8DbLiCSp0c.jpg",
-    "cast_id": 184,
-    "character": "Parasource Gate Guard",
-    "credit_id": "5ea72bdbd38b58002626e1cb",
-    "order": 48
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616814,
-    "known_for_department": "Acting",
-    "name": "Ashley Wilks",
-    "original_name": "Ashley Wilks",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 185,
-    "character": "Hotel Guest",
-    "credit_id": "5ea72bea514c4a00218aacac",
-    "order": 49
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616815,
-    "known_for_department": "Acting",
-    "name": "Robert J. Gilchrist",
-    "original_name": "Robert J. Gilchrist",
-    "popularity": 0.6,
-    "profile_path": "/fg6VsnTjYAisJpfUAjTKWbfaMyB.jpg",
-    "cast_id": 186,
-    "character": "Ghoul on Float",
-    "credit_id": "5ea72bf7d38b58001e26e7ac",
-    "order": 50
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616817,
-    "known_for_department": "Acting",
-    "name": "Bennie Pete",
-    "original_name": "Bennie Pete",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 187,
-    "character": "Musician",
-    "credit_id": "5ea72c05d38b58002626e1ed",
-    "order": 51
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616818,
-    "known_for_department": "Acting",
-    "name": "Tyrus Chapman",
-    "original_name": "Tyrus Chapman",
-    "popularity": 1.4,
-    "profile_path": null,
-    "cast_id": 188,
-    "character": "Musician",
-    "credit_id": "5ea72c1a07291c0025ea0866",
-    "order": 52
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616819,
-    "known_for_department": "Acting",
-    "name": "Larry Lamar Brown",
-    "original_name": "Larry Lamar Brown",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 189,
-    "character": "Musician",
-    "credit_id": "5ea72c25426ae80021480ac2",
-    "order": 53
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616821,
-    "known_for_department": "Acting",
-    "name": "Phillip Sherrell Armand",
-    "original_name": "Phillip Sherrell Armand",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 190,
-    "character": "Musician",
-    "credit_id": "5ea72c32cc9683001cadf8c6",
-    "order": 54
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616822,
-    "known_for_department": "Acting",
-    "name": "Harry Darvell Cook",
-    "original_name": "Harry Darvell Cook",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 191,
-    "character": "Musician",
-    "credit_id": "5ea72c59be55b7001de3e61a",
-    "order": 55
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616824,
-    "known_for_department": "Acting",
-    "name": "John Arvin Gilbert",
-    "original_name": "John Arvin Gilbert",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 192,
-    "character": "Musician",
-    "credit_id": "5ea72c6407291c0025ea08f7",
-    "order": 56
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616825,
-    "known_for_department": "Acting",
-    "name": "Dwayne Finnie",
-    "original_name": "Dwayne Finnie",
-    "popularity": 0.828,
-    "profile_path": null,
-    "cast_id": 193,
-    "character": "Musician",
-    "credit_id": "5ea72c6f426ae8002648094a",
-    "order": 57
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616826,
-    "known_for_department": "Acting",
-    "name": "Alvarez Huntley",
-    "original_name": "Alvarez Huntley",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 194,
-    "character": "Musician",
-    "credit_id": "5ea72c7b07291c001eea0c94",
-    "order": 58
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 133386,
-    "known_for_department": "Acting",
-    "name": "Sabrina Gennarino",
-    "original_name": "Sabrina Gennarino",
-    "popularity": 8.425,
-    "profile_path": "/kNJJbryHzhONUBHJxRgWiF7j5j8.jpg",
-    "cast_id": 195,
-    "character": "Candace",
-    "credit_id": "5ea72c86514c4a00218aad04",
-    "order": 59
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2973300,
-    "known_for_department": "Acting",
-    "name": "Chase Savoie",
-    "original_name": "Chase Savoie",
-    "popularity": 0.6,
-    "profile_path": null,
-    "cast_id": 205,
-    "character": "Garde",
-    "credit_id": "60250d44abf8e2003fa502e5",
-    "order": 60
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1787405,
-    "known_for_department": "Acting",
-    "name": "Timothy Carr",
-    "original_name": "Timothy Carr",
-    "popularity": 1.7,
-    "profile_path": "/hVcWRcR8SLGIlmdhYILkC3q116a.jpg",
-    "cast_id": 207,
-    "character": "Military Police (uncredited)",
-    "credit_id": "61103efca3d027002c753602",
-    "order": 61
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1748388,
-    "known_for_department": "Acting",
-    "name": "Gino Galento",
-    "original_name": "Gino Galento",
-    "popularity": 1.748,
-    "profile_path": null,
-    "cast_id": 208,
-    "character": "Wendy G Kennedy",
-    "credit_id": "61cb1fcb511d090063df1015",
-    "order": 62
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1044954,
-    "known_for_department": "Acting",
-    "name": "Sam Medina",
-    "original_name": "Sam Medina",
-    "popularity": 7.44,
-    "profile_path": "/9xDO3sxBcO3tsDXknlKJuepeFwl.jpg",
-    "cast_id": 209,
-    "character": "DC Policeman #2 (uncredited)",
-    "credit_id": "623bc410211ce50088becf6e",
-    "order": 63
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 4324188,
-    "known_for_department": "Acting",
-    "name": "Julia Holt",
-    "original_name": "Julia Holt",
-    "popularity": 0.6,
-    "profile_path": "/3saskdbIbRdliTQyuSBrOzeN6Dv.jpg",
-    "cast_id": 210,
-    "character": "Pedestrian (uncredited)",
-    "credit_id": "652dc0db358da75b5c0c8ae1",
-    "order": 64
-  }
+
 ],
 "crew": [
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 500,
-    "known_for_department": "Acting",
-    "name": "Tom Cruise",
-    "original_name": "Tom Cruise",
-    "popularity": 48.237,
-    "profile_path": "/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
-    "credit_id": "55fdcfa7c3a368133400196b",
-    "department": "Production",
-    "job": "Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 4197,
-    "known_for_department": "Art",
-    "name": "Clay A. Griffith",
-    "original_name": "Clay A. Griffith",
-    "popularity": 1.744,
-    "profile_path": null,
-    "credit_id": "58b945c3c3a368666b00876f",
-    "department": "Art",
-    "job": "Production Design"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 909,
-    "known_for_department": "Editing",
-    "name": "Billy Weber",
-    "original_name": "Billy Weber",
-    "popularity": 2.093,
-    "profile_path": null,
-    "credit_id": "57aed2b9c3a368213f001bcf",
-    "department": "Editing",
-    "job": "Editor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 9181,
-    "known_for_department": "Directing",
-    "name": "Edward Zwick",
-    "original_name": "Edward Zwick",
-    "popularity": 9.306,
-    "profile_path": "/RzRjOpqfob68smXTj5RPjankKr.jpg",
-    "credit_id": "55fdcf9ac3a36813370017ca",
-    "department": "Writing",
-    "job": "Screenplay"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 9181,
-    "known_for_department": "Directing",
-    "name": "Edward Zwick",
-    "original_name": "Edward Zwick",
-    "popularity": 9.306,
-    "profile_path": "/RzRjOpqfob68smXTj5RPjankKr.jpg",
-    "credit_id": "55e73aad9251416c0d000453",
-    "department": "Directing",
-    "job": "Director"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 9182,
-    "known_for_department": "Production",
-    "name": "Marshall Herskovitz",
-    "original_name": "Marshall Herskovitz",
-    "popularity": 2.168,
-    "profile_path": "/cfvp1rGCUiAUldqNoxTmjxxxipi.jpg",
-    "credit_id": "55fdcf90c3a3681334001968",
-    "department": "Writing",
-    "job": "Screenplay"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 9183,
-    "known_for_department": "Production",
-    "name": "Paula Wagner",
-    "original_name": "Paula Wagner",
-    "popularity": 1.965,
-    "profile_path": "/jRnMmW3USte8Qglpe57nJWlA38E.jpg",
-    "credit_id": "5b0ea93fc3a368288e00610c",
-    "department": "Production",
-    "job": "Executive Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 9033,
-    "known_for_department": "Writing",
-    "name": "Christopher McQuarrie",
-    "original_name": "Christopher McQuarrie",
-    "popularity": 14.652,
-    "profile_path": "/7FcybX1uFpMKHSI0p15LGPG3O3x.jpg",
-    "credit_id": "58b940d7c3a368664d009162",
-    "department": "Production",
-    "job": "Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 11409,
-    "known_for_department": "Camera",
-    "name": "Oliver Wood",
-    "original_name": "Oliver Wood",
-    "popularity": 1.583,
-    "profile_path": "/rUXhXZUF818WsqWms7BIIz9YHjN.jpg",
-    "credit_id": "578850cac3a36839190046f8",
-    "department": "Camera",
-    "job": "Director of Photography"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 15332,
-    "known_for_department": "Sound",
-    "name": "Mark P. Stoeckinger",
-    "original_name": "Mark P. Stoeckinger",
-    "popularity": 1.069,
-    "profile_path": null,
-    "credit_id": "58b9734f925141607300aaa2",
-    "department": "Sound",
-    "job": "Supervising Sound Editor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 16601,
-    "known_for_department": "Visual Effects",
-    "name": "William Mesa",
-    "original_name": "William Mesa",
-    "popularity": 2.111,
-    "profile_path": null,
-    "credit_id": "58b9499ec3a368668f00827e",
-    "department": "Visual Effects",
-    "job": "Visual Effects Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 22814,
-    "known_for_department": "Writing",
-    "name": "Richard Wenk",
-    "original_name": "Richard Wenk",
-    "popularity": 4.943,
-    "profile_path": "/tUH6K1QHmZKpZC2UGn7q1z20C4P.jpg",
-    "credit_id": "55fdcf7f92514152a8001866",
-    "department": "Writing",
-    "job": "Screenplay"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 29018,
-    "known_for_department": "Production",
-    "name": "Dana Goldberg",
-    "original_name": "Dana Goldberg",
-    "popularity": 2.834,
-    "profile_path": "/AtiT0HTrrrvVVjZgOXpxKxVFyAb.jpg",
-    "credit_id": "5b0ea97e0e0a2671d6005f5e",
-    "department": "Production",
-    "job": "Executive Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 56461,
-    "known_for_department": "Production",
-    "name": "Kevin J. Messick",
-    "original_name": "Kevin J. Messick",
-    "popularity": 2.371,
-    "profile_path": "/pz8NSCCp146P4MxDXdtBcgX2DxD.jpg",
-    "credit_id": "5ea72417bb070d0023a6ed5a",
-    "department": "Production",
-    "job": "Co-Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 56737,
-    "known_for_department": "Production",
-    "name": "Don Granger",
-    "original_name": "Don Granger",
-    "popularity": 2.815,
-    "profile_path": "/ilhrUzybaDqaZOiaw1M8dzkZ0ZF.jpg",
-    "credit_id": "55fdcfbcc3a368132c001b9f",
-    "department": "Production",
-    "job": "Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 58433,
-    "known_for_department": "Production",
-    "name": "David Ellison",
-    "original_name": "David Ellison",
-    "popularity": 6.194,
-    "profile_path": "/jOhjFZWW2KqsOzm4IiE71FHmcIf.jpg",
-    "credit_id": "5b0ea96c0e0a2671a900604f",
-    "department": "Production",
-    "job": "Executive Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 62739,
-    "known_for_department": "Production",
-    "name": "Herb Gains",
-    "original_name": "Herb Gains",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "5b0ea95b0e0a2671bd005263",
-    "department": "Production",
-    "job": "Executive Producer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 72640,
-    "known_for_department": "Production",
-    "name": "Gary Huckabay",
-    "original_name": "Gary Huckabay",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "5ea7246ebb070d0023a6edaa",
-    "department": "Crew",
-    "job": "Supervisor of Production Resources"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 89287,
-    "known_for_department": "Writing",
-    "name": "Nathan Parker",
-    "original_name": "Nathan Parker",
-    "popularity": 1.996,
-    "profile_path": "/rKglYuA8WokK3ofd3KoYily7hd8.jpg",
-    "credit_id": "5ea7276ab7fbbd001b383e6e",
-    "department": "Directing",
-    "job": "Second Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 86907,
-    "known_for_department": "Production",
-    "name": "Susan E. Novick",
-    "original_name": "Susan E. Novick",
-    "popularity": 1.477,
-    "profile_path": null,
-    "credit_id": "5ea72491b76cbb001ae3c3af",
-    "department": "Crew",
-    "job": "Post Production Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 91932,
-    "known_for_department": "Crew",
-    "name": "Cliff Fleming",
-    "original_name": "Cliff Fleming",
-    "popularity": 5.443,
-    "profile_path": "/20Wp9UrwBR8KUU16gBpM2p0DQO6.jpg",
-    "credit_id": "58b94295c3a3686630008897",
-    "department": "Crew",
-    "job": "Aerial Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 149960,
-    "known_for_department": "Camera",
-    "name": "Bruce Dickson",
-    "original_name": "Bruce Dickson",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b975c4c3a36866af00a6cd",
-    "department": "Camera",
-    "job": "Second Unit Director of Photography"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 210468,
-    "known_for_department": "Acting",
-    "name": "Paul Bennett",
-    "original_name": "Paul Bennett",
-    "popularity": 3.953,
-    "profile_path": null,
-    "credit_id": "5ea724d4d38b58002626daa8",
-    "department": "Directing",
-    "job": "Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 227440,
-    "known_for_department": "Sound",
-    "name": "Henry Jackman",
-    "original_name": "Henry Jackman",
-    "popularity": 10.31,
-    "profile_path": "/wJYFGHG5Vsh8cbiyiS8zpO2SMHb.jpg",
-    "credit_id": "578850b8c3a36832e400290f",
-    "department": "Sound",
-    "job": "Original Music Composer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 578730,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Amy Wood",
-    "original_name": "Amy Wood",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b946f4925141606b009b53",
-    "department": "Costume & Make-Up",
-    "job": "Key Hair Stylist"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 589402,
-    "known_for_department": "Directing",
-    "name": "Adrian Grünberg",
-    "original_name": "Adrian Grünberg",
-    "popularity": 1.789,
-    "profile_path": "/ubhQE5F4orGeAuQYN1PoY8ZJc3n.jpg",
-    "credit_id": "5ea726af2d1e40002482ad97",
-    "department": "Directing",
-    "job": "First Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 960673,
-    "known_for_department": "Art",
-    "name": "Peter Borck",
-    "original_name": "Peter Borck",
-    "popularity": 1.22,
-    "profile_path": null,
-    "credit_id": "58b94683c3a36866b7009292",
-    "department": "Art",
-    "job": "Supervising Art Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1046602,
-    "known_for_department": "Art",
-    "name": "Brian Stultz",
-    "original_name": "Brian Stultz",
-    "popularity": 2.705,
-    "profile_path": null,
-    "credit_id": "58b945e3c3a36866860086c8",
-    "department": "Art",
-    "job": "Art Direction"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1056052,
-    "known_for_department": "Writing",
-    "name": "Lee Child",
-    "original_name": "Lee Child",
-    "popularity": 4.265,
-    "profile_path": "/bJiJb69N2h4MdvdP2PjUpgJdCll.jpg",
-    "credit_id": "55e73abec3a368379200046f",
-    "department": "Writing",
-    "job": "Novel"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1069869,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Kimberly Amacker",
-    "original_name": "Kimberly Amacker",
-    "popularity": 1.38,
-    "profile_path": null,
-    "credit_id": "58b9471ec3a36866b70092f8",
-    "department": "Costume & Make-Up",
-    "job": "Key Makeup Artist"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1099633,
-    "known_for_department": "Sound",
-    "name": "Luke Gibleon",
-    "original_name": "Luke Gibleon",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b972dd925141609e00a682",
-    "department": "Sound",
-    "job": "Sound Effects Editor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1127957,
-    "known_for_department": "Visual Effects",
-    "name": "Lincoln Kupchak",
-    "original_name": "Lincoln Kupchak",
-    "popularity": 0.964,
-    "profile_path": null,
-    "credit_id": "58b9491cc3a36866af0090f4",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1203712,
-    "known_for_department": "Editing",
-    "name": "Michael Nouryeh",
-    "original_name": "Michael Nouryeh",
-    "popularity": 0.98,
-    "profile_path": null,
-    "credit_id": "58b948b7925141606f0097e8",
-    "department": "Crew",
-    "job": "Visual Effects Editor"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1279727,
-    "known_for_department": "Crew",
-    "name": "Debbie Evans",
-    "original_name": "Debbie Evans",
-    "popularity": 10.72,
-    "profile_path": "/eDLKuLGUsI2Wk5HYiq2n0DjQZ7C.jpg",
-    "credit_id": "5ffe21b9223e20003eaea6ed",
-    "department": "Crew",
-    "job": "Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1319157,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Hannah Gates",
-    "original_name": "Hannah Gates",
-    "popularity": 1.594,
-    "profile_path": null,
-    "credit_id": "58b94401925141606f00954b",
-    "department": "Costume & Make-Up",
-    "job": "Set Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1319844,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Lisa Lovaas",
-    "original_name": "Lisa Lovaas",
-    "popularity": 2.411,
-    "profile_path": null,
-    "credit_id": "58b9458b925141607b009635",
-    "department": "Costume & Make-Up",
-    "job": "Costume Design"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1322011,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Jennifer Kamrath",
-    "original_name": "Jennifer Kamrath",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94427925141606f009560",
-    "department": "Costume & Make-Up",
-    "job": "Set Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1332515,
-    "known_for_department": "Camera",
-    "name": "Klemens Becker",
-    "original_name": "Klemens Becker",
-    "popularity": 1.901,
-    "profile_path": null,
-    "credit_id": "58b975d9925141609b00a978",
-    "department": "Camera",
-    "job": "Steadicam Operator"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1333932,
-    "known_for_department": "Production",
-    "name": "Elizabeth Coulon",
-    "original_name": "Elizabeth Coulon",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "58b94187c3a3686630008812",
-    "department": "Production",
-    "job": "Local Casting"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1337243,
-    "known_for_department": "Acting",
-    "name": "Brooklyn Proctor",
-    "original_name": "Brooklyn Proctor",
-    "popularity": 1.015,
-    "profile_path": null,
-    "credit_id": "5ffe20c67d5db5003ec79fbb",
-    "department": "Crew",
-    "job": "Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1338372,
-    "known_for_department": "Sound",
-    "name": "Dan O'Connell",
-    "original_name": "Dan O'Connell",
-    "popularity": 2.171,
-    "profile_path": "/4AjIlClDijH3iYgXygHEcVZtTzi.jpg",
-    "credit_id": "58b9727c925141607300aa38",
-    "department": "Sound",
-    "job": "Foley"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1338976,
-    "known_for_department": "Sound",
-    "name": "Andy Nelson",
-    "original_name": "Andy Nelson",
-    "popularity": 2.982,
-    "profile_path": null,
-    "credit_id": "58b972fec3a36866a500a545",
-    "department": "Sound",
-    "job": "Sound Re-Recording Mixer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1339439,
-    "known_for_department": "Art",
-    "name": "Lindsay Good",
-    "original_name": "Lindsay Good",
-    "popularity": 1.624,
-    "profile_path": null,
-    "credit_id": "58b945ffc3a368668f00809b",
-    "department": "Art",
-    "job": "Art Department Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1345635,
-    "known_for_department": "Directing",
-    "name": "Anna Rane",
-    "original_name": "Anna Rane",
-    "popularity": 1.38,
-    "profile_path": null,
-    "credit_id": "5ea727b8b7fbbd001b383eae",
-    "department": "Directing",
-    "job": "Script Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1367493,
-    "known_for_department": "Sound",
-    "name": "John T. Cucci",
-    "original_name": "John T. Cucci",
-    "popularity": 3.928,
-    "profile_path": null,
-    "credit_id": "58b9728e925141608400aeaf",
-    "department": "Sound",
-    "job": "Foley"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1367502,
-    "known_for_department": "Lighting",
-    "name": "Andy Ryan",
-    "original_name": "Andy Ryan",
-    "popularity": 1.176,
-    "profile_path": null,
-    "credit_id": "58b973bc925141609e00a6e6",
-    "department": "Lighting",
-    "job": "Gaffer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1368889,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Jaclyn Tamizato",
-    "original_name": "Jaclyn Tamizato",
-    "popularity": 0.932,
-    "profile_path": null,
-    "credit_id": "58b943ad925141609e008f21",
-    "department": "Costume & Make-Up",
-    "job": "Key Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1384375,
-    "known_for_department": "Visual Effects",
-    "name": "Max Leonard",
-    "original_name": "Max Leonard",
-    "popularity": 2.314,
-    "profile_path": null,
-    "credit_id": "58b94932925141606f00982d",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1389139,
-    "known_for_department": "Camera",
-    "name": "David James",
-    "original_name": "David James",
-    "popularity": 3.23,
-    "profile_path": null,
-    "credit_id": "5939c2879251411f250011e9",
-    "department": "Camera",
-    "job": "Still Photographer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1393372,
-    "known_for_department": "Art",
-    "name": "Chuck Stringer",
-    "original_name": "Chuck Stringer",
-    "popularity": 1.891,
-    "profile_path": null,
-    "credit_id": "58b94629c3a368664d009459",
-    "department": "Art",
-    "job": "Construction Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1394750,
-    "known_for_department": "Visual Effects",
-    "name": "Thomas Nittmann",
-    "original_name": "Thomas Nittmann",
-    "popularity": 0.903,
-    "profile_path": null,
-    "credit_id": "58b94908925141609e009224",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1397725,
-    "known_for_department": "Art",
-    "name": "Lisa K. Sessions",
-    "original_name": "Lisa K. Sessions",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94670925141606f0096a2",
-    "department": "Art",
-    "job": "Set Decoration"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1399477,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Laura Wolford",
-    "original_name": "Laura Wolford",
-    "popularity": 1.38,
-    "profile_path": null,
-    "credit_id": "58b943649251416073009227",
-    "department": "Costume & Make-Up",
-    "job": "Costume Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1400088,
-    "known_for_department": "Sound",
-    "name": "Daniel Pinder",
-    "original_name": "Daniel Pinder",
-    "popularity": 2.965,
-    "profile_path": null,
-    "credit_id": "58b942ea92514160770095ed",
-    "department": "Sound",
-    "job": "Music Editor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1401720,
-    "known_for_department": "Visual Effects",
-    "name": "Erik Liles",
-    "original_name": "Erik Liles",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b9498bc3a36866a5009080",
-    "department": "Visual Effects",
-    "job": "Visual Effects Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1403413,
-    "known_for_department": "Camera",
-    "name": "Joe Chess",
-    "original_name": "Joe Chess",
-    "popularity": 0.972,
-    "profile_path": null,
-    "credit_id": "58b97540925141608400b003",
-    "department": "Camera",
-    "job": "Camera Operator"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1403415,
-    "known_for_department": "Camera",
-    "name": "David B. Nowell",
-    "original_name": "David B. Nowell",
-    "popularity": 2.268,
-    "profile_path": null,
-    "credit_id": "58b974d5c3a368668f00964a",
-    "department": "Camera",
-    "job": "Aerial Director of Photography"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1404808,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Leigh Ann Yandle",
-    "original_name": "Leigh Ann Yandle",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "58b94708c3a368666b008824",
-    "department": "Costume & Make-Up",
-    "job": "Makeup Department Head"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1406894,
-    "known_for_department": "Production",
-    "name": "Sara Flamm",
-    "original_name": "Sara Flamm",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea72439fdc1460022a2d084",
-    "department": "Production",
-    "job": "Unit Production Manager"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1410205,
-    "known_for_department": "Directing",
-    "name": "Beverly Winston",
-    "original_name": "Beverly Winston",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea727c7d38b58002626dc9b",
-    "department": "Directing",
-    "job": "Script Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1411066,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Sarah Monzani",
-    "original_name": "Sarah Monzani",
-    "popularity": 1.073,
-    "profile_path": null,
-    "credit_id": "58b94743925141609e009121",
-    "department": "Costume & Make-Up",
-    "job": "Makeup Artist"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1411271,
-    "known_for_department": "Camera",
-    "name": "Michael J. Walker",
-    "original_name": "Michael J. Walker",
-    "popularity": 0.828,
-    "profile_path": null,
-    "credit_id": "58b97552925141606b00b3cf",
-    "department": "Camera",
-    "job": "Camera Operator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1412722,
-    "known_for_department": "Editing",
-    "name": "Joe Ken",
-    "original_name": "Joe Ken",
-    "popularity": 0.652,
-    "profile_path": null,
-    "credit_id": "58b97720925141608400b146",
-    "department": "Editing",
-    "job": "Digital Intermediate"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1414151,
-    "known_for_department": "Camera",
-    "name": "Robert Foster",
-    "original_name": "Robert Foster",
-    "popularity": 1.96,
-    "profile_path": null,
-    "credit_id": "58b9758c925141606b00b3f4",
-    "department": "Camera",
-    "job": "Camera Operator"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1416155,
-    "known_for_department": "Sound",
-    "name": "James Bolt",
-    "original_name": "James Bolt",
-    "popularity": 1.468,
-    "profile_path": null,
-    "credit_id": "58b9731e925141606b00b29b",
-    "department": "Sound",
-    "job": "Sound Re-Recording Mixer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1423004,
-    "known_for_department": "Sound",
-    "name": "David Metzner",
-    "original_name": "David Metzner",
-    "popularity": 2.708,
-    "profile_path": null,
-    "credit_id": "58b94302c3a368668f007f0c",
-    "department": "Sound",
-    "job": "Music Editor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1425341,
-    "known_for_department": "Lighting",
-    "name": "Ferdinand Duplantier Jr.",
-    "original_name": "Ferdinand Duplantier Jr.",
-    "popularity": 0.694,
-    "profile_path": null,
-    "credit_id": "58b97402c3a36866af00a5d4",
-    "department": "Lighting",
-    "job": "Rigging Gaffer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1431552,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Daina Daigle",
-    "original_name": "Daina Daigle",
-    "popularity": 0.84,
-    "profile_path": null,
-    "credit_id": "58b946af925141609b0091d3",
-    "department": "Costume & Make-Up",
-    "job": "Hair Department Head"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1434568,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Molly Kamrath",
-    "original_name": "Molly Kamrath",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94439c3a36866b7009126",
-    "department": "Costume & Make-Up",
-    "job": "Set Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1437305,
-    "known_for_department": "Camera",
-    "name": "Michael Applebaum",
-    "original_name": "Michael Applebaum",
-    "popularity": 1.441,
-    "profile_path": null,
-    "credit_id": "58b97565925141606b00b3e2",
-    "department": "Camera",
-    "job": "Camera Operator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1440877,
-    "known_for_department": "Visual Effects",
-    "name": "Garry Elmendorf",
-    "original_name": "Garry Elmendorf",
-    "popularity": 2.687,
-    "profile_path": null,
-    "credit_id": "58b94814925141609e0091a9",
-    "department": "Visual Effects",
-    "job": "Special Effects Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1456041,
-    "known_for_department": "Sound",
-    "name": "Oleg Kulchytskyi",
-    "original_name": "Oleg Kulchytskyi",
-    "popularity": 1.652,
-    "profile_path": null,
-    "credit_id": "58b97332c3a3686686009c8b",
-    "department": "Sound",
-    "job": "Sound Re-Recording Mixer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1456719,
-    "known_for_department": "Crew",
-    "name": "Ashley Nicole Hudson",
-    "original_name": "Ashley Nicole Hudson",
-    "popularity": 2.759,
-    "profile_path": "/bwuzR1Zsx17volrLgYYPAthuFI1.jpg",
-    "credit_id": "5ffe2161a4f03c003a37eb79",
-    "department": "Crew",
-    "job": "Stunt Driver"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1457949,
-    "known_for_department": "Art",
-    "name": "Bryan Felty",
-    "original_name": "Bryan Felty",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "58b945d3c3a36866a5008e50",
-    "department": "Art",
-    "job": "Art Direction"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1463284,
-    "known_for_department": "Directing",
-    "name": "Dan Gutierrez",
-    "original_name": "Dan Gutierrez",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea726befdc146001ba2d0c3",
-    "department": "Directing",
-    "job": "Additional Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1463400,
-    "known_for_department": "Sound",
-    "name": "Chris Welcker",
-    "original_name": "Chris Welcker",
-    "popularity": 1.102,
-    "profile_path": null,
-    "credit_id": "58b971f9c3a3686686009bf6",
-    "department": "Sound",
-    "job": "Boom Operator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1463424,
-    "known_for_department": "Crew",
-    "name": "Donald Myers",
-    "original_name": "Donald Myers",
-    "popularity": 1.336,
-    "profile_path": null,
-    "credit_id": "58b947dfc3a368664d009571",
-    "department": "Visual Effects",
-    "job": "Animation"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1463796,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Kelly Herdus",
-    "original_name": "Kelly Herdus",
-    "popularity": 0.847,
-    "profile_path": null,
-    "credit_id": "58b94415c3a368666b008660",
-    "department": "Costume & Make-Up",
-    "job": "Set Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1463809,
-    "known_for_department": "Editing",
-    "name": "Thomas Kuo",
-    "original_name": "Thomas Kuo",
-    "popularity": 0.972,
-    "profile_path": null,
-    "credit_id": "58b97739925141608400b153",
-    "department": "Editing",
-    "job": "Digital Intermediate"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1466663,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Heather Leat",
-    "original_name": "Heather Leat",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94351c3a36866af008dc8",
-    "department": "Costume & Make-Up",
-    "job": "Costume Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1484989,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Benj Gibicsar",
-    "original_name": "Benj Gibicsar",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b9437f925141607b00951a",
-    "department": "Costume & Make-Up",
-    "job": "Ager/Dyer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1511170,
-    "known_for_department": "Acting",
-    "name": "Megan Le",
-    "original_name": "Megan Le",
-    "popularity": 4.741,
-    "profile_path": "/5WIQmIMgEqSo3w69TiDoUKehae8.jpg",
-    "credit_id": "5ffe21466a300b003b84c57c",
-    "department": "Crew",
-    "job": "Utility Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1528429,
-    "known_for_department": "Production",
-    "name": "Max Keene",
-    "original_name": "Max Keene",
-    "popularity": 1.889,
-    "profile_path": null,
-    "credit_id": "5ea726ffcc96830023adf072",
-    "department": "Directing",
-    "job": "First Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1533054,
-    "known_for_department": "Art",
-    "name": "Kris Peck",
-    "original_name": "Kris Peck",
-    "popularity": 2.239,
-    "profile_path": null,
-    "credit_id": "58b9463fc3a36866af008f4f",
-    "department": "Art",
-    "job": "Property Master"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1548389,
-    "known_for_department": "Sound",
-    "name": "Adam Horley",
-    "original_name": "Adam Horley",
-    "popularity": 1.566,
-    "profile_path": null,
-    "credit_id": "58b971d5c3a3686686009be5",
-    "department": "Sound",
-    "job": "ADR Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1548460,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Chrissy Callan",
-    "original_name": "Chrissy Callan",
-    "popularity": 1.143,
-    "profile_path": null,
-    "credit_id": "58b94399c3a36866a5008d17",
-    "department": "Costume & Make-Up",
-    "job": "Key Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1556313,
-    "known_for_department": "Crew",
-    "name": "Wade Eastwood",
-    "original_name": "Wade Eastwood",
-    "popularity": 3.319,
-    "profile_path": null,
-    "credit_id": "5ea72510bb070d001ca6eede",
-    "department": "Directing",
-    "job": "Second Unit Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1558090,
-    "known_for_department": "Visual Effects",
-    "name": "Karina Benesh",
-    "original_name": "Karina Benesh",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "58b94835c3a368668600882a",
-    "department": "Visual Effects",
-    "job": "Visual Effects Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1564250,
-    "known_for_department": "Sound",
-    "name": "James Ashwill",
-    "original_name": "James Ashwill",
-    "popularity": 2.422,
-    "profile_path": null,
-    "credit_id": "58b972a5925141606b00b267",
-    "department": "Sound",
-    "job": "Foley"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1573031,
-    "known_for_department": "Visual Effects",
-    "name": "Ryan Andersen",
-    "original_name": "Ryan Andersen",
-    "popularity": 0.972,
-    "profile_path": null,
-    "credit_id": "58b948c9c3a3686630008c14",
-    "department": "Crew",
-    "job": "Visual Effects Editor"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1599066,
-    "known_for_department": "Production",
-    "name": "Judith Sunga",
-    "original_name": "Judith Sunga",
-    "popularity": 0.687,
-    "profile_path": null,
-    "credit_id": "58b9415e925141607700952c",
-    "department": "Production",
-    "job": "Casting Associate"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1634737,
-    "known_for_department": "Production",
-    "name": "Jason Pomerantz",
-    "original_name": "Jason Pomerantz",
-    "popularity": 1.255,
-    "profile_path": null,
-    "credit_id": "5ea724c3426ae80021480487",
-    "department": "Production",
-    "job": "Production Director"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1637825,
-    "known_for_department": "Production",
-    "name": "James Grant",
-    "original_name": "James Grant",
-    "popularity": 2.423,
-    "profile_path": null,
-    "credit_id": "609846aaa3d027003c40637f",
-    "department": "Production",
-    "job": "Unit Production Manager"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1644256,
-    "known_for_department": "Visual Effects",
-    "name": "Anwei Chen",
-    "original_name": "Anwei Chen",
-    "popularity": 1.052,
-    "profile_path": null,
-    "credit_id": "58b948a692514160840098a0",
-    "department": "Visual Effects",
-    "job": "Visual Effects Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1646230,
-    "known_for_department": "Crew",
-    "name": "Harry Lu",
-    "original_name": "Harry Lu",
-    "popularity": 0.996,
-    "profile_path": null,
-    "credit_id": "58b94214c3a3686630008858",
-    "department": "Crew",
-    "job": "Armorer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1671024,
-    "known_for_department": "Crew",
-    "name": "Jessica Williams",
-    "original_name": "Jessica Williams",
-    "popularity": 1.38,
-    "profile_path": "/4cmQLiPkuUes2aVh7c1SvvKpl93.jpg",
-    "credit_id": "5ffe1efa7d5db5003dc7a0c8",
-    "department": "Crew",
-    "job": "Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1729038,
-    "known_for_department": "Lighting",
-    "name": "Jaim O'Neil",
-    "original_name": "Jaim O'Neil",
-    "popularity": 1.751,
-    "profile_path": null,
-    "credit_id": "58b973d2925141607b00ad9f",
-    "department": "Lighting",
-    "job": "Gaffer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1729039,
-    "known_for_department": "Lighting",
-    "name": "Max Patrucco",
-    "original_name": "Max Patrucco",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b9744ac3a368663000a1bd",
-    "department": "Lighting",
-    "job": "Rigging Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1738103,
-    "known_for_department": "Camera",
-    "name": "Jared Slater",
-    "original_name": "Jared Slater",
-    "popularity": 1.417,
-    "profile_path": null,
-    "credit_id": "58b974ed925141607700b08e",
-    "department": "Camera",
-    "job": "Aerial Camera Technician"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1738653,
-    "known_for_department": "Visual Effects",
-    "name": "Molly Pabian",
-    "original_name": "Molly Pabian",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94946c3a36866b700941d",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1757620,
-    "known_for_department": "Production",
-    "name": "Amelia Chen Miley",
-    "original_name": "Amelia Chen Miley",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94172c3a36866af008cda",
-    "department": "Production",
-    "job": "Casting Associate"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1757626,
-    "known_for_department": "Camera",
-    "name": "Joe Cassano",
-    "original_name": "Joe Cassano",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b976b2925141609e00a87a",
-    "department": "Camera",
-    "job": "Dolly Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1759758,
-    "known_for_department": "Camera",
-    "name": "Peter Graf",
-    "original_name": "Peter Graf",
-    "popularity": 1.135,
-    "profile_path": null,
-    "credit_id": "58b97515925141607300ab9a",
-    "department": "Camera",
-    "job": "Aerial Camera Technician"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768939,
-    "known_for_department": "Crew",
-    "name": "Cory Wilde",
-    "original_name": "Cory Wilde",
-    "popularity": 0.823,
-    "profile_path": null,
-    "credit_id": "58b9423ec3a36866860084cf",
-    "department": "Crew",
-    "job": "Armorer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768941,
-    "known_for_department": "Crew",
-    "name": "Sid Yost",
-    "original_name": "Sid Yost",
-    "popularity": 0.84,
-    "profile_path": null,
-    "credit_id": "58b942ccc3a368666b0085c0",
-    "department": "Crew",
-    "job": "Animal Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768942,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Dionne Simoneaux",
-    "original_name": "Dionne Simoneaux",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b9433c9251416077009618",
-    "department": "Costume & Make-Up",
-    "job": "Costume Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768944,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Emma Kate Wood",
-    "original_name": "Emma Kate Wood",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b943bf925141607b009543",
-    "department": "Costume & Make-Up",
-    "job": "Key Costumer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768945,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Jade Brandt",
-    "original_name": "Jade Brandt",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b943d8c3a36866af008e18",
-    "department": "Costume & Make-Up",
-    "job": "Seamstress"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768948,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Meagan Herrera",
-    "original_name": "Meagan Herrera",
-    "popularity": 1.4,
-    "profile_path": null,
-    "credit_id": "58b9469ec3a3686630008ad4",
-    "department": "Costume & Make-Up",
-    "job": "Hair Department Head"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768950,
-    "known_for_department": "Costume & Make-Up",
-    "name": "Alice Moore",
-    "original_name": "Alice Moore",
-    "popularity": 1.96,
-    "profile_path": null,
-    "credit_id": "58b946cf9251416084009776",
-    "department": "Costume & Make-Up",
-    "job": "Hairstylist"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768952,
-    "known_for_department": "Visual Effects",
-    "name": "Tyler Johnson",
-    "original_name": "Tyler Johnson",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b94860925141609e0091d7",
-    "department": "Visual Effects",
-    "job": "Visual Effects Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1768953,
-    "known_for_department": "Visual Effects",
-    "name": "Rob Krauzig",
-    "original_name": "Rob Krauzig",
-    "popularity": 0.98,
-    "profile_path": null,
-    "credit_id": "58b9487cc3a36866af009099",
-    "department": "Visual Effects",
-    "job": "Visual Effects Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768954,
-    "known_for_department": "Visual Effects",
-    "name": "Emmi Nakagawa",
-    "original_name": "Emmi Nakagawa",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b948909251416077009948",
-    "department": "Visual Effects",
-    "job": "Visual Effects Coordinator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768955,
-    "known_for_department": "Visual Effects",
-    "name": "Brian Jochum",
-    "original_name": "Brian Jochum",
-    "popularity": 1.788,
-    "profile_path": null,
-    "credit_id": "58b948e4c3a368668f008219",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768956,
-    "known_for_department": "Visual Effects",
-    "name": "Jacklyn Ramirez",
-    "original_name": "Jacklyn Ramirez",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b948f8c3a368668f008228",
-    "department": "Visual Effects",
-    "job": "Visual Effects Producer"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1768957,
-    "known_for_department": "Art",
-    "name": "Alan Munro",
-    "original_name": "Alan Munro",
-    "popularity": 1.414,
-    "profile_path": null,
-    "credit_id": "58b94977925141608400991e",
-    "department": "Visual Effects",
-    "job": "Visual Effects Supervisor"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769079,
-    "known_for_department": "Sound",
-    "name": "Joel Reidy",
-    "original_name": "Joel Reidy",
-    "popularity": 1.054,
-    "profile_path": null,
-    "credit_id": "58b971e8c3a36866af00a4ea",
-    "department": "Sound",
-    "job": "Boom Operator"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769087,
-    "known_for_department": "Lighting",
-    "name": "Bridget Brown",
-    "original_name": "Bridget Brown",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b97472925141606b00b340",
-    "department": "Lighting",
-    "job": "Rigging Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769089,
-    "known_for_department": "Lighting",
-    "name": "Donald Roth",
-    "original_name": "Donald Roth",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b97482c3a36866b700aa7a",
-    "department": "Lighting",
-    "job": "Rigging Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769091,
-    "known_for_department": "Lighting",
-    "name": "Jim Wayer",
-    "original_name": "Jim Wayer",
-    "popularity": 0.728,
-    "profile_path": null,
-    "credit_id": "58b974a0925141606b00b35b",
-    "department": "Lighting",
-    "job": "Rigging Grip"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1769093,
-    "known_for_department": "Camera",
-    "name": "Chiabella James",
-    "original_name": "Chiabella James",
-    "popularity": 1.708,
-    "profile_path": null,
-    "credit_id": "58b975fac3a368663000a2ad",
-    "department": "Camera",
-    "job": "Still Photographer"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1769095,
-    "known_for_department": "Camera",
-    "name": "Joe Sökmen",
-    "original_name": "Joe Sökmen",
-    "popularity": 1.128,
-    "profile_path": null,
-    "credit_id": "58b97666925141606f00b01d",
-    "department": "Camera",
-    "job": "Dolly Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769096,
-    "known_for_department": "Camera",
-    "name": "Richard T. Hoover",
-    "original_name": "Richard T. Hoover",
-    "popularity": 0.694,
-    "profile_path": null,
-    "credit_id": "58b97682925141607700b16e",
-    "department": "Camera",
-    "job": "Dolly Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769097,
-    "known_for_department": "Camera",
-    "name": "Jeremy Wren",
-    "original_name": "Jeremy Wren",
-    "popularity": 2.353,
-    "profile_path": null,
-    "credit_id": "58b97699c3a368664d00ae63",
-    "department": "Camera",
-    "job": "Dolly Grip"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1769098,
-    "known_for_department": "Camera",
-    "name": "Maxwell Beard",
-    "original_name": "Maxwell Beard",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "58b976c2c3a36866af00a747",
-    "department": "Camera",
-    "job": "Dolly Grip"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1769100,
-    "known_for_department": "Editing",
-    "name": "Christopher Rucinski",
-    "original_name": "Christopher Rucinski",
-    "popularity": 1.744,
-    "profile_path": null,
-    "credit_id": "58b97757925141606f00b08d",
-    "department": "Editing",
-    "job": "First Assistant Editor"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1804880,
-    "known_for_department": "Directing",
-    "name": "Conte Mark Matal",
-    "original_name": "Conte Mark Matal",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea7272dbb070d0023a6f015",
-    "department": "Directing",
-    "job": "Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1815730,
-    "known_for_department": "Directing",
-    "name": "Daniel Hillary",
-    "original_name": "Daniel Hillary",
-    "popularity": 0.988,
-    "profile_path": null,
-    "credit_id": "5ea726e1fdc1460022a2d242",
-    "department": "Directing",
-    "job": "Second Unit Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1836152,
-    "known_for_department": "Directing",
-    "name": "Pablo Gambetta",
-    "original_name": "Pablo Gambetta",
-    "popularity": 1.134,
-    "profile_path": null,
-    "credit_id": "5ea7269eb7fbbd001c383c3a",
-    "department": "Directing",
-    "job": "Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 1860869,
-    "known_for_department": "Directing",
-    "name": "Hirotatsu Taniguchi",
-    "original_name": "Hirotatsu Taniguchi",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea7277eb7fbbd001d384481",
-    "department": "Directing",
-    "job": "Additional Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1966209,
-    "known_for_department": "Crew",
-    "name": "Deven MacNair",
-    "original_name": "Deven MacNair",
-    "popularity": 2.941,
-    "profile_path": "/oTyjAPM9yHEbVM3pyOCjurmXkOi.jpg",
-    "credit_id": "652f10f50cb33516f5cb5da8",
-    "department": "Crew",
-    "job": "Stunt Driver"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2057498,
-    "known_for_department": "Crew",
-    "name": "Kelly Phelan",
-    "original_name": "Kelly Phelan",
-    "popularity": 2.385,
-    "profile_path": "/hAEmElRV33zHpp7Zm98zLiQg1wl.jpg",
-    "credit_id": "5ffe20f4ad59b50040f9c3d8",
-    "department": "Crew",
-    "job": "Stunt Double"
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 2090975,
-    "known_for_department": "Crew",
-    "name": "Daniel Rogers",
-    "original_name": "Daniel Rogers",
-    "popularity": 3.431,
-    "profile_path": null,
-    "credit_id": "5b565f9e9251416dc60262cd",
-    "department": "Crew",
-    "job": "Health and Safety"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2176985,
-    "known_for_department": "Directing",
-    "name": "Zack Earl Edwards",
-    "original_name": "Zack Earl Edwards",
-    "popularity": 0.98,
-    "profile_path": null,
-    "credit_id": "5ea72536b76cbb001ce3c20a",
-    "department": "Directing",
-    "job": "Additional Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2188076,
-    "known_for_department": "Crew",
-    "name": "Lydia Hand",
-    "original_name": "Lydia Hand",
-    "popularity": 1.272,
-    "profile_path": "/fEoRGiJIgBdJ58ILHtFML5kIUNY.jpg",
-    "credit_id": "5ffe217dfea0d7003d8c7adb",
-    "department": "Crew",
-    "job": "Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2224824,
-    "known_for_department": "Crew",
-    "name": "Elizabeth Classen",
-    "original_name": "Elizabeth Classen",
-    "popularity": 0.63,
-    "profile_path": "/ka2HyR2xKrcO3bFba90OSTDgRg1.jpg",
-    "credit_id": "5ffe21d5678259004099c9fd",
-    "department": "Crew",
-    "job": "Stunts"
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2277896,
-    "known_for_department": "Crew",
-    "name": "Lucy Cork",
-    "original_name": "Lucy Cork",
-    "popularity": 1.148,
-    "profile_path": "/litpdpX4LfUyB4OM9q25pUIkPT3.jpg",
-    "credit_id": "5ffe21ebd20c87003f045f18",
-    "department": "Crew",
-    "job": "Stunt Double"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2446389,
-    "known_for_department": "Directing",
-    "name": "Derek Hall",
-    "original_name": "Derek Hall",
-    "popularity": 1.96,
-    "profile_path": null,
-    "credit_id": "5ea726d02d1e40002482adb0",
-    "department": "Directing",
-    "job": "Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2484537,
-    "known_for_department": "Directing",
-    "name": "Ben LeDoux",
-    "original_name": "Ben LeDoux",
-    "popularity": 2.688,
-    "profile_path": null,
-    "credit_id": "5ea7271c514c4a00268aa299",
-    "department": "Directing",
-    "job": "Second Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2488166,
-    "known_for_department": "Directing",
-    "name": "Dixon McPhillips",
-    "original_name": "Dixon McPhillips",
-    "popularity": 2.174,
-    "profile_path": null,
-    "credit_id": "5ea7273fcc9683001cadf58e",
-    "department": "Directing",
-    "job": "Additional Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2615927,
-    "known_for_department": "Directing",
-    "name": "Mikey Eberle",
-    "original_name": "Mikey Eberle",
-    "popularity": 1.176,
-    "profile_path": null,
-    "credit_id": "5ea725202d1e40001f82a4bf",
-    "department": "Directing",
-    "job": "Second Assistant Director"
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 2616802,
-    "known_for_department": "Directing",
-    "name": "Neil Morgan",
-    "original_name": "Neil Morgan",
-    "popularity": 0.6,
-    "profile_path": null,
-    "credit_id": "5ea72754cc9683001cadf5a5",
-    "department": "Directing",
-    "job": "Assistant Director"
-  }
+
 ]
 });
 });
@@ -16607,397 +12138,7 @@ router.get('/movie/:movie_id/release_dates', function(req, res, next) {
   res.json({
 "id": 343611,
 "results": [
-  {
-    "iso_3166_1": "AU",
-    "release_dates": [
-      {
-        "certification": "M",
-        "descriptors": [],
-        "iso_639_1": "en",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "BR",
-    "release_dates": [
-      {
-        "certification": "14",
-        "descriptors": [],
-        "iso_639_1": "pt",
-        "note": "",
-        "release_date": "2016-11-24T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "CA",
-    "release_dates": [
-      {
-        "certification": "PG",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "CH",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "fr",
-        "note": "",
-        "release_date": "2016-10-19T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "CN",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "Shanghai",
-        "release_date": "2016-10-12T00:00:00.000Z",
-        "type": 1
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "DE",
-    "release_dates": [
-      {
-        "certification": "16",
-        "descriptors": [],
-        "iso_639_1": "de",
-        "note": "",
-        "release_date": "2016-11-10T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "DK",
-    "release_dates": [
-      {
-        "certification": "11",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "ES",
-    "release_dates": [
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "es",
-        "note": "",
-        "release_date": "2016-11-11T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "FR",
-    "release_dates": [
-      {
-        "certification": "U",
-        "descriptors": [],
-        "iso_639_1": "fr",
-        "note": "",
-        "release_date": "2016-10-19T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "GB",
-    "release_dates": [
-      {
-        "certification": "12A",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      },
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "en",
-        "note": "DVD",
-        "release_date": "2017-02-27T00:00:00.000Z",
-        "type": 5
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "GR",
-    "release_dates": [
-      {
-        "certification": "Κ-15",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-11-10T00:00:00.000Z",
-        "type": 3
-      },
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "DVD, Blu-ray",
-        "release_date": "2017-02-24T00:00:00.000Z",
-        "type": 5
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "HK",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "IE",
-    "release_dates": [
-      {
-        "certification": "12A",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "IN",
-    "release_dates": [
-      {
-        "certification": "UA",
-        "descriptors": [],
-        "iso_639_1": "en",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "IT",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "KR",
-    "release_dates": [
-      {
-        "certification": "15",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-11-30T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "KZ",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "LT",
-    "release_dates": [
-      {
-        "certification": "N-13",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "NL",
-    "release_dates": [
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      },
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "DVD",
-        "release_date": "2017-03-22T00:00:00.000Z",
-        "type": 5
-      },
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "Veronica",
-        "release_date": "2018-10-31T00:00:00.000Z",
-        "type": 6
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "PL",
-    "release_dates": [
-      {
-        "certification": "od 15 lat",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "PT",
-    "release_dates": [
-      {
-        "certification": "M/12",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "RU",
-    "release_dates": [
-      {
-        "certification": "16+",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 1
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "SE",
-    "release_dates": [
-      {
-        "certification": "15",
-        "descriptors": [],
-        "iso_639_1": "en",
-        "note": "",
-        "release_date": "2016-10-19T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "SK",
-    "release_dates": [
-      {
-        "certification": "12",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "TW",
-    "release_dates": [
-      {
-        "certification": "保護級",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "UA",
-    "release_dates": [
-      {
-        "certification": "",
-        "descriptors": [],
-        "iso_639_1": "uk",
-        "note": "",
-        "release_date": "2016-10-20T00:00:00.000Z",
-        "type": 3
-      }
-    ]
-  },
-  {
-    "iso_3166_1": "US",
-    "release_dates": [
-      {
-        "certification": "PG-13",
-        "descriptors": [],
-        "iso_639_1": "",
-        "note": "",
-        "release_date": "2016-10-21T00:00:00.000Z",
-        "type": 3
-      },
-      {
-        "certification": "PG-13",
-        "descriptors": [],
-        "iso_639_1": "en",
-        "note": "",
-        "release_date": "2017-01-31T00:00:00.000Z",
-        "type": 5
-      }
-    ]
-  }
+
 ]
 });
 });
@@ -17006,452 +12147,10 @@ router.get('/movie/:movie_id/recommendations', function(req, res, next) {
   res.json({
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "backdrop_path": "/6iufs7HJMrmBJgMjSj0J4P27D0K.jpg",
-    "id": 956947,
-    "title": "Good Life",
-    "original_language": "en",
-    "original_title": "Good Life",
-    "overview": "Olive Pappadopoulous, 35, an Oral Hygienist, flees Cape Town for Greece to try outwit a broken heart, but is faced with the local villagers hostility and is befriended by a 7-year-old refugee who teaches her how to live “The Good Life.”",
-    "poster_path": "/p4q9wQeGtJKz50TUj6r1laLROOm.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      18,
-      35
-    ],
-    "popularity": 2.755,
-    "release_date": "2021-09-09",
-    "video": false,
-    "vote_average": 7,
-    "vote_count": 3
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/mvUAo9ACgmLpS4Ofc2IwD4n7WCt.jpg",
-    "id": 17431,
-    "title": "Moon",
-    "original_language": "en",
-    "original_title": "Moon",
-    "overview": "With only three weeks left in his three year contract, Sam Bell is getting anxious to finally return to Earth. He is the only occupant of a Moon-based manufacturing facility along with his computer and assistant, GERTY. When he has an accident however, he wakens to find that he is not alone.",
-    "poster_path": "/35IU0Mq0zFsN1mYwDGts5mKc77n.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      18
-    ],
-    "popularity": 21.64,
-    "release_date": "2009-06-12",
-    "video": false,
-    "vote_average": 7.57,
-    "vote_count": 5282
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/bmAzESah8IUNRQX5MqeyUrhE5Pr.jpg",
-    "id": 2666,
-    "title": "Dark City",
-    "original_language": "en",
-    "original_title": "Dark City",
-    "overview": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
-    "poster_path": "/6gDMQwnWPQfk0IqnkZHkrNSPQY4.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      9648,
-      878
-    ],
-    "popularity": 29.794,
-    "release_date": "1998-02-27",
-    "video": false,
-    "vote_average": 7.329,
-    "vote_count": 2556
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/tCkcvg7iSAAyNGJZlei3MDMfaz1.jpg",
-    "id": 686,
-    "title": "Contact",
-    "original_language": "en",
-    "original_title": "Contact",
-    "overview": "A radio astronomer receives the first extraterrestrial radio signal ever picked up on Earth. As the world powers scramble to decipher the message and decide upon a course of action, she must make some difficult decisions between her beliefs, the truth, and reality.",
-    "poster_path": "/bCpMIywuNZeWt3i5UMLEIc0VSwM.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      18,
-      878,
-      9648
-    ],
-    "popularity": 40.762,
-    "release_date": "1997-07-11",
-    "video": false,
-    "vote_average": 7.42,
-    "vote_count": 4082
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/hPsCR1ny6GnctJkWqeJwihTDD7T.jpg",
-    "id": 782,
-    "title": "Gattaca",
-    "original_language": "en",
-    "original_title": "Gattaca",
-    "overview": "In a future society in the era of indefinite eugenics, humans are set on a life course depending on their DNA. Young Vincent Freeman is born with a condition that would prevent him from space travel, yet is determined to infiltrate the GATTACA space program.",
-    "poster_path": "/eSKr5Fl1MEC7zpAXaLWBWSBjgJq.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      53,
-      878,
-      9648,
-      10749
-    ],
-    "popularity": 35.232,
-    "release_date": "1997-09-07",
-    "video": false,
-    "vote_average": 7.552,
-    "vote_count": 5838
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/veUl0QT8swshQ9Dz0fQ1k6ZkthD.jpg",
-    "id": 170,
-    "title": "28 Days Later",
-    "original_language": "en",
-    "original_title": "28 Days Later",
-    "overview": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
-    "poster_path": "/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      27,
-      53,
-      878
-    ],
-    "popularity": 33.391,
-    "release_date": "2002-10-31",
-    "video": false,
-    "vote_average": 7.205,
-    "vote_count": 6173
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/csGprKcRxt7SDpsrKiwxpgLdEsx.jpg",
-    "id": 16320,
-    "title": "Serenity",
-    "original_language": "en",
-    "original_title": "Serenity",
-    "overview": "When the renegade crew of Serenity agrees to hide a fugitive on their ship, they find themselves in an action-packed battle between the relentless military might of a totalitarian regime who will destroy anything – or anyone – to get the girl back and the bloodthirsty creatures who roam the uncharted areas of space. But... the greatest danger of all may be on their ship.",
-    "poster_path": "/ckDo5vnRKehJ2qu8U95c7QcvGUm.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      28,
-      12,
-      53
-    ],
-    "popularity": 28.356,
-    "release_date": "2005-09-25",
-    "video": false,
-    "vote_average": 7.37,
-    "vote_count": 3236
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/2M5V8VcK02o4R5cxe7Ew1ltaxKr.jpg",
-    "id": 19898,
-    "title": "Pandorum",
-    "original_language": "en",
-    "original_title": "Pandorum",
-    "overview": "Two crew members wake up on an abandoned spacecraft with no idea who they are, how long they've been asleep, or what their mission is. The two soon discover they're actually not alone – and the reality of their situation is more horrifying than they could have imagined.",
-    "poster_path": "/tgnKTUsKJ6kM0oqiLmPNePgQ8Sw.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      28,
-      27,
-      9648,
-      878,
-      53
-    ],
-    "popularity": 21.607,
-    "release_date": "2009-09-08",
-    "video": false,
-    "vote_average": 6.553,
-    "vote_count": 2178
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/huZZBPyYUnMPCnrAFyJhnwYsQx9.jpg",
-    "id": 7299,
-    "title": "Equilibrium",
-    "original_language": "en",
-    "original_title": "Equilibrium",
-    "overview": "In a dystopian future, a totalitarian regime maintains peace by subduing the populace with a drug, and displays of emotion are punishable by death. A man in charge of enforcing the law rises to overthrow the system.",
-    "poster_path": "/eW3YrxOh3rd6PnRgMSftYoflvfe.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      28,
-      878,
-      53
-    ],
-    "popularity": 31.904,
-    "release_date": "2002-12-06",
-    "video": false,
-    "vote_average": 7.033,
-    "vote_count": 4193
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/j0BB9DoqobGvRqKVeAveP70hWi2.jpg",
-    "id": 563,
-    "title": "Starship Troopers",
-    "original_language": "en",
-    "original_title": "Starship Troopers",
-    "overview": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs\".",
-    "poster_path": "/cxCmv23O7p3hyHwqoktHYkZcGsY.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      12,
-      28,
-      53,
-      878
-    ],
-    "popularity": 34.881,
-    "release_date": "1997-11-07",
-    "video": false,
-    "vote_average": 7.04,
-    "vote_count": 4452
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/dGQudfWpmNbt5SOlQb8uubux3ZT.jpg",
-    "id": 8413,
-    "title": "Event Horizon",
-    "original_language": "en",
-    "original_title": "Event Horizon",
-    "overview": "In 2047, a group of astronauts are sent to investigate and salvage the starship Event Horizon which disappeared mysteriously 7 years before on its maiden voyage. However, it soon becomes evident that something sinister resides in its corridors, and that the horrors that befell the Event Horizon's previous journey are still present.",
-    "poster_path": "/6b5Kux470PpQkgBdRqE9WtUpYfE.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      27,
-      878,
-      9648
-    ],
-    "popularity": 31.468,
-    "release_date": "1997-08-15",
-    "video": false,
-    "vote_average": 6.536,
-    "vote_count": 2557
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/7cW7zHpDdl9fgaRXI5qAglV247P.jpg",
-    "id": 9693,
-    "title": "Children of Men",
-    "original_language": "en",
-    "original_title": "Children of Men",
-    "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
-    "poster_path": "/k9IAS4TehZFcKi4HVByxZNPfqex.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      18,
-      28,
-      53,
-      878
-    ],
-    "popularity": 39.345,
-    "release_date": "2006-09-22",
-    "video": false,
-    "vote_average": 7.606,
-    "vote_count": 6571
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/jhM3wgWUrrOkz9r4xwV5cV5RhI4.jpg",
-    "id": 17654,
-    "title": "District 9",
-    "original_language": "en",
-    "original_title": "District 9",
-    "overview": "Thirty years ago, aliens arrive on Earth. Not to conquer or give aid, but to find refuge from their dying planet. Separated from humans in a South African area called District 9, the aliens are managed by Multi-National United, which is unconcerned with the aliens' welfare but will do anything to master their advanced technology. When a company field agent contracts a mysterious virus that begins to alter his DNA, there is only one place he can hide: District 9.",
-    "poster_path": "/tuGlQkqLxnodDSk6mp5c2wvxUEd.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878
-    ],
-    "popularity": 39.844,
-    "release_date": "2009-08-05",
-    "video": false,
-    "vote_average": 7.426,
-    "vote_count": 8817
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/aPB3jFuMSoNFk2uDZ5tX5CIGaSX.jpg",
-    "id": 2756,
-    "title": "The Abyss",
-    "original_language": "en",
-    "original_title": "The Abyss",
-    "overview": "A civilian oil rig crew is recruited to conduct a search and rescue effort when a nuclear submarine mysteriously sinks. One diver soon finds himself on a spectacular odyssey 25,000 feet below the ocean's surface where he confronts a mysterious force that has the power to change the world or destroy it.",
-    "poster_path": "/nCOdcQ4HrVBug0MsqvfVuMCijmx.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      12,
-      28,
-      53,
-      878
-    ],
-    "popularity": 33.642,
-    "release_date": "1989-08-09",
-    "video": false,
-    "vote_average": 7.346,
-    "vote_count": 2635
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/hO97RyNjBIMfzfFpUjNhsm4zImh.jpg",
-    "id": 70981,
-    "title": "Prometheus",
-    "original_language": "en",
-    "original_title": "Prometheus",
-    "overview": "A team of explorers discover a clue to the origins of mankind on Earth, leading them on a journey to the darkest corners of the universe. There, they must fight a terrifying battle to save the future of the human race.",
-    "poster_path": "/m7nZCtHJyDLncBUarfM5h5mrppx.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      12,
-      9648
-    ],
-    "popularity": 63.794,
-    "release_date": "2012-05-30",
-    "video": false,
-    "vote_average": 6.538,
-    "vote_count": 11361
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/n7p6UTAZtkeoHkwCO42BEQaMFJY.jpg",
-    "id": 644,
-    "title": "A.I. Artificial Intelligence",
-    "original_language": "en",
-    "original_title": "A.I. Artificial Intelligence",
-    "overview": "David, a robotic boy—the first of his kind programmed to love—is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
-    "poster_path": "/8MZSGX5JORoO72EfuAEcejH5yHn.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      18,
-      878,
-      12
-    ],
-    "popularity": 35.071,
-    "release_date": "2001-06-29",
-    "video": false,
-    "vote_average": 7.041,
-    "vote_count": 5754
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/u9ZLyLvqHY5VDjn0Rs4LKAklsAV.jpg",
-    "id": 840,
-    "title": "Close Encounters of the Third Kind",
-    "original_language": "en",
-    "original_title": "Close Encounters of the Third Kind",
-    "overview": "After an encounter with UFOs, an electricity linesman feels undeniably drawn to an isolated area in the wilderness where something spectacular is about to happen.",
-    "poster_path": "/4zfedS25uMAhgm6YQhc9bhKHbLl.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      18
-    ],
-    "popularity": 24.341,
-    "release_date": "1977-12-14",
-    "video": false,
-    "vote_average": 7.358,
-    "vote_count": 3875
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/9RNJ0pKYA8EQiMa0lFZ68gzeElH.jpg",
-    "id": 1381,
-    "title": "The Fountain",
-    "original_language": "en",
-    "original_title": "The Fountain",
-    "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.",
-    "poster_path": "/kwh3mq2HNvf4AHAZSNyJsdVx0uJ.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      18,
-      12,
-      878,
-      10749
-    ],
-    "popularity": 19.204,
-    "release_date": "2006-11-22",
-    "video": false,
-    "vote_average": 6.953,
-    "vote_count": 2561
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/yxlGeAK6BrbKng8VSJSKTpSXSsL.jpg",
-    "id": 14337,
-    "title": "Primer",
-    "original_language": "en",
-    "original_title": "Primer",
-    "overview": "Friends and fledgling entrepreneurs invent a device in their garage which reduces the apparent mass of any object placed inside it, but they discover that it has some highly unexpected capabilities - ones that could enable them to do and to have seemingly anything they want. Taking advantage of this unique opportunity is the first challenge they face. Dealing with the consequences is the next.",
-    "poster_path": "/xEoq2WmDzpzxhkHEsmOYOg6BPg6.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      18,
-      53
-    ],
-    "popularity": 20.927,
-    "release_date": "2004-10-08",
-    "video": false,
-    "vote_average": 6.786,
-    "vote_count": 1986
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/PN7yjmQdmG0J62jsrtmrPi8ezK.jpg",
-    "id": 1562,
-    "title": "28 Weeks Later",
-    "original_language": "en",
-    "original_title": "28 Weeks Later",
-    "overview": "The inhabitants of the British Isles have lost their battle against the onslaught of disease, as the deadly rage virus has killed every citizen there. Six months later, a group of Americans dare to set foot on the isles, convinced the danger has come and gone. But it soon becomes all too clear that the scourge continues to live, waiting to pounce on its next victims.",
-    "poster_path": "/ja8nzgtzhJq0vtX3BJcnbceIxCF.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      27,
-      53,
-      878
-    ],
-    "popularity": 27.845,
-    "release_date": "2007-04-26",
-    "video": false,
-    "vote_average": 6.584,
-    "vote_count": 3936
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/cCjzu6OZIUDWowadzexCHNBTmjH.jpg",
-    "id": 19959,
-    "title": "Surrogates",
-    "original_language": "en",
-    "original_title": "Surrogates",
-    "overview": "Set in a futuristic world where humans live in isolation and interact through surrogate robots, a cop is forced to leave his home for the first time in years in order to investigate the murders of others' surrogates.",
-    "poster_path": "/3SDUkTsYPDZZQotR2ggxjIH0zsW.jpg",
-    "media_type": "movie",
-    "genre_ids": [
-      878,
-      28,
-      53
-    ],
-    "popularity": 27.838,
-    "release_date": "2009-09-24",
-    "video": false,
-    "vote_average": 6.099,
-    "vote_count": 2940
-  }
+
 ],
-"total_pages": 2,
-"total_results": 40
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -17459,1450 +12158,10 @@ router.get('/person/popular', function(req, res, next) {
   res.json({
 "page": 1,
 "results": [
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 3194176,
-    "known_for_department": "Acting",
-    "name": "Angeli Khang",
-    "original_name": "Angeli Khang",
-    "popularity": 216.121,
-    "profile_path": "/7vrTWF8PxQogF6o9ORZprYQoDOr.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/27bkw4o1zhjQAM4WIFQPohiph1X.jpg",
-        "id": 931599,
-        "title": "Silip Sa Apoy",
-        "original_language": "tl",
-        "original_title": "Silip Sa Apoy",
-        "overview": "Take a peek at the life of an unhappy housewife who finds passionate love from her neighbor and how their affair brings them closer to fire.",
-        "poster_path": "/9grG4PVppBWqKs2hrKMEr6j3RWS.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          53
-        ],
-        "popularity": 21.596,
-        "release_date": "2022-01-28",
-        "video": false,
-        "vote_average": 6,
-        "vote_count": 27
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ru5zAV1Ij6bQGedBkczqhiBmjzn.jpg",
-        "id": 1029446,
-        "title": "Selina's Gold",
-        "original_language": "tl",
-        "original_title": "Selina's Gold",
-        "overview": "Selina's father sells her to Tiago who makes her a sex slave. With the help of Domeng, Tiago's blind slave, she plans their way out of this living hell.",
-        "poster_path": "/4a0X2GKDmhhp1U2FUKtKY6uNQHL.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 15.976,
-        "release_date": "2022-10-28",
-        "video": false,
-        "vote_average": 7.1,
-        "vote_count": 25
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ougkufYSiruP8jrEHQanXN7DxRv.jpg",
-        "id": 893694,
-        "title": "Eva",
-        "original_language": "tl",
-        "original_title": "Eva",
-        "overview": "When Eva gets involved in a steamy threesome with a houseboy and her lady boss, she realizes she has to choose only one between them.",
-        "poster_path": "/bXZ3j3kQgCRZj7KD4Q5F9m5ABaQ.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          10749
-        ],
-        "popularity": 32.231,
-        "release_date": "2021-12-24",
-        "video": false,
-        "vote_average": 5.7,
-        "vote_count": 10
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 0,
-    "id": 3234630,
-    "known_for_department": "Acting",
-    "name": "Sangeeth Shobhan",
-    "original_name": "Sangeeth Shobhan",
-    "popularity": 173.275,
-    "profile_path": "/7Vox31bH7XmgPNJzMKGa4uGyjW8.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/jBnnkkXRZ0pV3Tw31Z2ALO638wA.jpg",
-        "id": 1187075,
-        "title": "MAD",
-        "original_language": "te",
-        "original_title": "MAD",
-        "overview": "Set in an engineering college and revolves around the antics of the students there, primarily the boys, who get a kick out of torturing the hostel warden.",
-        "poster_path": "/nDpOmgBfQZwOpFBcgokQGqd74r1.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35,
-          10749,
-          18
-        ],
-        "popularity": 7.088,
-        "release_date": "2023-10-06",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 4
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/1jof3bGVg67HLmvRHfTzqb2IODO.jpg",
-        "id": 138179,
-        "name": "Oka Chinna Family Story",
-        "original_language": "te",
-        "original_name": "ఒక చిన్న Family Story",
-        "overview": "Mahesh and his mother embark on an adventurous journey filled with hilarious situations as they try to make quick money to repay a huge loan.",
-        "poster_path": "/u1Tq2Qqb1oUJ6WSzVJqWk03LzEl.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          35,
-          10751
-        ],
-        "popularity": 10.204,
-        "first_air_date": "2021-11-19",
-        "vote_average": 7.5,
-        "vote_count": 2,
-        "origin_country": [
-          "IN"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/d7jfcyPb5ZncLyhPFNjpuIeeZ1y.jpg",
-        "id": 1119091,
-        "title": "Prema Vimanam",
-        "original_language": "te",
-        "original_title": "ప్రేమ విమానం",
-        "overview": "Two kids with a dream to board a flight cross paths with a young couple who must urgently catch the flight to start a new life.",
-        "poster_path": "/9eljOANAd6HafUDdmp3xnmkpnt8.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          35
-        ],
-        "popularity": 4.019,
-        "release_date": "2023-10-13",
-        "video": false,
-        "vote_average": 7,
-        "vote_count": 1
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 974169,
-    "known_for_department": "Acting",
-    "name": "Jenna Ortega",
-    "original_name": "Jenna Ortega",
-    "popularity": 160.716,
-    "profile_path": "/q1NRzyZQlYkxLY07GO9NVPkQnu8.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
-        "id": 119051,
-        "name": "Wednesday",
-        "original_language": "en",
-        "original_name": "Wednesday",
-        "overview": "Wednesday Addams is sent to Nevermore Academy, a bizarre boarding school where she attempts to master her psychic powers, stop a monstrous killing spree of the town citizens, and solve the supernatural mystery that affected her family 25 years ago — all while navigating her new relationships.",
-        "poster_path": "/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          10765,
-          9648,
-          35
-        ],
-        "popularity": 504.76,
-        "first_air_date": "2022-11-23",
-        "vote_average": 8.533,
-        "vote_count": 7670,
-        "origin_country": [
-          "US"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ifUfE79O1raUwbaQRIB7XnFz5ZC.jpg",
-        "id": 646385,
-        "title": "Scream",
-        "original_language": "en",
-        "original_title": "Scream",
-        "overview": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-        "poster_path": "/971Kqs1q4nuSc9arn1QAuKYbfxy.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          27,
-          9648,
-          53
-        ],
-        "popularity": 85.615,
-        "release_date": "2022-01-12",
-        "video": false,
-        "vote_average": 6.699,
-        "vote_count": 2868
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/70Rm9ItxKuEKN8iu6rNjfwAYUCJ.jpg",
-        "id": 760104,
-        "title": "X",
-        "original_language": "en",
-        "original_title": "X",
-        "overview": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
-        "poster_path": "/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          27,
-          53,
-          9648
-        ],
-        "popularity": 115.685,
-        "release_date": "2022-03-17",
-        "video": false,
-        "vote_average": 6.8,
-        "vote_count": 2383
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 976,
-    "known_for_department": "Acting",
-    "name": "Jason Statham",
-    "original_name": "Jason Statham",
-    "popularity": 148.571,
-    "profile_path": "/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/ysKahAEPP8h6MInuLjr0xuZOTjh.jpg",
-        "id": 107,
-        "title": "Snatch",
-        "original_language": "en",
-        "original_title": "Snatch",
-        "overview": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
-        "poster_path": "/56mOJth6DJ6JhgoE2jtpilVqJO.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          80,
-          35
-        ],
-        "popularity": 37.936,
-        "release_date": "2000-09-01",
-        "video": false,
-        "vote_average": 7.805,
-        "vote_count": 8397
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/6bAjogOzrB9xbmIaY3BRpZZgn5Q.jpg",
-        "id": 345940,
-        "title": "The Meg",
-        "original_language": "en",
-        "original_title": "The Meg",
-        "overview": "A deep sea submersible pilot revisits his past fears in the Mariana Trench, and accidentally unleashes the seventy foot ancestor of the Great White Shark believed to be extinct.",
-        "poster_path": "/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          878,
-          27
-        ],
-        "popularity": 95.027,
-        "release_date": "2018-08-09",
-        "video": false,
-        "vote_average": 6.254,
-        "vote_count": 7138
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kWt1OcPgwO1ssu57wgTKmq38JYw.jpg",
-        "id": 4108,
-        "title": "The Transporter",
-        "original_language": "en",
-        "original_title": "The Transporter",
-        "overview": "Former Special Forces officer, Frank Martin will deliver anything to anyone for the right price, and his no-questions-asked policy puts him in high demand. But when he realizes his latest cargo is alive, it sets in motion a dangerous chain of events. The bound and gagged Lai is being smuggled to France by a shady American businessman, and Frank works to save her as his own illegal activities are uncovered by a French detective.",
-        "poster_path": "/v3QIFUWgtVN4wejVuDZowuyJ20W.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          80,
-          53
-        ],
-        "popularity": 33.97,
-        "release_date": "2002-10-02",
-        "video": false,
-        "vote_average": 6.696,
-        "vote_count": 4958
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2359226,
-    "known_for_department": "Acting",
-    "name": "Aya Asahina",
-    "original_name": "Aya Asahina",
-    "popularity": 145.426,
-    "profile_path": "/zF3la0KvayUV3uACYPiBgCRIQcI.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/bKxiLRPVWe2nZXCzt6JPr5HNWYm.jpg",
-        "id": 110316,
-        "name": "Alice in Borderland",
-        "original_language": "ja",
-        "original_name": "今際の国のアリス",
-        "overview": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
-        "poster_path": "/20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          18,
-          9648,
-          10759
-        ],
-        "popularity": 446.627,
-        "first_air_date": "2020-12-10",
-        "vote_average": 8.184,
-        "vote_count": 1700,
-        "origin_country": [
-          "JP"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/d8BfGEG89KIinlIYKYVinihaysx.jpg",
-        "id": 677602,
-        "title": "Grand Blue",
-        "original_language": "ja",
-        "original_title": "ぐらんぶる",
-        "overview": "Iori’s only dream is to go to college on a remote island—but when he gets roped into the school’s debaucherous, alcohol-indulgent diving club his hope for a sparkling campus life is thrown into chaos.",
-        "poster_path": "/iZGnDnstcdorT0zJRpWzSQlMNz6.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35
-        ],
-        "popularity": 9.416,
-        "release_date": "2020-08-07",
-        "video": false,
-        "vote_average": 6,
-        "vote_count": 12
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/iNpbnWI2vQWGdPC9Pbt1RnV71R5.jpg",
-        "id": 91414,
-        "name": "Runway 24",
-        "original_language": "ja",
-        "original_name": "ランウェイ 24",
-        "overview": "Inoue Momoko admires her late father, who was a pilot. She begins work as a co-pilot at a low-cost airline. Under Captain Shinkai Kohei’s instructions, who knew her father, Inoue Momoko works hard to become a captain and her boyfriend Umino Daisuke supports her dream too.\n\nOne day, Inoue Momoko has a problem with a passenger complaining about the limit for carry-on baggage. At that time, Katsuki Tetsuya looks at the situation.",
-        "poster_path": "/2j2p3MF2GpSMHAFaYTgIRQeVOHa.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          10751,
-          18
-        ],
-        "popularity": 8.935,
-        "first_air_date": "2019-07-06",
-        "vote_average": 6.7,
-        "vote_count": 3,
-        "origin_country": [
-          "JP"
-        ]
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1524100,
-    "known_for_department": "Acting",
-    "name": "Tom Blyth",
-    "original_name": "Tom Blyth",
-    "popularity": 145.193,
-    "profile_path": "/f79K22TIISJz4WILONN7gOCfETs.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
-        "id": 695721,
-        "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-        "original_language": "en",
-        "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-        "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
-        "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          12,
-          878
-        ],
-        "popularity": 734.432,
-        "release_date": "2023-11-15",
-        "video": false,
-        "vote_average": 7.375,
-        "vote_count": 177
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/wk00DBQ4hmAInKSDw4s7eX3jCAj.jpg",
-        "id": 138971,
-        "name": "Billy the Kid",
-        "original_language": "en",
-        "original_name": "Billy the Kid",
-        "overview": "An epic romantic adventure series based on the life of famous American outlaw Billy the Kid — from his humble Irish roots, to his early days as a cowboy and gunslinger in the American frontier, to his pivotal role in the Lincoln County War and beyond.",
-        "poster_path": "/3JyuHbdVIhBoArxEtifLrzodUEM.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          37,
-          18
-        ],
-        "popularity": 201.443,
-        "first_air_date": "2022-04-24",
-        "vote_average": 7.4,
-        "vote_count": 81,
-        "origin_country": [
-          "US"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/h7AKqgIh86HDgJIzENeR2ng1Knn.jpg",
-        "id": 20662,
-        "title": "Robin Hood",
-        "original_language": "en",
-        "original_title": "Robin Hood",
-        "overview": "When soldier Robin happens upon the dying Robert of Loxley, he promises to return the man's sword to his family in Nottingham. There, he assumes Robert's identity; romances his widow, Marion; and draws the ire of the town's sheriff and King John's henchman, Godfrey.",
-        "poster_path": "/9NS5QGOfck24yL3bZqWeW06PgPC.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          12,
-          18
-        ],
-        "popularity": 28.453,
-        "release_date": "2010-05-12",
-        "video": false,
-        "vote_average": 6.388,
-        "vote_count": 4300
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 4068148,
-    "known_for_department": "Acting",
-    "name": "Madeleine Yuna Voyles",
-    "original_name": "Madeleine Yuna Voyles",
-    "popularity": 137.633,
-    "profile_path": "/mLKvNuCJSgyK0WdLd4ogO81sOO1.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-        "id": 670292,
-        "title": "The Creator",
-        "original_language": "en",
-        "original_title": "The Creator",
-        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
-        "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          878,
-          28,
-          53
-        ],
-        "popularity": 1595.817,
-        "release_date": "2023-09-27",
-        "video": false,
-        "vote_average": 7.213,
-        "vote_count": 834
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 2283930,
-    "known_for_department": "Acting",
-    "name": "Piper Rubio",
-    "original_name": "Piper Rubio",
-    "popularity": 137.035,
-    "profile_path": "/x8tDKAgxMKwaNJSd9RB75EIJnOD.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-        "id": 507089,
-        "title": "Five Nights at Freddy's",
-        "original_language": "en",
-        "original_title": "Five Nights at Freddy's",
-        "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-        "poster_path": "/A4j8S6moJS2zNtRR8oWF08gRnL5.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          27,
-          9648
-        ],
-        "popularity": 1617.893,
-        "release_date": "2023-10-25",
-        "video": false,
-        "vote_average": 7.946,
-        "vote_count": 2320
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/itLnzp64tAr6beI5LDo3mdkExZA.jpg",
-        "id": 737793,
-        "title": "Holly & Ivy",
-        "original_language": "en",
-        "original_title": "Holly & Ivy",
-        "overview": "When Melody’s neighbor, Nina, learns that her illness has returned, Melody promises to keep Nina’s kids, Holly & Ivy, together. To adopt the children, she must renovate her new fixer-upper, which she does with the help of contractor, Adam.",
-        "poster_path": "/9BTjwJbLrFfgsJyEmq5zLTQEPCA.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          10749,
-          10770
-        ],
-        "popularity": 6.47,
-        "release_date": "2020-11-01",
-        "video": false,
-        "vote_average": 7.273,
-        "vote_count": 22
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ea88TCklx7FNBxbtWdH9ioMohaM.jpg",
-        "id": 87917,
-        "name": "For All Mankind",
-        "original_language": "en",
-        "original_name": "For All Mankind",
-        "overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families.",
-        "poster_path": "/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          18,
-          10765,
-          10768
-        ],
-        "popularity": 261.013,
-        "first_air_date": "2019-11-01",
-        "vote_average": 7.731,
-        "vote_count": 535,
-        "origin_country": [
-          "US"
-        ]
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 27972,
-    "known_for_department": "Acting",
-    "name": "Josh Hutcherson",
-    "original_name": "Josh Hutcherson",
-    "popularity": 131.972,
-    "profile_path": "/npowygg8rH7uJ4v7rAoDMsHBhNq.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/yDbyVT8tTOgXUrUXNkHEUqbxb1K.jpg",
-        "id": 70160,
-        "title": "The Hunger Games",
-        "original_language": "en",
-        "original_title": "The Hunger Games",
-        "overview": "Every year in the ruins of what was once North America, the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games.  Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains.  Pitted against highly-trained Tributes who have prepared for these Games their entire lives, Katniss is forced to rely upon her sharp instincts as well as the mentorship of drunken former victor Haymitch Abernathy.  If she’s ever to return home to District 12, Katniss must make impossible choices in the arena that weigh survival against humanity and life against love. The world will be watching.",
-        "poster_path": "/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          878,
-          12,
-          14
-        ],
-        "popularity": 125.641,
-        "release_date": "2012-03-12",
-        "video": false,
-        "vote_average": 7.196,
-        "vote_count": 20797
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/dIi0De3LzEVSQHEUlh0Q2zUpmeW.jpg",
-        "id": 101299,
-        "title": "The Hunger Games: Catching Fire",
-        "original_language": "en",
-        "original_title": "The Hunger Games: Catching Fire",
-        "overview": "Katniss Everdeen has returned home safe after winning the 74th Annual Hunger Games along with fellow tribute Peeta Mellark. Winning means that they must turn around and leave their family and close friends, embarking on a \"Victor's Tour\" of the districts. Along the way Katniss senses that a rebellion is simmering, but the Capitol is still very much in control as President Snow prepares the 75th Annual Hunger Games (The Quarter Quell) - a competition that could change Panem forever.",
-        "poster_path": "/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          12,
-          28,
-          878
-        ],
-        "popularity": 175.539,
-        "release_date": "2013-11-15",
-        "video": false,
-        "vote_average": 7.421,
-        "vote_count": 16320
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/tFlSDoWQsAZ2qjICKzfP5Yw6zM5.jpg",
-        "id": 131631,
-        "title": "The Hunger Games: Mockingjay - Part 1",
-        "original_language": "en",
-        "original_title": "The Hunger Games: Mockingjay - Part 1",
-        "overview": "Katniss Everdeen reluctantly becomes the symbol of a mass rebellion against the autocratic Capitol.",
-        "poster_path": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          878,
-          12,
-          53
-        ],
-        "popularity": 269.303,
-        "release_date": "2014-11-19",
-        "video": false,
-        "vote_average": 6.8,
-        "vote_count": 14851
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 18897,
-    "known_for_department": "Acting",
-    "name": "Jackie Chan",
-    "original_name": "Jackie Chan",
-    "popularity": 126.516,
-    "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/r4yFYBEcV247B9VXi1307fIhVqN.jpg",
-        "id": 2109,
-        "title": "Rush Hour",
-        "original_language": "en",
-        "original_title": "Rush Hour",
-        "overview": "When Hong Kong Inspector Lee is summoned to Los Angeles to investigate a kidnapping, the FBI doesn't want any outside help and assigns cocky LAPD Detective James Carter to distract Lee from the case. Not content to watch the action from the sidelines, Lee and Carter form an unlikely partnership and investigate the case themselves.",
-        "poster_path": "/we7wOLVFgxhzLzUt0qNe50xdIQZ.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          35,
-          80
-        ],
-        "popularity": 47.164,
-        "release_date": "1998-09-18",
-        "video": false,
-        "vote_average": 7.02,
-        "vote_count": 4441
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/zzFTSEAZcLGSbGipQVflSNUqpij.jpg",
-        "id": 5175,
-        "title": "Rush Hour 2",
-        "original_language": "en",
-        "original_title": "Rush Hour 2",
-        "overview": "It's vacation time for Carter as he finds himself alongside Lee in Hong Kong wishing for more excitement. While Carter wants to party and meet the ladies, Lee is out to track down a Triad gang lord who may be responsible for killing two men at the American Embassy. Things get complicated as the pair stumble onto a counterfeiting plot. The boys are soon up to their necks in fist fights and life-threatening situations. A trip back to the U.S. may provide the answers about the bombing, the counterfeiting, and the true allegiance of sexy customs agent Isabella.",
-        "poster_path": "/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          35,
-          80
-        ],
-        "popularity": 48.557,
-        "release_date": "2001-08-03",
-        "video": false,
-        "vote_average": 6.718,
-        "vote_count": 3732
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ozsLB1HRCN6ZAmJN89pWtoiAwnb.jpg",
-        "id": 5174,
-        "title": "Rush Hour 3",
-        "original_language": "en",
-        "original_title": "Rush Hour 3",
-        "overview": "After a botched assassination attempt, the mismatched duo finds themselves in Paris, struggling to retrieve a precious list of names, as the murderous crime syndicate's henchmen try their best to stop them. Once more, Lee and Carter must fight their way through dangerous gangsters; however, this time, the past has come back to haunt Lee. Will the boys get the job done once and for all?",
-        "poster_path": "/iXsbAIZezI0gh0dnOnBbeFuG3AO.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          35,
-          80
-        ],
-        "popularity": 45.886,
-        "release_date": "2007-08-08",
-        "video": false,
-        "vote_average": 6.436,
-        "vote_count": 2951
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 6161,
-    "known_for_department": "Acting",
-    "name": "Jennifer Connelly",
-    "original_name": "Jennifer Connelly",
-    "popularity": 112.96,
-    "profile_path": "/p17ymzw1sb9eo2SOp88jnwyryan.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/zbpZOYrRCxEF8lFT5JC8XodEggC.jpg",
-        "id": 453,
-        "title": "A Beautiful Mind",
-        "original_language": "en",
-        "original_title": "A Beautiful Mind",
-        "overview": "John Nash is a brilliant but asocial mathematician fighting schizophrenia. After he accepts secret work in cryptography, his life takes a turn for the nightmarish.",
-        "poster_path": "/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          10749
-        ],
-        "popularity": 98.278,
-        "release_date": "2001-12-14",
-        "video": false,
-        "vote_average": 7.854,
-        "vote_count": 9555
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/s5R6kTMfOxkGit96A8lqcDL4uVk.jpg",
-        "id": 641,
-        "title": "Requiem for a Dream",
-        "original_language": "en",
-        "original_title": "Requiem for a Dream",
-        "overview": "The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.",
-        "poster_path": "/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          80,
-          18
-        ],
-        "popularity": 15.577,
-        "release_date": "2000-10-06",
-        "video": false,
-        "vote_average": 8.026,
-        "vote_count": 9270
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/5z75Q6nqgwgYfpMB9fVHQcw9gMz.jpg",
-        "id": 86834,
-        "title": "Noah",
-        "original_language": "en",
-        "original_title": "Noah",
-        "overview": "A man who suffers visions of an apocalyptic deluge takes measures to protect his family from the coming flood.",
-        "poster_path": "/trtD17IqSWV9Nbn4OILztc9GuCX.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          12
-        ],
-        "popularity": 34.183,
-        "release_date": "2014-03-07",
-        "video": false,
-        "vote_average": 5.658,
-        "vote_count": 5889
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 192,
-    "known_for_department": "Acting",
-    "name": "Morgan Freeman",
-    "original_name": "Morgan Freeman",
-    "popularity": 110.82,
-    "profile_path": "/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/dYjZ27hDw2QFaEIfzbNGwW0IkV9.jpg",
-        "id": 807,
-        "title": "Se7en",
-        "original_language": "en",
-        "original_title": "Se7en",
-        "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
-        "poster_path": "/6yoghtyTpznpBik8EngEmJskVUO.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          80,
-          9648,
-          53
-        ],
-        "popularity": 66.349,
-        "release_date": "1995-09-22",
-        "video": false,
-        "vote_average": 8.37,
-        "vote_count": 19629
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
-        "id": 278,
-        "title": "The Shawshank Redemption",
-        "original_language": "en",
-        "original_title": "The Shawshank Redemption",
-        "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-        "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          80
-        ],
-        "popularity": 129.413,
-        "release_date": "1994-09-23",
-        "video": false,
-        "vote_average": 8.704,
-        "vote_count": 24944
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ozVwXlfxqNsariipatGwa5px3Pm.jpg",
-        "id": 240832,
-        "title": "Lucy",
-        "original_language": "en",
-        "original_title": "Lucy",
-        "overview": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.",
-        "poster_path": "/dhjyfcwEoW6jJ4Q7DpZTp6E58GA.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          878
-        ],
-        "popularity": 46.281,
-        "release_date": "2014-07-25",
-        "video": false,
-        "vote_average": 6.441,
-        "vote_count": 15266
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 556356,
-    "known_for_department": "Acting",
-    "name": "Vanessa Kirby",
-    "original_name": "Vanessa Kirby",
-    "popularity": 105.875,
-    "profile_path": "/5fbvIkZ02RdcXfZHUUk4cQ9kILK.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
-        "id": 384018,
-        "title": "Fast & Furious Presents: Hobbs & Shaw",
-        "original_language": "en",
-        "original_title": "Fast & Furious Presents: Hobbs & Shaw",
-        "overview": "Ever since US Diplomatic Security Service Agent Hobbs and lawless outcast Shaw first faced off, they just have traded smack talk and body blows. But when cyber-genetically enhanced anarchist Brixton's ruthless actions threaten the future of humanity, they join forces to defeat him.",
-        "poster_path": "/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          12,
-          35
-        ],
-        "popularity": 85.331,
-        "release_date": "2019-08-01",
-        "video": false,
-        "vote_average": 6.869,
-        "vote_count": 6682
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/7jjwdoIVPJp7gcDo9uE1sVZi2Rs.jpg",
-        "id": 296096,
-        "title": "Me Before You",
-        "original_language": "en",
-        "original_title": "Me Before You",
-        "overview": "A small town girl is caught between dead-end jobs. A high-profile, successful man becomes wheelchair bound following an accident. The man decides his life is not worth living until the girl is hired for six months to be his new caretaker. Worlds apart and trapped together by circumstance, the two get off to a rocky start. But the girl becomes determined to prove to the man that life is worth living and as they embark on a series of adventures together, each finds their world changing in ways neither of them could begin to imagine.",
-        "poster_path": "/Ia3dzj5LnCj1ZBdlVeJrbKJQxG.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          10749
-        ],
-        "popularity": 143.946,
-        "release_date": "2016-06-01",
-        "video": false,
-        "vote_average": 7.917,
-        "vote_count": 11515
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/izNpxVcjKbF9BiYF4GVqxCOfewL.jpg",
-        "id": 641662,
-        "title": "Pieces of a Woman",
-        "original_language": "en",
-        "original_title": "Pieces of a Woman",
-        "overview": "When a young mother's home birth ends in unfathomable tragedy, she begins a year-long odyssey of mourning that fractures relationships with loved ones in this deeply personal story of a woman learning to live alongside her loss.",
-        "poster_path": "/OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 16.793,
-        "release_date": "2020-12-30",
-        "video": false,
-        "vote_average": 7.044,
-        "vote_count": 1125
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 2,
-    "id": 1613836,
-    "known_for_department": "Acting",
-    "name": "Rowoon",
-    "original_name": "Rowoon",
-    "popularity": 103.969,
-    "profile_path": "/sOTYcl8SGmtxpWq0EQKJhX8dztr.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/2lQ1PwGFZKM9EakCw1j4NShEuuj.jpg",
-        "id": 136369,
-        "name": "Tomorrow",
-        "original_language": "ko",
-        "original_name": "내일",
-        "overview": "Made half-human and half-spirit by accident, a young man is employed by a company of grim reapers in the underworld to carry out special missions.",
-        "poster_path": "/7pOC2Wr6aavn6OPkFJ9YqhCV5hW.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          18,
-          10765,
-          10759
-        ],
-        "popularity": 31.098,
-        "first_air_date": "2022-04-01",
-        "vote_average": 8.591,
-        "vote_count": 154,
-        "origin_country": [
-          "KR"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/4r7scgI5aUrShN0YzriAatWd15e.jpg",
-        "id": 129478,
-        "name": "The King's Affection",
-        "original_language": "ko",
-        "original_name": "연모",
-        "overview": "When the crown prince is killed, his twin sister assumes the throne while trying to keep her identity and affection for her first love a royal secret.",
-        "poster_path": "/mcfX0IqWibPhF5H4i2Q5gUlwwxk.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 115.396,
-        "first_air_date": "2021-10-11",
-        "vote_average": 8.306,
-        "vote_count": 237,
-        "origin_country": [
-          "KR"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/hkCgcNx5khFuKroiVKFRRHTEpHg.jpg",
-        "id": 93657,
-        "name": "Extraordinary You",
-        "original_language": "ko",
-        "original_name": "어쩌다 발견한 하루",
-        "overview": "When a high-school girl finds that she is merely a character from a comic book whose destiny is decided by the writer, she decides to change the plot to suit her desires and find the love of her life.",
-        "poster_path": "/vse6Aq2BGz1CI2pa1JbOmyjXM37.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          10765,
-          35,
-          10759
-        ],
-        "popularity": 27.908,
-        "first_air_date": "2019-10-02",
-        "vote_average": 8.5,
-        "vote_count": 127,
-        "origin_country": [
-          "KR"
-        ]
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1373737,
-    "known_for_department": "Acting",
-    "name": "Florence Pugh",
-    "original_name": "Florence Pugh",
-    "popularity": 101.976,
-    "profile_path": "/ogoAeJyLzam5m3JvBFg6vwI8p0I.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/aAM3cQmYGjjLQ24m0F0RWfjKQ57.jpg",
-        "id": 530385,
-        "title": "Midsommar",
-        "original_language": "en",
-        "original_title": "Midsommar",
-        "overview": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
-        "poster_path": "/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          27,
-          18,
-          9648
-        ],
-        "popularity": 56.551,
-        "release_date": "2019-07-03",
-        "video": false,
-        "vote_average": 7.163,
-        "vote_count": 6327
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg",
-        "id": 497698,
-        "title": "Black Widow",
-        "original_language": "en",
-        "original_title": "Black Widow",
-        "overview": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
-        "poster_path": "/kwB7d51AIcyzPOBOHLCEZJkmPhQ.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          28,
-          12,
-          878
-        ],
-        "popularity": 86.583,
-        "release_date": "2021-07-07",
-        "video": false,
-        "vote_average": 7.293,
-        "vote_count": 9413
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
-        "id": 331482,
-        "title": "Little Women",
-        "original_language": "en",
-        "original_title": "Little Women",
-        "overview": "Four sisters come of age in America in the aftermath of the Civil War.",
-        "poster_path": "/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          10749
-        ],
-        "popularity": 43.79,
-        "release_date": "2019-12-25",
-        "video": false,
-        "vote_average": 7.9,
-        "vote_count": 5776
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 224513,
-    "known_for_department": "Acting",
-    "name": "Ana de Armas",
-    "original_name": "Ana de Armas",
-    "popularity": 99.142,
-    "profile_path": "/3vxvsmYLTf4jnr163SUlBIw51ee.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/uKbX1ha7KWyTecvpPpRCB3iFfj3.jpg",
-        "id": 335984,
-        "title": "Blade Runner 2049",
-        "original_language": "en",
-        "original_title": "Blade Runner 2049",
-        "overview": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
-        "poster_path": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          878,
-          18
-        ],
-        "popularity": 130.004,
-        "release_date": "2017-10-04",
-        "video": false,
-        "vote_average": 7.548,
-        "vote_count": 12509
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
-        "id": 546554,
-        "title": "Knives Out",
-        "original_language": "en",
-        "original_title": "Knives Out",
-        "overview": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-        "poster_path": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35,
-          80,
-          9648
-        ],
-        "popularity": 89.004,
-        "release_date": "2019-11-27",
-        "video": false,
-        "vote_average": 7.845,
-        "vote_count": 11306
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/3Mnbw4gOYz5BNZB9PhZ2cyBSQum.jpg",
-        "id": 308266,
-        "title": "War Dogs",
-        "original_language": "en",
-        "original_title": "War Dogs",
-        "overview": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million contract from the Pentagon to arm America's allies in Afghanistan.",
-        "poster_path": "/uH9qGH5XS1iZXCSb3tgu40dxQoh.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35,
-          80,
-          18
-        ],
-        "popularity": 28.794,
-        "release_date": "2016-08-18",
-        "video": false,
-        "vote_average": 6.904,
-        "vote_count": 4551
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 115440,
-    "known_for_department": "Acting",
-    "name": "Sydney Sweeney",
-    "original_name": "Sydney Sweeney",
-    "popularity": 98.976,
-    "profile_path": "/i3JIobJSDErUPwSU1phaO8R1T0q.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/oKt4J3TFjWirVwBqoHyIvv5IImd.jpg",
-        "id": 85552,
-        "name": "Euphoria",
-        "original_language": "en",
-        "original_name": "Euphoria",
-        "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
-        "poster_path": "/3Q0hd3heuWwDWpwcDkhQOA6TYWI.jpg",
-        "media_type": "tv",
-        "genre_ids": [
-          18,
-          80
-        ],
-        "popularity": 241.277,
-        "first_air_date": "2019-06-16",
-        "vote_average": 8.3,
-        "vote_count": 9096,
-        "origin_country": [
-          "US"
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/3rwszCm4XyBtIWSjbUbgNwJOidu.jpg",
-        "id": 645710,
-        "title": "The Voyeurs",
-        "original_language": "en",
-        "original_title": "The Voyeurs",
-        "overview": "When Pippa and Thomas move into their dream apartment, they notice that their windows look directly into the apartment opposite – inviting them to witness the volatile relationship of the attractive couple across the street. But what starts as a simple curiosity turns into full-blown obsession with increasingly dangerous consequences.",
-        "poster_path": "/8Y4XOIWhpOvSOEn8XrxbkH9yAXO.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          53
-        ],
-        "popularity": 29.316,
-        "release_date": "2021-08-25",
-        "video": false,
-        "vote_average": 6.661,
-        "vote_count": 707
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/oRiUKwDpcqDdoLwPoA4FIRh3hqY.jpg",
-        "id": 466272,
-        "title": "Once Upon a Time… in Hollywood",
-        "original_language": "en",
-        "original_title": "Once Upon a Time… in Hollywood",
-        "overview": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
-        "poster_path": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35,
-          18,
-          53
-        ],
-        "popularity": 71.978,
-        "release_date": "2019-07-24",
-        "video": false,
-        "vote_average": 7.44,
-        "vote_count": 12368
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 3904236,
-    "known_for_department": "Acting",
-    "name": "Azi Acosta",
-    "original_name": "Azi Acosta",
-    "popularity": 96.318,
-    "profile_path": "/aB5zZ1O0O7GZPCki7wQv6PxHEMo.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/ru5zAV1Ij6bQGedBkczqhiBmjzn.jpg",
-        "id": 1029446,
-        "title": "Selina's Gold",
-        "original_language": "tl",
-        "original_title": "Selina's Gold",
-        "overview": "Selina's father sells her to Tiago who makes her a sex slave. With the help of Domeng, Tiago's blind slave, she plans their way out of this living hell.",
-        "poster_path": "/4a0X2GKDmhhp1U2FUKtKY6uNQHL.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 15.976,
-        "release_date": "2022-10-28",
-        "video": false,
-        "vote_average": 7.1,
-        "vote_count": 25
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/2xbuun5NQ1exyvDhxJyXPX2GBsw.jpg",
-        "id": 1041898,
-        "title": "Pamasahe",
-        "original_language": "tl",
-        "original_title": "Pamasahe",
-        "overview": "A penniless mother, with her infant child, takes on a journey by land and sea to find her husband in Manila. But this trip won't be free for she has to use her body to get to her destination.",
-        "poster_path": "/6spqXV5kgNkZBIwjuZkxIx8flfQ.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 9.023,
-        "release_date": "2022-12-09",
-        "video": false,
-        "vote_average": 6.367,
-        "vote_count": 15
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kd9eLNjJUPRuvO1gBXgMyq5XBS2.jpg",
-        "id": 1103856,
-        "title": "Sex Games",
-        "original_language": "tl",
-        "original_title": "Sex Games",
-        "overview": "A rich couple often spices up their sexual relationship by doing their so-called Sex Games. But when they meet a new set of \"playmates\"- a conservative couple, their game becomes more challenging.",
-        "poster_path": "/sRrIKxj9aehQKio2oN1C4fMgtV6.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 38.667,
-        "release_date": "2023-04-28",
-        "video": false,
-        "vote_average": 5.5,
-        "vote_count": 4
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 3371806,
-    "known_for_department": "Acting",
-    "name": "Robb Guinto",
-    "original_name": "Robb Guinto",
-    "popularity": 95.489,
-    "profile_path": "/gYs7kSFwr89BOHG2rxEOet17C2y.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/Aonu1gc194UVVmag8krCqfeBrM6.jpg",
-        "id": 949977,
-        "title": "X-Deal 2",
-        "original_language": "tl",
-        "original_title": "X-Deal 2",
-        "overview": "In an island, a young couple, Emily and Peter, offers a sex swap with fellow guest Olivia, a hot lesbian. What starts as a mutually-beneficial deal turns rough and tumble when Peter demands more than what he bargained for.",
-        "poster_path": "/qYy3wEFzbhiqX3SUF27Bvo1ptLn.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18
-        ],
-        "popularity": 18.049,
-        "release_date": "2022-03-25",
-        "video": false,
-        "vote_average": 7.3,
-        "vote_count": 7
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/1N7IexWDCWRzMynWyjESakKg8Eb.jpg",
-        "id": 1034662,
-        "title": "Showroom",
-        "original_language": "tl",
-        "original_title": "Showroom",
-        "overview": "Liezl, an ambitious agent, learns that her colleague, Susanah, uses her body to sell condo units; so she imitates her scheme. When the tables turn, Liezl begins to face her punishments one by one.",
-        "poster_path": "/rMtfinteQu34A9mGKBOW0BY7zT0.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          18,
-          53
-        ],
-        "popularity": 22.435,
-        "release_date": "2022-11-11",
-        "video": false,
-        "vote_average": 5.2,
-        "vote_count": 5
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/n5QtdxCS75UXSNzFCviXmgpysZA.jpg",
-        "id": 985932,
-        "title": "Virgin Forest",
-        "original_language": "tl",
-        "original_title": "Virgin Forest",
-        "overview": "A photographer is tasked to take a photo of a rare flower thriving in the mountain, but he discovers women trapped in a hidden brothel for illegal loggers.",
-        "poster_path": "/6JsAHnDolJDCid4vCUO0JsSy997.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          53,
-          80,
-          18
-        ],
-        "popularity": 29.288,
-        "release_date": "2022-06-24",
-        "video": false,
-        "vote_average": 5.5,
-        "vote_count": 11
-      }
-    ]
-  },
-  {
-    "adult": false,
-    "gender": 1,
-    "id": 1813,
-    "known_for_department": "Acting",
-    "name": "Anne Hathaway",
-    "original_name": "Anne Hathaway",
-    "popularity": 88.831,
-    "profile_path": "/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg",
-    "known_for": [
-      {
-        "adult": false,
-        "backdrop_path": "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
-        "id": 157336,
-        "title": "Interstellar",
-        "original_language": "en",
-        "original_title": "Interstellar",
-        "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
-        "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          12,
-          18,
-          878
-        ],
-        "popularity": 136.87,
-        "release_date": "2014-11-05",
-        "video": false,
-        "vote_average": 8.42,
-        "vote_count": 32921
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/CpLAfXgSNeNRRbRzPrTuzKmIHO.jpg",
-        "id": 350,
-        "title": "The Devil Wears Prada",
-        "original_language": "en",
-        "original_title": "The Devil Wears Prada",
-        "overview": "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
-        "poster_path": "/8912AsVuS7Sj915apArUFbv6F9L.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          35,
-          18,
-          10749
-        ],
-        "popularity": 73.113,
-        "release_date": "2006-06-29",
-        "video": false,
-        "vote_average": 7.388,
-        "vote_count": 11192
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/A6d09KtZKdVGSg0gzsldjDwwvhD.jpg",
-        "id": 241259,
-        "title": "Alice Through the Looking Glass",
-        "original_language": "en",
-        "original_title": "Alice Through the Looking Glass",
-        "overview": "Alice Kingsleigh returns to Underland and faces a new adventure in saving the Mad Hatter.",
-        "poster_path": "/4g043PWVXkjHkxEEsEfwuAxlM8i.jpg",
-        "media_type": "movie",
-        "genre_ids": [
-          12,
-          10751,
-          14
-        ],
-        "popularity": 49.67,
-        "release_date": "2016-05-25",
-        "video": false,
-        "vote_average": 6.551,
-        "vote_count": 6065
-      }
-    ]
-  }
+
 ],
-"total_pages": 156186,
-"total_results": 3123718
+"total_pages": 1,
+"total_results": 0
 });
 });
 
@@ -18941,37 +12200,10 @@ router.get('/movie/:movie_id/reviews', function(req, res, next) {
 "id": 1272,
 "page": 1,
 "results": [
-  {
-    "author": "John Chard",
-    "author_details": {
-      "name": "",
-      "username": "John Chard",
-      "avatar_path": "/utEXl2EDiXBK6f41wCLsvprvMg4.jpg",
-      "rating": 9
-    },
-    "content": "Are you an angel? Has the time come? I've been waiting so long.  \r\n\r\nWe are in the not too distant future and the Sun is fading out. After a first mission to reignite it with a nuclear bomb fails, with the ship apparently lost in space, a new team are sent to try again. But it really isn't as simple as that...\r\n\r\nDirector Danny Boyle and writer Alex Garland team up once again for this sci-fi adventure thriller. For as long as I can personally remember, outer space and the planets that dwell within it, have always served us well for cinematic treats. Fears of the unknown and worries over the destruction of Earth, by and large make for great premise's. Not all films realise this potential of course, but it always makes for a great starting point. For his first venture into this realm, Boyle has gone for the Sun as his point of reference, and it makes for a marvellously claustrophobic picture that poses as many questions as it does answers. And even tho ultimately the science fiction aspects of it do not naturally add up, it's dazzling in its visuals and thought provoking into the bargain.\r\n\r\nBoyle has never hid his influences and favourites from the public, and here he homages everything from Alien to Event Horizon, stopping for tea and crumpets at 2001s house along the way. But that is no bad thing, molding elements from great sci-fi past with his own intriguing story has given Sunshine a tremendous heart, to which Boyle then manages to cloak it with high quality drama. The crew are up there and we know that this is a genre piece and things invariably go wrong, this gives the discerning viewer an eager anticipation, a sense that one shouldn't go to the toilet for something will be missed. And Boyle lives up to the promise showed, such a pity then, that Boyle didn't let us get better acquainted with his characters at the start. Because then the impact would surely have doubled as each perilous and wrought scenario unfolded.\r\n\r\nHaving racked up the tension and intrigued us with the premise, expertly fusing CGI with his own craft work along the way, Boyle's Sunshine lives or dies by it's last quarter; depending on your proclivity of course. It has proved to be a most divisive point with critics and fans alike. To say it's a genre shift accompanied with implausibility is being a touch unkind I feel, this is after all a sci-fi picture about a ship going to reignite the Sun! Never the less it doesn't quite close the film triumphantly after the twists that preceded it, turns and explosions have lulled the viewers in, but personally it satisfies this entertained observer. Not in a big bang dynamic way, but in the way that asks me for a further thought process, and that may just be what Boyle and Garland envisaged when they sat down to make the film? Again, depending on your proclivity of course! 8.5/10",
-    "created_at": "2019-05-30T19:04:12.686Z",
-    "id": "5cf0292c92514135b6b99439",
-    "updated_at": "2021-06-23T15:58:22.762Z",
-    "url": "https://www.themoviedb.org/review/5cf0292c92514135b6b99439"
-  },
-  {
-    "author": "CinemaSerf",
-    "author_details": {
-      "name": "CinemaSerf",
-      "username": "Geronimo1967",
-      "avatar_path": "/1kks3YnVkpyQxzw36CObFPvhL5f.jpg",
-      "rating": null
-    },
-    "content": "Danny Boyle has assembled a stellar (had to be said) cast for this rather far-fetched story. The crew of the \"Icarus II\" are charged with dragging a massive nuclear bomb towards the sun with a view to giving it a bit of a pick-me-up. It's dying, you see. Needless to say their journey is fraught with danger, made worse when they discover the wreckage of a previous ship sent on a similar mission many years earlier. When they board it, though, all is not as it seems and danger lurks! Alex Garland knows how to write a good story and Cillian Murphy, Rose Byrne and Chris Evans work quite well together as the extra-terrestrial adventure gathers pace. The dialogue is not the best and the score overwhelms at times, but Boyle still manages to create quite a decent degree of peril mixing well the high quality special effects, a bit of sabotage, sexual tension and a good old-fashioned baddie.",
-    "created_at": "2022-03-26T17:00:23.143Z",
-    "id": "623f46a71cfe3a004768b58e",
-    "updated_at": "2022-03-26T17:00:23.143Z",
-    "url": "https://www.themoviedb.org/review/623f46a71cfe3a004768b58e"
-  }
+
 ],
 "total_pages": 1,
-"total_results": 2
+"total_results": 0
 });
 });
 
