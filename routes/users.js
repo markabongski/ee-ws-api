@@ -9647,12 +9647,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 2030488804,
         "original_language": "en",
-        "original_title": "Generality and territoriality 1",
+        "original_title": "Generality and territoriality",
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
         "poster_path": "/images/_zPGalIJJbA.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Generality and territoriality",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
@@ -10815,12 +10815,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 2030488804,
         "original_language": "en",
-        "original_title": "Generality and territoriality 1",
+        "original_title": "Generality and territoriality",
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
         "poster_path": "/images/_zPGalIJJbA.jpg",
         "release_date": "2023-09-15",
-        "title": "Bigamy illegal marriage performance of illegal marriage",
+        "title": "Generality and territoriality",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 741
@@ -15724,7 +15724,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Generality and territoriality 1",
+		"name": "Generality and territoriality",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -15740,7 +15740,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Generality and territoriality 1",
+		"original_name": "Generality and territoriality",
 		"overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
 		"popularity": 23.139,
         "poster_path": "/images/_zPGalIJJbA.jpg",
@@ -20482,7 +20482,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Generality and territoriality 1",
+          "name": "Generality and territoriality",
           "key": "-rxaYsUN3YY",
           "site": "YouTube",
           "size": 480,
