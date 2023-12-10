@@ -9421,7 +9421,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/l1G9L8dF6zQ.jpg",
+        "backdrop_path": "/images/arge5NNeppQ.jpg",
         "genre_ids": [
           28,
           12,
@@ -9432,7 +9432,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
         "popularity": 1108.183,
-        "poster_path": "/images/l1G9L8dF6zQ.jpg",
+        "poster_path": "/images/arge5NNeppQ.jpg",
         "release_date": "2023-09-15",
         "title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "video": false,
@@ -9639,7 +9639,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/-rxaYsUN3YY.jpg",
+        "backdrop_path": "/images/_zPGalIJJbA.jpg",
         "genre_ids": [
           28,
           12,
@@ -9650,7 +9650,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Generality and territoriality 1",
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
-        "poster_path": "/images/-rxaYsUN3YY.jpg",
+        "poster_path": "/images/_zPGalIJJbA.jpg",
         "release_date": "2023-09-15",
         "title": "Bigamy illegal marriage performance of illegal marriage",
         "video": false,
@@ -9962,10 +9962,50 @@ router.get('/discover/movie', function(req, res, next) {
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/czX5xV2da1k.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030788804,
+        "original_language": "en",
+        "original_title": "Penalty 1",
+        "overview": "The discussion will examine the rules governing the application of penalties in criminal cases under Philippine law. Specifically, it will outline the general rules on imposing the proper penalty, analyze circumstances that may modify the penalty, such as aggravating/mitigating factors, and discuss rules on continuous, multiple, complex and indeterminate sentence crimes.",
+        "popularity": 1595.817,
+        "poster_path": "/images/czX5xV2da1k.jpg",
+        "release_date": "2023-09-27",
+        "title": "Penalty 1",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/diTKu8CVMoI.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030788805,
+        "original_language": "en",
+        "original_title": "Penalty 2",
+        "overview": "The discussion will examine the rules regarding the duration of penalties in criminal cases under Philippine law. Specifically, it will outline the general guidelines for determining the length of each type of penalty, analyze factors that affect the duration such as the range prescribed by law, and discuss how mitigating and aggravating circumstances can modify the duration.",
+        "popularity": 1595.817,
+        "poster_path": "/images/diTKu8CVMoI.jpg",
+        "release_date": "2023-09-27",
+        "title": "Penalty 2",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
       }
     ],
     "total_pages": 1,
-    "total_results": 3
+    "total_results": 5
     });
  }
 
@@ -10549,7 +10589,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/l1G9L8dF6zQ.jpg",
+        "backdrop_path": "/images/arge5NNeppQ.jpg",
         "genre_ids": [
           28,
           12,
@@ -10560,7 +10600,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
         "popularity": 1108.183,
-        "poster_path": "/images/l1G9L8dF6zQ.jpg",
+        "poster_path": "/images/arge5NNeppQ.jpg",
         "release_date": "2023-09-15",
         "title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "video": false,
@@ -10767,7 +10807,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
       {
         "adult": false,
-        "backdrop_path": "/images/-rxaYsUN3YY.jpg",
+        "backdrop_path": "/images/_zPGalIJJbA.jpg",
         "genre_ids": [
           28,
           12,
@@ -10778,7 +10818,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Generality and territoriality 1",
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
-        "poster_path": "/images/-rxaYsUN3YY.jpg",
+        "poster_path": "/images/_zPGalIJJbA.jpg",
         "release_date": "2023-09-15",
         "title": "Bigamy illegal marriage performance of illegal marriage",
         "video": false,
@@ -11090,10 +11130,50 @@ router.get('/discover/tv', function(req, res, next) {
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/czX5xV2da1k.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030788804,
+        "original_language": "en",
+        "original_title": "Penalty 1",
+        "overview": "The discussion will examine the rules governing the application of penalties in criminal cases under Philippine law. Specifically, it will outline the general rules on imposing the proper penalty, analyze circumstances that may modify the penalty, such as aggravating/mitigating factors, and discuss rules on continuous, multiple, complex and indeterminate sentence crimes.",
+        "popularity": 1595.817,
+        "poster_path": "/images/czX5xV2da1k.jpg",
+        "release_date": "2023-09-27",
+        "title": "Penalty 1",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/diTKu8CVMoI.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030788805,
+        "original_language": "en",
+        "original_title": "Penalty 2",
+        "overview": "The discussion will examine the rules regarding the duration of penalties in criminal cases under Philippine law. Specifically, it will outline the general guidelines for determining the length of each type of penalty, analyze factors that affect the duration such as the range prescribed by law, and discuss how mitigating and aggravating circumstances can modify the duration.",
+        "popularity": 1595.817,
+        "poster_path": "/images/diTKu8CVMoI.jpg",
+        "release_date": "2023-09-27",
+        "title": "Penalty 2",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
       }
     ],
     "total_pages": 1,
-    "total_results": 3
+    "total_results": 5
     });
  }
 
@@ -14976,7 +15056,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"original_name": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
 		"overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
 		"popularity": 23.139,
-        "poster_path": "/images/l1G9L8dF6zQ.jpg",
+        "poster_path": "/images/arge5NNeppQ.jpg",
 		"production_companies": [
 		],
 		"production_countries": [
@@ -15663,7 +15743,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"original_name": "Generality and territoriality 1",
 		"overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
 		"popularity": 23.139,
-        "poster_path": "/images/-rxaYsUN3YY.jpg",
+        "poster_path": "/images/_zPGalIJJbA.jpg",
 		"production_companies": [
 		],
 		"production_countries": [
@@ -16638,6 +16718,142 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"overview":  "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
 		"popularity": 23.139,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030788804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Penalty 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Penalty 1",
+		"overview":  "The discussion will examine the rules governing the application of penalties in criminal cases under Philippine law. Specifically, it will outline the general rules on imposing the proper penalty, analyze circumstances that may modify the penalty, such as aggravating/mitigating factors, and discuss rules on continuous, multiple, complex and indeterminate sentence crimes.",
+		"popularity": 23.139,
+        "poster_path": "/images/czX5xV2da1k.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030788805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Penalty 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Penalty 2",
+		"overview":  "The discussion will examine the rules regarding the duration of penalties in criminal cases under Philippine law. Specifically, it will outline the general guidelines for determining the length of each type of penalty, analyze factors that affect the duration such as the range prescribed by law, and discuss how mitigating and aggravating circumstances can modify the duration.",
+		"popularity": 23.139,
+        "poster_path": "/images/diTKu8CVMoI.jpg",
 		"production_companies": [
 		],
 		"production_countries": [
@@ -18956,7 +19172,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "24. Generality and territoriality 1",
+          "name": "Generality and territoriality",
           "key": "-rxaYsUN3YY",
           "site": "YouTube",
           "size": 480,
@@ -19249,6 +19465,46 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+   if (req.params.series_id == 2030788804){
+      res.json({
+      "id": 2030788804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Penalty 1",
+          "key": "TpfvoK9q4po",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 2030788805){
+      res.json({
+      "id": 2030788805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Penalty 2",
+          "key": "Sxz0W6TUjso",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
    if (req.params.series_id == 3030088801){
       res.json({
       "id": 3030088801,
@@ -20226,7 +20482,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "24. Generality and territoriality 1",
+          "name": "Generality and territoriality 1",
           "key": "-rxaYsUN3YY",
           "site": "YouTube",
           "size": 480,
@@ -20519,6 +20775,45 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
+   if (req.params.tv_id == 22300888039){
+      res.json({
+      "id": 223008880101,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Penalty 1",
+          "key": "TpfvoK9q4po",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 22300888040){
+      res.json({
+      "id": 223008880101,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Penalty 2",
+          "key": "Sxz0W6TUjso",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.tv_id == 3030088801){
       res.json({
