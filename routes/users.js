@@ -20322,7 +20322,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
-if (req.params.tv_id == 4030188801){
+   if (req.params.series_id == 4030188801){
       res.json({
       "id": 4030188801,
       "results": [
@@ -20342,7 +20342,7 @@ if (req.params.tv_id == 4030188801){
       });
     }
   
-  	if (req.params.tv_id == 4030188802){
+  	if (req.params.series_id == 4030188802){
       res.json({
       "id": 4030188802,
       "results": [
@@ -20362,7 +20362,7 @@ if (req.params.tv_id == 4030188801){
       });
     }
 	
-	if (req.params.tv_id == 4030188803){
+	if (req.params.series_id == 4030188803){
       res.json({
       "id": 4030188803,
       "results": [
@@ -20382,7 +20382,7 @@ if (req.params.tv_id == 4030188801){
       });
     }
 	
-	if (req.params.tv_id == 4030188804){
+	if (req.params.series_id == 4030188804){
       res.json({
       "id": 4030188804,
       "results": [
@@ -20402,7 +20402,7 @@ if (req.params.tv_id == 4030188801){
       });
     }
 	
-	if (req.params.tv_id == 4030188805){
+	if (req.params.series_id == 4030188805){
       res.json({
       "id": 4030188805,
       "results": [
