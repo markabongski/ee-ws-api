@@ -21579,7 +21579,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       "id": 223008880101,
       "results": [
         {
-          "iso_639_1": "en",0
+          "iso_639_1": "en",
           "iso_3166_1": "US",
           "name": "33. Voyuerism",
           "key": "GTxLKdTj2WQ",
