@@ -18909,7 +18909,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 1",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 1",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/x6u4tPIh1rI.jpg",
@@ -18977,7 +18977,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 2",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 2",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/FWLRc0RZV-U.jpg",
@@ -19045,7 +19045,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 3",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 3",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/rIqK_jmErQ4.jpg",
@@ -19113,7 +19113,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 4",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 4",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/-DXDjIpq-Hw.jpg",
@@ -19181,7 +19181,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 5",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 5",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/bYLFI22hTpk.jpg",
@@ -19249,7 +19249,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 6",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 6",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/NQswbDmGFao.jpg",
@@ -19317,7 +19317,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 7",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 7",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/_fodt-KEoE8.jpg",
@@ -19385,7 +19385,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 8",
+		"original_name": "Labor - Atty Pearlito Campanilla - Lecture 8",
 		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
 		"popularity": 23.139,
         "poster_path": "/images/lIOlCXMqrsY.jpg",
