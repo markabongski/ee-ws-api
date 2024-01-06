@@ -10420,19 +10420,70 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 4030288802,
         "original_language": "en",
-        "original_title": "Taxation Atty. Lim - Lecture 2",
+        "original_title": "Taxation Atty. Lim - Lecture 7",
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/64083E1DZB8.jpg",
         "release_date": "2023-07-19",
-        "title": "Taxation Atty. Lim - Lecture 2",
+        "title": "Taxation Atty. Lim - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/9-cyKov40qs.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 8",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/9-cyKov40qs.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/jWMbp4nLX2Y.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 9",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/jWMbp4nLX2Y.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YOCFJBTH8ow.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 10",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YOCFJBTH8ow.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 10",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
       }
 	  ],
     "total_pages": 1,
-    "total_results": 2
+    "total_results": 5
     });
  }
 
@@ -11929,10 +11980,64 @@ router.get('/discover/tv', function(req, res, next) {
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
-      }	  
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/9-cyKov40qs.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 4030288802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 8",
+        "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/9-cyKov40qs.jpg",
+        "release_date": "2023-12-30",
+        "title": "Taxation Atty. Lim - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/jWMbp4nLX2Y.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 4030288802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 9",
+        "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/jWMbp4nLX2Y.jpg",
+        "release_date": "2023-12-30",
+        "title": "Taxation Atty. Lim - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YOCFJBTH8ow.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 4030288802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 10",
+        "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YOCFJBTH8ow.jpg",
+        "release_date": "2023-12-30",
+        "title": "Taxation Atty. Lim - Lecture 10ss",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }		  
 	  ],
     "total_pages": 1,
-    "total_results": 2
+    "total_results": 5
     });
  }
  
@@ -18871,6 +18976,210 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
 
+  if (req.params.series_id == 4030288803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030288803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Lecture 8",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/9-cyKov40qs.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Lecture 8",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/9-cyKov40qs.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 4030288804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030288804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Lecture 9",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/jWMbp4nLX2Y.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Lecture 9",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/jWMbp4nLX2Y.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 4030288805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030288805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Lecture 10",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/YOCFJBTH8ow.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Lecture 10",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/YOCFJBTH8ow.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
   if (req.params.series_id == 5030188801){
 	res.json(
 		{
@@ -21558,6 +21867,65 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+   if (req.params.series_id == 4030288803){
+      res.json({
+      "id": 4030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 8",
+          "key": "n-7omEPjp6I",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 4030288804){
+      res.json({
+      "id": 4030288804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 9",
+          "key": "Xu17bE1wJ6E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+   if (req.params.series_id == 4030288805){
+      res.json({
+      "id": 4030288805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 10",
+          "key": "y0GsXLFQtGw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 	
    if (req.params.series_id == 5030188801){
       res.json({
@@ -23169,7 +23537,67 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
-		
+	
+	if (req.params.tv_id == 4030288803){
+      res.json({
+      "id": 4030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 8",
+          "key": "n-7omEPjp6I",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 4030288804){
+      res.json({
+      "id": 4030288804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 9",
+          "key": "Xu17bE1wJ6E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+	if (req.params.tv_id == 4030288805){
+      res.json({
+      "id": 4030288805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Lecture 10",
+          "key": "y0GsXLFQtGw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
    if (req.params.tv_id == 5030188801){
       res.json({
       "id": 5030188801,
