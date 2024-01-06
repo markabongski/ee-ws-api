@@ -10436,6 +10436,171 @@ router.get('/discover/movie', function(req, res, next) {
     });
  }
 
+  if (req.query.with_genres == 50301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/x6u4tPIh1rI.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/x6u4tPIh1rI.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/FWLRc0RZV-U.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/FWLRc0RZV-U.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/rIqK_jmErQ4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/rIqK_jmErQ4.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-DXDjIpq-Hw.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/-DXDjIpq-Hw.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/bYLFI22hTpk.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/bYLFI22hTpk.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }			  
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/NQswbDmGFao.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/NQswbDmGFao.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/_fodt-KEoE8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/_fodt-KEoE8.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/lIOlCXMqrsY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/lIOlCXMqrsY.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+
 });
 
 router.get('/discover/tv', function(req, res, next) {
@@ -11770,6 +11935,170 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 2
     });
  }
+ 
+  if (req.query.with_genres == 50301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/x6u4tPIh1rI.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/x6u4tPIh1rI.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/FWLRc0RZV-U.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/FWLRc0RZV-U.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/rIqK_jmErQ4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/rIqK_jmErQ4.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-DXDjIpq-Hw.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/-DXDjIpq-Hw.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/bYLFI22hTpk.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/bYLFI22hTpk.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }			  
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/NQswbDmGFao.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/NQswbDmGFao.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/_fodt-KEoE8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/_fodt-KEoE8.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/lIOlCXMqrsY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/lIOlCXMqrsY.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
 
 });
 
@@ -12278,27 +12607,27 @@ router.get('/genre/tv/labor/list', function(req, res, next) {
   res.json({
  "genres": [
     {
-      "id": 40300,
+      "id": 50301,
       "name": "Labort Part 1"
     },
     {
-      "id": 40301,
+      "id": 50302,
       "name": "Labort Part 2"
     },
     {
-      "id": 40302,
+      "id": 50303,
       "name": "Labort Part 3"
     },
 	{
-      "id": 40303,
+      "id": 50304,
       "name": "Labort Part 4"
     },
 	{
-      "id": 40304,
+      "id": 50305,
       "name": "Labort Part 5"
     },
 	{
-      "id": 40305,
+      "id": 50306,
       "name": "Labort Part 6"
     },
   ]
@@ -18541,6 +18870,551 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"vote_count": 29
 		});
   }
+
+  if (req.params.series_id == 5030188801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030188801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/x6u4tPIh1rI.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 1",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/x6u4tPIh1rI.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 5030188802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030188802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/FWLRc0RZV-U.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 2",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/FWLRc0RZV-U.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 5030188803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030188802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 3",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/rIqK_jmErQ4.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 3",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/rIqK_jmErQ4.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 5030188804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030188804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 4",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/-DXDjIpq-Hw.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 4",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/-DXDjIpq-Hw.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 5030188805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030188805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 5",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/bYLFI22hTpk.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 5",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/bYLFI22hTpk.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 5030288801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030288801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 6",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/NQswbDmGFao.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 6",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/NQswbDmGFao.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 5030288802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030288802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 7",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/_fodt-KEoE8.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 7",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/_fodt-KEoE8.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 5030288803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 5030288803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Labor - Atty Pearlito Campanilla - Lecture 8",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/lIOlCXMqrsY.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "name": "Labor - Atty Pearlito Campanilla - Lecture 8",
+		"overview":  "The discussion will focus on Labor Laws by Atty. Pearlito Campanilla.",
+		"popularity": 23.139,
+        "poster_path": "/images/lIOlCXMqrsY.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
 });
 
 router.get('/tv/:series_id/account_states', function(req, res, next) {
@@ -20684,6 +21558,168 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+	
+   if (req.params.series_id == 5030188801){
+      res.json({
+      "id": 5030188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 1",
+          "key": "L0b9bCFWb6Q",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030188802){
+      res.json({
+      "id": 5030188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 2",
+          "key": "Eh_23auIIVQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030188803){
+      res.json({
+      "id": 5030188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 3",
+          "key": "_UQUMRpxukg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030188804){
+      res.json({
+      "id": 5030188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 4",
+          "key": "2KSqk-HzANM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030188805){
+      res.json({
+      "id": 5030188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 5",
+          "key": "5sNjoM2dVEo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030288801){
+      res.json({
+      "id": 5030288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 6",
+          "key": "oa7W1l8aVRU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030288802){
+      res.json({
+      "id": 5030288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 7",
+          "key": "rTyFAY3Alkk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 5030288803){
+      res.json({
+      "id": 5030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 8",
+          "key": "7R-RPahUNiw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
 });
 
 router.get('/tv/:series_id/watch/providers', function(req, res, next) {
@@ -21994,7 +23030,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030188801){
+   if (req.params.tv_id == 4030188801){
       res.json({
       "id": 4030188801,
       "results": [
@@ -22014,7 +23050,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-  	if (req.params.tv_id == 4030188802){
+   if (req.params.tv_id == 4030188802){
       res.json({
       "id": 4030188802,
       "results": [
@@ -22034,7 +23070,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030188803){
+   if (req.params.tv_id == 4030188803){
       res.json({
       "id": 4030188803,
       "results": [
@@ -22054,7 +23090,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030188804){
+   if (req.params.tv_id == 4030188804){
       res.json({
       "id": 4030188804,
       "results": [
@@ -22074,7 +23110,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030188805){
+   if (req.params.tv_id == 4030188805){
       res.json({
       "id": 4030188805,
       "results": [
@@ -22094,7 +23130,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030288801){
+   if (req.params.tv_id == 4030288801){
       res.json({
       "id": 4030288801,
       "results": [
@@ -22114,7 +23150,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 4030288802){
+   if (req.params.tv_id == 4030288802){
       res.json({
       "id": 4030288802,
       "results": [
@@ -22133,7 +23169,167 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+		
+   if (req.params.tv_id == 5030188801){
+      res.json({
+      "id": 5030188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 1",
+          "key": "L0b9bCFWb6Q",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 	
+   if (req.params.tv_id == 5030188802){
+      res.json({
+      "id": 5030188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 2",
+          "key": "Eh_23auIIVQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030188803){
+      res.json({
+      "id": 5030188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 3",
+          "key": "_UQUMRpxukg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030188804){
+      res.json({
+      "id": 5030188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 4",
+          "key": "2KSqk-HzANM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030188805){
+      res.json({
+      "id": 5030188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 5",
+          "key": "5sNjoM2dVEo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030288801){
+      res.json({
+      "id": 5030288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 6",
+          "key": "oa7W1l8aVRU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030288802){
+      res.json({
+      "id": 5030288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 7",
+          "key": "rTyFAY3Alkk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 5030288803){
+      res.json({
+      "id": 5030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Labor - Atty. Pearlito Campanilla - Lecture 8",
+          "key": "7R-RPahUNiw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
 });
 
 module.exports = router;
