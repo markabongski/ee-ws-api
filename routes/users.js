@@ -18898,7 +18898,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"networks": [
 		  {
 			"id": 6,
-			"logo_path": "/x6u4tPIh1rI.png",
+			"logo_path": "/x6u4tPIh1rI.jpg",
 			"name": "NBC",
 			"origin_country": "US"
 		  }
