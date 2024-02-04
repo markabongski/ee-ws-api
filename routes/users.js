@@ -11084,7 +11084,7 @@ router.get('/discover/movie', function(req, res, next) {
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/CGi7WTZXQKE.jpg",
+        "backdrop_path": "/images/NFBO0--nPMw.jpg",
         "genre_ids": [
         
         ],
@@ -11093,7 +11093,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Labor Atty. Benedict Kato Lecture 1",
         "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
         "popularity": 2590.24,
-        "poster_path": "/images/CGi7WTZXQKE.jpg",
+        "poster_path": "/images/NFBO0--nPMw.jpg",
         "release_date": "2023-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
@@ -11102,7 +11102,7 @@ router.get('/discover/movie', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/PDWxyvacR98.jpg",
+        "backdrop_path": "/images/371pb5aIGbY.jpg",
         "genre_ids": [
         
         ],
@@ -11111,7 +11111,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Labor Atty. Benedict Kato Lecture 2",
         "overview": "The discussion will focus on Labor Law by Benedict Kato.",
         "popularity": 2590.24,
-        "poster_path": "/images/PDWxyvacR98.jpg",
+        "poster_path": "/images/371pb5aIGbY.jpg",
         "release_date": "2023-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
         "video": false,
@@ -13101,7 +13101,7 @@ router.get('/discover/tv', function(req, res, next) {
     "results": [
       {
         "adult": false,
-        "backdrop_path": "/images/CGi7WTZXQKE.jpg",
+        "backdrop_path": "/images/NFBO0--nPMw.jpg",
         "genre_ids": [
         
         ],
@@ -13110,7 +13110,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Labor Atty. Benedict Kato Lecture 1",
         "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
         "popularity": 2590.24,
-        "poster_path": "/images/CGi7WTZXQKE.jpg",
+        "poster_path": "/images/NFBO0--nPMw.jpg",
         "release_date": "2023-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
@@ -13119,7 +13119,7 @@ router.get('/discover/tv', function(req, res, next) {
       },
 	  {
         "adult": false,
-        "backdrop_path": "/images/PDWxyvacR98.jpg",
+        "backdrop_path": "/images/371pb5aIGbY.jpg",
         "genre_ids": [
         
         ],
@@ -13128,7 +13128,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Labor Atty. Benedict Kato Lecture 2",
         "overview": "The discussion will focus on Labor Law by Benedict Kato.",
         "popularity": 2590.24,
-        "poster_path": "/images/PDWxyvacR98.jpg",
+        "poster_path": "/images/371pb5aIGbY.jpg",
         "release_date": "2023-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
         "video": false,
