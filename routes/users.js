@@ -24429,9 +24429,10 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         }
       ]
       });
+   }
     
 	
-	if (req.params.series_id == 3030488803){
+   if (req.params.series_id == 3030488803){
       res.json({
       "id": 3030488803,
       "results": [
