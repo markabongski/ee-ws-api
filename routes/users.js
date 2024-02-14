@@ -10322,7 +10322,7 @@ router.get('/discover/movie', function(req, res, next) {
         "popularity": 2590.24,
         "poster_path": "/images/Zg6Tv0ms07w.jpg",
         "release_date": "2023-07-19",
-        "title": "Judicial Ethics - Atty. Loanzon Lecture",
+        "title": "Bar Techniques - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
