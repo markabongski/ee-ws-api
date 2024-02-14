@@ -10308,10 +10308,28 @@ router.get('/discover/movie', function(req, res, next) {
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Zg6Tv0ms07w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488803,
+        "original_language": "en",
+        "original_title": "Bar Techniques - Atty. Loanzon Lecture",
+        "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Zg6Tv0ms07w.jpg",
+        "release_date": "2023-07-19",
+        "title": "Judicial Ethics - Atty. Loanzon Lecture",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
       }
 	  ],
     "total_pages": 1,
-    "total_results": 2
+    "total_results": 3
     });
  }
  
@@ -11114,6 +11132,34 @@ router.get('/discover/movie', function(req, res, next) {
         "poster_path": "/images/371pb5aIGbY.jpg",
         "release_date": "2023-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+  if (req.query.with_genres == 70301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/SW0S3KEnVtE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188801,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 1",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/SW0S3KEnVtE.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -12296,56 +12342,28 @@ router.get('/discover/tv', function(req, res, next) {
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Zg6Tv0ms07w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488803,
+        "original_language": "en",
+        "original_title": "Bar Techniques - Atty Loanzon Lecture",
+        "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Zg6Tv0ms07w.jpg",
+        "release_date": "2023-07-19",
+        "title": "Judicial Ethics - Atty. Loanzon Lecture",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
       }
 	  ],
     "total_pages": 1,
     "total_results": 3
-    });
- }
-
-  if (req.query.with_genres == 30304 ){
-      res.json({
-    "page": 1,
-    "results": [
-      {
-        "adult": false,
-        "backdrop_path": "/images/q8kQ3KriJL8.jpg",
-        "genre_ids": [
-        
-        ],
-        "id": 3030488801,
-        "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 13",
-        "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
-        "popularity": 2590.24,
-        "poster_path": "/images/q8kQ3KriJL8.jpg",
-        "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 13",
-        "video": false,
-        "vote_average": 8.2,
-        "vote_count": 4588
-      },
-	  {
-        "adult": false,
-        "backdrop_path": "/images/0bwDDCapiHo.jpg",
-        "genre_ids": [
-        
-        ],
-        "id": 3030488802,
-        "original_language": "en",
-        "original_title": "Judicial Ethics - Atty Loanzon Lecture ",
-        "overview": "The discussion will focus on the Judicial Ethics by Atty. Loanzon.",
-        "popularity": 2590.24,
-        "poster_path": "/images/0bwDDCapiHo.jpg",
-        "release_date": "2023-07-19",
-        "title": "Judicial Ethics - Atty Loanzon Lecture",
-        "video": false,
-        "vote_average": 8.2,
-        "vote_count": 4588
-      }
-	  ],
-    "total_pages": 1,
-    "total_results": 2
     });
  }
 
@@ -13141,6 +13159,33 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
+ if (req.query.with_genres == 70301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/SW0S3KEnVtE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188801,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 1",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/SW0S3KEnVtE.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
 
 });
 
@@ -19505,6 +19550,74 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
 
+  if (req.params.series_id == 3030488803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 3030488803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Bar Techniques Lecture - Atty. Loanzon Lecture",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/Zg6Tv0ms07w.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Bar Techniques Lecture - Atty. Loanzon Lecture",
+		"overview":  "The discussion will focus on the Bar techniques and how to answer bar questions by Atty. Loanzon.",
+		"popularity": 23.139,
+        "poster_path": "/images/Zg6Tv0ms07w.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
   if (req.params.series_id == 4030188801){
 	res.json(
 		{
@@ -22227,6 +22340,73 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
     
+   if (req.params.series_id == 7030188801){
+		res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 7030188801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Remedial - Dean Salvador Moya III - Lecture 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/SW0S3KEnVtE.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Remedial - Dean Salvador Moya III - Lecture 1",
+		"overview":  "The discussion will focus on Remedial Laws by Dean Salvador Moya III.",
+		"popularity": 23.139,
+        "poster_path": "/images/SW0S3KEnVtE.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+   }
    
 });
 
@@ -24249,6 +24429,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         }
       ]
       });
+    
+	
+	if (req.params.series_id == 3030488803){
+      res.json({
+      "id": 3030488803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Bar Techniques - Atty Loanzon Lecture",
+          "key": "jBihuHSdiOQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
     }
 
    if (req.params.series_id == 4030188801){
@@ -25040,6 +25240,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "iso_3166_1": "US",
           "name": "Labor - Atty. Benedict Kato - Lecture 2",
           "key": "ZPVyYmOXc7I",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });  
+   }
+   
+   if (req.params.series_id == 7030188801){
+      res.json({
+      "id": 7030188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Remedial - Dean Salvador Moya III - Lecture 1",
+          "key": "-OtmdiWDFmc",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -26381,6 +26601,26 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
+   if (req.params.tv_id == 3030488803){
+      res.json({
+      "id": 3030488803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Bar Techniques - Atty Loanzon Lecture",
+          "key": "jBihuHSdiOQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
    if (req.params.tv_id == 4030188801){
       res.json({
       "id": 4030188801,
@@ -26901,8 +27141,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
-
-  if (req.params.tv_id == 5030488801){
+   if (req.params.tv_id == 5030488801){
       res.json({
       "id": 5030488801,
       "results": [
@@ -27182,6 +27421,25 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });  
    }
 
+   if (req.params.tv_id == 7030188801){
+      res.json({
+      "id": 7030188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Remedial - Dean Salvador Moya III - Lecture 1",
+          "key": "-OtmdiWDFmc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });  
+   }
 });
 
 module.exports = router;
