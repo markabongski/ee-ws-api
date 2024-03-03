@@ -9828,7 +9828,7 @@ router.get('/discover/movie', function(req, res, next) {
         "original_title": "Syndicated estafa",
         "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
-        "poster_path": "/images/nFK07TccaHc.png",
+        "poster_path": "/images/nFK07TccaHc.jpg",
         "release_date": "2023-10-25",
         "title": "Syndicated estafa",
         "video": false,
@@ -10008,6 +10008,184 @@ router.get('/discover/movie', function(req, res, next) {
     "total_results": 5
     });
  }
+
+  if (req.query.with_genres == 20308 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/LhlTfXoL--0.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 2030888801,
+        "original_language": "en",
+        "original_title": "1. Penalty - Graduation",
+        "overview": "The video will examine the graduation of penalty under the revised penal code.",
+        "popularity": 2590.24,
+        "poster_path": "/images/LhlTfXoL--0.jpg",
+        "release_date": "2023-07-19",
+        "title": "1. Penalty - Graduation",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/nzt3y2UD9DU.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 2030888802,
+        "original_language": "en",
+        "original_title": "2. Penalty -Divisible and indivisible",
+        "overview": "The video examine the divisibility and indivisibility of the graduation of penalties.",
+        "popularity": 1617.893,
+        "poster_path": "/images/nzt3y2UD9DU.jpg",
+        "release_date": "2023-10-25",
+        "title": "2. Penalty -Divisible and indivisible",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/2dIxj8VIabM.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888803,
+        "original_language": "en",
+        "original_title": "3. Penalty -Application of indivisible Penalties.",
+        "overview": "The discussion will cover application of indivisible penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/2dIxj8VIabM.jpg",
+        "release_date": "2023-09-27",
+        "title": "3. Penalty -Application of indivisible Penalties.",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/s83-z6R33wk.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888804,
+        "original_language": "en",
+        "original_title": "4. Penalty - Proper impossable period",
+        "overview": "The discussion will cover the proper impossable period for penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/s83-z6R33wk.jpg",
+        "release_date": "2023-09-27",
+        "title": "4. Penalty - Proper impossable period",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YQ7tuJbdA-E.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888805,
+        "original_language": "en",
+        "original_title": "5. Penalty - Determinate and indeterminate",
+        "overview": "The discussion will cover the determinate and indeterminate nature of penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/YQ7tuJbdA-E.jpg",
+        "release_date": "2023-09-27",
+        "title": "5. Penalty - Determinate and indeterminate",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 20309 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/A7gA1UlZAfI.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 2030988801,
+        "original_language": "en",
+        "original_title": "6. Penalty - Bar answer",
+        "overview": "The video will examine some bar exam questions and provide answers in relation to Penalties.",
+        "popularity": 2590.24,
+        "poster_path": "/images/A7gA1UlZAfI.jpg",
+        "release_date": "2023-07-19",
+        "title": "6. Penalty - Bar answer",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/j7bToxEqzOc.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 2030988802,
+        "original_language": "en",
+        "original_title": "7. Penalty - Incremental Penalties",
+        "overview": "The video examine the incremental penalties under the revised penal code.",
+        "popularity": 1617.893,
+        "poster_path": "/images/j7bToxEqzOc.jpg",
+        "release_date": "2023-10-25",
+        "title": "7. Penalty - Incremental Penalties",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/PAXuhjw-PK8.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030988803,
+        "original_language": "en",
+        "original_title": "8. Penalty - Special laws",
+        "overview": "The discussion will cover the special laws for BAR 2024.",
+        "popularity": 1595.817,
+        "poster_path": "/images/PAXuhjw-PK8.jpg",
+        "release_date": "2023-09-27",
+        "title": "8. Penalty - Special laws",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -11862,7 +12040,7 @@ router.get('/discover/tv', function(req, res, next) {
         "original_title": "Syndicated estafa",
         "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
-        "poster_path": "/images/nFK07TccaHc.png",
+        "poster_path": "/images/nFK07TccaHc.jpg",
         "release_date": "2023-10-25",
         "title": "Syndicated estafa",
         "video": false,
@@ -12042,6 +12220,184 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 5
     });
  }
+
+  if (req.query.with_genres == 20308 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/LhlTfXoL--0.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 2030888801,
+        "original_language": "en",
+        "original_title": "1. Penalty - Graduation",
+        "overview": "The video will examine the graduation of penalty under the revised penal code.",
+        "popularity": 2590.24,
+        "poster_path": "/images/LhlTfXoL--0.jpg",
+        "release_date": "2023-07-19",
+        "title": "1. Penalty - Graduation",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/nzt3y2UD9DU.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 2030888802,
+        "original_language": "en",
+        "original_title": "2. Penalty -Divisible and indivisible",
+        "overview": "The video examine the divisibility and indivisibility of the graduation of penalties.",
+        "popularity": 1617.893,
+        "poster_path": "/images/nzt3y2UD9DU.jpg",
+        "release_date": "2023-10-25",
+        "title": "2. Penalty -Divisible and indivisible",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/2dIxj8VIabM.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888803,
+        "original_language": "en",
+        "original_title": "3. Penalty -Application of indivisible Penalties.",
+        "overview": "The discussion will cover application of indivisible penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/2dIxj8VIabM.jpg",
+        "release_date": "2023-09-27",
+        "title": "3. Penalty -Application of indivisible Penalties.",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/s83-z6R33wk.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888804,
+        "original_language": "en",
+        "original_title": "4. Penalty - Proper impossable period",
+        "overview": "The discussion will cover the proper impossable period for penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/s83-z6R33wk.jpg",
+        "release_date": "2023-09-27",
+        "title": "4. Penalty - Proper impossable period",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YQ7tuJbdA-E.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030888805,
+        "original_language": "en",
+        "original_title": "5. Penalty - Determinate and indeterminate",
+        "overview": "The discussion will cover the determinate and indeterminate nature of penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/YQ7tuJbdA-E.jpg",
+        "release_date": "2023-09-27",
+        "title": "5. Penalty - Determinate and indeterminate",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 20309 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/A7gA1UlZAfI.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 2030988801,
+        "original_language": "en",
+        "original_title": "6. Penalty - Bar answer",
+        "overview": "The video will examine some bar exam questions and provide answers in relation to Penalties.",
+        "popularity": 2590.24,
+        "poster_path": "/images/A7gA1UlZAfI.jpg",
+        "release_date": "2023-07-19",
+        "title": "6. Penalty - Bar answer",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/j7bToxEqzOc.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 2030988802,
+        "original_language": "en",
+        "original_title": "7. Penalty - Incremental Penalties",
+        "overview": "The video examine the incremental penalties under the revised penal code.",
+        "popularity": 1617.893,
+        "poster_path": "/images/j7bToxEqzOc.jpg",
+        "release_date": "2023-10-25",
+        "title": "7. Penalty - Incremental Penalties",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/PAXuhjw-PK8.jpg",
+        "genre_ids": [
+          878,
+          28,
+          53
+        ],
+        "id": 2030988803,
+        "original_language": "en",
+        "original_title": "8. Penalty - Special laws",
+        "overview": "The discussion will cover the special laws for BAR 2024.",
+        "popularity": 1595.817,
+        "poster_path": "/images/PAXuhjw-PK8.jpg",
+        "release_date": "2023-09-27",
+        "title": "8. Penalty - Special laws",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -18027,7 +18383,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"original_name": "Syndicated estafa",
 		"overview":  "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
 		"popularity": 23.139,
-        "poster_path": "/images/nFK07TccaHc.png",
+        "poster_path": "/images/nFK07TccaHc.jpg",
 		"production_companies": [
 		],
 		"production_countries": [
@@ -18602,7 +18958,552 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
 
+  if (req.params.series_id == 2030888801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030788801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "1. Penalty - Graduation",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/LhlTfXoL--0.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Criminal Law - 1. Penalty - Graduation",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/LhlTfXoL--0.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
 
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030888802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "2. Penalty -Divisible and indivisible",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/nzt3y2UD9DU.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "2. Penalty -Divisible and indivisible",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/nzt3y2UD9DU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030888803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "3. Penalty -Application of indivisible penalties",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/2dIxj8VIabM.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "3. Penalty -Application of indivisible penalties",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/2dIxj8VIabM.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030888804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "4. Penalty - Proper impossable period",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/s83-z6R33wk.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "4. Penalty - Proper impossable period",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/s83-z6R33wk.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030888805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "5. Penalty - Determinate and indeterminate",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/YQ7tuJbdA-E.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "5. Penalty - Determinate and indeterminate",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/YQ7tuJbdA-E.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030988801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030788801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "6. Penalty - Bar answer",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/A7gA1UlZAfI.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "6. Penalty - Bar answer",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/A7gA1UlZAfI.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030988802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "7. Penalty - Incremental penalties",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/j7bToxEqzOc.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "7. Penalty - Incremental penalties",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/j7bToxEqzOc.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2030988803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "8. Penalty - Special laws",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/PAXuhjw-PK8.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "8. Penalty - Special laws",
+		"overview":  "The video will examine the concept of penalties of some criminal special laws.",
+		"popularity": 23.139,
+        "poster_path": "/images/PAXuhjw-PK8.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+ 
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -21386,8 +22287,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-
-   if (req.params.series_id == 5030488801){
+  if (req.params.series_id == 5030488801){
 	res.json(
 		{
 		"adult": false,
@@ -21455,7 +22355,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
 
-   if (req.params.series_id == 5030488802){
+  if (req.params.series_id == 5030488802){
 	res.json(
 		{
 		"adult": false,
@@ -21523,7 +22423,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030488803){
+  if (req.params.series_id == 5030488803){
 		res.json(
 		{
 		"adult": false,
@@ -21591,7 +22491,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030488804){
+  if (req.params.series_id == 5030488804){
 		res.json(
 		{
 		"adult": false,
@@ -21659,7 +22559,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030488805){
+  if (req.params.series_id == 5030488805){
 	   
 		res.json(
 		{
@@ -21728,7 +22628,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }	
    
-   if (req.params.series_id == 5030588801){
+  if (req.params.series_id == 5030588801){
 	res.json(
 		{
 		"adult": false,
@@ -21796,7 +22696,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
 
-   if (req.params.series_id == 5030588802){
+  if (req.params.series_id == 5030588802){
 	res.json(
 		{
 		"adult": false,
@@ -21864,7 +22764,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030588803){
+  if (req.params.series_id == 5030588803){
 		res.json(
 		{
 		"adult": false,
@@ -21932,7 +22832,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030588804){
+  if (req.params.series_id == 5030588804){
 		res.json(
 		{
 		"adult": false,
@@ -22000,7 +22900,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030588805){
+  if (req.params.series_id == 5030588805){
 		res.json(
 		{
 		"adult": false,
@@ -22068,7 +22968,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030688801){
+  if (req.params.series_id == 5030688801){
 		res.json(
 		{
 		"adult": false,
@@ -22136,7 +23036,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 5030688802){
+  if (req.params.series_id == 5030688802){
 		res.json(
 		{
 		"adult": false,
@@ -22204,7 +23104,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
          
-   if (req.params.series_id == 6030188801){
+  if (req.params.series_id == 6030188801){
 		res.json(
 		{
 		"adult": false,
@@ -22272,7 +23172,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
    
-   if (req.params.series_id == 6030188802){
+  if (req.params.series_id == 6030188802){
 		res.json(
 		{
 		"adult": false,
@@ -22340,7 +23240,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
     
-   if (req.params.series_id == 7030188801){
+  if (req.params.series_id == 7030188801){
 		res.json(
 		{
 		"adult": false,
@@ -24150,8 +25050,169 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       ]
       });
     }
-	
-   if (req.params.series_id == 3030088801){
+
+   if (req.params.series_id == 2030888801){
+      res.json({
+      "id": 2030888801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "1. Penalty - Graduation",
+          "key": "ToLwnTwBZ98",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
+   if (req.params.series_id == 2030888802){
+      res.json({
+      "id": 2030888802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "2. Penalty -Divisible and indivisible",
+          "key": "uK6jVqWdT4c",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
+   if (req.params.series_id == 2030888803){
+      res.json({
+      "id": 2030888803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "3. Penalty -Application of indivisible penalties.",
+          "key": "xUL7qFLpZ5w",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 2030888804){
+      res.json({
+      "id": 2030888804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "4. Penalty - Proper impossable period",
+          "key": "4j1iduwC4hw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 2030888805){
+      res.json({
+      "id": 2030888805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "5. Penalty - Determinate and indeterminate",
+          "key": "LS8xw2AyZpM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
+  if (req.params.series_id == 2030988801){
+      res.json({
+      "id": 2030988801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "6. Penalty - Bar answer",
+          "key": "wR5yUM6OGx8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.series_id == 2030988802){
+      res.json({
+      "id": 2030988802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "7. Penalty - Incremental Penalty",
+          "key": "iGuvPIPduKA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.series_id == 2030988803){
+      res.json({
+      "id": 2030988803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "8. Penalty - Special laws",
+          "key": "i03tgf29jlc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.series_id == 3030088801){
       res.json({
       "id": 3030088801,
       "results": [
@@ -25522,9 +26583,9 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
 
 router.get('/tv/:tv_id/season/1', function(req, res, next) {
   
-   if (req.params.tv_id == 2230088801){
+   if (req.params.tv_id == 2030088801){
       res.json({
-      "id": 223008880101,
+      "id": 2030088801,
       "results": [
         {
           "iso_639_1": "en",
@@ -25542,9 +26603,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088802){
+   if (req.params.tv_id == 2030088802){
       res.json({
-      "id": 223008880102,
+      "id": 2030088802,
       "results": [
         {
           "iso_639_1": "en",
@@ -25562,9 +26623,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088803){
+   if (req.params.tv_id == 2030088803){
       res.json({
-      "id": 223008880103,
+      "id": 2030088803,
       "results": [
         {
           "iso_639_1": "en",
@@ -25582,9 +26643,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088804){
+   if (req.params.tv_id == 2030088804){
       res.json({
-      "id": 223008880104,
+      "id": 2030088804,
       "results": [
         {
           "iso_639_1": "en",
@@ -25602,9 +26663,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088805){
+   if (req.params.tv_id == 2030088805){
       res.json({
-      "id": 223008880105,
+      "id": 2030088805,
       "results": [
         {
           "iso_639_1": "en",
@@ -25621,10 +26682,10 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
-  
-   if (req.params.tv_id == 2230088806){
+
+   if (req.params.tv_id == 2030188801){
       res.json({
-      "id": 223018880101,
+      "id": 2030188801,
       "results": [
         {
           "iso_639_1": "en",
@@ -25642,9 +26703,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088807){
+   if (req.params.tv_id == 2030188802){
       res.json({
-      "id": 223008880101,
+      "id": 2030188802,
       "results": [
         {
           "iso_639_1": "en",
@@ -25662,9 +26723,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088808){
+   if (req.params.tv_id == 2030188803){
       res.json({
-      "id": 223008880101,
+      "id": 2030188803,
       "results": [
         {
           "iso_639_1": "en",
@@ -25682,9 +26743,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 2230088809){
+   if (req.params.tv_id == 2030188804){
       res.json({
-      "id": 223008880101,
+      "id": 2030188804,
       "results": [
         {
           "iso_639_1": "en",
@@ -25702,9 +26763,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888010){
+   if (req.params.tv_id == 2030188805){
       res.json({
-      "id": 223008880101,
+      "id": 2030188805,
       "results": [
         {
           "iso_639_1": "en",
@@ -25721,10 +26782,10 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
-  
-   if (req.params.tv_id == 22300888011){
+
+   if (req.params.tv_id == 2030288801){
       res.json({
-      "id": 223008880101,
+      "id": 2030288801,
       "results": [
         {
           "iso_639_1": "en",
@@ -25742,9 +26803,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888012){
+   if (req.params.tv_id == 2030288802){
       res.json({
-      "id": 223008880101,
+      "id": 2030288802,
       "results": [
         {
           "iso_639_1": "en",
@@ -25762,9 +26823,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888013){
+   if (req.params.tv_id == 2030288803){
       res.json({
-      "id": 223008880101,
+      "id": 2030288803,
       "results": [
         {
           "iso_639_1": "en",
@@ -25782,9 +26843,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888014){
+   if (req.params.tv_id == 2030288804){
       res.json({
-      "id": 223008880101,
+      "id": 2030288804,
       "results": [
         {
           "iso_639_1": "en",
@@ -25802,9 +26863,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888015){
+   if (req.params.tv_id == 2030288805){
       res.json({
-      "id": 223008880101,
+      "id": 2030288805,
       "results": [
         {
           "iso_639_1": "en",
@@ -25822,9 +26883,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888016){
+   if (req.params.tv_id == 2030388801){
       res.json({
-      "id": 223008880101,
+      "id": 2030388801,
       "results": [
         {
           "iso_639_1": "en",
@@ -25842,9 +26903,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888017){
+   if (req.params.tv_id == 2030388802){
       res.json({
-      "id": 223008880101,
+      "id": 2030388802,
       "results": [
         {
           "iso_639_1": "en",
@@ -25862,9 +26923,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888018){
+   if (req.params.tv_id == 2030388803){
       res.json({
-      "id": 223008880101,
+      "id": 2030388803,
       "results": [
         {
           "iso_639_1": "en",
@@ -25882,9 +26943,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888019){
+   if (req.params.tv_id == 2030388804){
       res.json({
-      "id": 223008880101,
+      "id": 2030388804,
       "results": [
         {
           "iso_639_1": "en",
@@ -25902,9 +26963,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888020){
+   if (req.params.tv_id == 2030388805){
       res.json({
-      "id": 223008880101,
+      "id": 2030388805,
       "results": [
         {
           "iso_639_1": "en",
@@ -25922,9 +26983,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888021){
+   if (req.params.tv_id == 2030488801){
       res.json({
-      "id": 223008880101,
+      "id": 2030488801,
       "results": [
         {
           "iso_639_1": "en",
@@ -25942,9 +27003,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888022){
+   if (req.params.tv_id == 2030488802){
       res.json({
-      "id": 223008880101,
+      "id": 2030488802,
       "results": [
         {
           "iso_639_1": "en",
@@ -25962,9 +27023,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888023){
+   if (req.params.tv_id == 2030488803){
       res.json({
-      "id": 223008880101,
+      "id": 2030488803,
       "results": [
         {
           "iso_639_1": "en",
@@ -25982,9 +27043,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888024){
+   if (req.params.tv_id == 2030488804){
       res.json({
-      "id": 223008880101,
+      "id": 2030488804,
       "results": [
         {
           "iso_639_1": "en",
@@ -26002,9 +27063,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888025){
+   if (req.params.tv_id == 2030488805){
       res.json({
-      "id": 223008880101,
+      "id": 2030488805,
       "results": [
         {
           "iso_639_1": "en",
@@ -26022,9 +27083,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888026){
+   if (req.params.tv_id == 2030588801){
       res.json({
-      "id": 223008880101,
+      "id": 2030588801,
       "results": [
         {
           "iso_639_1": "en",
@@ -26042,9 +27103,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888027){
+   if (req.params.tv_id == 2030588802){
       res.json({
-      "id": 223008880101,
+      "id": 2030588802,
       "results": [
         {
           "iso_639_1": "en",
@@ -26062,9 +27123,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888028){
+   if (req.params.tv_id == 2030588803){
       res.json({
-      "id": 223008880101,
+      "id": 2030588803,
       "results": [
         {
           "iso_639_1": "en",
@@ -26082,9 +27143,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888029){
+   if (req.params.tv_id == 2030588804){
       res.json({
-      "id": 223008880101,
+      "id": 2030588804,
       "results": [
         {
           "iso_639_1": "en",
@@ -26102,9 +27163,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888030){
+   if (req.params.tv_id == 2030588805){
       res.json({
-      "id": 223008880101,
+      "id": 2030588805,
       "results": [
         {
           "iso_639_1": "en",
@@ -26122,9 +27183,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888031){
+   if (req.params.tv_id == 2030688801){
       res.json({
-      "id": 223008880101,
+      "id": 2030688801,
       "results": [
         {
           "iso_639_1": "en",
@@ -26142,9 +27203,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888032){
+   if (req.params.tv_id == 2030688802){
       res.json({
-      "id": 223008880101,
+      "id": 2030688802,
       "results": [
         {
           "iso_639_1": "en",
@@ -26162,9 +27223,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888033){
+   if (req.params.tv_id == 2030688803){
       res.json({
-      "id": 223008880101,
+      "id": 2030688803,
       "results": [
         {
           "iso_639_1": "en",
@@ -26182,9 +27243,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888034){
+   if (req.params.tv_id == 2030688804){
       res.json({
-      "id": 223008880101,
+      "id": 2030688804,
       "results": [
         {
           "iso_639_1": "en",
@@ -26202,9 +27263,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888035){
+   if (req.params.tv_id == 2030688805){
       res.json({
-      "id": 223008880101,
+      "id": 2030688805,
       "results": [
         {
           "iso_639_1": "en",
@@ -26222,9 +27283,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888036){
+   if (req.params.tv_id == 2030788801){
       res.json({
-      "id": 223008880101,
+      "id": 2030788801,
       "results": [
         {
           "iso_639_1": "en",
@@ -26242,9 +27303,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888037){
+   if (req.params.tv_id == 2030788802){
       res.json({
-      "id": 223008880101,
+      "id": 2030788802,
       "results": [
         {
           "iso_639_1": "en",
@@ -26262,9 +27323,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
   
-   if (req.params.tv_id == 22300888038){
+   if (req.params.tv_id == 2030788803){
       res.json({
-      "id": 223008880101,
+      "id": 2030788803,
       "results": [
         {
           "iso_639_1": "en",
@@ -26282,9 +27343,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
-   if (req.params.tv_id == 22300888039){
+   if (req.params.tv_id == 2030788804){
       res.json({
-      "id": 223008880101,
+      "id": 2030788804,
       "results": [
         {
           "iso_639_1": "en",
@@ -26302,15 +27363,195 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
-   if (req.params.tv_id == 22300888040){
+   if (req.params.tv_id == 2030788805){
       res.json({
-      "id": 223008880101,
+      "id": 2030788805,
       "results": [
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
           "name": "Penalty 2",
           "key": "Sxz0W6TUjso",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+if (req.params.tv_id == 2030888801){
+      res.json({
+      "id": 2030888801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "1. Penalty - Graduation",
+          "key": "ToLwnTwBZ98",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
+  if (req.params.tv_id == 2030888802){
+      res.json({
+      "id": 2030888802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "2. Penalty -Divisible and indivisible",
+          "key": "uK6jVqWdT4c",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
+  if (req.params.tv_id == 2030888803){
+      res.json({
+      "id": 2030888803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "3. Penalty -Application of indivisible penalties.",
+          "key": "xUL7qFLpZ5w",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.tv_id == 2030888804){
+      res.json({
+      "id": 2030888804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "4. Penalty - Proper impossable period",
+          "key": "4j1iduwC4hw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.tv_id == 2030888805){
+      res.json({
+      "id": 2030888805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "5. Penalty - Determinate and indeterminate",
+          "key": "LS8xw2AyZpM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.tv_id == 2030988801){
+      res.json({
+      "id": 2030988801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "6. Penalty - Bar answer",
+          "key": "wR5yUM6OGx8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.tv_id == 2030988802){
+      res.json({
+      "id": 2030988802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "7. Penalty - Incremental Penalty",
+          "key": "iGuvPIPduKA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  if (req.params.tv_id == 2030988803){
+      res.json({
+      "id": 2030988803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "8. Penalty - Special laws",
+          "key": "i03tgf29jlc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 3030088801){
+      res.json({
+      "id": 3030088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Atty Loanzon Lecture 1",
+          "key": "N9CqCe4LDz0",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -27441,6 +28682,8 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });  
    }
+
+ 
 });
 
 module.exports = router;
