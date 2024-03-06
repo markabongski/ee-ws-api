@@ -18947,6 +18947,142 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"vote_count": 29
 		});
   }
+ 
+  if (req.params.series_id == 2030888804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030888804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "4. Penalty - Proper impossable period",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/s83-z6R33wk.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "4. Penalty - Proper impossable period",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/s83-z6R33wk.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+
+  if (req.params.series_id == 2030888805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030888805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "5. Penalty - Determinate and indeterminate",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/YQ7tuJbdA-E.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "5. Penalty - Determinate and indeterminate",
+		"overview":  "The video will examine the concept of penalties under the Revised Penal Code.",
+		"popularity": 23.139,
+        "poster_path": "/images/YQ7tuJbdA-E.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
 
   if (req.params.series_id == 2030988801){
 	res.json(
