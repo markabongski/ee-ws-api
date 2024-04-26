@@ -10147,6 +10147,87 @@ router.get('/discover/movie', function(req, res, next) {
     });
   }
 
+  if (req.query.with_genres == 20310 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/F3oJ7HBs_IQ.jpg",
+        "genre_ids": [
+        ],
+        "id": 2031088801,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 1",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 2590.24,
+        "poster_path": "/images/F3oJ7HBs_IQ.jpg",
+        "release_date": "2023-07-19",
+        "title": "Prescription Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/fQ1ocEnHBlE.jpg",
+        "genre_ids": [
+        ],
+
+        "id": 2031088802,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 2",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1617.893,
+        "poster_path": "/images/fQ1ocEnHBlE.jpg",
+        "release_date": "2023-10-25",
+        "title": "Prescription Lecture 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/bOsHaXKVDoU.jpg",
+        "genre_ids": [
+          878
+        ],
+        "id": 2031088803,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 3",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/bOsHaXKVDoU.jpg",
+        "release_date": "2023-09-27",
+        "title": "Prescription Lecture 3",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/iI6KcEPEyYU.jpg",
+        "genre_ids": [
+        ],
+        "id": 2031088804,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 4",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/iI6KcEPEyYU.jpg",
+        "release_date": "2023-09-27",
+        "title": "Prescription Lecture 4",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+
   if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
@@ -12309,6 +12390,86 @@ router.get('/discover/tv', function(req, res, next) {
         "poster_path": "/images/PAXuhjw-PK8.jpg",
         "release_date": "2023-09-27",
         "title": "8. Penalty - Special laws",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 20310 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/F3oJ7HBs_IQ.jpg",
+        "genre_ids": [
+        ],
+        "id": 2031088801,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 1",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 2590.24,
+        "poster_path": "/images/F3oJ7HBs_IQ.jpg",
+        "release_date": "2023-07-19",
+        "title": "Prescription Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/fQ1ocEnHBlE.jpg",
+        "genre_ids": [
+        ],
+
+        "id": 2031088802,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 2",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1617.893,
+        "poster_path": "/images/fQ1ocEnHBlE.jpg",
+        "release_date": "2023-10-25",
+        "title": "Prescription Lecture 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/bOsHaXKVDoU.jpg",
+        "genre_ids": [
+          878
+        ],
+        "id": 2031088803,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 3",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/bOsHaXKVDoU.jpg",
+        "release_date": "2023-09-27",
+        "title": "Prescription Lecture 3",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/iI6KcEPEyYU.jpg",
+        "genre_ids": [
+        ],
+        "id": 2031088804,
+        "original_language": "en",
+        "original_title": "Prescription Lecture 4",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+        "popularity": 1595.817,
+        "poster_path": "/images/iI6KcEPEyYU.jpg",
+        "release_date": "2023-09-27",
+        "title": "Prescription Lecture 4",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -19289,6 +19450,281 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
  
+ 
+  if (req.params.series_id == 2031088801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		 
+		],
+		"homepage": "",
+		"id": 2030788801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Prescription Lecture 1",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/F3oJ7HBs_IQ.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Prescription Lecture 1",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+		"popularity": 23.139,
+        "poster_path": "/images/F3oJ7HBs_IQ.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2031088802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Prescription Lecture 2",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/fQ1ocEnHBlE.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Prescription Lecture 2",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+		"popularity": 23.139,
+        "poster_path": "/images/fQ1ocEnHBlE.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2031088803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Prescription Lecture 3",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/bOsHaXKVDoU.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Prescription Lecture 3",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+		"popularity": 23.139,
+        "poster_path": "/images/bOsHaXKVDoU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 2031088804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 2030788803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Prescription Lecture 4",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/iI6KcEPEyYU.png",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Prescription Lecture 4",
+        "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
+		"popularity": 23.139,
+        "poster_path": "/images/iI6KcEPEyYU.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+ 
+
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -24958,6 +25394,86 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+  if (req.params.series_id == 2031088801){
+      res.json({
+      "id": 2031088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 1",
+          "key": "MHWh3tG-oew",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+  if (req.params.series_id == 2031088802){
+      res.json({
+      "id": 2031088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 2",
+          "key": "gSEBkWC09H8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+  if (req.params.series_id == 2031088803){
+      res.json({
+      "id": 2031088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 3",
+          "key": "tGvmQyQ3zQ0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+  if (req.params.series_id == 2031088804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 4",
+          "key": "eQv3uR6k7xM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }		
+
   if (req.params.series_id == 3030088801){
       res.json({
       "id": 3030088801,
@@ -27248,6 +27764,87 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+	
+  if (req.params.tv_id == 2031088801){
+      res.json({
+      "id": 2031088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 1",
+          "key": "MHWh3tG-oew",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+  if (req.params.tv_id == 2031088802){
+      res.json({
+      "id": 2031088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 2",
+          "key": "gSEBkWC09H8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+  if (req.params.tv_id == 2031088803){
+      res.json({
+      "id": 2031088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 3",
+          "key": "tGvmQyQ3zQ0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+	
+  if (req.params.tv_id == 2031088804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 4",
+          "key": "eQv3uR6k7xM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }		
+	
 
    if (req.params.tv_id == 3030088801){
       res.json({
