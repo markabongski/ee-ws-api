@@ -10496,6 +10496,36 @@ router.get('/discover/movie', function(req, res, next) {
     });
   }
 
+  if (req.query.with_genres == 90001 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/pclRwzhkLr8.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 9000188801,
+      "original_language": "en",
+      "original_title": "Commercial - New Corporation Law (6 hours)",
+      "overview": "The video will examine the new Law of Corporation.",
+      "popularity": 2590.24,
+      "poster_path": "/images/pclRwzhkLr8.jpg",
+      "release_date": "2023-07-19",
+      "title": "Commercial - New Corporation Law (6 hours)",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+  });
+}
+
+
   if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
@@ -13016,6 +13046,35 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 5
     });
   }
+
+ if (req.query.with_genres == 90001 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/pclRwzhkLr8.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 9000188801,
+      "original_language": "en",
+      "original_title": "Commercial - New Corporation Law (6 hours)",
+      "overview": "The video will examine the new Law of Corporation.",
+      "popularity": 2590.24,
+      "poster_path": "/images/pclRwzhkLr8.jpg",
+      "release_date": "2023-07-19",
+      "title": "Commercial - New Corporation Law (6 hours)",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+  });
+}
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -21079,6 +21138,74 @@ router.get('/tv/:series_id', function(req, res, next) {
                     });
         }   
   
+  if (req.params.series_id == 9000188801){
+          res.json(
+            {
+            "adult": false,
+            "backdrop_path": null,
+            "created_by": [
+            ],
+            "episode_run_time": [
+              43
+            ],
+            "first_air_date": "2005-04-13",
+            "genres": [
+            ],
+            "homepage": "",
+            "id": 9000188801,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2005-05-18",
+            "last_episode_to_air": {
+            },
+            "name": "Commercial - New Corporation Law (6 hours)",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+              "id": 6,
+              "logo_path": "/pclRwzhkLr8.png",
+              "name": "NBC",
+              "origin_country": "US"
+              }
+            ],
+            "number_of_episodes": 1,
+            "number_of_seasons": 1,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Commercial - New Corporation Law (6 hours)",
+            "overview": "The video will examine the new Law of Corporation.",
+            "popularity": 23.139,
+            "poster_path": "/images/pclRwzhkLr8.jpg",
+            "production_companies": [
+            ],
+            "production_countries": [
+              {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+              }
+            ],
+            "seasons": [
+        
+            ],
+            "spoken_languages": [
+              {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "",
+            "type": "Miniseries",
+            "vote_average": 5.7,
+            "vote_count": 29
+            });
+          }         
+
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -27088,7 +27215,27 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	    
 
-  if (req.params.series_id == 3030088801){
+    if (req.params.series_id == 9000188801){
+      res.json({
+      "id": 9000188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Commercial - New Corporation Law (6 hours)",
+          "key": "iWPHgdF9gAM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	  
+
+   if (req.params.series_id == 3030088801){
       res.json({
       "id": 3030088801,
       "results": [
@@ -29560,6 +29707,27 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }		
+
+
+    if (req.params.tv_id == 9000188801){
+      res.json({
+      "id": 9000188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Commercial - New Corporation Law (6 hours)",
+          "key": "iWPHgdF9gAM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	  
 
 
    if (req.params.tv_id == 3030088801){
