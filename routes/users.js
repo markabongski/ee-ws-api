@@ -12872,7 +12872,7 @@ router.get('/discover/tv', function(req, res, next) {
           9648
         ],
 
-        "id": 8030188801,
+        "id": 8030188802,
         "original_language": "en",
         "original_title": "Civil - Sales Lecture Part 2",
         "overview": "The video will examine some areas and pointers on the Law of Sales",
@@ -21070,7 +21070,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                   });
                 }   
   
-    if (req.params.series_id == 8030388803){
+  if (req.params.series_id == 8030388803){
                   res.json(
                     {
                     "adult": false,
@@ -21165,7 +21165,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "networks": [
               {
               "id": 6,
-              "logo_path": "/pclRwzhkLr8.png",
+              "logo_path": "/pclRwzhkLr8.jpg",
               "name": "NBC",
               "origin_country": "US"
               }
