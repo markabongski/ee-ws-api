@@ -10227,6 +10227,69 @@ router.get('/discover/movie', function(req, res, next) {
     });
   }
 
+  if (req.query.with_genres == 20311 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/t9mcag14l8Y.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031188801,
+      "original_language": "en",
+      "original_title": "Criminal - Updates on theft and estafa.",
+      "overview": "The video will examine some updates related to Theft and estafa.",
+      "popularity": 2590.24,
+      "poster_path": "/images/t9mcag14l8Y.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9uHBn0FkWE8.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031188802,
+      "original_language": "en",
+      "original_title": "Criminal - RA No  9262  - updated",
+      "overview": "The video will examine some updates related to RA 9262.",
+      "popularity": 1617.893,
+      "poster_path": "/images/9uHBn0FkWE8.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - RA No  9262  - updated",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2vXC7_WBp5M.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031188803,
+      "original_language": "en",
+      "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/2vXC7_WBp5M.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+}
+
   if (req.query.with_genres == 80301 ){
       res.json({
     "page": 1,
@@ -10266,6 +10329,163 @@ router.get('/discover/movie', function(req, res, next) {
         "poster_path": "/images/MenyROkhDp4.jpg",
         "release_date": "2023-10-25",
         "title": "Civil - Sales Lecture Part 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 80302 ){
+    res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/O10N6fFIzz4.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288801,
+        "original_language": "en",
+        "original_title": "Civil - II  Human Relations & III  PFR A E",
+        "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
+        "popularity": 2590.24,
+        "poster_path": "/images/O10N6fFIzz4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - II  Human Relations & III  PFR A E",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/sh7IVU9jVpI.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288802,
+        "original_language": "en",
+        "original_title": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
+        "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
+        "popularity": 1617.893,
+        "poster_path": "/images/sh7IVU9jVpI.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/xG7ZB_mHMng.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288803,
+        "original_language": "en",
+        "original_title": "Civil - VII  Wills & Succession C D",
+        "overview": "The video will examine some areas on Wills and Succession.",
+        "popularity": 2590.24,
+        "poster_path": "/images/xG7ZB_mHMng.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VII  Wills & Succession C D",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/mXp4a_4baPs.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288804,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "overview": "The video will examine some areas on contracts real, consensual and defective.",
+        "popularity": 1617.893,
+        "poster_path": "/images/mXp4a_4baPs.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 80303 ){
+  res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/YQ-3NE_arfY.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030388801,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YQ-3NE_arfY.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/fTRzrMaE9mo.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388802,
+        "original_language": "en",
+        "original_title": "Civil - X  Contract of Lease",
+        "overview": "The video will examine some areas and pointers on the Law of Lease",
+        "popularity": 1617.893,
+        "poster_path": "/images/fTRzrMaE9mo.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - X  Contract of Lease",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/ZZw2IdeDMMU.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388803,
+        "original_language": "en",
+        "original_title": "Civil - XI  Agency",
+        "overview": "The video will examine some areas and pointers on the Law of Agency",
+        "popularity": 1617.893,
+        "poster_path": "/images/ZZw2IdeDMMU.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - XI  Agency",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -12528,6 +12748,69 @@ router.get('/discover/tv', function(req, res, next) {
     });
   }
  
+  if (req.query.with_genres == 20311 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/t9mcag14l8Y.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031188801,
+      "original_language": "en",
+      "original_title": "Criminal -  Updates on theft and estafa",
+      "overview": "The video will examine some updates related to Theft and estafa.",
+      "popularity": 2590.24,
+      "poster_path": "/images/t9mcag14l8Y.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal -  Updates on theft and estafa",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9uHBn0FkWE8.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031188802,
+      "original_language": "en",
+      "original_title": "Criminal - RA No  9262  - updated",
+      "overview": "The video will examine some updates related to RA 9262.",
+      "popularity": 1617.893,
+      "poster_path": "/images/9uHBn0FkWE8.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - RA No  9262  - updated",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2vXC7_WBp5M.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031188803,
+      "original_language": "en",
+      "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/2vXC7_WBp5M.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+}
+
   if (req.query.with_genres == 80301 ){
       res.json({
     "page": 1,
@@ -12567,6 +12850,163 @@ router.get('/discover/tv', function(req, res, next) {
         "poster_path": "/images/MenyROkhDp4.jpg",
         "release_date": "2023-10-25",
         "title": "Civil - Sales Lecture Part 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 80302 ){
+    res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/O10N6fFIzz4.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288801,
+        "original_language": "en",
+        "original_title": "Civil - II  Human Relations & III  PFR A E",
+        "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
+        "popularity": 2590.24,
+        "poster_path": "/images/O10N6fFIzz4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - II  Human Relations & III  PFR A E",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/sh7IVU9jVpI.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288802,
+        "original_language": "en",
+        "original_title": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
+        "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
+        "popularity": 1617.893,
+        "poster_path": "/images/sh7IVU9jVpI.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/xG7ZB_mHMng.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288803,
+        "original_language": "en",
+        "original_title": "Civil - VII  Wills & Succession C D",
+        "overview": "The video will examine some areas on Wills and Succession.",
+        "popularity": 2590.24,
+        "poster_path": "/images/xG7ZB_mHMng.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VII  Wills & Succession C D",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/mXp4a_4baPs.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288804,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "overview": "The video will examine some areas on contracts real, consensual and defective.",
+        "popularity": 1617.893,
+        "poster_path": "/images/mXp4a_4baPs.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+ if (req.query.with_genres == 80303 ){
+  res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/YQ-3NE_arfY.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030388801,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YQ-3NE_arfY.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/fTRzrMaE9mo.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388802,
+        "original_language": "en",
+        "original_title": "Civil - X  Contract of Lease",
+        "overview": "The video will examine some areas and pointers on the Law of Lease",
+        "popularity": 1617.893,
+        "poster_path": "/images/fTRzrMaE9mo.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - X  Contract of Lease",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/ZZw2IdeDMMU.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388803,
+        "original_language": "en",
+        "original_title": "Civil - XI  Agency",
+        "overview": "The video will examine some areas and pointers on the Law of Agency",
+        "popularity": 1617.893,
+        "poster_path": "/images/ZZw2IdeDMMU.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - XI  Agency",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -19822,6 +20262,210 @@ router.get('/tv/:series_id', function(req, res, next) {
   }
  
 
+  if (req.params.series_id == 2031188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 2031188801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Criminal -  Updates on theft and estafa",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/t9mcag14l8Y.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Criminal -  Updates on theft and estafa",         
+      "overview": "The video will examine some updates related to Theft and estafa.",
+      "popularity": 23.139,
+      "poster_path": "/images/t9mcag14l8Y.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+    }
+
+  if (req.params.series_id == 2031188802){
+      res.json(
+        {
+        "adult": false,
+        "backdrop_path": null,
+        "created_by": [
+        ],
+        "episode_run_time": [
+          43
+        ],
+        "first_air_date": "2005-04-13",
+        "genres": [
+        ],
+        "homepage": "",
+        "id": 2031188802,
+        "in_production": false,
+        "languages": [
+          "en"
+        ],
+        "last_air_date": "2005-05-18",
+        "last_episode_to_air": {
+        },
+        "name": "Criminal - RA No  9262  - updated",
+        "next_episode_to_air": null,
+        "networks": [
+          {
+          "id": 6,
+          "logo_path": "/t9mcag14l8Y.jpg",
+          "name": "NBC",
+          "origin_country": "US"
+          }
+        ],
+        "number_of_episodes": 1,
+        "number_of_seasons": 1,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Criminal - RA No  9262  - updated",         
+        "overview": "The video will examine some updates related to RA 9262.",
+        "popularity": 23.139,
+        "poster_path": "/images/9uHBn0FkWE8.jpg",
+        "production_companies": [
+        ],
+        "production_countries": [
+          {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+          }
+        ],
+        "seasons": [
+    
+        ],
+        "spoken_languages": [
+          {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+          }
+        ],
+        "status": "Ended",
+        "tagline": "",
+        "type": "Miniseries",
+        "vote_average": 5.7,
+        "vote_count": 29
+        });
+      }
+  
+      if (req.params.series_id == 2031188803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/2vXC7_WBp5M.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+
   if (req.params.series_id == 8030188801){
 	res.json(
 		{
@@ -19890,74 +20534,551 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
   
+   
   if (req.params.series_id == 8030188802){
-	res.json(
-		{
-		"adult": false,
-		"backdrop_path": null,
-		"created_by": [
-		],
-		"episode_run_time": [
-		  43
-		],
-		"first_air_date": "2005-04-13",
-		"genres": [
-		],
-		"homepage": "",
-		"id": 8030188802,
-		"in_production": false,
-		"languages": [
-		  "en"
-		],
-		"last_air_date": "2005-05-18",
-		"last_episode_to_air": {
-		},
-		"name": "Civil - Sales Lecture Part 2",
-		"next_episode_to_air": null,
-		"networks": [
-		  {
-			"id": 6,
-			"logo_path": "/MenyROkhDp4.png",
-			"name": "NBC",
-			"origin_country": "US"
-		  }
-		],
-		"number_of_episodes": 1,
-		"number_of_seasons": 1,
-		"origin_country": [
-		  "US"
-		],
-		"original_language": "en",
-		"original_name": "Civil - Sales Lecture Part 2",
-        "overview": "The video will examine some areas and pointers on the Law of Sales",
-		"popularity": 23.139,
-        "poster_path": "/images/MenyROkhDp4.jpg",
-		"production_companies": [
-		],
-		"production_countries": [
-		  {
-			"iso_3166_1": "US",
-			"name": "United States of America"
-		  }
-		],
-		"seasons": [
-
-		],
-		"spoken_languages": [
-		  {
-			"english_name": "English",
-			"iso_639_1": "en",
-			"name": "English"
-		  }
-		],
-		"status": "Ended",
-		"tagline": "",
-		"type": "Miniseries",
-		"vote_average": 5.7,
-		"vote_count": 29
-		});
-  }
-
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030188802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Sales Lecture Part 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/MenyROkhDp4.png",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Sales Lecture Part 2",
+          "overview": "The video will examine some areas and pointers on the Law of Sales",
+      "popularity": 23.139,
+          "poster_path": "/images/MenyROkhDp4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+    }
+  
+  if (req.params.series_id == 8030288801){
+      res.json(
+        {
+        "adult": false,
+        "backdrop_path": null,
+        "created_by": [
+        ],
+        "episode_run_time": [
+          43
+        ],
+        "first_air_date": "2005-04-13",
+        "genres": [
+        ],
+        "homepage": "",
+        "id": 8030288801,
+        "in_production": false,
+        "languages": [
+          "en"
+        ],
+        "last_air_date": "2005-05-18",
+        "last_episode_to_air": {
+        },
+        "name": "Civil - II  Human Relations & III  PFR A E",
+        "next_episode_to_air": null,
+        "networks": [
+          {
+          "id": 6,
+          "logo_path": "/O10N6fFIzz4.png",
+          "name": "NBC",
+          "origin_country": "US"
+          }
+        ],
+        "number_of_episodes": 1,
+        "number_of_seasons": 1,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Civil - II  Human Relations & III  PFR A E",
+            "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
+        "popularity": 23.139,
+            "poster_path": "/images/O10N6fFIzz4.jpg",
+        "production_companies": [
+        ],
+        "production_countries": [
+          {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+          }
+        ],
+        "seasons": [
+    
+        ],
+        "spoken_languages": [
+          {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+          }
+        ],
+        "status": "Ended",
+        "tagline": "",
+        "type": "Miniseries",
+        "vote_average": 5.7,
+        "vote_count": 29
+        });
+      }
+  
+  if (req.params.series_id == 8030288802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 8030288802,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/sh7IVU9jVpI.png",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
+          "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
+          "popularity": 23.139,
+          "poster_path": "/images/sh7IVU9jVpI.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+  
+  if (req.params.series_id == 8030288803){
+          res.json(
+            {
+            "adult": false,
+            "backdrop_path": null,
+            "created_by": [
+            ],
+            "episode_run_time": [
+              43
+            ],
+            "first_air_date": "2005-04-13",
+            "genres": [
+            ],
+            "homepage": "",
+            "id": 8030288803,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2005-05-18",
+            "last_episode_to_air": {
+            },
+            "name": "Civil - VII  Wills & Succession C D",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+              "id": 6,
+              "logo_path": "/xG7ZB_mHMng.png",
+              "name": "NBC",
+              "origin_country": "US"
+              }
+            ],
+            "number_of_episodes": 1,
+            "number_of_seasons": 1,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Civil - VII  Wills & Succession C D",
+            "overview": "The video will examine some areas on Law on Wills and Succession.",
+            "popularity": 23.139,
+                "poster_path": "/images/xG7ZB_mHMng.jpg",
+            "production_companies": [
+            ],
+            "production_countries": [
+              {
+              "iso_3166_1": "US",
+              "name": "United States of America"
+              }
+            ],
+            "seasons": [
+        
+            ],
+            "spoken_languages": [
+              {
+              "english_name": "English",
+              "iso_639_1": "en",
+              "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "",
+            "type": "Miniseries",
+            "vote_average": 5.7,
+            "vote_count": 29
+            });
+          }
+  
+  if (req.params.series_id == 8030288804){
+            res.json(
+              {
+              "adult": false,
+              "backdrop_path": null,
+              "created_by": [
+              ],
+              "episode_run_time": [
+                43
+              ],
+              "first_air_date": "2005-04-13",
+              "genres": [
+              ],
+              "homepage": "",
+              "id": 8030288804,
+              "in_production": false,
+              "languages": [
+                "en"
+              ],
+              "last_air_date": "2005-05-18",
+              "last_episode_to_air": {
+              },
+              "name": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+              "next_episode_to_air": null,
+              "networks": [
+                {
+                "id": 6,
+                "logo_path": "/mXp4a_4baPs.png",
+                "name": "NBC",
+                "origin_country": "US"
+                }
+              ],
+              "number_of_episodes": 1,
+              "number_of_seasons": 1,
+              "origin_country": [
+                "US"
+              ],
+              "original_language": "en",
+              "original_name": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+              "overview": "The video will examine some areas on contracts real, consensual and defective.",
+              "popularity": 23.139,
+                  "poster_path": "/images/mXp4a_4baPs.jpg",
+              "production_companies": [
+              ],
+              "production_countries": [
+                {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+                }
+              ],
+              "seasons": [
+          
+              ],
+              "spoken_languages": [
+                {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+                }
+              ],
+              "status": "Ended",
+              "tagline": "",
+              "type": "Miniseries",
+              "vote_average": 5.7,
+              "vote_count": 29
+              });
+            }     
+  
+    if (req.params.series_id == 8030388801){
+              res.json(
+                {
+                "adult": false,
+                "backdrop_path": null,
+                "created_by": [
+                ],
+                "episode_run_time": [
+                  43
+                ],
+                "first_air_date": "2005-04-13",
+                "genres": [
+                ],
+                "homepage": "",
+                "id": 8030388801,
+                "in_production": false,
+                "languages": [
+                  "en"
+                ],
+                "last_air_date": "2005-05-18",
+                "last_episode_to_air": {
+                },
+                "name": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+                "next_episode_to_air": null,
+                "networks": [
+                  {
+                  "id": 6,
+                  "logo_path": "/YQ-3NE_arfY.png",
+                  "name": "NBC",
+                  "origin_country": "US"
+                  }
+                ],
+                "number_of_episodes": 1,
+                "number_of_seasons": 1,
+                "origin_country": [
+                  "US"
+                ],
+                "original_language": "en",
+                "original_name": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+                "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
+                "popularity": 23.139,
+                    "poster_path": "/images/YQ-3NE_arfY.jpg",
+                "production_companies": [
+                ],
+                "production_countries": [
+                  {
+                  "iso_3166_1": "US",
+                  "name": "United States of America"
+                  }
+                ],
+                "seasons": [
+            
+                ],
+                "spoken_languages": [
+                  {
+                  "english_name": "English",
+                  "iso_639_1": "en",
+                  "name": "English"
+                  }
+                ],
+                "status": "Ended",
+                "tagline": "",
+                "type": "Miniseries",
+                "vote_average": 5.7,
+                "vote_count": 29
+                });
+              }   
+  
+    if (req.params.series_id == 8030388802){
+                res.json(
+                  {
+                  "adult": false,
+                  "backdrop_path": null,
+                  "created_by": [
+                  ],
+                  "episode_run_time": [
+                    43
+                  ],
+                  "first_air_date": "2005-04-13",
+                  "genres": [
+                  ],
+                  "homepage": "",
+                  "id": 8030388802,
+                  "in_production": false,
+                  "languages": [
+                    "en"
+                  ],
+                  "last_air_date": "2005-05-18",
+                  "last_episode_to_air": {
+                  },
+                  "name": "Civil - X  Contract of Lease",
+                  "next_episode_to_air": null,
+                  "networks": [
+                    {
+                    "id": 6,
+                    "logo_path": "/fTRzrMaE9mo.png",
+                    "name": "NBC",
+                    "origin_country": "US"
+                    }
+                  ],
+                  "number_of_episodes": 1,
+                  "number_of_seasons": 1,
+                  "origin_country": [
+                    "US"
+                  ],
+                  "original_language": "en",
+                  "original_name": "Civil - X  Contract of Lease",
+                  "overview": "The video will examine some areas and pointers on the Law of Lease",
+                  "popularity": 23.139,
+                  "poster_path": "/images/fTRzrMaE9mo.jpg",
+                  "production_companies": [
+                  ],
+                  "production_countries": [
+                    {
+                    "iso_3166_1": "US",
+                    "name": "United States of America"
+                    }
+                  ],
+                  "seasons": [
+              
+                  ],
+                  "spoken_languages": [
+                    {
+                    "english_name": "English",
+                    "iso_639_1": "en",
+                    "name": "English"
+                    }
+                  ],
+                  "status": "Ended",
+                  "tagline": "",
+                  "type": "Miniseries",
+                  "vote_average": 5.7,
+                  "vote_count": 29
+                  });
+                }   
+  
+    if (req.params.series_id == 8030388803){
+                  res.json(
+                    {
+                    "adult": false,
+                    "backdrop_path": null,
+                    "created_by": [
+                    ],
+                    "episode_run_time": [
+                      43
+                    ],
+                    "first_air_date": "2005-04-13",
+                    "genres": [
+                    ],
+                    "homepage": "",
+                    "id": 8030388803,
+                    "in_production": false,
+                    "languages": [
+                      "en"
+                    ],
+                    "last_air_date": "2005-05-18",
+                    "last_episode_to_air": {
+                    },
+                    "name": "Civil - XI  Agency",
+                    "next_episode_to_air": null,
+                    "networks": [
+                      {
+                      "id": 6,
+                      "logo_path": "/ZZw2IdeDMMU.jpg",
+                      "name": "NBC",
+                      "origin_country": "US"
+                      }
+                    ],
+                    "number_of_episodes": 1,
+                    "number_of_seasons": 1,
+                    "origin_country": [
+                      "US"
+                    ],
+                    "original_language": "en",
+                    "original_name": "Civil - XI  Agency",
+                    "overview": "The video will examine some areas and pointers on the Law of Agency.",
+                    "popularity": 23.139,
+                        "poster_path": "/images/ZZw2IdeDMMU.jpg",
+                    "production_companies": [
+                    ],
+                    "production_countries": [
+                      {
+                      "iso_3166_1": "US",
+                      "name": "United States of America"
+                      }
+                    ],
+                    "seasons": [
+                
+                    ],
+                    "spoken_languages": [
+                      {
+                      "english_name": "English",
+                      "iso_639_1": "en",
+                      "name": "English"
+                      }
+                    ],
+                    "status": "Ended",
+                    "tagline": "",
+                    "type": "Miniseries",
+                    "vote_average": 5.7,
+                    "vote_count": 29
+                    });
+        }   
+  
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -25695,7 +26816,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "iso_639_1": "en",
           "iso_3166_1": "US",
           "name": "Prescription Lecture 4",
-          "key": "eQv3uR6k7xM",
+          "key": "xoTZHjJ8Swg",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -25706,6 +26827,86 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       ]
       });
     }		
+
+    if (req.params.series_id == 2031188801){
+      res.json({
+      "id": 2031188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal -  Updates on  theft and estafa",
+          "key": "L_ywnY15xdA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+    if (req.params.series_id == 2031188802){
+      res.json({
+      "id": 2031188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - RA No 9262 updated",
+          "key": "xoTZHjJ8Swg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+    if (req.params.series_id == 2031188803){
+      res.json({
+      "id": 2031188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "key": "dafYwVTMl-E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+    if (req.params.series_id == 2031088804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 4",
+          "key": "eQv3uR6k7xM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
 
   if (req.params.series_id == 8030188801){
       res.json({
@@ -25734,7 +26935,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-		  "name": "Civil - Sales Lecture Part 2",
+		      "name": "Civil - Sales Lecture Part 2",
           "key": "MPvhuV4_PCA",
           "site": "YouTube",
           "size": 480,
@@ -25745,7 +26946,147 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         }
       ]
       });
-    }		
+    }	
+    
+    if (req.params.series_id == 8030288801){
+      res.json({
+      "id": 8030288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - II  Human Relations & III  PFR A E",
+          "key": "w8tK7Bcac-I",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }		  
+
+    if (req.params.series_id == 8030288802){
+      res.json({
+      "id": 8030288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - III  Persons and Family Relations F Marriage to L Legal Separation",
+          "key": "hBDJsoi2RUQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+    if (req.params.series_id == 8030288803){
+      res.json({
+      "id": 8030288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - VII  Wills & Succession C D",
+          "key": "PusuOC3ViL8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	  
+
+    if (req.params.series_id == 8030288804){
+      res.json({
+      "id": 8030288804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil  - Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+          "key": "lJbASnV_OG4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	  
+
+    if (req.params.series_id == 8030388801){
+      res.json({
+      "id": 8030388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil  - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+          "key": "it9MjGnjQzM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	 
+  
+    if (req.params.series_id == 8030388802){
+      res.json({
+      "id": 8030388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - X  Contract of Lease",
+          "key": "kWoQlN2UUfs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	   
+
+    if (req.params.series_id == 8030388803){
+      res.json({
+      "id": 8030388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - XI  Agency",
+          "key": "wRT-FaZ-vQo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	    
 
   if (req.params.series_id == 3030088801){
       res.json({
@@ -28117,6 +29458,68 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }		
+    
+    if (req.params.tv_id == 2031188801){
+      res.json({
+      "id": 2031188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal -  Updates on  theft and estafa",
+          "key": "L_ywnY15xdA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+
+    if (req.params.tv_id == 2031188802){
+      res.json({
+      "id": 2031188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - RA No  9262  - updated",
+          "key": "xoTZHjJ8Swg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+    if (req.params.tv_id == 2031188803){
+      res.json({
+      "id": 2031188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "key": "dafYwVTMl-E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
 
     if (req.params.tv_id == 8030188801){
       res.json({
@@ -28125,7 +29528,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-		  "name": "Civil - Sales Lecture Part 1",
+		      "name": "Civil - Sales Lecture Part 1",
           "key": "z_QzxCvyV44",
           "site": "YouTube",
           "size": 480,
@@ -29298,6 +30701,146 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });  
    }
+
+   if (req.params.tv_id == 8030288801){
+    res.json({
+    "id": 8030288801,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil - II  Human Relations & III  PFR A E",
+        "key": "w8tK7Bcac-I",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }		  
+
+  if (req.params.tv_id == 8030288802){
+    res.json({
+    "id": 8030288802,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil - III  Persons and Family Relations F Marriage to L Legal Separation",
+        "key": "hBDJsoi2RUQ",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	
+
+  if (req.params.tv_id == 8030288803){
+    res.json({
+    "id": 8030288803,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil - VII  Wills & Succession C D",
+        "key": "PusuOC3ViL8",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	  
+
+  if (req.params.tv_id == 8030288804){
+    res.json({
+    "id": 8030288804,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil  - Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "key": "lJbASnV_OG4",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	  
+
+  if (req.params.tv_id == 8030388801){
+    res.json({
+    "id": 8030388801,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil  - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "key": "it9MjGnjQzM",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	 
+
+  if (req.params.tv_id == 8030388802){
+    res.json({
+    "id": 8030388802,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil - X  Contract of Lease",
+        "key": "kWoQlN2UUfs",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	   
+
+  if (req.params.tv_id == 8030388803){
+    res.json({
+    "id": 8030388803,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Civil - XI  Agency",
+        "key": "wRT-FaZ-vQo",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });
+  }	
 
  
 });
