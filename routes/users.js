@@ -10850,6 +10850,53 @@ router.get('/discover/movie', function(req, res, next) {
     });
  }
  
+
+ if (req.query.with_genres == 30305 ){
+  res.json({
+"page": 1,
+"results": [
+  {
+    "adult": false,
+    "backdrop_path": "/images/_B8AHMSt5UQ.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588801,
+    "original_language": "en",
+    "original_title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/_B8AHMSt5UQ.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+{
+    "adult": false,
+    "backdrop_path": "/images/n6SLDo7EG70.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588802,
+    "original_language": "en",
+    "original_title": "Political Atty Loanzon - Plain English Bar",
+    "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/n6SLDo7EG70.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Atty Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  }
+],
+"total_pages": 1,
+"total_results": 3
+});
+}
+
   if (req.query.with_genres == 40301 ){
       res.json({
     "page": 1,
@@ -13399,6 +13446,52 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 3
     });
  }
+
+ if (req.query.with_genres == 30305 ){
+  res.json({
+"page": 1,
+"results": [
+  {
+    "adult": false,
+    "backdrop_path": "/images/_B8AHMSt5UQ.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588801,
+    "original_language": "en",
+    "original_title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/_B8AHMSt5UQ.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+{
+    "adult": false,
+    "backdrop_path": "/images/n6SLDo7EG70.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588802,
+    "original_language": "en",
+    "original_title": "Political Atty Loanzon - Plain English Bar",
+    "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/n6SLDo7EG70.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Atty Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  }
+],
+"total_pages": 1,
+"total_results": 3
+});
+}
 
   if (req.query.with_genres == 40301 ){
       res.json({
@@ -22221,6 +22314,142 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
 
+  if (req.params.series_id == 3030588801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 3030588801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Political Atty Loanzon - Issue Spotting Lecture",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/_B8AHMSt5UQ.png",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Political Atty Loanzon - Issue Spotting Lecture",
+      "overview":  "The discussion will focus on the how to spot the issues on bar questions.",
+      "popularity": 23.139,
+          "poster_path": "/images/_B8AHMSt5UQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+    }
+
+    if (req.params.series_id == 3030588802){
+      res.json(
+        {
+        "adult": false,
+        "backdrop_path": null,
+        "created_by": [
+        ],
+        "episode_run_time": [
+          43
+        ],
+        "first_air_date": "2005-04-13",
+        "genres": [
+        ],
+        "homepage": "",
+        "id": 3030588802,
+        "in_production": false,
+        "languages": [
+          "en"
+        ],
+        "last_air_date": "2005-05-18",
+        "last_episode_to_air": {
+        },
+        "name": "Political Atty Loanzon - Plain English Bar",
+        "next_episode_to_air": null,
+        "networks": [
+          {
+          "id": 6,
+          "logo_path": "/n6SLDo7EG70.png",
+          "name": "NBC",
+          "origin_country": "US"
+          }
+        ],
+        "number_of_episodes": 1,
+        "number_of_seasons": 1,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Political Atty Loanzon - Plain English Bar",
+        "overview":  "The discussion will focus on the how to use plain english in answering bar questions.",
+        "popularity": 23.139,
+            "poster_path": "/images/n6SLDo7EG70.jpg",
+        "production_companies": [
+        ],
+        "production_countries": [
+          {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+          }
+        ],
+        "seasons": [
+    
+        ],
+        "spoken_languages": [
+          {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+          }
+        ],
+        "status": "Ended",
+        "tagline": "",
+        "type": "Miniseries",
+        "vote_average": 5.7,
+        "vote_count": 29
+        });
+      }
+
   if (req.params.series_id == 4030188801){
 	res.json(
 		{
@@ -27536,6 +27765,47 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+    if (req.params.series_id == 3030588801){
+      res.json({
+      "id": 3030588801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Issue Spotting - Atty Loanzon Lecture",
+          "key": "m4nDSM46-aU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 3030588802){
+      res.json({
+      "id": 3030588802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Plain English Bar - Atty Loanzon Lecture",
+          "key": "rB3k0a0CdVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
    if (req.params.series_id == 4030188801){
       res.json({
       "id": 4030188801,
@@ -30050,6 +30320,46 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
+    if (req.params.tv_id == 3030588801){
+      res.json({
+      "id": 3030588801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Issue Spotting - Atty Loanzon Lecture",
+          "key": "m4nDSM46-aU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 3030588802){
+      res.json({
+      "id": 3030588802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Plain English Bar - Atty Loanzon Lecture",
+          "key": "rB3k0a0CdVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
    if (req.params.tv_id == 4030188801){
       res.json({
       "id": 4030188801,
