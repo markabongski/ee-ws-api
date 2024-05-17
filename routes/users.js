@@ -11951,8 +11951,53 @@ router.get('/discover/movie', function(req, res, next) {
     "total_pages": 1,
     "total_results": 5
     });
- }
+  }
 
+  if (req.query.with_genres == 70302 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/thXVs5LxU_w.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288801,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 5",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/thXVs5LxU_w.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 5.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2_cmTi_IqKc.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288802,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 6",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/2_cmTi_IqKc.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 6",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+  });
+  }
  
 });
 
@@ -14752,6 +14797,52 @@ router.get('/discover/tv', function(req, res, next) {
 "total_results": 5
 });
  }
+
+ if (req.query.with_genres == 70302 ){
+  res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/thXVs5LxU_w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030288801,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Part 5",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/thXVs5LxU_w.jpg",
+        "release_date": "2023-12-30",
+        "title": "Remedial - Dean Salvador Moya III - Part 5.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/2_cmTi_IqKc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030288802,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Part 6",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/2_cmTi_IqKc.jpg",
+        "release_date": "2023-12-30",
+        "title": "Remedial - Dean Salvador Moya III - Part 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+  }
 
 });
 
@@ -26352,6 +26443,142 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
    }
 
+   if (req.params.series_id == 7030288801){
+		res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 7030288801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Remedial - Dean Salvador Moya III - Part 5",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/thXVs5LxU_w.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Remedial - Dean Salvador Moya III - Part 5",
+		"overview":  "The discussion will focus on Remedial Laws by Dean Salvador Moya III.",
+		"popularity": 23.139,
+        "poster_path": "/images/thXVs5LxU_w.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+   }
+
+   if (req.params.series_id == 7030288802){
+		res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 7030288802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Remedial - Dean Salvador Moya III - Part 6",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/2_cmTi_IqKc.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Remedial - Dean Salvador Moya III - Part 6",
+      "overview":  "The discussion will focus on Remedial Laws by Dean Salvador Moya III.",
+      "popularity": 23.139,
+          "poster_path": "/images/2_cmTi_IqKc.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+   }
+
 });
 
 router.get('/tv/:series_id/account_states', function(req, res, next) {
@@ -29941,6 +30168,46 @@ if (req.params.series_id == 7030188804){
   });  
 }
 
+if (req.params.series_id == 7030288801){
+  res.json({
+  "id": 7030288801,
+  "results": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "name": "Remedial - Dean Salvador Moya III - Part 5",
+      "key": "Ib4JOMDwah8",
+      "site": "YouTube",
+      "size": 480,
+      "type": "Trailer",
+      "official": false,
+      "published_at": "2015-08-04T13:24:39.000Z",
+      "id": "613bba4b322b2b0029644ad8"
+    }
+  ]
+  });  
+}
+
+if (req.params.series_id == 7030288802){
+  res.json({
+  "id": 7030288802,
+  "results": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "name": "Remedial - Dean Salvador Moya III - Part 6",
+      "key": "dN4LGOcWZpc",
+      "site": "YouTube",
+      "size": 480,
+      "type": "Trailer",
+      "official": false,
+      "published_at": "2015-08-04T13:24:39.000Z",
+      "id": "613bba4b322b2b0029644ad8"
+    }
+  ]
+  });  
+}
+
 });
 
 router.get('/tv/:series_id/watch/providers', function(req, res, next) {
@@ -32695,6 +32962,46 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
     }
   ]
   });  
+  }
+
+  if (req.params.tv_id == 7030288801){
+    res.json({
+    "id": 7030288801,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Remedial - Dean Salvador Moya III - Part 5",
+        "key": "Ib4JOMDwah8",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });  
+  }
+  
+  if (req.params.tv_id == 7030288802){
+    res.json({
+    "id": 7030288802,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Remedial - Dean Salvador Moya III - Part 6",
+        "key": "dN4LGOcWZpc",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });  
   }
 
    if (req.params.tv_id == 8030288801){
