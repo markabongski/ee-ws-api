@@ -10496,6 +10496,171 @@ router.get('/discover/movie', function(req, res, next) {
     });
   }
 
+  if (req.query.with_genres == 80304 ){
+    res.json({
+      "page": 1,
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/images/yaQGkD3vcIU.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 8030488801,
+          "original_language": "en",
+          "original_title": "Civil - IV  Property, Ownership and its Modifications",
+          "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
+          "popularity": 2590.24,
+          "poster_path": "/images/yaQGkD3vcIU.jpg",
+          "release_date": "2023-07-19",
+          "title": "Civil - IV  Property, Ownership and its Modifications",
+          "video": false,
+          "vote_average": 8.2,
+          "vote_count": 4588
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/images/dwnS0VXvSok.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+  
+          "id": 8030488802,
+          "original_language": "en",
+          "original_title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
+          "popularity": 1617.893,
+          "poster_path": "/images/dwnS0VXvSok.jpg",
+          "release_date": "2023-10-25",
+          "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 2300
+        }
+      ],
+      "total_pages": 1,
+      "total_results": 5
+      });
+    }
+  
+  if (req.query.with_genres == 80305 ){
+      res.json({
+        "page": 1,
+        "results": [
+          {
+            "adult": false,
+            "backdrop_path": "/images/cnBkf005gUs.jpg",
+            "genre_ids": [
+              18,
+              36
+            ],
+            "id": 8030588801,
+            "original_language": "en",
+            "original_title": "Civil - VI  Land Titles and Deeds",
+            "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
+            "popularity": 2590.24,
+            "poster_path": "/images/cnBkf005gUs.jpg",
+            "release_date": "2023-07-19",
+            "title": "Civil - VI  Land Titles and Deeds",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 4588
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+            "genre_ids": [
+              27,
+              9648
+            ],
+    
+            "id": 8030588802,
+            "original_language": "en",
+            "original_title": "Civil - V  Modes of Acquiring Ownership",
+            "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
+            "popularity": 1617.893,
+            "poster_path": "/images/VmzWSYcJkm8.jpg",
+            "release_date": "2023-10-25",
+            "title": "Civil - V  Modes of Acquiring Ownership",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 2300
+          }
+        ],
+        "total_pages": 1,
+        "total_results": 5
+        });
+      }
+
+  if (req.query.with_genres == 80306 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/Y38I5NIaITA.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030688801,
+              "original_language": "en",
+              "original_title": "Civil - XV  Torts and Damages",
+              "overview": "The video will examine some areas and pointers on Torts and Damages.",
+              "popularity": 2590.24,
+              "poster_path": "/images/Y38I5NIaITA.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - XV  Torts and Damages",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/PuOoufiLlzA.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030688802,
+              "original_language": "en",
+              "original_title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/PuOoufiLlzA.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030688803,
+              "original_language": "en",
+              "original_title": "Civil - VIII  Obligations and Contracts",
+              "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/VmzWSYcJkm8.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - VIII  Obligations and Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 5
+          });
+        }    
+
   if (req.query.with_genres == 90001 ){
     res.json({
   "page": 1,
@@ -13149,6 +13314,172 @@ router.get('/discover/tv', function(req, res, next) {
     });
   }
 
+  
+ if (req.query.with_genres == 80304 ){
+    res.json({
+      "page": 1,
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/images/yaQGkD3vcIU.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 8030488801,
+          "original_language": "en",
+          "original_title": "Civil - IV  Property, Ownership and its Modifications",
+          "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
+          "popularity": 2590.24,
+          "poster_path": "/images/yaQGkD3vcIU.jpg",
+          "release_date": "2023-07-19",
+          "title": "Civil - IV  Property, Ownership and its Modifications",
+          "video": false,
+          "vote_average": 8.2,
+          "vote_count": 4588
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/images/dwnS0VXvSok.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+  
+          "id": 8030488802,
+          "original_language": "en",
+          "original_title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
+          "popularity": 1617.893,
+          "poster_path": "/images/dwnS0VXvSok.jpg",
+          "release_date": "2023-10-25",
+          "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 2300
+        }
+      ],
+      "total_pages": 1,
+      "total_results": 5
+      });
+    }
+  
+ if (req.query.with_genres == 80305 ){
+      res.json({
+        "page": 1,
+        "results": [
+          {
+            "adult": false,
+            "backdrop_path": "/images/cnBkf005gUs.jpg",
+            "genre_ids": [
+              18,
+              36
+            ],
+            "id": 8030588801,
+            "original_language": "en",
+            "original_title": "Civil - VI  Land Titles and Deeds",
+            "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
+            "popularity": 2590.24,
+            "poster_path": "/images/cnBkf005gUs.jpg",
+            "release_date": "2023-07-19",
+            "title": "Civil - VI  Land Titles and Deeds",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 4588
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+            "genre_ids": [
+              27,
+              9648
+            ],
+    
+            "id": 8030588802,
+            "original_language": "en",
+            "original_title": "Civil - V  Modes of Acquiring Ownership",
+            "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
+            "popularity": 1617.893,
+            "poster_path": "/images/VmzWSYcJkm8.jpg",
+            "release_date": "2023-10-25",
+            "title": "Civil - V  Modes of Acquiring Ownership",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 2300
+          }
+        ],
+        "total_pages": 1,
+        "total_results": 5
+        });
+      }
+
+ if (req.query.with_genres == 80306 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/Y38I5NIaITA.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030688801,
+              "original_language": "en",
+              "original_title": "Civil - XV  Torts and Damages",
+              "overview": "The video will examine some areas and pointers on Torts and Damages.",
+              "popularity": 2590.24,
+              "poster_path": "/images/Y38I5NIaITA.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - XV  Torts and Damages",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/PuOoufiLlzA.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030688802,
+              "original_language": "en",
+              "original_title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/PuOoufiLlzA.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030688803,
+              "original_language": "en",
+              "original_title": "Civil - VIII  Obligations and Contracts",
+              "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/VmzWSYcJkm8.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - VIII  Obligations and Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 5
+          });
+        }    
+
  if (req.query.with_genres == 90001 ){
     res.json({
   "page": 1,
@@ -13178,7 +13509,7 @@ router.get('/discover/tv', function(req, res, next) {
   });
 }
 
-  if (req.query.with_genres == 30300 ){
+ if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
     "results": [
@@ -13243,7 +13574,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
-  if (req.query.with_genres == 30301 ){
+ if (req.query.with_genres == 30301 ){
       res.json({
     "page": 1,
     "results": [
@@ -21338,8 +21669,477 @@ router.get('/tv/:series_id', function(req, res, next) {
                     "vote_average": 5.7,
                     "vote_count": 29
                     });
-        }   
+    }   
   
+  if (req.params.series_id == 8030488801){
+      res.json(
+        {
+        "adult": false,
+        "backdrop_path": null,
+        "created_by": [
+        ],
+        "episode_run_time": [
+          43
+        ],
+        "first_air_date": "2005-04-13",
+        "genres": [
+        ],
+        "homepage": "",
+        "id": 8030488801,
+        "in_production": false,
+        "languages": [
+          "en"
+        ],
+        "last_air_date": "2005-05-18",
+        "last_episode_to_air": {
+        },
+        "name": "Civil - IV  Property, Ownership and its Modifications",
+        "next_episode_to_air": null,
+        "networks": [
+          {
+          "id": 6,
+          "logo_path": "/yaQGkD3vcIU.jpg",
+          "name": "NBC",
+          "origin_country": "US"
+          }
+        ],
+        "number_of_episodes": 1,
+        "number_of_seasons": 1,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Civil - IV  Property, Ownership and its Modifications",
+        "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
+        "popularity": 23.139,
+            "poster_path": "/images/yaQGkD3vcIU.jpg",
+        "production_companies": [
+        ],
+        "production_countries": [
+          {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+          }
+        ],
+        "seasons": [
+        ],
+        "spoken_languages": [
+          {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+          }
+        ],
+        "status": "Ended",
+        "tagline": "",
+        "type": "Miniseries",
+        "vote_average": 5.7,
+        "vote_count": 29
+        });
+  } 
+
+  if (req.params.series_id == 8030488802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030488802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - I-II  Effects and Application of Laws; Human Relations",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/dwnS0VXvSok.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - I-II  Effects and Application of Laws; Human Relations",
+      "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations.",
+      "popularity": 23.139,
+          "poster_path": "/images/dwnS0VXvSok.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
+  if (req.params.series_id == 8030588801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030588801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - VI  Land Titles and Deeds",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/cnBkf005gUs.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - VI  Land Titles and Deeds",
+      "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
+      "popularity": 23.139,
+      "poster_path": "/images/cnBkf005gUs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
+  if (req.params.series_id == 8030588802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030588802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - V Modes of Acquiring Ownership",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/VmzWSYcJkm8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - V Modes of Acquiring Ownership",
+      "overview": "The video will examine some areas and pointers on modes of acquiring ownership.",
+      "popularity": 23.139,
+      "poster_path": "/images/VmzWSYcJkm8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
+  if (req.params.series_id == 8030688801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030688801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - XV  Torts and Damages",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Y38I5NIaITA.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - XV  Torts and Damages",
+      "overview": "The video will examine some areas and pointers on Torts and Damages.",
+      "popularity": 23.139,
+      "poster_path": "/images/Y38I5NIaITA.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
+  if (req.params.series_id == 8030688802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030688802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/PuOoufiLlzA.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+      "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
+      "popularity": 23.139,
+      "poster_path": "/images/PuOoufiLlzA.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
+  if (req.params.series_id == 8030688803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030688803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - VIII  Obligations and Contracts",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/PTl_jst8JUs.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - VIII  Obligations and Contracts",
+      "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
+      "popularity": 23.139,
+      "poster_path": "/images/PTl_jst8JUs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
   if (req.params.series_id == 9000188801){
           res.json(
             {
@@ -21406,7 +22206,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "vote_average": 5.7,
             "vote_count": 29
             });
-          }         
+  }         
 
   if (req.params.series_id == 3030088801){
 	res.json(
@@ -27757,6 +28557,148 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	    
 
+    if (req.params.series_id == 8030488801){
+      res.json({
+      "id": 8030488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - IV  Property, Ownership and its Modifications",
+          "key": "Widbqb2DlUQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030488802){
+      res.json({
+      "id": 8030488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "key": "owd4Cp5o4Kg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
+    if (req.params.series_id == 8030588801){
+      res.json({
+      "id": 8030588801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - VI  Land Titles and Deeds",
+          "key": "G5J00-_z8AU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030588802){
+      res.json({
+      "id": 8030588802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - V  Modes of Acquiring Ownership",
+          "key": "ZYqxKZHYyaY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030688801){
+      res.json({
+      "id": 8030688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - XV  Torts and Damages",
+          "key": "puABDPuntdw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030688802){
+      res.json({
+      "id": 8030688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+          "key": "wDXoKjxNUAs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030688803){
+      res.json({
+      "id": 8030688803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - VIII  Obligations and Contracts",
+          "key": "abfpwhmW8X8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
     if (req.params.series_id == 9000188801){
       res.json({
       "id": 9000188801,
@@ -30350,6 +31292,148 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }		
+
+
+    if (req.params.tv_id == 8030488801){
+      res.json({
+      "id": 8030488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - IV  Property, Ownership and its Modifications",
+          "key": "Widbqb2DlUQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030488802){
+      res.json({
+      "id": 8030488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "key": "owd4Cp5o4Kg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
+    if (req.params.tv_id == 8030588801){
+      res.json({
+      "id": 8030588801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - VI  Land Titles and Deeds",
+          "key": "G5J00-_z8AU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030588802){
+      res.json({
+      "id": 8030588802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - V  Modes of Acquiring Ownership",
+          "key": "ZYqxKZHYyaY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030688801){
+      res.json({
+      "id": 8030688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - XV  Torts and Damages",
+          "key": "puABDPuntdw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030688802){
+      res.json({
+      "id": 8030688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+          "key": "wDXoKjxNUAs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030688803){
+      res.json({
+      "id": 8030688803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Civil - VIII  Obligations and Contracts",
+          "key": "abfpwhmW8X8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
 
     if (req.params.tv_id == 9000188801){
