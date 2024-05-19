@@ -13918,7 +13918,7 @@ router.get('/discover/tv', function(req, res, next) {
     "vote_average": 8.2,
     "vote_count": 4588
   },
-{
+  {
     "adult": false,
     "backdrop_path": "/images/n6SLDo7EG70.jpg",
     "genre_ids": [
@@ -13952,7 +13952,8 @@ router.get('/discover/tv', function(req, res, next) {
     "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
-    "vot
+    "vote_count": 4588
+  }
 ],
 "total_pages": 1,
 "total_results": 3
