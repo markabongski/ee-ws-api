@@ -10703,12 +10703,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030088801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 1",
-        "overview": "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 1",
+        "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/yZAv5u72r2E.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 1",
+        "title": "Political Dean Loanzon Lecture 1",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -10722,12 +10722,12 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 3030088802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 2",
-        "overview": "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 2",
+        "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/x7YFlRd2a44.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 2",
+        "title": "Political Dean Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10740,12 +10740,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030088803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 3",
-        "overview": "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 3",
+        "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 3",
+        "title": "Political Dean Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -10768,12 +10768,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030188801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 4",
-        "overview": "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 4",
+        "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 4",
+        "title": "Political Dean Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -10787,12 +10787,12 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 3030188802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 5",
-        "overview": "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 5",
+        "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/m1_rMY84MmM.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 5",
+        "title": "Political Dean Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10805,12 +10805,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030188803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 6",
-        "overview": "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 6",
+        "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 6",
+        "title": "Political Dean Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -10833,12 +10833,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030288801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 7",
-        "overview": "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 7",
+        "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 7",
+        "title": "Political Dean Loanzon Lecture 7",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -10852,12 +10852,12 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 3030288802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 8",
-        "overview": "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 8",
+        "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 8",
+        "title": "Political Dean Loanzon Lecture 8",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10870,12 +10870,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030288803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 9",
-        "overview": "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 9",
+        "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 9",
+        "title": "Political Dean Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -10898,12 +10898,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030388801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 10",
-        "overview": "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 10",
+        "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 10",
+        "title": "Political Dean Loanzon Lecture 10",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -10917,12 +10917,12 @@ router.get('/discover/movie', function(req, res, next) {
 
         "id": 3030388802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 11",
-        "overview": "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 11",
+        "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 11",
+        "title": "Political Dean Loanzon Lecture 11",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -10935,12 +10935,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030388803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 12",
-        "overview": "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 12",
+        "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 12",
+        "title": "Political Dean Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -10963,12 +10963,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 3030488801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 13",
-        "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 13",
+        "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 13",
+        "title": "Political Dean Loanzon Lecture 13",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -11028,17 +11028,17 @@ router.get('/discover/movie', function(req, res, next) {
     ],
     "id": 3030588801,
     "original_language": "en",
-    "original_title": "Political Atty Loanzon - Issue Spotting Lecture",
-    "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+    "original_title": "Political Dean Loanzon - Issue Spotting Lecture",
+    "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/_B8AHMSt5UQ.jpg",
     "release_date": "2023-07-19",
-    "title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "title": "Political Dean Loanzon - Issue Spotting Lecture",
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
   },
-{
+  {
     "adult": false,
     "backdrop_path": "/images/n6SLDo7EG70.jpg",
     "genre_ids": [
@@ -11046,19 +11046,37 @@ router.get('/discover/movie', function(req, res, next) {
     ],
     "id": 3030588802,
     "original_language": "en",
-    "original_title": "Political Atty Loanzon - Plain English Bar",
+    "original_title": "Political Dean Loanzon - Plain English Bar",
     "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/n6SLDo7EG70.jpg",
     "release_date": "2023-07-19",
-    "title": "Political Atty Loanzon - Plain English Bar",
+    "title": "Political Dean Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/KrekzhLoc50.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588803,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Lecture on Citizenship",
+    "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/KrekzhLoc50.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon - Lecture on Citizenship",
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
   }
 ],
 "total_pages": 1,
-"total_results": 3
+"total_results": 5
 });
 }
 
@@ -13566,12 +13584,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030088801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 1",
-        "overview": "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 1",
+        "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/yZAv5u72r2E.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 1",
+        "title": "Political Dean Loanzon Lecture 1",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -13585,12 +13603,12 @@ router.get('/discover/tv', function(req, res, next) {
 
         "id": 3030088802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 2",
-        "overview": "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 2",
+        "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/x7YFlRd2a44.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 2",
+        "title": "Political Dean Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -13603,12 +13621,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030088803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 3",
-        "overview": "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 3",
+        "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 3",
+        "title": "Political Dean Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -13631,12 +13649,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030188801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 4",
-        "overview": "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 4",
+        "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 4",
+        "title": "Political Dean Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -13650,12 +13668,12 @@ router.get('/discover/tv', function(req, res, next) {
 
         "id": 3030188802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 5",
-        "overview": "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 5",
+        "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/m1_rMY84MmM.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 5",
+        "title": "Political Dean Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -13668,12 +13686,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030188803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 6",
-        "overview": "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 6",
+        "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 6",
+        "title": "Political Dean Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -13696,12 +13714,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030288801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 7",
-        "overview": "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 7",
+        "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 7",
+        "title": "Political Dean Loanzon Lecture 7",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -13715,12 +13733,12 @@ router.get('/discover/tv', function(req, res, next) {
 
         "id": 3030288802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 8",
-        "overview": "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 8",
+        "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 8",
+        "title": "Political Dean Loanzon Lecture 8",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -13733,12 +13751,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030288803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 9",
-        "overview": "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 9",
+        "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 9",
+        "title": "Political Dean Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -13761,12 +13779,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030388801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 10",
-        "overview": "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 10",
+        "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 10",
+        "title": "Political Dean Loanzon Lecture 10",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -13780,12 +13798,12 @@ router.get('/discover/tv', function(req, res, next) {
 
         "id": 3030388802,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 11",
-        "overview": "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 11",
+        "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
         "release_date": "2023-10-25",
-        "title": "Political Atty Loanzon Lecture 11",
+        "title": "Political Dean Loanzon Lecture 11",
         "video": false,
         "vote_average": 8,
         "vote_count": 2300
@@ -13798,12 +13816,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030388803,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 12",
-        "overview": "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 12",
+        "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
         "release_date": "2023-09-27",
-        "title": "Political Atty Loanzon Lecture 12",
+        "title": "Political Dean Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
         "vote_count": 786
@@ -13826,12 +13844,12 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030488801,
         "original_language": "en",
-        "original_title": "Political Atty Loanzon Lecture 13",
-        "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+        "original_title": "Political Dean Loanzon Lecture 13",
+        "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
         "release_date": "2023-07-19",
-        "title": "Political Atty Loanzon Lecture 13",
+        "title": "Political Dean Loanzon Lecture 13",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -13844,7 +13862,7 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030488802,
         "original_language": "en",
-        "original_title": "Judicial Ethics - Atty Loanzon Lecture",
+        "original_title": "Judicial Ethics - Dean Loanzon Lecture",
         "overview": "The discussion will focus on the judicial ethics by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/0bwDDCapiHo.jpg",
@@ -13862,7 +13880,7 @@ router.get('/discover/tv', function(req, res, next) {
         ],
         "id": 3030488803,
         "original_language": "en",
-        "original_title": "Bar Techniques - Atty Loanzon Lecture",
+        "original_title": "Bar Techniques - Dean Loanzon Lecture",
         "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Zg6Tv0ms07w.jpg",
@@ -13890,12 +13908,12 @@ router.get('/discover/tv', function(req, res, next) {
     ],
     "id": 3030588801,
     "original_language": "en",
-    "original_title": "Political Atty Loanzon - Issue Spotting Lecture",
-    "overview": "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+    "original_title": "Political Dean Loanzon - Issue Spotting Lecture",
+    "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/_B8AHMSt5UQ.jpg",
     "release_date": "2023-07-19",
-    "title": "Political Atty Loanzon - Issue Spotting Lecture",
+    "title": "Political Dean Loanzon - Issue Spotting Lecture",
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
@@ -13908,16 +13926,33 @@ router.get('/discover/tv', function(req, res, next) {
     ],
     "id": 3030588802,
     "original_language": "en",
-    "original_title": "Political Atty Loanzon - Plain English Bar",
+    "original_title": "Political Dean Loanzon - Plain English Bar",
     "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/n6SLDo7EG70.jpg",
     "release_date": "2023-07-19",
-    "title": "Political Atty Loanzon - Plain English Bar",
+    "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
-  }
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/KrekzhLoc50.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588803,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Lecture on Citizenship",
+    "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/KrekzhLoc50.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vot
 ],
 "total_pages": 1,
 "total_results": 3
@@ -14878,27 +14913,27 @@ router.get('/genre/movie/list', function(req, res, next) {
 "genres": [
 		{
 		  "id": 30300,
-		  "name": "Political Atty Loanzon - Lecture 1"
+		  "name": "Political Dean Loanzon - Lecture 1"
 		},
 		{
 		  "id": 30301,
-		  "name": "Political Atty Loanzon - Lecture 2"
+		  "name": "Political Dean Loanzon - Lecture 2"
 		},
 		{
 		  "id": 30302,
-		  "name": "Political Atty Loanzon - Lecture 3"
+		  "name": "Political Dean Loanzon - Lecture 3"
 		},
 		{
 		  "id": 30303,
-		  "name": "Political Atty Loanzon - Lecture 4"
+		  "name": "Political Dean Loanzon - Lecture 4"
 		},
 		{
 		  "id": 30304,
-		  "name": "Political Atty Loanzon - Lecture 5"
+		  "name": "Political Dean Loanzon - Lecture 5"
 		},
 		{
 		  "id": 30305,
-		  "name": "Political Atty Loanzon - Lecture 6"
+		  "name": "Political Dean Loanzon - Lecture 6"
 		},
 		{
 		  "id": 90106,
@@ -15383,27 +15418,27 @@ router.get('/genre/tv/political/list', function(req, res, next) {
  "genres": [
     {
 	  "id": 30300,
-	  "name": "Political Atty Loanzon - Lecture 1"
+	  "name": "Political Dean Loanzon - Lecture 1"
 	},
 	{
 	  "id": 30301,
-	  "name": "Political Atty Loanzon - Lecture 2"
+	  "name": "Political Dean Loanzon - Lecture 2"
 	},
 	{
 	  "id": 30302,
-	  "name": "Political Atty Loanzon - Lecture 3"
+	  "name": "Political Dean Loanzon - Lecture 3"
 	},
 	{
 	  "id": 30303,
-	  "name": "Political Atty Loanzon - Lecture 4"
+	  "name": "Political Dean Loanzon - Lecture 4"
 	},
 	{
 	  "id": 30304,
-	  "name": "Political Atty Loanzon - Lecture 5"
+	  "name": "Political Dean Loanzon - Lecture 5"
 	},
 	{
 	  "id": 30305,
-	  "name": "Political Atty Loanzon - Lecture 6"
+	  "name": "Political Dean Loanzon - Lecture 6"
 	}
   ]
 });
@@ -22321,7 +22356,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 1",
+		"name": "Political Dean Loanzon Lecture 1",
 		"next_episode_to_air": null,
 		"networks": [
 		  
@@ -22332,8 +22367,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 1",
-		"overview":  "The discussion will focus on the first part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 1",
+		"overview":  "The discussion will focus on the first part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/yZAv5u72r2E.jpg",
 		"production_companies": [
@@ -22384,7 +22419,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 2",
+		"name": "Political Dean Loanzon Lecture 2",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22400,8 +22435,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 2",
-		"overview":  "The discussion will focus on the second part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 2",
+		"overview":  "The discussion will focus on the second part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/x7YFlRd2a44.jpg",
 		"production_companies": [
@@ -22452,7 +22487,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 3",
+		"name": "Political Dean Loanzon Lecture 3",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22468,8 +22503,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 3",
-		"overview":  "The discussion will focus on the third part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 3",
+		"overview":  "The discussion will focus on the third part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
 		"production_companies": [
@@ -22520,7 +22555,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 4",
+		"name": "Political Dean Loanzon Lecture 4",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22536,8 +22571,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 4",
-		"overview":  "The discussion will focus on the fourth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 4",
+		"overview":  "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/aIKEU6YktdA.jpg",
 		"production_companies": [
@@ -22588,7 +22623,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 5",
+		"name": "Political Dean Loanzon Lecture 5",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22604,8 +22639,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 5",
-		"overview":  "The discussion will focus on the fifth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 5",
+		"overview":  "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/m1_rMY84MmM.jpg",
 		"production_companies": [
@@ -22656,7 +22691,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 6",
+		"name": "Political Dean Loanzon Lecture 6",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22672,8 +22707,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 6",
-		"overview":  "The discussion will focus on the sixth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 6",
+		"overview":  "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
 		"production_companies": [
@@ -22724,7 +22759,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 7",
+		"name": "Political Dean Loanzon Lecture 7",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22740,8 +22775,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 7",
-		"overview":  "The discussion will focus on the seventh part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 7",
+		"overview":  "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
 		"production_companies": [
@@ -22792,7 +22827,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 8",
+		"name": "Political Dean Loanzon Lecture 8",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22808,8 +22843,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 8",
-		"overview":  "The discussion will focus on the eighth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 8",
+		"overview":  "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
 		"production_companies": [
@@ -22860,7 +22895,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 9",
+		"name": "Political Dean Loanzon Lecture 9",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22876,8 +22911,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 9",
-		"overview":  "The discussion will focus on the ninth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 9",
+		"overview":  "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
 		"production_companies": [
@@ -22928,7 +22963,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 10",
+		"name": "Political Dean Loanzon Lecture 10",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -22944,8 +22979,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 10",
-		"overview":  "The discussion will focus on the tenth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 10",
+		"overview":  "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
 		"production_companies": [
@@ -22996,7 +23031,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 11",
+		"name": "Political Dean Loanzon Lecture 11",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -23012,8 +23047,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 11",
-		"overview":  "The discussion will focus on the eleventh part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 11",
+		"overview":  "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
 		"production_companies": [
@@ -23064,7 +23099,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 12",
+		"name": "Political Dean Loanzon Lecture 12",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -23080,8 +23115,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 12",
-		"overview":  "The discussion will focus on the twelfth part of Political Law by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 12",
+		"overview":  "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
 		"production_companies": [
@@ -23132,7 +23167,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"last_air_date": "2005-05-18",
 		"last_episode_to_air": {
 		},
-		"name": "Political Atty Loanzon Lecture 13",
+		"name": "Political Dean Loanzon Lecture 13",
 		"next_episode_to_air": null,
 		"networks": [
 		  {
@@ -23148,8 +23183,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		  "US"
 		],
 		"original_language": "en",
-		"original_name": "Political Atty Loanzon Lecture 13",
-		"overview":  "The discussion will focus on the fundamentals of local government by Atty Loanzon.",
+		"original_name": "Political Dean Loanzon Lecture 13",
+		"overview":  "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
 		"popularity": 23.139,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
 		"production_companies": [
@@ -23336,7 +23371,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Political Atty Loanzon - Issue Spotting Lecture",
+      "name": "Political Dean Loanzon - Issue Spotting Lecture",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -23352,7 +23387,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Political Atty Loanzon - Issue Spotting Lecture",
+      "original_name": "Political Dean Loanzon - Issue Spotting Lecture",
       "overview":  "The discussion will focus on the how to spot the issues on bar questions.",
       "popularity": 23.139,
           "poster_path": "/images/_B8AHMSt5UQ.jpg",
@@ -23404,7 +23439,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "last_air_date": "2005-05-18",
         "last_episode_to_air": {
         },
-        "name": "Political Atty Loanzon - Plain English Bar",
+        "name": "Political Dean Loanzon - Plain English Bar",
         "next_episode_to_air": null,
         "networks": [
           {
@@ -23420,7 +23455,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "US"
         ],
         "original_language": "en",
-        "original_name": "Political Atty Loanzon - Plain English Bar",
+        "original_name": "Political Dean Loanzon - Plain English Bar",
         "overview":  "The discussion will focus on the how to use plain english in answering bar questions.",
         "popularity": 23.139,
             "poster_path": "/images/n6SLDo7EG70.jpg",
@@ -23449,6 +23484,74 @@ router.get('/tv/:series_id', function(req, res, next) {
         "vote_count": 29
         });
       }
+
+   if (req.params.series_id == 3030588803){
+      res.json(
+        {
+        "adult": false,
+        "backdrop_path": null,
+        "created_by": [
+        ],
+        "episode_run_time": [
+          43
+        ],
+        "first_air_date": "2005-04-13",
+        "genres": [
+        ],
+        "homepage": "",
+        "id": 3030588803,
+        "in_production": false,
+        "languages": [
+          "en"
+        ],
+        "last_air_date": "2005-05-18",
+        "last_episode_to_air": {
+        },
+        "name": "Political Dean Loanzon - Citizenship",
+        "next_episode_to_air": null,
+        "networks": [
+          {
+          "id": 6,
+          "logo_path": "/KrekzhLoc50.png",
+          "name": "NBC",
+          "origin_country": "US"
+          }
+        ],
+        "number_of_episodes": 1,
+        "number_of_seasons": 1,
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_name": "Political Dean Loanzon - Citizenship",
+        "overview":  "The discussion will focus on Citizenship from the Constitution.",
+        "popularity": 23.139,
+            "poster_path": "/images/KrekzhLoc50.jpg",
+        "production_companies": [
+        ],
+        "production_countries": [
+          {
+          "iso_3166_1": "US",
+          "name": "United States of America"
+          }
+        ],
+        "seasons": [
+    
+        ],
+        "spoken_languages": [
+          {
+          "english_name": "English",
+          "iso_639_1": "en",
+          "name": "English"
+          }
+        ],
+        "status": "Ended",
+        "tagline": "",
+        "type": "Miniseries",
+        "vote_average": 5.7,
+        "vote_count": 29
+        });
+  }
 
   if (req.params.series_id == 4030188801){
 	res.json(
@@ -28953,7 +29056,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 1",
+          "name": "Political Dean Loanzon Lecture 1",
           "key": "N9CqCe4LDz0",
           "site": "YouTube",
           "size": 480,
@@ -28973,7 +29076,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 2",
+          "name": "Political Dean Loanzon Lecture 2",
           "key": "YbV71WzyU5E",
           "site": "YouTube",
           "size": 480,
@@ -28993,7 +29096,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 3",
+          "name": "Political Dean Loanzon Lecture 3",
           "key": "MJZW11VWas8",
           "site": "YouTube",
           "size": 480,
@@ -29013,7 +29116,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 4",
+          "name": "Political Dean Loanzon Lecture 4",
           "key": "YkA3sehU5SI",
           "site": "YouTube",
           "size": 480,
@@ -29033,7 +29136,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 5",
+          "name": "Political Dean Loanzon Lecture 5",
           "key": "sx8H8JpnEas",
           "site": "YouTube",
           "size": 480,
@@ -29053,7 +29156,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 6",
+          "name": "Political Dean Loanzon Lecture 6",
           "key": "fQIpwtQFlTk",
           "site": "YouTube",
           "size": 480,
@@ -29073,7 +29176,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 7",
+          "name": "Political Dean Loanzon Lecture 7",
           "key": "N07GFlShNVo",
           "site": "YouTube",
           "size": 480,
@@ -29093,7 +29196,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 8",
+          "name": "Political Dean Loanzon Lecture 8",
           "key": "p4H4RmrTdmg",
           "site": "YouTube",
           "size": 480,
@@ -29113,7 +29216,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 9",
+          "name": "Political Dean Loanzon Lecture 9",
           "key": "FcLoVZCxoy4",
           "site": "YouTube",
           "size": 480,
@@ -29133,7 +29236,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 10",
+          "name": "Political Dean Loanzon Lecture 10",
           "key": "CZYCCa6LDKQ",
           "site": "YouTube",
           "size": 480,
@@ -29153,7 +29256,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 11",
+          "name": "Political Dean Loanzon Lecture 11",
           "key": "RNCxHfvgHxs",
           "site": "YouTube",
           "size": 480,
@@ -29173,7 +29276,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 12",
+          "name": "Political Dean Loanzon Lecture 12",
           "key": "cDZkTpVg1cQ",
           "site": "YouTube",
           "size": 480,
@@ -29193,7 +29296,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 13",
+          "name": "Political Dean Loanzon Lecture 13",
           "key": "qj1YA-PbzWY",
           "site": "YouTube",
           "size": 480,
@@ -29213,7 +29316,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Judicial Ethics Atty Loanzon Lecture",
+          "name": "Judicial Ethics Dean Loanzon Lecture",
           "key": "QU8G6kn419s",
           "site": "YouTube",
           "size": 480,
@@ -29234,7 +29337,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Bar Techniques - Atty Loanzon Lecture",
+          "name": "Bar Techniques - Dean Loanzon Lecture",
           "key": "jBihuHSdiOQ",
           "site": "YouTube",
           "size": 480,
@@ -29254,7 +29357,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Issue Spotting - Atty Loanzon Lecture",
+          "name": "Issue Spotting - Dean Loanzon Lecture",
           "key": "m4nDSM46-aU",
           "site": "YouTube",
           "size": 480,
@@ -29274,8 +29377,28 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Plain English Bar - Atty Loanzon Lecture",
+          "name": "Plain English Bar - Dean Loanzon Lecture",
           "key": "rB3k0a0CdVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 3030588803){
+      res.json({
+      "id": 3030588803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Citizenship - Dean Loanzon Lecture",
+          "key": "g2fraAoKsak",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -31731,7 +31854,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 1",
+          "name": "Political Dean Loanzon Lecture 1",
           "key": "N9CqCe4LDz0",
           "site": "YouTube",
           "size": 480,
@@ -31751,7 +31874,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 1",
+          "name": "Political Dean Loanzon Lecture 1",
           "key": "N9CqCe4LDz0",
           "site": "YouTube",
           "size": 480,
@@ -31771,7 +31894,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 2",
+          "name": "Political Dean Loanzon Lecture 2",
           "key": "YbV71WzyU5E",
           "site": "YouTube",
           "size": 480,
@@ -31791,7 +31914,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 3",
+          "name": "Political Dean Loanzon Lecture 3",
           "key": "MJZW11VWas8",
           "site": "YouTube",
           "size": 480,
@@ -31811,7 +31934,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 4",
+          "name": "Political Dean Loanzon Lecture 4",
           "key": "YkA3sehU5SI",
           "site": "YouTube",
           "size": 480,
@@ -31831,7 +31954,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 5",
+          "name": "Political Dean Loanzon Lecture 5",
           "key": "sx8H8JpnEas",
           "site": "YouTube",
           "size": 480,
@@ -31851,7 +31974,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 6",
+          "name": "Political Dean Loanzon Lecture 6",
           "key": "fQIpwtQFlTk",
           "site": "YouTube",
           "size": 480,
@@ -31871,7 +31994,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 7",
+          "name": "Political Dean Loanzon Lecture 7",
           "key": "N07GFlShNVo",
           "site": "YouTube",
           "size": 480,
@@ -31891,7 +32014,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 8",
+          "name": "Political Dean Loanzon Lecture 8",
           "key": "p4H4RmrTdmg",
           "site": "YouTube",
           "size": 480,
@@ -31911,7 +32034,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 9",
+          "name": "Political Dean Loanzon Lecture 9",
           "key": "cLoVZCxoy4",
           "site": "YouTube",
           "size": 480,
@@ -31931,7 +32054,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 10",
+          "name": "Political Dean Loanzon Lecture 10",
           "key": "CZYCCa6LDKQ",
           "site": "YouTube",
           "size": 480,
@@ -31951,7 +32074,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 11",
+          "name": "Political Dean Loanzon Lecture 11",
           "key": "RNCxHfvgHxs",
           "site": "YouTube",
           "size": 480,
@@ -31971,7 +32094,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 12",
+          "name": "Political Dean Loanzon Lecture 12",
           "key": "cDZkTpVg1cQ",
           "site": "YouTube",
           "size": 480,
@@ -31991,7 +32114,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Political Atty Loanzon Lecture 13",
+          "name": "Political Dean Loanzon Lecture 13",
           "key": "qj1YA-PbzWY",
           "site": "YouTube",
           "size": 480,
@@ -32011,7 +32134,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Judicial Ethics Atty Loanzon Lecture",
+          "name": "Judicial Ethics Dean Loanzon Lecture",
           "key": "QU8G6kn419s",
           "site": "YouTube",
           "size": 480,
@@ -32031,7 +32154,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Bar Techniques - Atty Loanzon Lecture",
+          "name": "Bar Techniques - Dean Loanzon Lecture",
           "key": "jBihuHSdiOQ",
           "site": "YouTube",
           "size": 480,
@@ -32051,7 +32174,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Issue Spotting - Atty Loanzon Lecture",
+          "name": "Issue Spotting - Dean Loanzon Lecture",
           "key": "m4nDSM46-aU",
           "site": "YouTube",
           "size": 480,
@@ -32064,15 +32187,15 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
-    if (req.params.tv_id == 3030588802){
+    if (req.params.tv_id == 3030588803){
       res.json({
-      "id": 3030588802,
+      "id": 3030588803,
       "results": [
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Plain English Bar - Atty Loanzon Lecture",
-          "key": "rB3k0a0CdVo",
+          "name": "Citizenship - Dean Loanzon Lecture",
+          "key": "g2fraAoKsak",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -32083,6 +32206,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+
 
    if (req.params.tv_id == 4030188801){
       res.json({
