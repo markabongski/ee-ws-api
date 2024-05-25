@@ -10637,7 +10637,7 @@ router.get('/discover/movie', function(req, res, next) {
             },
             {
               "adult": false,
-              "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+              "backdrop_path": "/images/PTl_jst8JUs.jpg",
               "genre_ids": [
                 27,
                 9648
@@ -10648,7 +10648,7 @@ router.get('/discover/movie', function(req, res, next) {
               "original_title": "Civil - VIII  Obligations and Contracts",
               "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
               "popularity": 1617.893,
-              "poster_path": "/images/VmzWSYcJkm8.jpg",
+              "poster_path": "/images/PTl_jst8JUs.jpg",
               "release_date": "2023-10-25",
               "title": "Civil - VIII  Obligations and Contracts",
               "video": false,
@@ -13574,7 +13574,7 @@ router.get('/discover/tv', function(req, res, next) {
             },
             {
               "adult": false,
-              "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+              "backdrop_path": "/images/PTl_jst8JUs.jpg",
               "genre_ids": [
                 27,
                 9648
@@ -13585,7 +13585,7 @@ router.get('/discover/tv', function(req, res, next) {
               "original_title": "Civil - VIII  Obligations and Contracts",
               "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
               "popularity": 1617.893,
-              "poster_path": "/images/VmzWSYcJkm8.jpg",
+              "poster_path": "/images/PTl_jst8JUs.jpg",
               "release_date": "2023-10-25",
               "title": "Civil - VIII  Obligations and Contracts",
               "video": false,
