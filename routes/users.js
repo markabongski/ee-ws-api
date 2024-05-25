@@ -11092,6 +11092,42 @@ router.get('/discover/movie', function(req, res, next) {
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/THvJNJOm29A.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588804,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/THvJNJOm29A.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/QF1fczh7QYc.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588805,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/QF1fczh7QYc.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
   }
 ],
 "total_pages": 1,
@@ -13988,6 +14024,42 @@ router.get('/discover/tv', function(req, res, next) {
     "poster_path": "/images/KrekzhLoc50.jpg",
     "release_date": "2023-07-19",
     "title": "Political Dean Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/THvJNJOm29A.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588804,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/THvJNJOm29A.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/QF1fczh7QYc.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588805,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/QF1fczh7QYc.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
     "vote_count": 4588
@@ -23661,6 +23733,142 @@ router.get('/tv/:series_id', function(req, res, next) {
         });
   }
 
+  if (req.params.series_id == 3030588804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 3030588804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/THvJNJOm29A.png",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
+      "overview":  "The discussion will focus on recent jurisprudence in Political and Public International Law.",
+      "popularity": 23.139,
+          "poster_path": "/images/THvJNJOm29A.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 3030588805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 3030588805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/QF1fczh7QYc.png",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
+      "overview":  "The discussion will focus on recent jurisprudence in Political and Public International Law.",
+      "popularity": 23.139,
+          "poster_path": "/images/QF1fczh7QYc.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
   if (req.params.series_id == 4030188801){
 	res.json(
 		{
@@ -29538,6 +29746,45 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+    if (req.params.series_id == 3030588804){
+      res.json({
+      "id": 3030588804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Part I Recent Jurisprudence in Political and Public International Law - Dean Loanzon Lecture",
+          "key": "1ZVHNO5RfUs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 3030588805){
+      res.json({
+      "id": 3030588805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Part II Recent Jurisprudence in Political and Public International Law - Dean Loanzon Lecture",
+          "key": "VhQY1pC5yiI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.series_id == 4030188801){
       res.json({
@@ -32335,7 +32582,27 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
-    if (req.params.tv_id == 3030588803){
+    if (req.params.tv_id == 3030588802){
+      res.json({
+      "id": 3030588802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Plain English Bar - Dean Loanzon Lecture",
+          "key": "rB3k0a0CdVo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 3030588803){
       res.json({
       "id": 3030588803,
       "results": [
@@ -32355,6 +32622,45 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
+    if (req.params.tv_id == 3030588804){
+      res.json({
+      "id": 3030588804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Part I Recent Jurisprudence in Political and Public International Law - Dean Loanzon Lecture",
+          "key": "1ZVHNO5RfUs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 3030588805){
+      res.json({
+      "id": 3030588805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Part II Recent Jurisprudence in Political and Public International Law - Dean Loanzon Lecture",
+          "key": "VhQY1pC5yiI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.tv_id == 4030188801){
       res.json({
