@@ -15022,158 +15022,182 @@ router.get('/find/:external_id', function(req, res, next) {
 router.get('/genre/movie/list', function(req, res, next) {
   res.json({
 "genres": [
-		{
-		  "id": 30300,
-		  "name": "Political Dean Loanzon - Lecture 1"
-		},
-		{
-		  "id": 30301,
-		  "name": "Political Dean Loanzon - Lecture 2"
-		},
-		{
-		  "id": 30302,
-		  "name": "Political Dean Loanzon - Lecture 3"
-		},
-		{
-		  "id": 30303,
-		  "name": "Political Dean Loanzon - Lecture 4"
-		},
-		{
-		  "id": 30304,
-		  "name": "Political Dean Loanzon - Lecture 5"
-		},
-		{
-		  "id": 30305,
-		  "name": "Political Dean Loanzon - Lecture 6"
-		},
-		{
-		  "id": 90106,
-		  "name": "Reviewer on Taxation Part 1"
-		},
-		{
-		  "id": 90107,
-		  "name": "Reviewer on Taxation Part 2"
-		},
-		{
-		  "id": 90108,
-		  "name": "Reviewer on Taxation Part 3"
-		},
-		{
-		  "id": 90109,
-		  "name": "Reviewer on Taxation Part 4"
-		},
-		{
-		  "id": 90110,
-		  "name": "Reviewer on Taxation Part 5"
-		},
-		{
-		  "id": 90111,
-		  "name": "Reviewer on Commercial Part 1"
-		},
-		{
-		  "id": 90112,
-		  "name": "Reviewer on Taxation Part 2"
-		},
-		{
-		  "id": 90113,
-		  "name": "Reviewer on Taxation Part 3"
-		},
-		{
-		  "id": 90114,
-		  "name": "Reviewer on Taxation Part 4"
-		},
-		{
-		  "id": 90115,
-		  "name": "Reviewer on Taxation Part 5"
-		},
-		{
-		  "id": 90116,
-		  "name": "Reviewer on Civil Part 1"
-		},
-		{
-		  "id": 90117,
-		  "name": "Reviewer on Civil Part 2"
-		},
-		{
-		  "id": 90118,
-		  "name": "Reviewer on Civil Part 2"
-		},
-		{
-		  "id": 90119,
-		  "name": "Reviewer on Civil Part 3"
-		},
-		{
-		  "id": 90120,
-		  "name": "Reviewer on Civil Part 4"
-		},
-		{
-		  "id": 90121,
-		  "name": "Reviewer on Civil Part 5"
-		},
-		{
-		  "id": 90122,
-		  "name": "Reviewer on Labort Part 1"
-		},
-		{
-		  "id": 90123,
-		  "name": "Reviewer on Labort Part 2"
-		},
-		{
-		  "id": 90124,
-		  "name": "Reviewer on Labort Part 3"
-		},
-		{
-		  "id": 20300,
-		  "name": "Reviewer on Criminal Part 1"
-		},
-		{
-		  "id": 20301,
-		  "name": "Reviewer on Criminal Part 2"
-		},
-		{
-		  "id": 20302,
-		  "name": "Reviewer on Criminal Part 3"
-		},
-		{
-		  "id": 90128,
-		  "name": "Reviewer on Criminal Part 4"
-		},
-		{
-		  "id": 90129,
-		  "name": "Reviewer on Criminal Part 5"
-		},
-		{
-		  "id": 90130,
-		  "name": "Reviewer on Remedial Part 1"
-		},
-		{
-		  "id": 90131,
-		  "name": "Reviewer on Remedial Part 2"
-		},
-		{
-		  "id": 90132,
-		  "name": "Reviewer on Remedial Part 3"
-		},
-		{
-		  "id": 90133,
-		  "name": "Reviewer on Remedial Part 4"
-		},
-		{
-		  "id": 90135,
-		  "name": "Reviewer on Remedial Part 5"
-		},
-		{
-		  "id": 90136,
-		  "name": "Reviewer on Legal Ethics Part 1"
-		},
-		{
-		  "id": 90137,
-		  "name": "Reviewer on Legal Ethics Part 2"
-		},
-		{
-		  "id": 90138,
-		  "name": "Reviewer on Legal Ethics Part 3"
-		}
+			{
+				"id": 20300,
+				"name": 'Judge Campanilla Criminal Part 1'			
+			},
+			{
+				"id": 20301,
+				"name": 'Judge Campanilla Criminal Part 2'	
+			},
+			{
+				"id": 20302,
+				"name": 'Judge Campanilla Criminal Part 3'
+			},
+			{
+				"id": 20303,
+				"name": 'Judge Campanilla Criminal Part 4'
+			},
+			{
+				"id": 20304,
+				"name": 'Judge Campanilla Criminal Part 5'
+			},
+			{
+				"id": 20305,
+				"name": 'Judge Campanilla Criminal Part 6'
+			},
+			{
+				"id": 20306,
+				"name": 'Judge Campanilla Criminal Part 7'
+			},
+			{
+				"id": 20307,
+				"name": 'Judge Campanilla Criminal Part 8'
+			},
+			{
+				"id": 20308,
+				"name": 'Judge Campanilla Criminal Part 9'
+			},
+			{
+				"id": 20309,
+				"name": 'Judge Campanilla Criminal Part 10'
+			},
+			{
+				"id": 20310,
+				"name": 'Judge Campanilla Criminal Part 11'
+			},
+			{
+				"id": 20311,
+				"name": 'Judge Campanilla Criminal Part 12'
+			},
+			{
+				"id": 30300,
+				"name": 'Political Atty Loanzon - Part 1'
+			},
+			{
+				"id": 30301,
+				"name": 'Political Atty Loanzon - Part 2'
+			},
+			{
+				"id": 30302,
+				"name": 'Political Atty Loanzon - Part 3'
+			},
+			{
+				"id": 30303,
+				"name": 'Political Atty Loanzon - Part 4'
+			},
+			{
+				"id": 30304,
+				"name": 'Political Atty Loanzon - Part 5'
+			},
+			{
+				"id": 30305,
+				"name": 'Political Atty Loanzon - Part 6'
+			},
+			{
+				"id": 30306,
+				"name": 'Political Atty Loanzon - Part 7'
+			},
+			{
+				"id": 40301,
+				"name": 'Taxation Atty. Lim - Part 1'
+			},
+			{
+				"id": 40302,
+				"name": 'Taxation Atty. Lim - Part 2'
+			},
+			{
+				"id": 40303,
+				"name": 'Taxation Atty. Lim - Part 3'
+			},
+			{
+				"id": 40304,
+				"name": 'Taxation Atty. Lim - Part 4'
+			},
+			{
+				"id": 40305,
+				"name": 'Taxation Atty. Lim - Part 5'
+			},
+			{
+				"id": 40306,
+				"name": 'Taxation Atty. Lim- Part 6'
+			},
+			{
+				"id": 50301,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 1'
+			},
+			{
+				"id": 50302,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 2'
+			},
+			{
+				"id": 50303,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 3'
+			},
+			{
+				"id": 50304,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 4'
+			},
+			{
+				"id": 50305,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 5'
+			},
+			{
+				"id": 50306,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 6'
+			},
+			{
+				"id": 50307,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 7'
+			},
+			{
+				"id": 50308,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 8',
+			},
+			{
+				"id": 60301,
+				"name": 'Labor - Atty. Benedict Kato - Part 1'
+			},
+			{
+				"id": 60302,
+				"name": 'Labor - Atty. Benedict Kato - Part 2'
+			},
+			{
+				"id": 70301,
+				"name": 'Remedial - Dean Salvador Moya III - Part 1'
+			},
+			{
+				"id": 70302,
+				"name": 'Remedial - Dean Salvador Moya III - Part 2'
+			},
+			{
+				"id": 80301,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 1'
+			},
+			{
+				"id": 80302,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 2'
+			},
+			{
+				"id": 80303,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 3'
+			},
+			{
+				"id": 80304,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 4'
+			},
+			{
+				"id": 80305,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 5'
+			},
+			{
+				"id": 80306,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
+			},
+			{
+				"id": 90001,
+				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 1'
+			}
 	  ]
 });
 });
@@ -15181,155 +15205,182 @@ router.get('/genre/movie/list', function(req, res, next) {
 router.get('/genre/tv/list', function(req, res, next) {
   res.json({
  "genres": [
-    
-    {
-      "id": 1006,
-      "name": "Taxation Part 1"
-    },
-    {
-      "id": 1007,
-      "name": "Taxation Part 2"
-    },
-    {
-      "id": 1008,
-      "name": "Taxation Part 3"
-    },
-    {
-      "id": 1009,
-      "name": "Taxation Part 4"
-    },
-    {
-      "id": 1100,
-      "name": "Taxation Part 5"
-    },
-    {
-      "id": 1110,
-      "name": "Commercial Part 1"
-    },
-    {
-      "id": 1120,
-      "name": "Commercial Part 2"
-    },
-    {
-      "id": 1130,
-      "name": "Commercial Part 3"
-    },
-    {
-      "id": 1140,
-      "name": "Commercial Part 4"
-    },
-    {
-      "id": 1150,
-      "name": "Commercial Part 5"
-    },
-    {
-      "id": 1160,
-      "name": "Civil Part 1"
-    },
-    {
-      "id": 1170,
-      "name": "Civil Part 2"
-    },
-    {
-      "id": 1180,
-      "name": "Civil Part 2"
-    },
-    {
-      "id": 1190,
-      "name": "Civil Part 3"
-    },
-    {
-      "id": 1200,
-      "name": "Civil Part 4"
-    },
-    {
-      "id": 1210,
-      "name": "Civil Part 5"
-    },
-    {
-      "id": 1220,
-      "name": "Labort Part 1"
-    },
-    {
-      "id": 1230,
-      "name": "Labort Part 2"
-    },
-    {
-      "id": 1240,
-      "name": "Labort Part 3"
-    },
-    {
-      "id": 20300,
-      "name": "Judge Campanilla Criminal Part 1"
-    },
-    {
-      "id": 20301,
-      "name": "Judge Campanilla Criminal Part 2"
-    },
-    {
-      "id": 20302,
-      "name": "Judge Campanilla Criminal Part 3"
-    },
-    {
-      "id": 20303,
-      "name": "Judge Campanilla Criminal Part 4"
-    },
-    {
-      "id": 20304,
-      "name": "Judge Campanilla Criminal Part 5"
-    },
-	 {
-      "id": 20305,
-      "name": "Judge Campanilla Criminal Part 6"
-    },
-    {
-      "id": 20306,
-      "name": "Judge Campanilla Criminal Part 7"
-    },
-    {
-      "id": 20307,
-      "name": "Judge Campanilla Criminal Part 8"
-    },
-    {
-      "id": 20303,
-      "name": "Judge Campanilla Criminal Part 4"
-    },
-    {
-      "id": 20304,
-      "name": "Judge Campanilla Criminal Part 5"
-    },
-    {
-      "id": 1300,
-      "name": "Remedial Part 1"
-    },
-    {
-      "id": 1310,
-      "name": "Remedial Part 2"
-    },
-    {
-      "id": 1320,
-      "name": "Remedial Part 3"
-    },
-    {
-      "id": 1330,
-      "name": "Remedial Part 4"
-    },
-    {
-      "id": 1350,
-      "name": "Remedial Part 5"
-    },
-    {
-      "id": 1360,
-      "name": "Legal Ethics Part 1"
-    },
-    {
-      "id": 1370,
-      "name": "Legal Ethics Part 2"
-    },
-    {
-      "id": 1380,
-      "name": "Legal Ethics Part 3"
-    }
+			{
+				"id": 20300,
+				"name": 'Judge Campanilla Criminal Part 1'			
+			},
+			{
+				"id": 20301,
+				"name": 'Judge Campanilla Criminal Part 2'	
+			},
+			{
+				"id": 20302,
+				"name": 'Judge Campanilla Criminal Part 3'
+			},
+			{
+				"id": 20303,
+				"name": 'Judge Campanilla Criminal Part 4'
+			},
+			{
+				"id": 20304,
+				"name": 'Judge Campanilla Criminal Part 5'
+			},
+			{
+				"id": 20305,
+				"name": 'Judge Campanilla Criminal Part 6'
+			},
+			{
+				"id": 20306,
+				"name": 'Judge Campanilla Criminal Part 7'
+			},
+			{
+				"id": 20307,
+				"name": 'Judge Campanilla Criminal Part 8'
+			},
+			{
+				"id": 20308,
+				"name": 'Judge Campanilla Criminal Part 9'
+			},
+			{
+				"id": 20309,
+				"name": 'Judge Campanilla Criminal Part 10'
+			},
+			{
+				"id": 20310,
+				"name": 'Judge Campanilla Criminal Part 11'
+			},
+			{
+				"id": 20311,
+				"name": 'Judge Campanilla Criminal Part 12'
+			},
+			{
+				"id": 30300,
+				"name": 'Political Atty Loanzon - Part 1'
+			},
+			{
+				"id": 30301,
+				"name": 'Political Atty Loanzon - Part 2'
+			},
+			{
+				"id": 30302,
+				"name": 'Political Atty Loanzon - Part 3'
+			},
+			{
+				"id": 30303,
+				"name": 'Political Atty Loanzon - Part 4'
+			},
+			{
+				"id": 30304,
+				"name": 'Political Atty Loanzon - Part 5'
+			},
+			{
+				"id": 30305,
+				"name": 'Political Atty Loanzon - Part 6'
+			},
+			{
+				"id": 30306,
+				"name": 'Political Atty Loanzon - Part 7'
+			},
+			{
+				"id": 40301,
+				"name": 'Taxation Atty. Lim - Part 1'
+			},
+			{
+				"id": 40302,
+				"name": 'Taxation Atty. Lim - Part 2'
+			},
+			{
+				"id": 40303,
+				"name": 'Taxation Atty. Lim - Part 3'
+			},
+			{
+				"id": 40304,
+				"name": 'Taxation Atty. Lim - Part 4'
+			},
+			{
+				"id": 40305,
+				"name": 'Taxation Atty. Lim - Part 5'
+			},
+			{
+				"id": 40306,
+				"name": 'Taxation Atty. Lim- Part 6'
+			},
+			{
+				"id": 50301,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 1'
+			},
+			{
+				"id": 50302,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 2'
+			},
+			{
+				"id": 50303,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 3'
+			},
+			{
+				"id": 50304,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 4'
+			},
+			{
+				"id": 50305,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 5'
+			},
+			{
+				"id": 50306,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 6'
+			},
+			{
+				"id": 50307,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 7'
+			},
+			{
+				"id": 50308,
+				"name": 'Labor - Atty. Pearlito Campanilla - Part 8',
+			},
+			{
+				"id": 60301,
+				"name": 'Labor - Atty. Benedict Kato - Part 1'
+			},
+			{
+				"id": 60302,
+				"name": 'Labor - Atty. Benedict Kato - Part 2'
+			},
+			{
+				"id": 70301,
+				"name": 'Remedial - Dean Salvador Moya III - Part 1'
+			},
+			{
+				"id": 70302,
+				"name": 'Remedial - Dean Salvador Moya III - Part 2'
+			},
+			{
+				"id": 80301,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 1'
+			},
+			{
+				"id": 80302,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 2'
+			},
+			{
+				"id": 80303,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 3'
+			},
+			{
+				"id": 80304,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 4'
+			},
+			{
+				"id": 80305,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 5'
+			},
+			{
+				"id": 80306,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
+			},
+			{
+				"id": 90001,
+				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 1'
+			}
   ]
 });
 });
