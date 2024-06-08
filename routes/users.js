@@ -10670,7 +10670,7 @@ router.get('/discover/movie', function(req, res, next) {
               "popularity": 1617.893,
               "poster_path": "/images/__9Pa7YBsh4.jpg",
               "release_date": "2023-10-25",
-              "title": "Civil - VIII  Obligations and Contracts",
+              "title": "Civil   VII  Wills and Succession",
               "video": false,
               "vote_average": 8,
               "vote_count": 2300
@@ -32378,7 +32378,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 8030688804){
+	if (req.params.tv_id == 8030688804){
       res.json({
       "id": 8030688804,
       "results": [
