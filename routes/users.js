@@ -9826,7 +9826,7 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030688802,
         "original_language": "en",
         "original_title": "Syndicated estafa",
-        "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
+        "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and Jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
         "poster_path": "/images/nFK07TccaHc.jpg",
         "release_date": "2023-10-25",
@@ -9954,7 +9954,7 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030788803,
         "original_language": "en",
         "original_title": "Delito continuado 2",
-        "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
+        "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train Jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
         "release_date": "2023-09-27",
@@ -11155,6 +11155,34 @@ router.get('/discover/movie', function(req, res, next) {
 });
 }
 
+ if (req.query.with_genres == 30306 ){
+	  res.json({
+	"page": 1,
+	"results": [
+	  {
+		"adult": false,
+		"backdrop_path": "/images/zU7cgUF0xz4.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030688801,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Recent Jurisprudence",
+		"overview": "The discussion will focus on the discussion of recent Jurisprudence by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/zU7cgUF0xz4.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Recent Jurisprudence",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  }
+	],
+	"total_pages": 1,
+	"total_results": 3
+	});
+  }
+	
   if (req.query.with_genres == 40301 ){
       res.json({
     "page": 1,
@@ -12782,7 +12810,7 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030688802,
         "original_language": "en",
         "original_title": "Syndicated estafa",
-        "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
+        "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and Jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
         "poster_path": "/images/nFK07TccaHc.jpg",
         "release_date": "2023-10-25",
@@ -12910,7 +12938,7 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030788803,
         "original_language": "en",
         "original_title": "Delito continuado 2",
-        "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
+        "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train Jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
         "release_date": "2023-09-27",
@@ -14010,7 +14038,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
- if (req.query.with_genres == 30305 ){
+  if (req.query.with_genres == 30305 ){
   res.json({
 "page": 1,
 "results": [
@@ -14109,6 +14137,34 @@ router.get('/discover/tv', function(req, res, next) {
 "total_results": 3
 });
 }
+
+  if (req.query.with_genres == 30306 ){
+	  res.json({
+	"page": 1,
+	"results": [
+	  {
+		"adult": false,
+		"backdrop_path": "/images/zU7cgUF0xz4.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030588801,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Recent Jurisdictions",
+		"overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/zU7cgUF0xz4.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Recent Jurisdictions",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  }
+	],
+	"total_pages": 1,
+	"total_results": 3
+	});
+	}
 
   if (req.query.with_genres == 40301 ){
       res.json({
@@ -19919,7 +19975,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Syndicated estafa",
-		"overview":  "The discussion will center around the crime of syndicated estafa based on Philippine laws and jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
+		"overview":  "The discussion will center around the crime of syndicated estafa based on Philippine laws and Jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
 		"popularity": 23.139,
         "poster_path": "/images/nFK07TccaHc.jpg",
 		"production_companies": [
@@ -20331,7 +20387,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Delito continuado 2",
-		"overview":  "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
+		"overview":  "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train Jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
 		"popularity": 23.139,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
 		"production_companies": [
@@ -23755,7 +23811,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
     }
 
-    if (req.params.series_id == 3030588802){
+  if (req.params.series_id == 3030588802){
       res.json(
         {
         "adult": false,
@@ -23823,7 +23879,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         });
       }
 
-   if (req.params.series_id == 3030588803){
+  if (req.params.series_id == 3030588803){
       res.json(
         {
         "adult": false,
@@ -23930,7 +23986,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       ],
       "original_language": "en",
       "original_name": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
-      "overview":  "The discussion will focus on recent jurisprudence in Political and Public International Law.",
+      "overview":  "The discussion will focus on recent Jurisprudence in Political and Public International Law.",
       "popularity": 23.139,
           "poster_path": "/images/THvJNJOm29A.jpg",
       "production_companies": [
@@ -23998,7 +24054,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       ],
       "original_language": "en",
       "original_name": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
-      "overview":  "The discussion will focus on recent jurisprudence in Political and Public International Law.",
+      "overview":  "The discussion will focus on recent Jurisprudence in Political and Public International Law.",
       "popularity": 23.139,
           "poster_path": "/images/QF1fczh7QYc.jpg",
       "production_companies": [
@@ -24026,6 +24082,74 @@ router.get('/tv/:series_id', function(req, res, next) {
       "vote_count": 29
       });
   }
+
+  if (req.params.series_id == 3030688801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 3030688801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Political Dean Loanzon - Recent Jurisprudence",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/zU7cgUF0xz4.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Political Dean Loanzon - Recent Jurisprudence",
+      "overview":  "The discussion will focus on recent Jurisprudence by Dean Loanzon",
+      "popularity": 23.139,
+          "poster_path": "/images/zU7cgUF0xz4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+    }
 
   if (req.params.series_id == 4030188801){
 	res.json(
@@ -29964,6 +30088,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+	if (req.params.series_id == 3030688801){
+      res.json({
+      "id": 3030688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political - Dean Loanzon Lecture - Recent Jurisprudence",
+          "key": "zU7cgUF0xz4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
    if (req.params.series_id == 4030188801){
       res.json({
       "id": 4030188801,
@@ -32849,6 +32993,26 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_3166_1": "US",
           "name": "Part II Recent Jurisprudence in Political and Public International Law - Dean Loanzon Lecture",
           "key": "VhQY1pC5yiI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 3030688801){
+      res.json({
+      "id": 3030688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political - Dean Loanzon Lecture - Recent Jurisprudence",
+          "key": "zU7cgUF0xz4",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
