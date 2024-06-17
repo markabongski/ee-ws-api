@@ -22551,7 +22551,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "networks": [
         {
         "id": 6,
-        "logo_path": "/PTl_jst8JUs.jpg",
+        "logo_path": "/__9Pa7YBsh4.jpg",
         "name": "NBC",
         "origin_country": "US"
         }
@@ -22565,7 +22565,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "original_name": "Civil - VII  Wills and Succession",
       "overview": "The video will examine some areas and pointers on Succession.",
       "popularity": 23.139,
-      "poster_path": "/images/PTl_jst8JUs.jpg",
+      "poster_path": "/images/__9Pa7YBsh4.jpg",
       "production_companies": [
       ],
       "production_countries": [
