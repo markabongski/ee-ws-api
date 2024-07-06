@@ -10680,7 +10680,75 @@ router.get('/discover/movie', function(req, res, next) {
           "total_results": 5
           });
         }    
-
+  
+  if (req.query.with_genres == 80307 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/MgtyVuhlVmk.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030788801,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 2590.24,
+              "poster_path": "/images/MgtyVuhlVmk.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/k4XsBwcSD6g.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030788802,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/k4XsBwcSD6g.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/AAqZqUoFQhE.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030788803,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/AAqZqUoFQhE.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 4
+          });
+        } 
+		
+		
   if (req.query.with_genres == 90001 ){
     res.json({
   "page": 1,
@@ -12217,10 +12285,28 @@ router.get('/discover/movie', function(req, res, next) {
       "video": false,
       "vote_average": 8.2,
       "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/G91cW--5NZA.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288803,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 7",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/G91cW--5NZA.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 6",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
     }
   ],
   "total_pages": 1,
-  "total_results": 3
+  "total_results": 4
   });
   }
  
@@ -13770,6 +13856,73 @@ router.get('/discover/tv', function(req, res, next) {
           });
         }    
 
+ if (req.query.with_genres == 80307 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/MgtyVuhlVmk.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030788801,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 2590.24,
+              "poster_path": "/images/MgtyVuhlVmk.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/k4XsBwcSD6g.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030788802,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/k4XsBwcSD6g.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/AAqZqUoFQhE.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030788803,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/AAqZqUoFQhE.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 4
+          });
+        } 
+
  if (req.query.with_genres == 90001 ){
     res.json({
   "page": 1,
@@ -13903,8 +14056,6 @@ router.get('/discover/tv', function(req, res, next) {
 	  "total_results": 5
 	  });
 	}
-
-
 
  if (req.query.with_genres == 30300 ){
       res.json({
@@ -15284,6 +15435,24 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/2_cmTi_IqKc.jpg",
+        "release_date": "2023-12-30",
+        "title": "Remedial - Dean Salvador Moya III - Part 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/G91cW--5NZA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030288803,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Part 7",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/G91cW--5NZA.jpg",
         "release_date": "2023-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 6",
         "video": false,
@@ -22734,6 +22903,208 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
   
+  
+  if (req.params.series_id == 8030788801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030788801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/MgtyVuhlVmk.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+      "overview": "The video will examine some areas and pointers on Civil Law by Dean Myra Gallardo-Batungbakal.",
+      "popularity": 23.139,
+      "poster_path": "/images/MgtyVuhlVmk.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
+  if (req.params.series_id == 8030788802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030788802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/k4XsBwcSD6g.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
+      "overview": "The video will examine some areas and pointers on Civil Law by Dean Myra Gallardo-Batungbakal.",
+      "popularity": 23.139,
+      "poster_path": "/images/k4XsBwcSD6g.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
+  if (req.params.series_id == 8030788803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030788803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/AAqZqUoFQhE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+      "overview": "The video will examine some areas and pointers on Civil Law by Dean Myra Gallardo-Batungbakal.",
+      "popularity": 23.139,
+      "poster_path": "/images/AAqZqUoFQhE.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
   if (req.params.series_id == 8030688804){
     res.json(
       {
@@ -27829,6 +28200,74 @@ router.get('/tv/:series_id', function(req, res, next) {
       "vote_count": 29
       });
    }
+   
+   if (req.params.series_id == 7030288803){
+		res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 7030288803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Remedial - Dean Salvador Moya III - Part 7",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/G91cW--5NZA.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Remedial - Dean Salvador Moya III - Part 7",
+      "overview":  "The discussion will focus on Remedial Laws by Dean Salvador Moya III.",
+      "popularity": 23.139,
+          "poster_path": "/images/G91cW--5NZA.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+   }
 
 });
 
@@ -29855,7 +30294,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 
-  if (req.params.series_id == 8030188801){
+    if (req.params.series_id == 8030188801){
       res.json({
       "id": 8030188801,
       "results": [
@@ -29875,7 +30314,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }		
 	
-  if (req.params.series_id == 8030188802){
+    if (req.params.series_id == 8030188802){
       res.json({
       "id": 8030188802,
       "results": [
@@ -30196,6 +30635,66 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 
+
+	if (req.params.series_id == 8030788801){
+      res.json({
+      "id": 8030788801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 1",
+          "key": "MgtyVuhlVmk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8030788802){
+      res.json({
+      "id": 8030788802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 2",
+          "key": "k4XsBwcSD6g",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8030788803){
+      res.json({
+      "id": 8030788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 3",
+          "key": "AAqZqUoFQhE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
     if (req.params.series_id == 9000188801){
       res.json({
@@ -31678,6 +32177,26 @@ if (req.params.series_id == 7030288802){
   });  
 }
 
+if (req.params.series_id == 7030288803){
+  res.json({
+  "id": 7030288803,
+  "results": [
+    {
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "name": "Remedial - Dean Salvador Moya III - Part 7",
+      "key": "G91cW--5NZA",
+      "site": "YouTube",
+      "size": 480,
+      "type": "Trailer",
+      "official": false,
+      "published_at": "2015-08-04T13:24:39.000Z",
+      "id": "613bba4b322b2b0029644ad8"
+    }
+  ]
+  });  
+}
+
 });
 
 router.get('/tv/:series_id/watch/providers', function(req, res, next) {
@@ -32928,7 +33447,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }		
     
-    if (req.params.tv_id == 2031188801){
+  if (req.params.tv_id == 2031188801){
       res.json({
       "id": 2031188801,
       "results": [
@@ -32949,7 +33468,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
     }	
 
 
-    if (req.params.tv_id == 2031188802){
+  if (req.params.tv_id == 2031188802){
       res.json({
       "id": 2031188802,
       "results": [
@@ -32969,7 +33488,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }	
 
-    if (req.params.tv_id == 2031188803){
+  if (req.params.tv_id == 2031188803){
       res.json({
       "id": 2031188803,
       "results": [
@@ -32990,7 +33509,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
     }	
 
 
-    if (req.params.tv_id == 8030188801){
+  if (req.params.tv_id == 8030188801){
       res.json({
       "id": 8030188801,
       "results": [
@@ -33192,6 +33711,65 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
+	if (req.params.tv_id == 8030788801){
+      res.json({
+      "id": 8030788801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 1",
+          "key": "MgtyVuhlVmk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030788802){
+      res.json({
+      "id": 8030788802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 2",
+          "key": "k4XsBwcSD6g",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030788803){
+      res.json({
+      "id": 8030788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 3",
+          "key": "AAqZqUoFQhE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
     if (req.params.tv_id == 9000188801){
       res.json({
@@ -34694,7 +35272,27 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
     });  
   }
 
-   if (req.params.tv_id == 8030288801){
+  if (req.params.tv_id == 7030288803){
+    res.json({
+    "id": 7030288803,
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Remedial - Dean Salvador Moya III - Part 7",
+        "key": "G91cW--5NZA",
+        "site": "YouTube",
+        "size": 480,
+        "type": "Trailer",
+        "official": false,
+        "published_at": "2015-08-04T13:24:39.000Z",
+        "id": "613bba4b322b2b0029644ad8"
+      }
+    ]
+    });  
+  }
+
+  if (req.params.tv_id == 8030288801){
     res.json({
     "id": 8030288801,
     "results": [
