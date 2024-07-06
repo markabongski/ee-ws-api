@@ -12299,7 +12299,7 @@ router.get('/discover/movie', function(req, res, next) {
       "popularity": 2590.24,
       "poster_path": "/images/G91cW--5NZA.jpg",
       "release_date": "2023-12-30",
-      "title": "Remedial - Dean Salvador Moya III - Part 6",
+      "title": "Remedial - Dean Salvador Moya III - Part 7",
       "video": false,
       "vote_average": 8.2,
       "vote_count": 4588
@@ -15454,7 +15454,7 @@ router.get('/discover/tv', function(req, res, next) {
         "popularity": 2590.24,
         "poster_path": "/images/G91cW--5NZA.jpg",
         "release_date": "2023-12-30",
-        "title": "Remedial - Dean Salvador Moya III - Part 6",
+        "title": "Remedial - Dean Salvador Moya III - Part 7",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
