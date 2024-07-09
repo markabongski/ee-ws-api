@@ -11361,7 +11361,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"popularity": 2590.24,
 		"poster_path": "/images/U7TknxKzOg0.jpg",
 		"release_date": "2023-07-19",
-		"title": "Political Dean Loanzon - Legal Ethics",
+		"title": "Political Dean Loanzon - Administrative Law",
 		"video": false,
 		"vote_average": 8.2,
 		"vote_count": 4588
@@ -11379,7 +11379,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"popularity": 2590.24,
 		"poster_path": "/images/e9y4bjgADT8.jpg",
 		"release_date": "2023-07-19",
-		"title": "Political Dean Loanzon - Legal Ethics",
+		"title": "Political Dean Loanzon - Election Law",
 		"video": false,
 		"vote_average": 8.2,
 		"vote_count": 4588
@@ -14569,7 +14569,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"popularity": 2590.24,
 		"poster_path": "/images/U7TknxKzOg0.jpg",
 		"release_date": "2023-07-19",
-		"title": "Political Dean Loanzon - Legal Ethics",
+		"title": "Political Dean Loanzon - Administrative Law",
 		"video": false,
 		"vote_average": 8.2,
 		"vote_count": 4588
@@ -14587,7 +14587,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"popularity": 2590.24,
 		"poster_path": "/images/e9y4bjgADT8.jpg",
 		"release_date": "2023-07-19",
-		"title": "Political Dean Loanzon - Legal Ethics",
+		"title": "Political Dean Loanzon - Election Law",
 		"video": false,
 		"vote_average": 8.2,
 		"vote_count": 4588
