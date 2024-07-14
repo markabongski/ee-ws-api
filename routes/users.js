@@ -10883,6 +10883,72 @@ router.get('/discover/movie', function(req, res, next) {
 	  });
 	}
 
+  if (req.query.with_genres == 90003 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S3rm1bS_dmk.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 1",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S3rm1bS_dmk.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/v1uO5NkPWZo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 2",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/v1uO5NkPWZo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dOb_IMrQc4Y.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388803,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 3",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 3",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -14057,7 +14123,74 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
 
- if (req.query.with_genres == 30300 ){
+  if (req.query.with_genres == 90003 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S3rm1bS_dmk.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 1",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S3rm1bS_dmk.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/v1uO5NkPWZo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 2",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/v1uO5NkPWZo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dOb_IMrQc4Y.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388803,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 3",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 3",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
     "results": [
@@ -14122,7 +14255,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
- if (req.query.with_genres == 30301 ){
+  if (req.query.with_genres == 30301 ){
       res.json({
     "page": 1,
     "results": [
@@ -23581,6 +23714,279 @@ router.get('/tv/:series_id', function(req, res, next) {
   }  
 
 
+  if (req.params.series_id == 9000388801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000388801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Transportation Law - 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/S3rm1bS_dmk.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Transportation Law - 1",
+      "overview": "The video will examine the transportation law.",
+      "popularity": 23.139,
+      "poster_path": "/images/S3rm1bS_dmk.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }  
+
+  if (req.params.series_id == 9000388802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000388802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Transportation Law - 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/v1uO5NkPWZo.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Transportation Law - 2",
+      "overview": "The video will examine the transportation law.",
+      "popularity": 23.139,
+      "poster_path": "/images/v1uO5NkPWZo.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }  
+
+  if (req.params.series_id == 9000388803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000388803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Transportation Law - 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/dOb_IMrQc4Y.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Transportation Law - 3",
+      "overview": "The video will examine the transportation law.",
+      "popularity": 23.139,
+      "poster_path": "/images/dOb_IMrQc4Y.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }  
+
+
+  if (req.params.series_id == 9000388803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000388803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Transportation Law - 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/dOb_IMrQc4Y.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Transportation Law - 3",
+      "overview": "The video will examine the transportation law.",
+      "popularity": 23.139,
+      "poster_path": "/images/dOb_IMrQc4Y.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }  
+
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -30796,7 +31202,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 	
-	if (req.params.series_id == 9000288804){
+   if (req.params.series_id == 9000288804){
       res.json({
       "id": 9000288804,
       "results": [
@@ -30816,6 +31222,66 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 
+   if (req.params.series_id == 9000288801){
+      res.json({
+      "id": 9000288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 1",
+          "key": "S3rm1bS_dmk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+   if (req.params.series_id == 9000288802){
+      res.json({
+      "id": 9000288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 2",
+          "key": "v1uO5NkPWZo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 9000288803){
+      res.json({
+      "id": 9000288803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		      "name": "Commercial - Transportation Law - 3",
+          "key": "dOb_IMrQc4Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }		
+	
    if (req.params.series_id == 3030088801){
       res.json({
       "id": 3030088801,
@@ -33891,6 +34357,65 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }	
 
+   if (req.params.tv_id == 9000388801){
+      res.json({
+      "id": 9000388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 1",
+          "key": "S3rm1bS_dmk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+   if (req.params.tv_id == 9000388802){
+      res.json({
+      "id": 9000388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 2",
+          "key": "v1uO5NkPWZo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 9000388803){
+      res.json({
+      "id": 9000388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 3",
+          "key": "dOb_IMrQc4Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.tv_id == 3030088801){
       res.json({
@@ -35434,5 +35959,125 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 
  
 });
+
+// Mock database of questions
+const questions = {
+  1: {
+    id: 1,
+    text: "The dictatorial regime of President A of the Republic of Gordon was toppled by a combined force led by Gen. Abe, former royal guards and the secessionist Gordon People’s Army. The new government constituted a Truth and Reconciliation Commission to look into the serious crimes committed under President A’s regime. After the hearings, the Commission recommended that an amnesty law be passed to cover even those involved in mass killings of members of indigenous groups who opposed President A. International human rights groups argued that the proposed amnesty law is contrary to international law. Decide with reasons. (4%)",
+    type: "essay"
+  },
+  2: {
+    id: 2,
+    text: "Compare and contrast the jurisdiction of the International Criminal Court and International Court of Justice. (3%)",
+    type: "essay"
+  },
+   3: {
+    id: 3,
+    text: "A, a British photojournalist, was covering the violent protests of the Thai Red-Shirts Movement in Bangkok. Despite warnings given by the Thai Prime Minister to foreigners, specially journalists, A moved around the Thai capital. In the course of his coverage, he was killed with a stray bullet which was later identified as having come from the ranks of the Red-Shirts. The wife of A sought relief from Thai authorities but was refused assistance. Is there state responsibility on the part of Thailand? (2%) What is the appropriate remedy available to the victim’s family under international law? (3%)",
+    type: "essay"
+  },
+  4: {
+    id: 4,
+    text: "Choose the statement which appropriately completes the opening phrase: 'A State which resorts to retorsion in international law (a) must ensure that all states consent to its act. (b) cannot curtail migration from the offending state. (c) Can expel the nationals of the offending state. (d) should apply proportionate response within appreciable limit. (e) None of the above. Explain your answer. (2%)",
+    type: "essay"
+  },
+   5: {
+    id: 5,
+    text: "Congresswoman A is a co-owner of an industrial estate in Sta. Rosa, Laguna which she had declared in her Statement of Assets and Liabilities. A member of her political party authored a bill which would provide a 5-year development plan for all industrial estates in the Southern Tagalog Region to attract investors. The plan included an appropriation of 2 billion pesos for construction of roads around the estates. When the bill finally became law, a civil society watchdog questioned the constitutionality of the law as it obviously benefitted Congresswoman A’s industrial estate. Decide with reasons. (3%)",
+    type: "essay"
+  },
+  6: {
+    id: 6,
+    text: "The “Poverty Alleviation and Assistance Act” was passed to enhance the capacity of the most marginalized families nationwide. A financial assistance scheme called “conditional cash transfers” was initially funded 500 million pesos by Congress. One of the provisions of the law gave the Joint-Congressional Oversight Committee authority to screen the list of beneficiary families initially determined by the Secretary of Department of Social Welfare and Development pursuant to the Department implementing rules. Mang Pandoy, a resident of Smokey Mountain in Tondo, questioned the authority of the Committee. Does Mang Pandoy have legal standing to question the law?(2%) Is the grant of authority to the Oversight Committee to screen beneficiaries constitutional? (3%) Decide with reasons.",
+    type: "essay"
+  },
+   7: {
+    id: 7,
+    text: "True or False. A proclamation of a state of emergency is sufficient to allow the President to take over any public utility. (0.5%) A treaty which provides tax exemption needs no concurrence by a majority of all the Members of the Congress. (0.5%)",
+    type: "essay"
+  },
+  8: {
+    id: 8,
+    text: "Distinguish `presidential communications privilege` from `deliberative process privilege.` (3%)",
+    type: "essay"
+  },
+   9: {
+    id: 9,
+    text: "The League of Filipino Political Scientists (LFPS) organized an international conference on the human rights situation in Myanmar at the Central Luzon State University (CLSU). An exiled Myanmar professor Sung Kui, critical of the military government in Myanmar, was invited as keynote speaker. The Secretary of Foreign Affairs informed the President of the regional and national security implications of having Prof. Kui address the conference. The President thereupon instructed the immigration authorities to prevent the entry of Prof. Kui into Philippine territory. The chancellor of CLSU argued that the instruction violates the Constitution. Decide with reasons. (4%)",
+    type: "essay"
+  },
+  10: {
+    id: 10,
+    text: "A, the wife of an alleged victim of enforced disappearance, applied for the issuance of a Writ of Amparo before a Regional Trial Court in Tarlac. Upon motion of A, the court issued inspection and production orders addressed to the AFP Chief of Staff to allow entry at Camp Aquino and permit the copying of relevant documents, including the list of detainees, if any. Accompanied by court-designated Commission on Human Rights (CHR) lawyers, A took photographs of a suspected isolation cell where her husband was allegedly seen being held for three days and tortured before he finally disappeared. The CHR lawyers requested one Lt. Valdez for a photocopy of the master plan of Camp Aquino and to confirm in writing that he had custody of the master plan. Lt. Valdez objected on the ground that it may violate his right against self-incrimination. Decide with reasons. (4%)",
+    type: "essay"
+  },
+   11: {
+    id: 11,
+    text: "A witnessed two hooded men with baseball bats enter the house of their next door neighbor B. After a few seconds, he heard B shouting, “Huwag Pilo babayaran kita agad.” Then A saw the two hooded men hitting B until the latter fell lifeless. The assailants escaped using a yellow motorcycle with a fireball sticker on it toward the direction of an exclusive village nearby. A reported the incident to PO1 Nuval. The following day, PO1 Nuval saw the motorcycle parked in the garage of a house at Sta. Ines Street inside the exclusive village. He inquired with the caretaker as to who owned the motorcycle. The caretaker named the brothers Pilo and Ramon Maradona who were then outside the country. PO1 Nuval insisted on getting inside the garage. Out of fear, the caretaker allowed him. PO1 Nuval took 2 ski masks and 2 bats beside the motorcycle. Was the search valid? What about the seizure? Decide with reasons. (4%)",
+    type: "essay"
+  },
+  12: {
+    id: 12,
+    text: "ABC operates an industrial waste processing plant within Laoag City. Occasionally, whenever fluid substances are released through a nearby creek, obnoxious odor is emitted causing dizziness among residents in Barangay La Paz. On complaint of the Punong Barangay, the City Mayor wrote ABC demanding that it abate the nuisance. This was ignored. An invitation to attend a hearing called by the Sangguniang Panlungsod was also declined by the president of ABC. The city government thereupon issued a cease and desist order to stop the operations of the plant, prompting ABC to file a petition for injunction before the Regional Trial Court, arguing that the city government did not have any power to abate the alleged nuisance. Decide with reasons. (3%)",
+    type: "essay"
+  },
+   13: {
+    id: 13,
+    text: "Rudy Domingo, 38 years old, natural-born Filipino and a resident of the Philippines since birth, is a Manila-based entrepreneur who runs KABAKA, a coalition of peoples’ organizations from fisherfolk communities. KABAKA’s operations consist of empowering fisherfolk leaders through livelihood projects and trainings on good governance. The Dutch Foundation for Global Initiatives, a private organization registered in The Netherlands, receives a huge subsidy from the Dutch Foreign Ministry, which, in turn is allocated worldwide to the Foundation’s partners like KABAKA. Rudy seeks to register KABAKA as a party-list with himself as a nominee of the coalition. Will KABAKA and Rudy be qualified as a party-list and a nominee, respectively? Decide with reasons. (4%)",
+    type: "essay"
+  },
+   14: {
+    id: 14,
+    text: "During his campaign sortie in Barangay Salamanca, Mayor Galicia was arrested at a PNP checkpoint for carrying highpowered firearms in his car. He was charged and convicted for violation of the COMELEC gun ban. He did not appeal his conviction and instead applied for executive clemency. Acting on the favorable recommendation of the Board of Pardons and Parole, the President granted him pardon. Is he eligible to run again for an elective position? Explain briefly. (5%)",
+    type: "essay"
+  },
+   15: {
+    id: 15,
+    text: "The House Committee on Appropriations conducted an inquiry in aid of legislation into alleged irregular and anomalous disbursements of the Countrywide Development Fund (CDF) and Congressional Initiative Allocation (CIA) of Congressmen as exposed by X, a Division Chief of the Department of Budget and Management (DBM). Implicated in the questionable disbursements are high officials of the Palace. The House Committee summoned X and the DBM Secretary to appear and testify. X refused to appear, while the Secretary appeared but refused to testify invoking executive privilege. May X be compelled to appear and testify? If yes, what sanction may be imposed on him? (2%) Is the Budget Secretary shielded by executive privilege from responding to the inquiries of the House Committee? Explain briefly. If the answer is no, is there any sanction that may be imposed upon him? (3%)",
+    type: "essay"
+  },
+   16: {
+    id: 16,
+    text: "To instill religious awareness in the students of Doña Trinidad High School, a public school in Bulacan, the Parent- Teacher’s Association of the school contributed funds for the construction of a grotto and a chapel where ecumenical religious services and seminars are being held after school hours. The use of the school grounds for these purposes was questioned by a parent who does not belong to any religious group. As his complaint was not addressed by the school officials, he filed an administrative complaint against the principal before the DECS. Is the principal liable? Explain briefly. (5%)",
+    type: "essay"
+  },
+   17: {
+    id: 17,
+    text: "Compare and contrast “overbreadth doctrine” from “void-forvagueness” doctrine. (5%)",
+    type: "essay"
+  }
+};
+
+router.get('/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const question = questions[id];
+  
+  if (question) {
+    res.json(question);
+  } else {
+    res.status(404).json({ error: 'Question not found' });
+  }
+});
+
+router.post('/submit', (req, res) => {
+  const { answers } = req.body;
+  
+  if (!answers || !Array.isArray(answers) || answers.length !== Object.keys(questions).length) {
+    return res.status(400).json({ error: 'Invalid submission' });
+  }
+  
+  submittedAnswers = answers;
+  res.json({ message: 'Answers submitted successfully' });
+});
+
+router.get('/submitted-answers', (req, res) => {
+  if (submittedAnswers) {
+    res.json(submittedAnswers);
+  } else {
+    res.status(404).json({ error: 'No answers submitted yet' });
+  }
+});
+
 
 module.exports = router;
