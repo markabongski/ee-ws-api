@@ -23784,7 +23784,6 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }  
 
-
   if (req.params.series_id == 9000388801){
     res.json(
       {
@@ -23807,7 +23806,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Commercial - Transportation Law - 1",
+      "name": "Commercial - Transportation Law - Part 1",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -23823,7 +23822,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Commercial - Transportation Law - 1",
+      "original_name": "Commercial - Transportation Law - Part 1",
       "overview": "The video will examine the transportation law.",
       "popularity": 23.139,
       "poster_path": "/images/S3rm1bS_dmk.jpg",
@@ -23875,7 +23874,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Commercial - Transportation Law - 2",
+      "name": "Commercial - Transportation Law - Part 2",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -23891,7 +23890,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Commercial - Transportation Law - 2",
+      "original_name": "Commercial - Transportation Law - Part 2",
       "overview": "The video will examine the transportation law.",
       "popularity": 23.139,
       "poster_path": "/images/v1uO5NkPWZo.jpg",
@@ -23943,7 +23942,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Commercial - Transportation Law - 3",
+      "name": "Commercial - Transportation Law - Part 3",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -23959,7 +23958,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Commercial - Transportation Law - 3",
+      "original_name": "Commercial - Transportation Law - Part 3",
       "overview": "The video will examine the transportation law.",
       "popularity": 23.139,
       "poster_path": "/images/dOb_IMrQc4Y.jpg",
