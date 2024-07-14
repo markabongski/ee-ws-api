@@ -24011,7 +24011,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Commercial - Transportation Law - 3",
+      "name": "Commercial - Transportation Law - Part 3",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -24027,7 +24027,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Commercial - Transportation Law - 3",
+      "original_name": "Commercial - Transportation Law - Part 3",
       "overview": "The video will examine the transportation law.",
       "popularity": 23.139,
       "poster_path": "/images/dOb_IMrQc4Y.jpg",
