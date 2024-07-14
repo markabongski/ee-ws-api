@@ -31448,6 +31448,67 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 
+   if (req.params.series_id == 9000388801){
+      res.json({
+      "id": 9000388801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 1",
+          "key": "S3rm1bS_dmk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+   if (req.params.series_id == 9000388802){
+      res.json({
+      "id": 9000388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 2",
+          "key": "v1uO5NkPWZo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.series_id == 9000388803){
+      res.json({
+      "id": 9000388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Transportation Law - Part 3",
+          "key": "dOb_IMrQc4Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+
    if (req.params.series_id == 9000288802){
       res.json({
       "id": 9000288802,
