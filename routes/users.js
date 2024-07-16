@@ -11706,12 +11706,124 @@ router.get('/discover/movie', function(req, res, next) {
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/3ULtS_Yvy1s.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/3ULtS_Yvy1s.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/G_P6156KqtI.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Business Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/G_P6156KqtI.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Business Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/zrzw43G7hks.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Value Added Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/zrzw43G7hks.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Value Added Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/11wCwLulE0Y.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Transfer Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/11wCwLulE0Y.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Transfer Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
       }
 	  ],
     "total_pages": 1,
-    "total_results": 1
+    "total_results": 5
     });
   }
+  
+  if (req.query.with_genres == 40304 ){
+      res.json({
+    "page": 1,
+    "results": [
+	  {
+        "adult": false,
+        "backdrop_path": "/images/niw2zJ6dpt4.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Estate Tax",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/niw2zJ6dpt4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Estate Tax",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/eh7To1r-Fto.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Tax Remedies",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/eh7To1r-Fto.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Tax Remedies",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  } 
   
   if (req.query.with_genres == 50301 ){
       res.json({
@@ -13810,8 +13922,7 @@ router.get('/discover/tv', function(req, res, next) {
     "total_results": 5
     });
   }
-
-  
+ 
  if (req.query.with_genres == 80304 ){
     res.json({
       "page": 1,
@@ -15011,6 +15122,145 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
  
+  if (req.query.with_genres == 40303 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/YwdIjkrX9VA.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 11",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YwdIjkrX9VA.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 11",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/3ULtS_Yvy1s.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/3ULtS_Yvy1s.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/G_P6156KqtI.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Business Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/G_P6156KqtI.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Business Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/zrzw43G7hks.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Value Added Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/zrzw43G7hks",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Value Added Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/11wCwLulE0Y.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Transfer Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/11wCwLulE0Y.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Transfer Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 40304 ){
+      res.json({
+    "page": 1,
+    "results": [
+	  {
+        "adult": false,
+        "backdrop_path": "/images/niw2zJ6dpt4.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Estate Tax",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/niw2zJ6dpt4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Estate Tax",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/eh7To1r-Fto.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Tax Remedies",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/eh7To1r-Fto.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Tax Remedies",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  } 
+  
   if (req.query.with_genres == 50301 ){
       res.json({
     "page": 1,
@@ -26646,6 +26896,414 @@ router.get('/tv/:series_id', function(req, res, next) {
 		});
   }
   
+  if (req.params.series_id == 4030388802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030388802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Corporate Income Taxes + Create LAW",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/3ULtS_Yvy1s.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Corporate Income Taxes + Create LAW",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/3ULtS_Yvy1s.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 4030388803){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030388803,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Business Taxes",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/G_P6156KqtI.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Business Taxes",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/G_P6156KqtI.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 4030388804){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030388804,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Value Added Taxes",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/zrzw43G7hks.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Value Added Taxes",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/zrzw43G7hks.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 4030388805){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030388805,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Transfer Taxes",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/11wCwLulE0Y.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Transfer Taxes",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/11wCwLulE0Y.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+ 
+  if (req.params.series_id == 4030488801){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030488801,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Estate Taxes",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/niw2zJ6dpt4.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Estate Taxes",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/niw2zJ6dpt4.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
+  if (req.params.series_id == 4030488802){
+	res.json(
+		{
+		"adult": false,
+		"backdrop_path": null,
+		"created_by": [
+		],
+		"episode_run_time": [
+		  43
+		],
+		"first_air_date": "2005-04-13",
+		"genres": [
+		],
+		"homepage": "",
+		"id": 4030488802,
+		"in_production": false,
+		"languages": [
+		  "en"
+		],
+		"last_air_date": "2005-05-18",
+		"last_episode_to_air": {
+		},
+		"name": "Taxation Atty. Lim - Tax Remedies",
+		"next_episode_to_air": null,
+		"networks": [
+		  {
+			"id": 6,
+			"logo_path": "/eh7To1r-Fto.jpg",
+			"name": "NBC",
+			"origin_country": "US"
+		  }
+		],
+		"number_of_episodes": 1,
+		"number_of_seasons": 1,
+		"origin_country": [
+		  "US"
+		],
+		"original_language": "en",
+		"original_name": "Taxation Atty. Lim - Tax Remedies",
+		"overview":  "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+		"popularity": 23.139,
+        "poster_path": "/images/eh7To1r-Fto.jpg",
+		"production_companies": [
+		],
+		"production_countries": [
+		  {
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		  }
+		],
+		"seasons": [
+
+		],
+		"spoken_languages": [
+		  {
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		  }
+		],
+		"status": "Ended",
+		"tagline": "",
+		"type": "Miniseries",
+		"vote_average": 5.7,
+		"vote_count": 29
+		});
+  }
+  
   if (req.params.series_id == 5030188801){
 	res.json(
 		{
@@ -32503,7 +33161,127 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       ]
       });
     }
+    
+	if (req.params.series_id == 4030388802){
+      res.json({
+      "id": 4030388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Corporate Income Taxes + Create LAW",
+          "key": "3ULtS_Yvy1s",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+    
+	if (req.params.series_id == 4030388803){
+      res.json({
+      "id": 4030388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Business Taxes",
+          "key": "G_P6156KqtI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 	
+	if (req.params.series_id == 4030388804){
+      res.json({
+      "id": 4030388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Value Added Taxes",
+          "key": "zrzw43G7hks",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 4030388805){
+      res.json({
+      "id": 4030388805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Transfer Taxes",
+          "key": "11wCwLulE0Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 4030488801){
+      res.json({
+      "id": 4030488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Estate Taxes",
+          "key": "niw2zJ6dpt4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 4030488802){
+      res.json({
+      "id": 4030488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Tax Remedies",
+          "key": "eh7To1r-Fto",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+    
    if (req.params.series_id == 5030188801){
       res.json({
       "id": 5030188801,
@@ -35737,7 +36515,127 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+
+   if (req.params.tv_id == 4030388802){
+      res.json({
+      "id": 4030388802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Corporate Income Taxes + Create LAW",
+          "key": "3ULtS_Yvy1s",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+    
+   if (req.params.tv_id == 4030388803){
+      res.json({
+      "id": 4030388803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Business Taxes",
+          "key": "G_P6156KqtI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 	
+   if (req.params.tv_id == 4030388804){
+      res.json({
+      "id": 4030388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Value Added Taxes",
+          "key": "zrzw43G7hks",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 4030388805){
+      res.json({
+      "id": 4030388805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Transfer Taxes",
+          "key": "11wCwLulE0Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 4030488801){
+      res.json({
+      "id": 4030488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Estate Taxes",
+          "key": "niw2zJ6dpt4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 4030488802){
+      res.json({
+      "id": 4030488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taxation Atty. Lim - Tax Remedies",
+          "key": "eh7To1r-Fto",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
    if (req.params.tv_id == 5030188801){
       res.json({
       "id": 5030188801,
