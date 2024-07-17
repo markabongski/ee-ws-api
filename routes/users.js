@@ -10288,7 +10288,430 @@ router.get('/discover/movie', function(req, res, next) {
   "total_pages": 1,
   "total_results": 5
   });
-}
+  }
+  
+  if (req.query.with_genres == 20312 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/t9mcag14l8Y.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031188801,
+      "original_language": "en",
+      "original_title": "Criminal - Updates on theft and estafa.",
+      "overview": "The video will examine some updates related to Theft and estafa.",
+      "popularity": 2590.24,
+      "poster_path": "/images/t9mcag14l8Y.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9uHBn0FkWE8.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031188802,
+      "original_language": "en",
+      "original_title": "Criminal - RA No  9262  - updated",
+      "overview": "The video will examine some updates related to RA 9262.",
+      "popularity": 1617.893,
+      "poster_path": "/images/9uHBn0FkWE8.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - RA No  9262  - updated",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2vXC7_WBp5M.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031188803,
+      "original_language": "en",
+      "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/2vXC7_WBp5M.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20313 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031388801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031388802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20314 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031488801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031488802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+
+  if (req.query.with_genres == 20315 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/ZjZIsN14U4Q.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031588801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/ZjZIsN14U4Q.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031588802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/9ZH-wfowScw.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588803,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/fWipLfs4dLc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/fWipLfs4dLc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5VgR2GVt1XA.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588805,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5VgR2GVt1XA.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 20316 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/D_ukpdotfmA.jpg",
+		  "genre_ids": [
+		  ],
+		  "id": 2031688801,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/D_ukpdotfmA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XzJYzfO_7y8.jpg",
+		  "genre_ids": [
+		  ],
+
+		  "id": 2031688802,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1617.893,
+		  "poster_path": "/images/XzJYzfO_7y8.jpg",
+		  "release_date": "2023-10-25",
+		  "title": "Criminal  - Judge Campanilla  - UP Update 3  - RA No 9262",
+		  "video": false,
+		  "vote_average": 8,
+		  "vote_count": 2300
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/yn3FEYSdK8o.jpg",
+		  "genre_ids": [
+			878
+		  ],
+		  "id": 2031688803,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1595.817,
+		  "poster_path": "/images/yn3FEYSdK8o.jpg",
+		  "release_date": "2023-09-27",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "video": false,
+		  "vote_average": 7.2,
+		  "vote_count": 786
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+  }
 
   if (req.query.with_genres == 80301 ){
       res.json({
@@ -12565,6 +12988,368 @@ router.get('/discover/movie', function(req, res, next) {
  
 });
 
+  if (req.query.with_genres == 20313 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031388801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031388802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20314 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031488801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/ywvq08jokdM.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031488802,
+      "original_language": "en",
+      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/ywvq08jokdM.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/kDhmh7azOEc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/kDhmh7azOEc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/7blyu0gYRD4.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/7blyu0gYRD4.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/O-TBc173BmY.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/O-TBc173BmY.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20315 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/ZjZIsN14U4Q.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031588801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/ZjZIsN14U4Q.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031588802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/9ZH-wfowScw.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588803,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/fWipLfs4dLc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/fWipLfs4dLc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5VgR2GVt1XA.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588805,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5VgR2GVt1XA.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 20316 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/D_ukpdotfmA.jpg",
+		  "genre_ids": [
+		  ],
+		  "id": 2031688801,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Updates",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/D_ukpdotfmA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XzJYzfO_7y8.jpg",
+		  "genre_ids": [
+		  ],
+
+		  "id": 2031688802,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No. 9262",
+		  "overview": "The video will examine the criminal laws of the Philippines",
+		  "popularity": 1617.893,
+		  "poster_path": "/images/XzJYzfO_7y8.jpg",
+		  "release_date": "2023-10-25",
+		  "title": "Criminal  - Judge Campanilla  - UP Update - RA No 9262",
+		  "video": false,
+		  "vote_average": 8,
+		  "vote_count": 2300
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/yn3FEYSdK8o.jpg",
+		  "genre_ids": [
+			878
+		  ],
+		  "id": 2031688803,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1595.817,
+		  "poster_path": "/images/yn3FEYSdK8o.jpg",
+		  "release_date": "2023-09-27",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "video": false,
+		  "vote_average": 7.2,
+		  "vote_count": 786
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+   }
+
+});
+
 router.get('/discover/tv', function(req, res, next) {
   if (req.query.with_genres == 20300 ){
       res.json({
@@ -13716,6 +14501,2963 @@ router.get('/discover/tv', function(req, res, next) {
   "total_results": 5
   });
 }
+
+  if (req.query.with_genres == 20312 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/t9mcag14l8Y.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031188801,
+      "original_language": "en",
+      "original_title": "Criminal - Updates on theft and estafa.",
+      "overview": "The video will examine some updates related to Theft and estafa.",
+      "popularity": 2590.24,
+      "poster_path": "/images/t9mcag14l8Y.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9uHBn0FkWE8.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031188802,
+      "original_language": "en",
+      "original_title": "Criminal - RA No  9262  - updated",
+      "overview": "The video will examine some updates related to RA 9262.",
+      "popularity": 1617.893,
+      "poster_path": "/images/9uHBn0FkWE8.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - RA No  9262  - updated",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2vXC7_WBp5M.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031188803,
+      "original_language": "en",
+      "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/2vXC7_WBp5M.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20313 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031388801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031388802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031388805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20314 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031488801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Updates on theft and estafa.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031488802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine Penal Code related to Article 4",
+      "popularity": 1595.817,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+
+  if (req.query.with_genres == 20315 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/ZjZIsN14U4Q.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031588801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/ZjZIsN14U4Q.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031588802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/9ZH-wfowScw.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588803,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/fWipLfs4dLc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/fWipLfs4dLc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5VgR2GVt1XA.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588805,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5VgR2GVt1XA.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 20316 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/D_ukpdotfmA.jpg",
+		  "genre_ids": [
+		  ],
+		  "id": 2031688801,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/D_ukpdotfmA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XzJYzfO_7y8.jpg",
+		  "genre_ids": [
+		  ],
+
+		  "id": 2031688802,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1617.893,
+		  "poster_path": "/images/XzJYzfO_7y8.jpg",
+		  "release_date": "2023-10-25",
+		  "title": "Criminal  - Judge Campanilla  - UP Update - RA No 9262",
+		  "video": false,
+		  "vote_average": 8,
+		  "vote_count": 2300
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/yn3FEYSdK8o.jpg",
+		  "genre_ids": [
+			878
+		  ],
+		  "id": 2031688803,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1595.817,
+		  "poster_path": "/images/yn3FEYSdK8o.jpg",
+		  "release_date": "2023-09-27",
+		  "title": "Criminal  - Judge Campanilla - UP UPDATE - Theft and Estafa",
+		  "video": false,
+		  "vote_average": 7.2,
+		  "vote_count": 786
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+  }
+
+  if (req.query.with_genres == 80301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/EXfb36fiwxI.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030188801,
+        "original_language": "en",
+        "original_title": "Civil - Sales Lecture Part 1",
+        "overview": "The video will examine some areas and pointers on the Law of Sales",
+        "popularity": 2590.24,
+        "poster_path": "/images/EXfb36fiwxI.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - Sales Lecture Part 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/MenyROkhDp4.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030188802,
+        "original_language": "en",
+        "original_title": "Civil - Sales Lecture Part 2",
+        "overview": "The video will examine some areas and pointers on the Law of Sales",
+        "popularity": 1617.893,
+        "poster_path": "/images/MenyROkhDp4.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - Sales Lecture Part 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 80302 ){
+    res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/O10N6fFIzz4.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288801,
+        "original_language": "en",
+        "original_title": "Civil - II  Human Relations & III  PFR A E",
+        "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
+        "popularity": 2590.24,
+        "poster_path": "/images/O10N6fFIzz4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - II  Human Relations & III  PFR A E",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/sh7IVU9jVpI.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288802,
+        "original_language": "en",
+        "original_title": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
+        "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
+        "popularity": 1617.893,
+        "poster_path": "/images/sh7IVU9jVpI.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/xG7ZB_mHMng.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030288803,
+        "original_language": "en",
+        "original_title": "Civil - VII  Wills & Succession C D",
+        "overview": "The video will examine some areas on Wills and Succession.",
+        "popularity": 2590.24,
+        "poster_path": "/images/xG7ZB_mHMng.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VII  Wills & Succession C D",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/mXp4a_4baPs.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030288804,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "overview": "The video will examine some areas on contracts real, consensual and defective.",
+        "popularity": 1617.893,
+        "poster_path": "/images/mXp4a_4baPs.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 80303 ){
+  res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/YQ-3NE_arfY.jpg",
+        "genre_ids": [
+          18,
+          36
+        ],
+        "id": 8030388801,
+        "original_language": "en",
+        "original_title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YQ-3NE_arfY.jpg",
+        "release_date": "2023-07-19",
+        "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/fTRzrMaE9mo.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388802,
+        "original_language": "en",
+        "original_title": "Civil - X  Contract of Lease",
+        "overview": "The video will examine some areas and pointers on the Law of Lease",
+        "popularity": 1617.893,
+        "poster_path": "/images/fTRzrMaE9mo.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - X  Contract of Lease",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/ZZw2IdeDMMU.jpg",
+        "genre_ids": [
+          27,
+          9648
+        ],
+
+        "id": 8030388803,
+        "original_language": "en",
+        "original_title": "Civil - XI  Agency",
+        "overview": "The video will examine some areas and pointers on the Law of Agency",
+        "popularity": 1617.893,
+        "poster_path": "/images/ZZw2IdeDMMU.jpg",
+        "release_date": "2023-10-25",
+        "title": "Civil - XI  Agency",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 80304 ){
+    res.json({
+      "page": 1,
+      "results": [
+        {
+          "adult": false,
+          "backdrop_path": "/images/yaQGkD3vcIU.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 8030488801,
+          "original_language": "en",
+          "original_title": "Civil - IV  Property, Ownership and its Modifications",
+          "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
+          "popularity": 2590.24,
+          "poster_path": "/images/yaQGkD3vcIU.jpg",
+          "release_date": "2023-07-19",
+          "title": "Civil - IV  Property, Ownership and its Modifications",
+          "video": false,
+          "vote_average": 8.2,
+          "vote_count": 4588
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/images/dwnS0VXvSok.jpg",
+          "genre_ids": [
+            27,
+            9648
+          ],
+  
+          "id": 8030488802,
+          "original_language": "en",
+          "original_title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
+          "popularity": 1617.893,
+          "poster_path": "/images/dwnS0VXvSok.jpg",
+          "release_date": "2023-10-25",
+          "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 2300
+        }
+      ],
+      "total_pages": 1,
+      "total_results": 5
+      });
+    }
+  
+  if (req.query.with_genres == 80305 ){
+      res.json({
+        "page": 1,
+        "results": [
+          {
+            "adult": false,
+            "backdrop_path": "/images/cnBkf005gUs.jpg",
+            "genre_ids": [
+              18,
+              36
+            ],
+            "id": 8030588801,
+            "original_language": "en",
+            "original_title": "Civil - VI  Land Titles and Deeds",
+            "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
+            "popularity": 2590.24,
+            "poster_path": "/images/cnBkf005gUs.jpg",
+            "release_date": "2023-07-19",
+            "title": "Civil - VI  Land Titles and Deeds",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 4588
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/images/VmzWSYcJkm8.jpg",
+            "genre_ids": [
+              27,
+              9648
+            ],
+    
+            "id": 8030588802,
+            "original_language": "en",
+            "original_title": "Civil - V  Modes of Acquiring Ownership",
+            "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
+            "popularity": 1617.893,
+            "poster_path": "/images/VmzWSYcJkm8.jpg",
+            "release_date": "2023-10-25",
+            "title": "Civil - V  Modes of Acquiring Ownership",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 2300
+          }
+        ],
+        "total_pages": 1,
+        "total_results": 5
+        });
+      }
+
+  if (req.query.with_genres == 80306 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/Y38I5NIaITA.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030688801,
+              "original_language": "en",
+              "original_title": "Civil - XV  Torts and Damages",
+              "overview": "The video will examine some areas and pointers on Torts and Damages.",
+              "popularity": 2590.24,
+              "poster_path": "/images/Y38I5NIaITA.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - XV  Torts and Damages",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/PuOoufiLlzA.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030688802,
+              "original_language": "en",
+              "original_title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/PuOoufiLlzA.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/PTl_jst8JUs.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030688803,
+              "original_language": "en",
+              "original_title": "Civil - VIII  Obligations and Contracts",
+              "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
+              "popularity": 1617.893,
+              "poster_path": "/images/PTl_jst8JUs.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - VIII  Obligations and Contracts",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/__9Pa7YBsh4.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030688804,
+              "original_language": "en",
+              "original_title": "Civil   VII  Wills and Succession",
+              "overview": "The video will examine some areas and pointers on Succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/__9Pa7YBsh4.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil   VII  Wills and Succession",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 5
+          });
+        }    
+  
+  if (req.query.with_genres == 80307 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/MgtyVuhlVmk.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030788801,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 2590.24,
+              "poster_path": "/images/MgtyVuhlVmk.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/k4XsBwcSD6g.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030788802,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/k4XsBwcSD6g.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/AAqZqUoFQhE.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030788803,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/AAqZqUoFQhE.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/EBDKrdexjUs.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030788804,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/EBDKrdexjUs.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/oPTINv11Bgc.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030788805,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 1617.893,
+              "poster_path": "/images/oPTINv11Bgc.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 4
+          });
+        } 
+		
+		
+  if (req.query.with_genres == 90001 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/pclRwzhkLr8.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 9000188801,
+      "original_language": "en",
+      "original_title": "Commercial - New Corporation Law (6 hours)",
+      "overview": "The video will examine the new Law of Corporation.",
+      "popularity": 2590.24,
+      "poster_path": "/images/pclRwzhkLr8.jpg",
+      "release_date": "2023-07-19",
+      "title": "Commercial - New Corporation Law (6 hours)",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/zxzIXXrN2HA.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 9000188802,
+      "original_language": "en",
+      "original_title": "Commercial - Partnership (2.5 hours)",
+      "overview": "The video will examine the Law of Partnership.",
+      "popularity": 2590.24,
+      "poster_path": "/images/zxzIXXrN2HA.jpg",
+      "release_date": "2023-07-19",
+      "title": "Commercial - Partnership (2.5 hours)",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 3
+  });
+}
+
+  if (req.query.with_genres == 90002 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/6ZywHeXopT0.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000288801,
+		  "original_language": "en",
+		  "original_title": "Commercial - New Banking Laws - 1",
+		  "overview": "The video will examine the new Banking Laws.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/6ZywHeXopT0.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - New Banking Laws - 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/_DeM5rTjbH4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000288802,
+		  "original_language": "en",
+		  "original_title": "Commercial - New Banking Laws - 2",
+		  "overview": "The video will examine the new Banking Laws.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/_DeM5rTjbH4.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - New Banking Laws - 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/mZM3zjC4CaY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000288803,
+		  "original_language": "en",
+		  "original_title": "Commercial - New Banking Laws - 3",
+		  "overview": "The video will examine the new Banking Laws.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/mZM3zjC4CaY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - New Banking Laws - 3",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/HgWpFD-sUGQ.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000288804,
+		  "original_language": "en",
+		  "original_title": "Commercial - Data Privacy",
+		  "overview": "The video will examine the data privacy act.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Data Privacy",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  if (req.query.with_genres == 90003 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S3rm1bS_dmk.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 1",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S3rm1bS_dmk.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/v1uO5NkPWZo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 2",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/v1uO5NkPWZo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dOb_IMrQc4Y.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388803,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 3",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 3",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  if (req.query.with_genres == 30300 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/yZAv5u72r2E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088801,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 1",
+        "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/yZAv5u72r2E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Dean Loanzon Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/x7YFlRd2a44.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030088802,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 2",
+        "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/x7YFlRd2a44.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Dean Loanzon Lecture 2",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/9wdgsK5gBN0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030088803,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 3",
+        "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/9wdgsK5gBN0.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Dean Loanzon Lecture 3",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/aIKEU6YktdA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188801,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 4",
+        "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/aIKEU6YktdA.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Dean Loanzon Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/m1_rMY84MmM.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030188802,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 5",
+        "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/m1_rMY84MmM.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Dean Loanzon Lecture 5",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/Ckd2JrSXI9A.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030188803,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 6",
+        "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/Ckd2JrSXI9A.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Dean Loanzon Lecture 6",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/Vi6lV7KAi7M.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030288801,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 7",
+        "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Vi6lV7KAi7M.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Dean Loanzon Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/CiaiqmGR3Bs.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030288802,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 8",
+        "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/CiaiqmGR3Bs.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Dean Loanzon Lecture 8",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/7QUIPi5-yF8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030288803,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 9",
+        "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/7QUIPi5-yF8.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Dean Loanzon Lecture 9",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30303 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/kxwEc2oi8-E.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030388801,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 10",
+        "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/kxwEc2oi8-E.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Dean Loanzon Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/NhaoeTyNLkc.jpg",
+        "genre_ids": [
+        
+        ],
+
+        "id": 3030388802,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 11",
+        "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
+        "popularity": 1617.893,
+        "poster_path": "/images/NhaoeTyNLkc.jpg",
+        "release_date": "2023-10-25",
+        "title": "Political Dean Loanzon Lecture 11",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2300
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/FOc_FnSXp6U.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030388803,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 12",
+        "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
+        "popularity": 1595.817,
+        "poster_path": "/images/FOc_FnSXp6U.jpg",
+        "release_date": "2023-09-27",
+        "title": "Political Dean Loanzon Lecture 12",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 786
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 30304 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/q8kQ3KriJL8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488801,
+        "original_language": "en",
+        "original_title": "Political Dean Loanzon Lecture 13",
+        "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/q8kQ3KriJL8.jpg",
+        "release_date": "2023-07-19",
+        "title": "Political Dean Loanzon Lecture 13",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/0bwDDCapiHo.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488802,
+        "original_language": "en",
+        "original_title": "Judicial Ethics - Atty. Loanzon Lecture",
+        "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/0bwDDCapiHo.jpg",
+        "release_date": "2023-07-19",
+        "title": "Judicial Ethics - Atty. Loanzon Lecture",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Zg6Tv0ms07w.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 3030488803,
+        "original_language": "en",
+        "original_title": "Bar Techniques - Atty. Loanzon Lecture",
+        "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Zg6Tv0ms07w.jpg",
+        "release_date": "2023-07-19",
+        "title": "Bar Techniques - Atty. Loanzon Lecture",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+  if (req.query.with_genres == 30305 ){
+  res.json({
+"page": 1,
+"results": [
+  {
+    "adult": false,
+    "backdrop_path": "/images/_B8AHMSt5UQ.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588801,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Issue Spotting Lecture",
+    "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/_B8AHMSt5UQ.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon - Issue Spotting Lecture",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/n6SLDo7EG70.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588802,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Plain English Bar",
+    "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/n6SLDo7EG70.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon - Plain English Bar",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/KrekzhLoc50.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588803,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Lecture on Citizenship",
+    "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/KrekzhLoc50.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon - Lecture on Citizenship",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/THvJNJOm29A.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588804,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/THvJNJOm29A.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/images/QF1fczh7QYc.jpg",
+    "genre_ids": [
+    
+    ],
+    "id": 3030588805,
+    "original_language": "en",
+    "original_title": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
+    "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
+    "popularity": 2590.24,
+    "poster_path": "/images/QF1fczh7QYc.jpg",
+    "release_date": "2023-07-19",
+    "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 4588
+  }
+],
+"total_pages": 1,
+"total_results": 5
+});
+}
+
+  if (req.query.with_genres == 30306 ){
+	  res.json({
+	"page": 1,
+	"results": [
+	  {
+		"adult": false,
+		"backdrop_path": "/images/zU7cgUF0xz4.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030688801,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Recent Jurisprudence",
+		"overview": "The discussion will focus on the discussion of recent Jurisprudence by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/zU7cgUF0xz4.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Recent Jurisprudence",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  },
+	  {
+		"adult": false,
+		"backdrop_path": "/images/BJZAay2hkwQ.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030688802,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Legal Ethics",
+		"overview": "The discussion will focus on the discussion of legal ethics by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/BJZAay2hkwQ.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Legal Ethics",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  },
+	  {
+		"adult": false,
+		"backdrop_path": "/images/U7TknxKzOg0.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030688803,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Administrative Law",
+		"overview": "The discussion will focus on the discussion of administrative law by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/U7TknxKzOg0.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Administrative Law",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  },
+	  {
+		"adult": false,
+		"backdrop_path": "/images/e9y4bjgADT8.jpg",
+		"genre_ids": [
+		
+		],
+		"id": 3030688804,
+		"original_language": "en",
+		"original_title": "Political Dean Loanzon - Election Law",
+		"overview": "The discussion will focus on the discussion of election law by Dean Loanzon.",
+		"popularity": 2590.24,
+		"poster_path": "/images/e9y4bjgADT8.jpg",
+		"release_date": "2023-07-19",
+		"title": "Political Dean Loanzon - Election Law",
+		"video": false,
+		"vote_average": 8.2,
+		"vote_count": 4588
+	  }
+	],
+	"total_pages": 1,
+	"total_results": 3
+	});
+  }
+	
+  if (req.query.with_genres == 40301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/jUMsFRd88nk.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030188801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 1",
+        "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/jUMsFRd88nk.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/a3CrgjgewzM.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030188802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 2",
+        "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/a3CrgjgewzM.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/VVe84yFKufI.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030188803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 3",
+        "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/VVe84yFKufI.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/gn7wP3-fW3k.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030188804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 4",
+        "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/gn7wP3-fW3k.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/VGgvIe9oJ7I.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030188805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 5",
+        "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/VGgvIe9oJ7I.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 40302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/FTNMh7zuIfQ.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 6",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/FTNMh7zuIfQ.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/64083E1DZB8.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 7",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/64083E1DZB8.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/9-cyKov40qs.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 8",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/9-cyKov40qs.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/jWMbp4nLX2Y.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 9",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/jWMbp4nLX2Y.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YOCFJBTH8ow.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030288805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 10",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YOCFJBTH8ow.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 40303 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/YwdIjkrX9VA.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Lecture 11",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YwdIjkrX9VA.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Lecture 11",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/3ULtS_Yvy1s.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/3ULtS_Yvy1s.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/G_P6156KqtI.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388803,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Business Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/G_P6156KqtI.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Business Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/zrzw43G7hks.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388804,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Value Added Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/zrzw43G7hks.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Value Added Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/11wCwLulE0Y.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030388805,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Transfer Taxes",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/11wCwLulE0Y.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Transfer Taxes",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 40304 ){
+      res.json({
+    "page": 1,
+    "results": [
+	  {
+        "adult": false,
+        "backdrop_path": "/images/niw2zJ6dpt4.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488801,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Estate Tax",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/niw2zJ6dpt4.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Estate Tax",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/eh7To1r-Fto.jpg",
+        "genre_ids": [
+        ],
+        "id": 4030488802,
+        "original_language": "en",
+        "original_title": "Taxation Atty. Lim - Tax Remedies",
+        "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
+        "popularity": 2590.24,
+        "poster_path": "/images/eh7To1r-Fto.jpg",
+        "release_date": "2023-07-19",
+        "title": "Taxation Atty. Lim - Tax Remedies",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  } 
+  
+  if (req.query.with_genres == 50301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/x6u4tPIh1rI.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/x6u4tPIh1rI.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/FWLRc0RZV-U.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/FWLRc0RZV-U.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/rIqK_jmErQ4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/rIqK_jmErQ4.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-DXDjIpq-Hw.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/-DXDjIpq-Hw.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/bYLFI22hTpk.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030188805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/bYLFI22hTpk.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }			  
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50302 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/NQswbDmGFao.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/NQswbDmGFao.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/_fodt-KEoE8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/_fodt-KEoE8.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/lIOlCXMqrsY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/lIOlCXMqrsY.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/-nzolRL3mUU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 9",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/-nzolRL3mUU.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/xpwW2tuGscM.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030288805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 10",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/xpwW2tuGscM.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50303 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/0ETrqZvVIXI.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030388801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 11",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/0ETrqZvVIXI.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 11",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/qwa69J-fMSE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030388802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 12",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/qwa69J-fMSE.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 12",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/_Wq8APMRYTE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030388803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 13",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/_Wq8APMRYTE.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 13",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/YS3Dzjifkfg.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030388804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 14",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/YS3Dzjifkfg.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 14",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/hfn63P_LBMQ.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030388805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 15",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/hfn63P_LBMQ.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 15",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50304 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/38LRH0_q6Vc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030488801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 16",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/38LRH0_q6Vc.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 16",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/aXj4lbWJCdU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030488802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 17",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/aXj4lbWJCdU.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 17",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/BscFXg4BP4s.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030488803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 18",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/BscFXg4BP4s.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 18",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/aBVb5P6aHHs.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030488804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 19",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/aBVb5P6aHHs.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 19",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/BV3_HcrL1IA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030488805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 20",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/BV3_HcrL1IA.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 20",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+
+  if (req.query.with_genres == 50305 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/Q-w10udOpgA.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030588801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 21",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Q-w10udOpgA.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 21",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/6480yEZoyyc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030588802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 22",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/6480yEZoyyc.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 22",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/d0Ki-rME5cU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030588803,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 23",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/d0Ki-rME5cU.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 23",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/dJu4An3iIs4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030588804,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 24",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/dJu4An3iIs4.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 24",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/dQkPq7nhHlc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030588805,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 25",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/dQkPq7nhHlc.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 25",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+ 
+  if (req.query.with_genres == 50306 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/CGi7WTZXQKE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030688801,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 26",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/CGi7WTZXQKE.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/PDWxyvacR98.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 5030688802,
+        "original_language": "en",
+        "original_title": "Labor - Atty Pearlito Campanilla - Lecture 27",
+        "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
+        "popularity": 2590.24,
+        "poster_path": "/images/PDWxyvacR98.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 27",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+
+  if (req.query.with_genres == 60301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/NFBO0--nPMw.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 6030188801,
+        "original_language": "en",
+        "original_title": "Labor Atty. Benedict Kato Lecture 1",
+        "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
+        "popularity": 2590.24,
+        "poster_path": "/images/NFBO0--nPMw.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/371pb5aIGbY.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 6030188802,
+        "original_language": "en",
+        "original_title": "Labor Atty. Benedict Kato Lecture 2",
+        "overview": "The discussion will focus on Labor Law by Benedict Kato.",
+        "popularity": 2590.24,
+        "poster_path": "/images/371pb5aIGbY.jpg",
+        "release_date": "2023-12-30",
+        "title": "Labor Atty. Benedict Kato Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+  if (req.query.with_genres == 70301 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/SW0S3KEnVtE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188801,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 1",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/SW0S3KEnVtE.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/yQUeh7axZgw.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188802,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 2",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/yQUeh7axZgw.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/Zf86PrDg2XU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188803,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 3",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/Zf86PrDg2XU.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/images/TU2j0Kx5mm0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 7030188804,
+        "original_language": "en",
+        "original_title": "Remedial - Dean Salvador Moya III - Lecture 4",
+        "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "popularity": 2590.24,
+        "poster_path": "/images/TU2j0Kx5mm0.jpg",
+        "release_date": "2023-12-30",
+        "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+	  ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+  }
+
+  if (req.query.with_genres == 70302 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/thXVs5LxU_w.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288801,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 5",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/thXVs5LxU_w.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 5.",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/2_cmTi_IqKc.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288802,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 6",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/2_cmTi_IqKc.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 6",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/G91cW--5NZA.jpg",
+      "genre_ids": [
+      
+      ],
+      "id": 7030288803,
+      "original_language": "en",
+      "original_title": "Remedial - Dean Salvador Moya III - Part 7",
+      "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
+      "popularity": 2590.24,
+      "poster_path": "/images/G91cW--5NZA.jpg",
+      "release_date": "2023-12-30",
+      "title": "Remedial - Dean Salvador Moya III - Part 7",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 4
+  });
+  }
+
+  if (req.query.with_genres == 20314 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031488801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/ywvq08jokdM.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031488802,
+      "original_language": "en",
+      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/ywvq08jokdM.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/kDhmh7azOEc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488803,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/kDhmh7azOEc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/7blyu0gYRD4.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/7blyu0gYRD4.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/O-TBc173BmY.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031488805,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/O-TBc173BmY.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+  });
+  }
+  
+  if (req.query.with_genres == 20315 ){
+    res.json({
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/images/ZjZIsN14U4Q.jpg",
+      "genre_ids": [
+      ],
+      "id": 2031588801,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 2590.24,
+      "poster_path": "/images/ZjZIsN14U4Q.jpg",
+      "release_date": "2023-07-19",
+      "title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+      "video": false,
+      "vote_average": 8.2,
+      "vote_count": 4588
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
+      "genre_ids": [
+      ],
+
+      "id": 2031588802,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1617.893,
+      "poster_path": "/images/9ZH-wfowScw.jpg",
+      "release_date": "2023-10-25",
+      "title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 2300
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588803,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/fWipLfs4dLc.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588804,
+      "original_language": "en",
+      "original_title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/fWipLfs4dLc.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/images/5VgR2GVt1XA.jpg",
+      "genre_ids": [
+        878
+      ],
+      "id": 2031588805,
+      "original_language": "en",
+      "original_title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "overview": "The video will examine the criminal law of the Philippines",
+      "popularity": 1595.817,
+      "poster_path": "/images/5VgR2GVt1XA.jpg",
+      "release_date": "2023-09-27",
+      "title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 786
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 5
+    });
+  }
+  
+  if (req.query.with_genres == 20316 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/D_ukpdotfmA.jpg",
+		  "genre_ids": [
+		  ],
+		  "id": 2031688801,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/D_ukpdotfmA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE ",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XzJYzfO_7y8.jpg",
+		  "genre_ids": [
+		  ],
+
+		  "id": 2031688802,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1617.893,
+		  "poster_path": "/images/XzJYzfO_7y8.jpg",
+		  "release_date": "2023-10-25",
+		  "title": "Criminal  - Judge Campanilla  - UP Update - RA No 9262",
+		  "video": false,
+		  "vote_average": 8,
+		  "vote_count": 2300
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/yn3FEYSdK8o.jpg",
+		  "genre_ids": [
+			878
+		  ],
+		  "id": 2031688803,
+		  "original_language": "en",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "overview": "The video will examine the criminal law of the Philippines",
+		  "popularity": 1595.817,
+		  "poster_path": "/images/yn3FEYSdK8o.jpg",
+		  "release_date": "2023-09-27",
+		  "title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "video": false,
+		  "vote_average": 7.2,
+		  "vote_count": 786
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+  }
 
   if (req.query.with_genres == 80301 ){
       res.json({
@@ -22219,7 +25961,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
     }
 
-  if (req.params.series_id == 2031188802){
+    if (req.params.series_id == 2031188802){
       res.json(
         {
         "adult": false,
@@ -22286,8 +26028,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "vote_count": 29
         });
       }
-  
-      if (req.params.series_id == 2031188803){
+    if (req.params.series_id == 2031188803){
         res.json(
           {
           "adult": false,
@@ -22354,8 +26095,1414 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-
-  if (req.params.series_id == 8030188801){
+    if (req.params.series_id == 2031288801){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031288801,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Updates on theft and estafa.",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Updates on theft and estafa.",         
+          "overview": "The video will examine criminal law of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/t9mcag14l8Y.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031288802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031288802,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - RA No  9262  - updated",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - RA No  9262  - updated",         
+          "overview": "The video will examine some updates related to RA 9262.",
+          "popularity": 23.139,
+          "poster_path": "/images/9uHBn0FkWE8.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031288803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031288803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "overview": "The video will examine Penal Code related to Article 4",
+          "popularity": 23.139,
+          "poster_path": "/images/2vXC7_WBp5M.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031388801){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031388801,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 4  impossible crime",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/je2Zw2WBisE.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 4  impossible crime",         
+          "overview": "The video will examine criminal laws of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/je2Zw2WBisE.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031388802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031388802,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/8c3XldMgkmI.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/8c3XldMgkmI.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031388803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031388803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/pOAvKk6o3x8.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/pOAvKk6o3x8.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031388804){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031388804,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/5UW7-LM1Z0s.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/5UW7-LM1Z0s.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031388805){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031388805,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/lLDfz8MLhDo.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/lLDfz8MLhDo.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031488801){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031488801,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/ywvq08jokdM.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/ywvq08jokdM.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031488802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031488802,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/kDhmh7azOEc.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/kDhmh7azOEc.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031488803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031488803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/7blyu0gYRD4.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/7blyu0gYRD4.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031488804){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031488804,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/O-TBc173BmY.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031488805){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/ZjZIsN14U4Q.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/ZjZIsN14U4Q.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031588801){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031588801,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/9ZH-wfowScw.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/9ZH-wfowScw.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031588802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031588802,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/8UIn8GgCPrI.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/8UIn8GgCPrI.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+	if (req.params.series_id == 2031588803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031588803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/fWipLfs4dLc.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/fWipLfs4dLc.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031588804){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031588804,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/5VgR2GVt1XA.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/5VgR2GVt1XA.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031588805){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/2vXC7_WBp5M.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",         
+          "overview": "The video will examine Penal Code related to Article 4.",
+          "popularity": 23.139,
+          "poster_path": "/images/2vXC7_WBp5M.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031688801){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal  - Judge Campanilla  - UP UPDATE",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/D_ukpdotfmA.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal  - Judge Campanilla  - UP UPDATE",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/D_ukpdotfmA.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031688802){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Judge Campanilla  - UP Update RA No 9262",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/XzJYzfO_7y8.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Judge Campanilla  - UP Update RA No 9262",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/XzJYzfO_7y8.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }
+    if (req.params.series_id == 2031688803){
+        res.json(
+          {
+          "adult": false,
+          "backdrop_path": null,
+          "created_by": [
+          ],
+          "episode_run_time": [
+            43
+          ],
+          "first_air_date": "2005-04-13",
+          "genres": [
+          ],
+          "homepage": "",
+          "id": 2031188803,
+          "in_production": false,
+          "languages": [
+            "en"
+          ],
+          "last_air_date": "2005-05-18",
+          "last_episode_to_air": {
+          },
+          "name": "Criminal - Judge Campanilla - UP UPDATE - Theft and estafa",
+          "next_episode_to_air": null,
+          "networks": [
+            {
+            "id": 6,
+            "logo_path": "/yn3FEYSdK8o.jpg",
+            "name": "NBC",
+            "origin_country": "US"
+            }
+          ],
+          "number_of_episodes": 1,
+          "number_of_seasons": 1,
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal - Judge Campanilla - UP UPDATE - Theft and estafa",         
+          "overview": "The video will examine Penal Code of the Philippines.",
+          "popularity": 23.139,
+          "poster_path": "/images/yn3FEYSdK8o.jpg",
+          "production_companies": [
+          ],
+          "production_countries": [
+            {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+            }
+          ],
+          "seasons": [
+      
+          ],
+          "spoken_languages": [
+            {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+            }
+          ],
+          "status": "Ended",
+          "tagline": "",
+          "type": "Miniseries",
+          "vote_average": 5.7,
+          "vote_count": 29
+          });
+        }		
+    if (req.params.series_id == 8030188801){
 	res.json(
 		{
 		"adult": false,
@@ -22422,9 +27569,8 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"vote_count": 29
 		});
   }
-  
-   
-  if (req.params.series_id == 8030188802){
+	
+    if (req.params.series_id == 8030188802){
     res.json(
       {
       "adult": false,
@@ -22492,7 +27638,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
     }
   
-  if (req.params.series_id == 8030288801){
+    if (req.params.series_id == 8030288801){
       res.json(
         {
         "adult": false,
@@ -22560,7 +27706,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         });
       }
   
-  if (req.params.series_id == 8030288802){
+    if (req.params.series_id == 8030288802){
         res.json(
           {
           "adult": false,
@@ -22628,7 +27774,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           });
         }
   
-  if (req.params.series_id == 8030288803){
+    if (req.params.series_id == 8030288803){
           res.json(
             {
             "adult": false,
@@ -22696,7 +27842,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             });
           }
   
-  if (req.params.series_id == 8030288804){
+    if (req.params.series_id == 8030288804){
             res.json(
               {
               "adult": false,
@@ -22831,7 +27977,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                 "vote_count": 29
                 });
               }   
-  
+   
     if (req.params.series_id == 8030388802){
                 res.json(
                   {
@@ -22900,7 +28046,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                   });
                 }   
   
-  if (req.params.series_id == 8030388803){
+    if (req.params.series_id == 8030388803){
                   res.json(
                     {
                     "adult": false,
@@ -22968,7 +28114,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                     });
     }   
   
-  if (req.params.series_id == 8030488801){
+    if (req.params.series_id == 8030488801){
       res.json(
         {
         "adult": false,
@@ -23035,7 +28181,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         });
   } 
 
-  if (req.params.series_id == 8030488802){
+    if (req.params.series_id == 8030488802){
     res.json(
       {
       "adult": false,
@@ -23102,7 +28248,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-  if (req.params.series_id == 8030588801){
+    if (req.params.series_id == 8030588801){
     res.json(
       {
       "adult": false,
@@ -23169,7 +28315,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
   
-  if (req.params.series_id == 8030588802){
+    if (req.params.series_id == 8030588802){
     res.json(
       {
       "adult": false,
@@ -23236,7 +28382,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-  if (req.params.series_id == 8030688801){
+    if (req.params.series_id == 8030688801){
     res.json(
       {
       "adult": false,
@@ -23303,7 +28449,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-  if (req.params.series_id == 8030688802){
+    if (req.params.series_id == 8030688802){
     res.json(
       {
       "adult": false,
@@ -23370,7 +28516,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
   
-  if (req.params.series_id == 8030688803){
+    if (req.params.series_id == 8030688803){
     res.json(
       {
       "adult": false,
@@ -23438,7 +28584,7 @@ router.get('/tv/:series_id', function(req, res, next) {
   } 
   
   
-  if (req.params.series_id == 8030788801){
+    if (req.params.series_id == 8030788801){
     res.json(
       {
       "adult": false,
@@ -23505,7 +28651,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-  if (req.params.series_id == 8030788802){
+    if (req.params.series_id == 8030788802){
     res.json(
       {
       "adult": false,
@@ -23572,7 +28718,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
   
-  if (req.params.series_id == 8030788803){
+    if (req.params.series_id == 8030788803){
     res.json(
       {
       "adult": false,
@@ -24451,7 +29597,6 @@ router.get('/tv/:series_id', function(req, res, next) {
       "vote_count": 29
       });
   }  
-
 
   if (req.params.series_id == 9000388803){
     res.json(
