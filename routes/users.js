@@ -13278,7 +13278,7 @@ router.get('/discover/movie', function(req, res, next) {
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
-    }
+    },
   ],
   "total_pages": 1,
   "total_results": 5
