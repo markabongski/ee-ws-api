@@ -12986,8 +12986,6 @@ router.get('/discover/movie', function(req, res, next) {
   });
   }
  
-});
-
   if (req.query.with_genres == 20313 ){
     res.json({
   "page": 1,
@@ -13344,9 +13342,9 @@ router.get('/discover/movie', function(req, res, next) {
 		}
 	  ],
 	  "total_pages": 1,
-	  "total_results": 5
+	  "total_results": 3
 	  });
-   }
+  }
 
 });
 
