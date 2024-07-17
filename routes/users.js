@@ -11406,6 +11406,25 @@ router.get('/discover/movie', function(req, res, next) {
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/vCpBjALriaQ.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388804,
+		  "original_language": "en",
+		  "original_title": "Commercial - Insurance Law - Part 1",
+		  "overview": "The video will examine the insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/vCpBjALriaQ.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Insurance Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
 		}
 	  ],
 	  "total_pages": 1,
@@ -29660,6 +29679,74 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }  
 
+  if (req.params.series_id == 9000388804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000388803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Atty. Balmes - Insurance Law - Part 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/dOb_IMrQc4Y.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Atty. Balmes - Insurance Law - Part 1",
+      "overview": "The video will examine the Insurance law.",
+      "popularity": 23.139,
+      "poster_path": "/images/vCpBjALriaQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
   if (req.params.series_id == 9000388803){
     res.json(
       {
@@ -37626,7 +37713,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       ]
       });
     }
-
+   
+   if (req.params.series_id == 9000388804){
+      res.json({
+      "id": 9000388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Insurance Law - Part 1",
+          "key": "vCpBjALriaQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.series_id == 9000288802){
       res.json({
@@ -40992,6 +41098,26 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_3166_1": "US",
 		  "name": "Commercial - Transportation Law - Part 3",
           "key": "dOb_IMrQc4Y",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+   if (req.params.tv_id == 9000388804){
+      res.json({
+      "id": 9000388804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Insurance Law - Part 1",
+          "key": "vCpBjALriaQ",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
