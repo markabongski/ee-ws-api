@@ -19822,6 +19822,22 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Judge Campanilla Criminal Part 12'
 			},
 			{
+				"id": 20312,
+				"name": 'Judge Campanilla Criminal Part 13'
+			},
+			{
+				"id": 20313,
+				"name": 'Judge Campanilla Criminal Part 14'
+			},
+			{
+				"id": 20314,
+				"name": 'Judge Campanilla Criminal Part 15'
+			},
+			{
+				"id": 20315,
+				"name": 'Judge Campanilla Criminal Part 16'
+			},
+			{
 				"id": 30300,
 				"name": 'Political Atty Loanzon - Part 1'
 			},
@@ -19946,8 +19962,24 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
 			},
 			{
+				"id": 80307,
+				"name": 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 1'
+			},
+			{
+				"id": 80308,
+				"name": 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 2'
+			},	
+			{
 				"id": 90001,
 				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 1'
+			},	
+			{
+				"id": 90002,
+				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 2'
+			},	
+			{
+				"id": 90001,
+				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 1'
 			}
 	  ]
 });
@@ -20005,6 +20037,22 @@ router.get('/genre/tv/list', function(req, res, next) {
 				"name": 'Judge Campanilla Criminal Part 12'
 			},
 			{
+				"id": 20312,
+				"name": 'Judge Campanilla Criminal Part 13'
+			},
+			{
+				"id": 20313,
+				"name": 'Judge Campanilla Criminal Part 14'
+			},
+			{
+				"id": 20314,
+				"name": 'Judge Campanilla Criminal Part 15'
+			},
+			{
+				"id": 20315,
+				"name": 'Judge Campanilla Criminal Part 16'
+			},
+			{
 				"id": 30300,
 				"name": 'Political Atty Loanzon - Part 1'
 			},
@@ -20128,9 +20176,25 @@ router.get('/genre/tv/list', function(req, res, next) {
 				"id": 80306,
 				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
 			},
+		    {
+				"id": 80307,
+				"name": 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 1'
+			},
+			{
+				"id": 80308,
+				"name": 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 2'
+			},	
 			{
 				"id": 90001,
 				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 1'
+			},	
+			{
+				"id": 90002,
+				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 2'
+			},	
+			{
+				"id": 90001,
+				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 1'
 			}
   ]
 });
