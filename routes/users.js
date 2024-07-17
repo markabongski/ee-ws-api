@@ -10458,15 +10458,15 @@ router.get('/discover/movie', function(req, res, next) {
   "results": [
     {
       "adult": false,
-      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "backdrop_path": "/images/ywvq08jokdM.jpg",
       "genre_ids": [
       ],
       "id": 2031488801,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 2590.24,
-      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "poster_path": "/images/ywvq08jokdM.jpg",
       "release_date": "2023-07-19",
       "title": "Criminal - Updates on theft and estafa.",
       "video": false,
@@ -10475,72 +10475,54 @@ router.get('/discover/movie', function(req, res, next) {
     },
     {
       "adult": false,
-      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "backdrop_path": "/images/kDhmh7azOEc.jpg",
       "genre_ids": [
       ],
 
       "id": 2031488802,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1617.893,
-      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "poster_path": "/images/kDhmh7azOEc.jpg",
       "release_date": "2023-10-25",
-      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "video": false,
       "vote_average": 8,
       "vote_count": 2300
     },
     {
       "adult": false,
-      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "backdrop_path": "/images/7blyu0gYRD4.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031488803,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "poster_path": "/images/7blyu0gYRD4.jpg",
       "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
     },
     {
       "adult": false,
-      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "backdrop_path": "/images/O-TBc173BmY.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031488804,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "original_title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "poster_path": "/images/O-TBc173BmY.jpg",
       "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
-      "video": false,
-      "vote_average": 7.2,
-      "vote_count": 786
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
-      "genre_ids": [
-        878
-      ],
-      "id": 2031488805,
-      "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
-      "overview": "The video will examine Penal Code related to Article 4",
-      "popularity": 1595.817,
-      "poster_path": "/images/lLDfz8MLhDo.jpg",
-      "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
