@@ -10299,7 +10299,7 @@ router.get('/discover/movie', function(req, res, next) {
       "backdrop_path": "/images/t9mcag14l8Y.jpg",
       "genre_ids": [
       ],
-      "id": 2031188801,
+      "id": 2031288801,
       "original_language": "en",
       "original_title": "Criminal - Updates on theft and estafa.",
       "overview": "The video will examine some updates related to Theft and estafa.",
@@ -10317,7 +10317,7 @@ router.get('/discover/movie', function(req, res, next) {
       "genre_ids": [
       ],
 
-      "id": 2031188802,
+      "id": 2031288802,
       "original_language": "en",
       "original_title": "Criminal - RA No  9262  - updated",
       "overview": "The video will examine some updates related to RA 9262.",
@@ -10335,7 +10335,7 @@ router.get('/discover/movie', function(req, res, next) {
       "genre_ids": [
         878
       ],
-      "id": 2031188803,
+      "id": 2031288803,
       "original_language": "en",
       "original_title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
       "overview": "The video will examine Penal Code related to Article 4",
@@ -13005,7 +13005,7 @@ router.get('/discover/movie', function(req, res, next) {
   });
   }
  
-  if (req.query.with_genres == 20313 ){
+   if (req.query.with_genres == 20313 ){
     res.json({
   "page": 1,
   "results": [
@@ -13110,56 +13110,38 @@ router.get('/discover/movie', function(req, res, next) {
   "results": [
     {
       "adult": false,
-      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
+      "backdrop_path": "/images/ywvq08jokdM.jpg",
       "genre_ids": [
       ],
       "id": 2031488801,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 2590.24,
-      "poster_path": "/images/lLDfz8MLhDo.jpg",
+      "poster_path": "/images/ywvq08jokdM.jpg",
       "release_date": "2023-07-19",
-      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory.",
       "video": false,
       "vote_average": 8.2,
       "vote_count": 4588
     },
     {
       "adult": false,
-      "backdrop_path": "/images/ywvq08jokdM.jpg",
+      "backdrop_path": "/images/kDhmh7azOEc.jpg",
       "genre_ids": [
       ],
 
       "id": 2031488802,
       "original_language": "en",
-      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1617.893,
-      "poster_path": "/images/ywvq08jokdM.jpg",
+      "poster_path": "/images/kDhmh7azOEc.jpg",
       "release_date": "2023-10-25",
-      "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "video": false,
       "vote_average": 8,
       "vote_count": 2300
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/images/kDhmh7azOEc.jpg",
-      "genre_ids": [
-        878
-      ],
-      "id": 2031488803,
-      "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
-      "overview": "The video will examine the criminal law of the Philippines",
-      "popularity": 1595.817,
-      "poster_path": "/images/kDhmh7azOEc.jpg",
-      "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
-      "video": false,
-      "vote_average": 7.2,
-      "vote_count": 786
     },
     {
       "adult": false,
@@ -13167,7 +13149,7 @@ router.get('/discover/movie', function(req, res, next) {
       "genre_ids": [
         878
       ],
-      "id": 2031488804,
+      "id": 2031488803,
       "original_language": "en",
       "original_title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "overview": "The video will examine the criminal law of the Philippines",
@@ -13185,12 +13167,12 @@ router.get('/discover/movie', function(req, res, next) {
       "genre_ids": [
         878
       ],
-      "id": 2031488805,
+      "id": 2031488804,
       "original_language": "en",
       "original_title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/O-TBc173BmY.jpg",
+      "poster_path": "/images/O-TBc173BmY",
       "release_date": "2023-09-27",
       "title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "video": false,
@@ -13202,7 +13184,7 @@ router.get('/discover/movie', function(req, res, next) {
   "total_results": 5
   });
   }
-  
+
   if (req.query.with_genres == 20315 ){
     res.json({
   "page": 1,
@@ -13244,16 +13226,16 @@ router.get('/discover/movie', function(req, res, next) {
     },
     {
       "adult": false,
-      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031588803,
       "original_language": "en",
-      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "poster_path": "/images/9ZH-wfowScw.jpg",
       "release_date": "2023-09-27",
       "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
       "video": false,
@@ -13295,7 +13277,7 @@ router.get('/discover/movie', function(req, res, next) {
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
-    },
+    }
   ],
   "total_pages": 1,
   "total_results": 5
@@ -13313,7 +13295,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  ],
 		  "id": 2031688801,
 		  "original_language": "en",
-		  "original_title": "Criminal  - Judge Campanilla  - UP Updates",
+		  "original_title": "Criminal  - Judge Campanilla  - UP UPDATE",
 		  "overview": "The video will examine the criminal law of the Philippines",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/D_ukpdotfmA.jpg",
@@ -13331,8 +13313,8 @@ router.get('/discover/movie', function(req, res, next) {
 
 		  "id": 2031688802,
 		  "original_language": "en",
-		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No. 9262",
-		  "overview": "The video will examine the criminal laws of the Philippines",
+		  "original_title": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+		  "overview": "The video will examine the criminal law of the Philippines",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/XzJYzfO_7y8.jpg",
 		  "release_date": "2023-10-25",
@@ -13354,14 +13336,14 @@ router.get('/discover/movie', function(req, res, next) {
 		  "popularity": 1595.817,
 		  "poster_path": "/images/yn3FEYSdK8o.jpg",
 		  "release_date": "2023-09-27",
-		  "title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
+		  "title": "Criminal  - Judge Campanilla - UP UPDATE - Theft and Estafa",
 		  "video": false,
 		  "vote_average": 7.2,
 		  "vote_count": 786
 		}
 	  ],
 	  "total_pages": 1,
-	  "total_results": 3
+	  "total_results": 5
 	  });
   }
 
@@ -14687,89 +14669,71 @@ router.get('/discover/tv', function(req, res, next) {
   "results": [
     {
       "adult": false,
-      "backdrop_path": "/images/je2Zw2WBisE.jpg",
+      "backdrop_path": "/images/ywvq08jokdM.jpg",
       "genre_ids": [
       ],
       "id": 2031488801,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 4  impossible crime",
+      "original_title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 2590.24,
-      "poster_path": "/images/je2Zw2WBisE.jpg",
+      "poster_path": "/images/ywvq08jokdM.jpg",
       "release_date": "2023-07-19",
-      "title": "Criminal - Updates on theft and estafa.",
+      "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory.",
       "video": false,
       "vote_average": 8.2,
       "vote_count": 4588
     },
     {
       "adult": false,
-      "backdrop_path": "/images/8c3XldMgkmI.jpg",
+      "backdrop_path": "/images/kDhmh7azOEc.jpg",
       "genre_ids": [
       ],
 
       "id": 2031488802,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "original_title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1617.893,
-      "poster_path": "/images/8c3XldMgkmI.jpg",
+      "poster_path": "/images/kDhmh7azOEc.jpg",
       "release_date": "2023-10-25",
-      "title": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+      "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "video": false,
       "vote_average": 8,
       "vote_count": 2300
     },
     {
       "adult": false,
-      "backdrop_path": "/images/pOAvKk6o3x8.jpg",
+      "backdrop_path": "/images/7blyu0gYRD4.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031488803,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "original_title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/pOAvKk6o3x8.jpg",
+      "poster_path": "/images/7blyu0gYRD4.jpg",
       "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+      "title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
     },
     {
       "adult": false,
-      "backdrop_path": "/images/5UW7-LM1Z0s.jpg",
+      "backdrop_path": "/images/O-TBc173BmY.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031488804,
       "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+      "original_title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/5UW7-LM1Z0s.jpg",
+      "poster_path": "/images/O-TBc173BmY",
       "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
-      "video": false,
-      "vote_average": 7.2,
-      "vote_count": 786
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/images/lLDfz8MLhDo.jpg",
-      "genre_ids": [
-        878
-      ],
-      "id": 2031488805,
-      "original_language": "en",
-      "original_title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
-      "overview": "The video will examine Penal Code related to Article 4",
-      "popularity": 1595.817,
-      "poster_path": "/images/lLDfz8MLhDo.jpg",
-      "release_date": "2023-09-27",
-      "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+      "title": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
       "video": false,
       "vote_average": 7.2,
       "vote_count": 786
@@ -14821,16 +14785,16 @@ router.get('/discover/tv', function(req, res, next) {
     },
     {
       "adult": false,
-      "backdrop_path": "/images/8UIn8GgCPrI.jpg",
+      "backdrop_path": "/images/9ZH-wfowScw.jpg",
       "genre_ids": [
         878
       ],
       "id": 2031588803,
       "original_language": "en",
-      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulsee",
+      "original_title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
-      "poster_path": "/images/8UIn8GgCPrI.jpg",
+      "poster_path": "/images/9ZH-wfowScw.jpg",
       "release_date": "2023-09-27",
       "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
       "video": false,
@@ -26980,7 +26944,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-	if (req.params.series_id == 2031488805){
+	if (req.params.series_id == 2031588801){
         res.json(
           {
           "adult": false,
@@ -27047,7 +27011,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-	if (req.params.series_id == 2031588801){
+	if (req.params.series_id == 2031588802){
         res.json(
           {
           "adult": false,
@@ -27114,7 +27078,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-	if (req.params.series_id == 2031588802){
+	if (req.params.series_id == 2031588803){
         res.json(
           {
           "adult": false,
@@ -27181,7 +27145,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-	if (req.params.series_id == 2031588803){
+	if (req.params.series_id == 2031588804){
         res.json(
           {
           "adult": false,
@@ -27248,7 +27212,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "vote_count": 29
           });
         }
-    if (req.params.series_id == 2031588804){
+    if (req.params.series_id == 2031588805){
         res.json(
           {
           "adult": false,
@@ -29746,74 +29710,6 @@ router.get('/tv/:series_id', function(req, res, next) {
       "vote_count": 29
       });
   } 
-
-  if (req.params.series_id == 9000388803){
-    res.json(
-      {
-      "adult": false,
-      "backdrop_path": null,
-      "created_by": [
-      ],
-      "episode_run_time": [
-        43
-      ],
-      "first_air_date": "2005-04-13",
-      "genres": [
-      ],
-      "homepage": "",
-      "id": 9000388803,
-      "in_production": false,
-      "languages": [
-        "en"
-      ],
-      "last_air_date": "2005-05-18",
-      "last_episode_to_air": {
-      },
-      "name": "Commercial - Transportation Law - Part 3",
-      "next_episode_to_air": null,
-      "networks": [
-        {
-        "id": 6,
-        "logo_path": "/dOb_IMrQc4Y.jpg",
-        "name": "NBC",
-        "origin_country": "US"
-        }
-      ],
-      "number_of_episodes": 1,
-      "number_of_seasons": 1,
-      "origin_country": [
-        "US"
-      ],
-      "original_language": "en",
-      "original_name": "Commercial - Transportation Law - Part 3",
-      "overview": "The video will examine the transportation law.",
-      "popularity": 23.139,
-      "poster_path": "/images/dOb_IMrQc4Y.jpg",
-      "production_companies": [
-      ],
-      "production_countries": [
-        {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-        }
-      ],
-      "seasons": [
-  
-      ],
-      "spoken_languages": [
-        {
-        "english_name": "English",
-        "iso_639_1": "en",
-        "name": "English"
-        }
-      ],
-      "status": "Ended",
-      "tagline": "",
-      "type": "Miniseries",
-      "vote_average": 5.7,
-      "vote_count": 29
-      });
-  }  
 
   if (req.params.series_id == 3030088801){
 	res.json(
@@ -37072,7 +36968,368 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 
-    if (req.params.series_id == 8030188801){
+ if (req.params.series_id == 2031088804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Prescription Lecture 4",
+          "key": "eQv3uR6k7xM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+ if (req.params.series_id == 2031388801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 4  impossible crime",
+          "key": "je2Zw2WBisE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+ 
+ if (req.params.series_id == 2031388802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+          "key": "8c3XldMgkmI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031388803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+          "key": "pOAvKk6o3x8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031388804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+          "key": "5UW7-LM1Z0s",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031388805){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+          "key": "lLDfz8MLhDo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031488801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+          "key": "ywvq08jokdM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031488802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+          "key": "kDhmh7azOEc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031488803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+          "key": "7blyu0gYRD4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031488804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+          "key": "O-TBc173BmY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031588801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+          "key": "ZjZIsN14U4Q",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031588802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+          "key": "9ZH-wfowScw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031588803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+          "key": "8UIn8GgCPrI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031588804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+          "key": "fWipLfs4dLc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031588805){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+          "key": "5VgR2GVt1XA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031688801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla  - UP UPDATE",
+          "key": "D_ukpdotfmA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031688802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+          "key": "XzJYzfO_7y8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+if (req.params.series_id == 2031688803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - UP UPDATE - Theft and estafa",
+          "key": "yn3FEYSdK8o",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+
+  if (req.params.series_id == 8030188801){
       res.json({
       "id": 8030188801,
       "results": [
@@ -40626,6 +40883,346 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }	
 
+
+  if (req.params.tv_id == 2031388801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 4  impossible crime",
+          "key": "je2Zw2WBisE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+ 
+  if (req.params.tv_id == 2031388802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 5, 6 stages, 9 and 10",
+          "key": "8c3XldMgkmI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031388803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 5, 6, 9 and 10",
+          "key": "pOAvKk6o3x8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031388804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 13 14 Mitigating and aggravating",
+          "key": "5UW7-LM1Z0s",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031388805){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
+          "key": "lLDfz8MLhDo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031488801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
+          "key": "ywvq08jokdM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031488802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
+          "key": "kDhmh7azOEc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031488803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
+          "key": "7blyu0gYRD4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031488804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla  - Article 4  error in personae, praeter intentionem",
+          "key": "O-TBc173BmY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031588801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
+          "key": "ZjZIsN14U4Q",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031588802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
+          "key": "9ZH-wfowScw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031588803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
+          "key": "8UIn8GgCPrI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031588804){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
+          "key": "fWipLfs4dLc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031588805){
+      res.json({
+      "id": 2031088805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
+          "key": "5VgR2GVt1XA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+   if (req.params.tv_id == 2031688801){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla  - UP UPDATE",
+          "key": "D_ukpdotfmA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031688802){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal  - Judge Campanilla  - UP Update - RA No  9262",
+          "key": "XzJYzfO_7y8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
+  if (req.params.tv_id == 2031688803){
+      res.json({
+      "id": 2031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal - Judge Campanilla - UP UPDATE - Theft and estafa",
+          "key": "yn3FEYSdK8o",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
 
   if (req.params.tv_id == 8030188801){
       res.json({
