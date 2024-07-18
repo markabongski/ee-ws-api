@@ -11186,7 +11186,7 @@ router.get('/discover/movie', function(req, res, next) {
               "vote_average": 8,
               "vote_count": 2300
             }
-          ]
+          ],
           "total_pages": 1,
           "total_results": 5
           });
@@ -11290,7 +11290,7 @@ router.get('/discover/movie', function(req, res, next) {
               "vote_average": 8.2,
               "vote_count": 4588
             }
-          ]
+          ],
           "total_pages": 1,
           "total_results": 5
           });
@@ -11318,7 +11318,7 @@ router.get('/discover/movie', function(req, res, next) {
               "vote_average": 8.2,
               "vote_count": 4588
             }
-          ]
+          ],
           "total_pages": 1,
           "total_results": 5
           });
