@@ -11085,7 +11085,246 @@ router.get('/discover/movie', function(req, res, next) {
           "total_results": 5
           });
         }    
-  
+  if (req.query.with_genres == 80309 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/affW-8nz0aY.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030988801,
+              "original_language": "en",
+              "original_title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+              "overview": "The video will examine some areas and pointers on family relations.",
+              "popularity": 2590.24,
+              "poster_path": "/images/affW-8nz0aY.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/lFFzzFW_Acw.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030988802,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+              "overview": "The video will examine some areas and pointers on intestate succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/lFFzzFW_Acw.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/DabiaISjmRw.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988803,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+              "overview": "The video will examine some areas and pointers on intestate succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/DabiaISjmRw.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/T-DCCrLrqeM.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988804,
+              "original_language": "en",
+              "original_title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
+              "overview": "The video will examine some areas and pointers on Succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/T-DCCrLrqeM.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/_OlLCWcLobE.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988805,
+              "original_language": "en",
+              "original_title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
+              "overview": "The video will examine some areas and pointers on Succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/_OlLCWcLobE.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+  if (req.query.with_genres == 80310 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/k3CyDk-_L38.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/k3CyDk-_L38.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/xCdSBrr2nHM.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/xCdSBrr2nHM.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/BpcLvTNIRJ8.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088803,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/BpcLvTNIRJ8.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/D2RWYppjcaQ.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088804,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/D2RWYppjcaQ.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/WLb5_hleb1E.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088805,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+              "overview": "The video will examine some areas and pointers on Contracts to Estoppel.",
+              "popularity": 2590.24,
+              "poster_path": "/images/WLb5_hleb1E.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+  if (req.query.with_genres == 80311 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/alxLHxzJlpI.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031188801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+              "overview": "The video will examine some areas and pointers on Obligation with Penal Caluse until Novation.",
+              "popularity": 2590.24,
+              "poster_path": "/images/alxLHxzJlpI.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+	
+  	
   if (req.query.with_genres == 80307 ){
         res.json({
           "page": 1,
@@ -15278,6 +15517,246 @@ router.get('/discover/tv', function(req, res, next) {
           "total_results": 5
           });
         }    
+  
+  if (req.query.with_genres == 80309 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/affW-8nz0aY.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030988801,
+              "original_language": "en",
+              "original_title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+              "overview": "The video will examine some areas and pointers on family relations.",
+              "popularity": 2590.24,
+              "poster_path": "/images/affW-8nz0aY.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/lFFzzFW_Acw.jpg",
+              "genre_ids": [
+              ],
+      
+              "id": 8030988802,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+              "overview": "The video will examine some areas and pointers on intestate succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/lFFzzFW_Acw.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/DabiaISjmRw.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988803,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+              "overview": "The video will examine some areas and pointers on intestate succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/DabiaISjmRw.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+            {
+              "adult": false,
+              "backdrop_path": "/images/T-DCCrLrqeM.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988804,
+              "original_language": "en",
+              "original_title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
+              "overview": "The video will examine some areas and pointers on Succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/T-DCCrLrqeM.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/_OlLCWcLobE.jpg",
+              "genre_ids": [
+                27,
+                9648
+              ],
+      
+              "id": 8030988805,
+              "original_language": "en",
+              "original_title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
+              "overview": "The video will examine some areas and pointers on Succession.",
+              "popularity": 1617.893,
+              "poster_path": "/images/_OlLCWcLobE.jpg",
+              "release_date": "2023-10-25",
+              "title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
+              "video": false,
+              "vote_average": 8,
+              "vote_count": 2300
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+  if (req.query.with_genres == 80310 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/k3CyDk-_L38.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/k3CyDk-_L38.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/xCdSBrr2nHM.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/xCdSBrr2nHM.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/BpcLvTNIRJ8.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088803,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/BpcLvTNIRJ8.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/D2RWYppjcaQ.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088804,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
+              "overview": "The video will examine some areas and pointers on succession.",
+              "popularity": 2590.24,
+              "poster_path": "/images/D2RWYppjcaQ.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            },
+			{
+              "adult": false,
+              "backdrop_path": "/images/WLb5_hleb1E.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031088805,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+              "overview": "The video will examine some areas and pointers on Contracts to Estoppel.",
+              "popularity": 2590.24,
+              "poster_path": "/images/WLb5_hleb1E.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+  if (req.query.with_genres == 80311 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/alxLHxzJlpI.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8031188801,
+              "original_language": "en",
+              "original_title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+              "overview": "The video will examine some areas and pointers on Obligation with Penal Caluse until Novation.",
+              "popularity": 2590.24,
+              "poster_path": "/images/alxLHxzJlpI.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ]
+          "total_pages": 1,
+          "total_results": 5
+          });
+        } 
+
   
   if (req.query.with_genres == 80307 ){
         res.json({
@@ -19925,6 +20404,18 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
 			},
 			{
+				"id": 80309,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 7'
+			},
+			{
+				"id": 80310,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 8'
+			},
+			{
+				"id": 80311,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 9'
+			},
+			{
 				"id": 80307,
 				"name": 'Civil Lectures - Dean Myra Gallardo-Batungbakal - Part 1'
 			},
@@ -20138,6 +20629,18 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				"id": 80306,
 				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 6'
+			},
+			{
+				"id": 80309,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 7'
+			},
+			{
+				"id": 80310,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 8'
+			},
+			{
+				"id": 80311,
+				"name": 'Civil Lectures - Atty. Judy Lardizabal - Part 9'
 			},
 		    {
 				"id": 80307,
@@ -28409,7 +28912,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-    if (req.params.series_id == 8030688801){
+  if (req.params.series_id == 8030688801){
     res.json(
       {
       "adult": false,
@@ -28476,7 +28979,744 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   } 
 
-    if (req.params.series_id == 8030688802){
+  if (req.params.series_id == 8030988801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030988801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/affW-8nz0aY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
+      "overview": "The video will examine some areas and pointers on persons and family relations.",
+      "popularity": 23.139,
+      "poster_path": "/images/affW-8nz0aY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+
+  if (req.params.series_id == 8030988802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030988802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/lFFzzFW_Acw.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+      "overview": "The video will examine some areas and pointers on Intestate Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/lFFzzFW_Acw.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+ 
+  if (req.params.series_id == 8030988803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030988803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/DabiaISjmRw.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
+      "overview": "The video will examine some areas and pointers on Intestate Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/DabiaISjmRw.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+ 
+  if (req.params.series_id == 8030988804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030988804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Atty  Judy Lardizabal - Succession Part 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/T-DCCrLrqeM.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 1",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/T-DCCrLrqeM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8030988805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030988805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal   Succession Part 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/_OlLCWcLobE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 2",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/_OlLCWcLobE.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8031088801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031088801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal   Succession Part 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/k3CyDk-_L38.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 3",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/k3CyDk-_L38.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8031088802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031088802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal   Succession Part 4",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/xCdSBrr2nHM.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 4",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/xCdSBrr2nHM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8031088803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031088803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal   Succession Part 5",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/BpcLvTNIRJ8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/BpcLvTNIRJ8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 8031088804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031088804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal   Succession Part 6",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/D2RWYppjcaQ.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 6",
+      "overview": "The video will examine some areas and pointers on Succession.",
+      "popularity": 23.139,
+      "poster_path": "/images/D2RWYppjcaQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+ 
+  if (req.params.series_id == 8031088805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031088805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil   Atty  Judy Lardizabal - Contracts to Estoppel",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/WLb5_hleb1E.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil   Atty  Judy Lardizabal - Contracts to Estoppel",
+      "overview": "The video will examine some areas and pointers on Contracts to Estoppel.",
+      "popularity": 23.139,
+      "poster_path": "/images/WLb5_hleb1E.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
+  if (req.params.series_id == 8031188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8031188801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/alxLHxzJlpI.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+      "overview": "The video will examine some areas and pointers on Obligation with Penal Caluse until Novation.",
+      "popularity": 23.139,
+      "poster_path": "/images/alxLHxzJlpI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 8030688802){
     res.json(
       {
       "adult": false,
@@ -37591,6 +38831,226 @@ if (req.params.series_id == 2031688803){
       ]
       });
     }
+	
+	if (req.params.series_id == 8030988801){
+      res.json({
+      "id": 8030988801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal    Persons and Family Relations",
+          "key": "affW-8nz0aY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8030988802){
+      res.json({
+      "id": 8030988802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+          "key": "lFFzzFW_Acw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8030988803){
+      res.json({
+      "id": 8030988803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Intestate Succession Part 2",
+          "key": "DabiaISjmRw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8030988804){
+      res.json({
+      "id": 8030988804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Succession Part 1",
+          "key": "T-DCCrLrqeM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8030988805){
+      res.json({
+      "id": 8030988805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Succession Part 2",
+          "key": "_OlLCWcLobE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8031088801){
+      res.json({
+      "id": 8031088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 3",
+          "key": "k3CyDk-_L38",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8031088802){
+      res.json({
+      "id": 8031088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
+          "key": "xCdSBrr2nHM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8031088803){
+      res.json({
+      "id": 8031088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+          "key": "BpcLvTNIRJ8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8031088804){
+      res.json({
+      "id": 8031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal   Succession Part 6",
+          "key": "D2RWYppjcaQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.series_id == 8031088805){
+      res.json({
+      "id": 8031088805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+          "key": "WLb5_hleb1E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 8031188801){
+      res.json({
+      "id": 8031188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+          "key": "alxLHxzJlpI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
     if (req.params.series_id == 8030688802){
       res.json({
@@ -41317,6 +42777,226 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_3166_1": "US",
 		      "name": "Civil - V  Modes of Acquiring Ownership",
           "key": "ZYqxKZHYyaY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030988801){
+      res.json({
+      "id": 8030988801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal    Persons and Family Relations",
+          "key": "affW-8nz0aY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030988802){
+      res.json({
+      "id": 8030988802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
+          "key": "lFFzzFW_Acw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030988803){
+      res.json({
+      "id": 8030988803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Intestate Succession Part 2",
+          "key": "DabiaISjmRw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8030988804){
+      res.json({
+      "id": 8030988804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Succession Part 1",
+          "key": "T-DCCrLrqeM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8030988805){
+      res.json({
+      "id": 8030988805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal   Succession Part 2",
+          "key": "_OlLCWcLobE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8031088801){
+      res.json({
+      "id": 8031088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 3",
+          "key": "k3CyDk-_L38",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8031088802){
+      res.json({
+      "id": 8031088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
+          "key": "xCdSBrr2nHM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8031088803){
+      res.json({
+      "id": 8031088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Succession Part 5",
+          "key": "BpcLvTNIRJ8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8031088804){
+      res.json({
+      "id": 8031088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal   Succession Part 6",
+          "key": "D2RWYppjcaQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+    if (req.params.tv_id == 8031088805){
+      res.json({
+      "id": 8031088805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
+          "key": "WLb5_hleb1E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 8031188801){
+      res.json({
+      "id": 8031188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
+          "key": "alxLHxzJlpI",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
