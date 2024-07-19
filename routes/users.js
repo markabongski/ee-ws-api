@@ -11221,7 +11221,7 @@ router.get('/discover/movie', function(req, res, next) {
                 18,
                 36
               ],
-              "id": 8031088801,
+              "id": 8031088802,
               "original_language": "en",
               "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "overview": "The video will examine some areas and pointers on succession.",
@@ -15690,7 +15690,7 @@ router.get('/discover/tv', function(req, res, next) {
                 18,
                 36
               ],
-              "id": 8031088801,
+              "id": 8031088802,
               "original_language": "en",
               "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "overview": "The video will examine some areas and pointers on succession.",
@@ -29639,7 +29639,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2005-05-18",
       "last_episode_to_air": {
       },
-      "name": "Civil   Atty  Judy Lardizabal   Succession Part 4",
+      "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
       "next_episode_to_air": null,
       "networks": [
         {
