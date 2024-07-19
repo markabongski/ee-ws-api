@@ -11216,7 +11216,7 @@ router.get('/discover/movie', function(req, res, next) {
             },
 			{
               "adult": false,
-              "backdrop_path": "/images/xCdSBrr2nHM.jpg",
+              "backdrop_path": "/images/FyJbGyx-fdk.jpg",
               "genre_ids": [
                 18,
                 36
@@ -11226,7 +11226,7 @@ router.get('/discover/movie', function(req, res, next) {
               "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
-              "poster_path": "/images/xCdSBrr2nHM.jpg",
+              "poster_path": "/images/FyJbGyx-fdk.jpg",
               "release_date": "2023-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "video": false,
@@ -15685,7 +15685,7 @@ router.get('/discover/tv', function(req, res, next) {
             },
 			{
               "adult": false,
-              "backdrop_path": "/images/xCdSBrr2nHM.jpg",
+              "backdrop_path": "/images/FyJbGyx-fdk.jpg",
               "genre_ids": [
                 18,
                 36
@@ -15695,7 +15695,7 @@ router.get('/discover/tv', function(req, res, next) {
               "original_title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
-              "poster_path": "/images/xCdSBrr2nHM.jpg",
+              "poster_path": "/images/FyJbGyx-fdk.jpg",
               "release_date": "2023-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "video": false,
@@ -29658,7 +29658,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "original_name": "Civil - Atty  Judy Lardizabal - Succession Part 4",
       "overview": "The video will examine some areas and pointers on Succession.",
       "popularity": 23.139,
-      "poster_path": "/images/xCdSBrr2nHM.jpg",
+      "poster_path": "/images/FyJbGyx-fdk.jpg",
       "production_companies": [
       ],
       "production_countries": [
@@ -39332,7 +39332,7 @@ if (req.params.series_id == 2031688803){
           "iso_639_1": "en",
           "iso_3166_1": "US",
 		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
-          "key": "xCdSBrr2nHM",
+          "key": "FyJbGyx-fdk",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -43330,7 +43330,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_639_1": "en",
           "iso_3166_1": "US",
 		  "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
-          "key": "xCdSBrr2nHM",
+          "key": "FyJbGyx-fdk",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
