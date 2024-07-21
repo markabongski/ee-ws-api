@@ -11653,6 +11653,55 @@ router.get('/discover/movie', function(req, res, next) {
 	  });
 	}
 
+  if (req.query.with_genres == 90004 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/bGcxeZgQ3iI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000488801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 2",
+		  "overview": "The video will examine the insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/bGcxeZgQ3iI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/iER1uMYurn0.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000488802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 3",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/iER1uMYurn0.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+
   if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
@@ -16092,7 +16141,26 @@ router.get('/discover/tv', function(req, res, next) {
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
 		  "release_date": "2023-07-19",
-		  "title": "Commercial - Transportation Law - Part 3",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/9000388804.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388804,
+		  "original_language": "en",
+		  "original_title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 1",
+		  "overview": "The video will examine the Insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/9000388804.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
@@ -16102,6 +16170,55 @@ router.get('/discover/tv', function(req, res, next) {
 	  "total_results": 5
 	  });
 	}
+
+  if (req.query.with_genres == 90003 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S3rm1bS_dmk.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 1",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S3rm1bS_dmk.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/v1uO5NkPWZo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Transportation Law - Part 2",
+		  "overview": "The video will examine the transportation law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/v1uO5NkPWZo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Transportation Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -18665,12 +18782,80 @@ router.get('/discover/tv', function(req, res, next) {
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dOb_IMrQc4Y.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388803,
+		  "original_language": "en",
+		  "original_title": "Commercial - Insurance Law - Part 1",
+		  "overview": "The video will examine the Insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Insurance Law - Part 1",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
 		}
 	  ],
 	  "total_pages": 1,
 	  "total_results": 5
 	  });
 	}
+
+  if (req.query.with_genres == 90004 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/bGcxeZgQ3iI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388801,
+		  "original_language": "en",
+		  "original_title": "Commercial - Insurance Law - Part 2",
+		  "overview": "The video will examine the insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/bGcxeZgQ3iI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Insurance Law - Part 2",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/iER1uMYurn0.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000388802,
+		  "original_language": "en",
+		  "original_title": "Commercial - Insurance Law - Part 3",
+		  "overview": "The video will examine the insurance law.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/iER1uMYurn0.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Commercial - Insurance Law - Part 3",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -20668,8 +20853,12 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 2'
 			},	
 			{
-				"id": 90001,
+				"id": 90003,
 				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 1'
+			},
+			{
+				"id": 90004,
+				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 2'
 			}
 	  ]
 });
@@ -20895,8 +21084,12 @@ router.get('/genre/tv/list', function(req, res, next) {
 				"name": 'Commercial Lectures - Dean Serge Ceniza - Part 2'
 			},	
 			{
-				"id": 90001,
+				"id": 90003,
 				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 1'
+			},	
+			{
+				"id": 90004,
+				"name": 'Commercial Lectures - Atty. Erickson Balmes - Part 2'
 			}
   ]
 });
@@ -31115,7 +31308,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 9000388803,
+      "id": 9000388804,
       "in_production": false,
       "languages": [
         "en"
@@ -31168,7 +31361,144 @@ router.get('/tv/:series_id', function(req, res, next) {
       "vote_count": 29
       });
   } 
-
+  
+  
+  if (req.params.series_id == 9000488801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000488801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/bGcxeZgQ3iI.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
+      "overview": "The video will examine the Insurance law.",
+      "popularity": 23.139,
+      "poster_path": "/images/bGcxeZgQ3iI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
+  if (req.params.series_id == 9000488802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000488802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/iER1uMYurn0.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
+      "overview": "The video will examine the Insurance law.",
+      "popularity": 23.139,
+      "poster_path": "/images/iER1uMYurn0.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -39792,7 +40122,7 @@ if (req.params.series_id == 2031688803){
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-		  "name": "Commercial - Insurance Law - Part 1",
+		  "name": "Commercial - Atty. Balmes - Insurance Law - Part 1",
           "key": "vCpBjALriaQ",
           "site": "YouTube",
           "size": 480,
@@ -39804,6 +40134,46 @@ if (req.params.series_id == 2031688803){
       ]
       });
     }
+
+   if (req.params.series_id == 9000488801){
+      res.json({
+      "id": 9000488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
+          "key": "bGcxeZgQ3iI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.series_id == 9000488802){
+      res.json({
+      "id": 9000488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
+          "key": "iER1uMYurn0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
 
    if (req.params.series_id == 9000288802){
       res.json({
@@ -43790,7 +44160,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_639_1": "en",
           "iso_3166_1": "US",
 		  "name": "Commercial - Insurance Law - Part 1",
-          "key": "vCpBjALriaQ",
+          "key": "9000388804",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -43801,6 +44171,46 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }
+	
+   if (req.params.tv_id == 9000488801){
+      res.json({
+      "id": 9000488801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
+          "key": "bGcxeZgQ3iI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 9000488802){
+      res.json({
+      "id": 9000488802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
+          "key": "iER1uMYurn0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }		
 
    if (req.params.tv_id == 3030088801){
       res.json({
