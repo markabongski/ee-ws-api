@@ -11287,7 +11287,34 @@ router.get('/discover/movie', function(req, res, next) {
           "total_results": 4
           });
         } 
-		
+   if (req.query.with_genres == 80308 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/X-9uyrDeVhc.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030888801,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 2590.24,
+              "poster_path": "/images/X-9uyrDeVhc.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 4
+          });
+        } 		
 		
   if (req.query.with_genres == 90001 ){
     res.json({
@@ -15416,6 +15443,34 @@ router.get('/discover/tv', function(req, res, next) {
           });
         } 
 		
+  if (req.query.with_genres == 80308 ){
+        res.json({
+          "page": 1,
+          "results": [
+            {
+              "adult": false,
+              "backdrop_path": "/images/X-9uyrDeVhc.jpg",
+              "genre_ids": [
+                18,
+                36
+              ],
+              "id": 8030888801,
+              "original_language": "en",
+              "original_title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+              "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
+              "popularity": 2590.24,
+              "poster_path": "/images/X-9uyrDeVhc.jpg",
+              "release_date": "2023-07-19",
+              "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+              "video": false,
+              "vote_average": 8.2,
+              "vote_count": 4588
+            }
+          ],
+          "total_pages": 1,
+          "total_results": 4
+          });
+        } 
 		
   if (req.query.with_genres == 90001 ){
     res.json({
@@ -29661,6 +29716,73 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  if (req.params.series_id == 8030888801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 8030888801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/X-9uyrDeVhc.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
+      "overview": "The video will examine some areas and pointers on Civil Law by Dean Myra Gallardo-Batungbakal.",
+      "popularity": 23.139,
+      "poster_path": "/images/X-9uyrDeVhc.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  } 
+  
   if (req.params.series_id == 8030688804){
     res.json(
       {
@@ -39092,6 +39214,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
+	if (req.params.series_id == 8030888801){
+      res.json({
+      "id": 8030888801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 6",
+          "key": "X-9uyrDeVhc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
     if (req.params.series_id == 9000188801){
       res.json({
       "id": 9000188801,
@@ -43087,6 +43229,26 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 
+    if (req.params.tv_id == 8030888801){
+      res.json({
+      "id": 8030888801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Civil - Dean Myra Gallardo-Batungbakal - Lecture 6",
+          "key": "X-9uyrDeVhc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+  
     if (req.params.tv_id == 9000188801){
       res.json({
       "id": 9000188801,
