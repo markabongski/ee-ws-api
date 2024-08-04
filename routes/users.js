@@ -11673,6 +11673,25 @@ router.get('/discover/movie', function(req, res, next) {
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/eSDJ9f2RZWs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000688802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
+		  "overview": "Preweek - Taxation - Atty. Virginia Lim.",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/eSDJ9f2RZWs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
 		}
 	  ],
 	  "total_pages": 1,
@@ -18463,6 +18482,25 @@ router.get('/discover/tv', function(req, res, next) {
 		  "poster_path": "/images/urYZP9jhhrE.jpg",
 		  "release_date": "2023-07-19",
 		  "title": "Preweek - Taxation - Atty. Virginia Lim.",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/eSDJ9f2RZWs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000688802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
+		  "overview": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/eSDJ9f2RZWs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
@@ -30940,6 +30978,74 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }  
   
+  if (req.params.series_id == 9000688802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000688802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Taxation - Atty. Virginia Lim - Part II",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/urYZP9jhhrE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Taxation - Atty. Virginia Lim - Part II",
+      "overview": "Preweek - Taxation - Atty. Lim - Part II",
+      "popularity": 23.139,
+      "poster_path": "/images/eSDJ9f2RZWs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -39574,6 +39680,26 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }	
 
+   if (req.params.series_id == 9000688802){
+      res.json({
+      "id": 9000688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Taxation - Atty. Virginia Lim - Part II",
+          "key": "eSDJ9f2RZWs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }	
+
    if (req.params.series_id == 9000288802){
       res.json({
       "id": 9000288802,
@@ -43568,6 +43694,26 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     }	
+	
+	if (req.params.tv_id == 9000688802){
+      res.json({
+      "id": 9000688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Taxation - Atty. Virginia Lim - Part II",
+          "key": "eSDJ9f2RZWs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.tv_id == 3030088801){
       res.json({
