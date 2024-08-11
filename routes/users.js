@@ -11766,6 +11766,388 @@ router.get('/discover/movie', function(req, res, next) {
 	  });
 	}
 
+  if (req.query.with_genres == 90008 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/cTYP4hIXopo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/cTYP4hIXopo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/FR85N2MQLcA.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/FR85N2MQLcA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/jLgujIB9iw8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/jLgujIB9iw8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S6LFFjYqkz8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S6LFFjYqkz8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/Gl2r-pVQZIs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	} 
+
+  if (req.query.with_genres == 90009 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/-1TgE7YO3m4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/-1TgE7YO3m4.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NowBQY-RUHw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NowBQY-RUHw.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G_J-37-Q5NY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G_J-37-Q5NY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/WiLwupbf3EY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/WiLwupbf3EY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/giLxoOeRiUM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/giLxoOeRiUM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  if (req.query.with_genres == 90010 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/ZCZS9pLNygQ.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G05FvD2q6Tg.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G05FvD2q6Tg.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dawRbwbuMRI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dawRbwbuMRI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/LI8m7wY0MHI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/LI8m7wY0MHI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/tyEv7ADtDJs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/tyEv7ADtDJs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+	
+  if (req.query.with_genres == 90011 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/RSY0ISn1BnM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/RSY0ISn1BnM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NFZsXWP8Nec.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NFZsXWP8Nec.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XXUxHrex30E.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XXUxHrex30E.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+ 
   if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
@@ -15825,6 +16207,389 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
 
+  if (req.query.with_genres == 90008 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/cTYP4hIXopo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/cTYP4hIXopo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/FR85N2MQLcA.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/FR85N2MQLcA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/jLgujIB9iw8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/jLgujIB9iw8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S6LFFjYqkz8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S6LFFjYqkz8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/Gl2r-pVQZIs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	} 
+
+  if (req.query.with_genres == 90009 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/-1TgE7YO3m4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/-1TgE7YO3m4.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NowBQY-RUHw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NowBQY-RUHw.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G_J-37-Q5NY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G_J-37-Q5NY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/WiLwupbf3EY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/WiLwupbf3EY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/giLxoOeRiUM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/giLxoOeRiUM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  
+  if (req.query.with_genres == 90010 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/ZCZS9pLNygQ.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G05FvD2q6Tg.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G05FvD2q6Tg.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dawRbwbuMRI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dawRbwbuMRI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/LI8m7wY0MHI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/LI8m7wY0MHI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/tyEv7ADtDJs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/tyEv7ADtDJs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+	
+  if (req.query.with_genres == 90011 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/RSY0ISn1BnM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/RSY0ISn1BnM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NFZsXWP8Nec.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NFZsXWP8Nec.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XXUxHrex30E.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XXUxHrex30E.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+ 
 
   if (req.query.with_genres == 30300 ){
       res.json({
@@ -18634,6 +19399,390 @@ router.get('/discover/tv', function(req, res, next) {
 		  "poster_path": "/images/Se8gMPHLAwE.jpg",
 		  "release_date": "2023-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part III",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+ 
+ 
+   if (req.query.with_genres == 90008 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/cTYP4hIXopo.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/cTYP4hIXopo.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/FR85N2MQLcA.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/FR85N2MQLcA.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/jLgujIB9iw8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/jLgujIB9iw8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/S6LFFjYqkz8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/S6LFFjYqkz8.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/Gl2r-pVQZIs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000888805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	} 
+
+  if (req.query.with_genres == 90009 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/-1TgE7YO3m4.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/-1TgE7YO3m4.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NowBQY-RUHw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NowBQY-RUHw.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G_J-37-Q5NY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G_J-37-Q5NY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/WiLwupbf3EY.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/WiLwupbf3EY.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/giLxoOeRiUM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000988805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/giLxoOeRiUM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+
+  
+  if (req.query.with_genres == 90010 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/ZCZS9pLNygQ.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/G05FvD2q6Tg.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/G05FvD2q6Tg.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/dawRbwbuMRI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/dawRbwbuMRI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/LI8m7wY0MHI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088804,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/LI8m7wY0MHI.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/tyEv7ADtDJs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001088805,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/tyEv7ADtDJs.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+	
+  if (req.query.with_genres == 90011 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/RSY0ISn1BnM.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188801,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/RSY0ISn1BnM.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/NFZsXWP8Nec.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188802,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/NFZsXWP8Nec.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XXUxHrex30E.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9001188803,
+		  "original_language": "en",
+		  "original_title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XXUxHrex30E.jpg",
+		  "release_date": "2023-07-19",
+		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "video": false,
 		  "vote_average": 8.2,
 		  "vote_count": 4588
@@ -31380,6 +32529,1234 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  
+  if (req.params.series_id == 9000888801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000888801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Se8gMPHLAwE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
+      "popularity": 23.139,
+      "poster_path": "/images/cTYP4hIXopo.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000888802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000888802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Se8gMPHLAwE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
+      "popularity": 23.139,
+      "poster_path": "/images/FR85N2MQLcA.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000888803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000888803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/jLgujIB9iw8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
+      "popularity": 23.139,
+      "poster_path": "/images/jLgujIB9iw8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000888804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000888804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/S6LFFjYqkz8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
+      "popularity": 23.139,
+      "poster_path": "/images/S6LFFjYqkz8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000888805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000888805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Gl2r-pVQZIs.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
+      "popularity": 23.139,
+      "poster_path": "/images/Gl2r-pVQZIs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000988801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/-1TgE7YO3m4.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
+      "popularity": 23.139,
+      "poster_path": "/images/-1TgE7YO3m4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000988802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/NowBQY-RUHw.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
+      "popularity": 23.139,
+      "poster_path": "/images/NowBQY-RUHw.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000988803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "G_J-37-Q5NY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
+      "popularity": 23.139,
+      "poster_path": "/images/G_J-37-Q5NY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000988804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "WiLwupbf3EY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
+      "popularity": 23.139,
+      "poster_path": "/images/WiLwupbf3EY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9000988805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "giLxoOeRiUM.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
+      "popularity": 23.139,
+      "poster_path": "/images/giLxoOeRiUM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+ 
+  if (req.params.series_id == 9001088801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/ZCZS9pLNygQ.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
+      "popularity": 23.139,
+      "poster_path": "/images/ZCZS9pLNygQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001088802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/G05FvD2q6Tg.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
+      "popularity": 23.139,
+      "poster_path": "/images/G05FvD2q6Tg.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001088803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "dawRbwbuMRI.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
+      "popularity": 23.139,
+      "poster_path": "/images/dawRbwbuMRI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001088804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "LI8m7wY0MHI.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
+      "popularity": 23.139,
+      "poster_path": "/images/LI8m7wY0MHI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001088805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "tyEv7ADtDJs.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
+      "popularity": 23.139,
+      "poster_path": "/images/tyEv7ADtDJs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  
+  if (req.params.series_id == 9001188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/RSY0ISn1BnM.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
+      "popularity": 23.139,
+      "poster_path": "/images/RSY0ISn1BnM.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001188802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/NFZsXWP8Nec.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
+      "popularity": 23.139,
+      "poster_path": "/images/NFZsXWP8Nec.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001188803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2005-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9000988803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2005-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "XXUxHrex30E.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+      "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
+      "popularity": 23.139,
+      "poster_path": "/images/XXUxHrex30E.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  
   if (req.params.series_id == 3030088801){
 	res.json(
 		{
@@ -40092,8 +42469,354 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         }
       ]
       });
-    } 	
+    } 
 
+    if (req.params.series_id == 9000888801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 28",
+          "key": "cTYP4hIXopo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000888802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 29",
+          "key": "FR85N2MQLcA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000888803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 30",
+          "key": "jLgujIB9iw8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000888803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 31",
+          "key": "S6LFFjYqkz8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000888805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 32",
+          "key": "Gl2r-pVQZIs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.series_id == 9000988801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 33",
+          "key": "-1TgE7YO3m4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000988802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 34",
+          "key": "NowBQY-RUHw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000988803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 35",
+          "key": "-1TgE7YO3m4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000988804){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 36",
+          "key": "WiLwupbf3EY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9000988805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 37",
+          "key": "giLxoOeRiUM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.series_id == 9001088801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 38",
+          "key": "ZCZS9pLNygQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001088802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 39",
+          "key": "G05FvD2q6Tg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001088803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 40",
+          "key": "dawRbwbuMRI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001088804){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 41",
+          "key": "LI8m7wY0MHI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001088805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 42",
+          "key": "tyEv7ADtDJs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.series_id == 9001188801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 43",
+          "key": "Se8gMPHLAwE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001188802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 44",
+          "key": "RSY0ISn1BnM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.series_id == 9001188803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 45",
+          "key": "XXUxHrex30E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	
    if (req.params.series_id == 9000288802){
       res.json({
       "id": 9000288802,
@@ -44168,6 +46891,353 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       ]
       });
     } 
+
+    if (req.params.tv_id == 9000888801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 28",
+          "key": "cTYP4hIXopo",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000888802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 29",
+          "key": "FR85N2MQLcA",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000888803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 30",
+          "key": "jLgujIB9iw8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000888803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 31",
+          "key": "S6LFFjYqkz8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000888805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 32",
+          "key": "Gl2r-pVQZIs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.tv_id == 9000988801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 33",
+          "key": "-1TgE7YO3m4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000988802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 34",
+          "key": "NowBQY-RUHw",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000988803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 35",
+          "key": "-1TgE7YO3m4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000988804){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 36",
+          "key": "WiLwupbf3EY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9000988805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 37",
+          "key": "giLxoOeRiUM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.tv_id == 9001088801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 38",
+          "key": "ZCZS9pLNygQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001088802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 39",
+          "key": "G05FvD2q6Tg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001088803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 40",
+          "key": "dawRbwbuMRI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001088804){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 41",
+          "key": "LI8m7wY0MHI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001088805){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 42",
+          "key": "tyEv7ADtDJs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }    
+
+    if (req.params.tv_id == 9001188801){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 43",
+          "key": "Se8gMPHLAwE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001188802){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 44",
+          "key": "RSY0ISn1BnM",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	if (req.params.tv_id == 9001188803){
+      res.json({
+      "id": 9000788803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Preweek - Criminal - Judge Campanilla - Part 45",
+          "key": "XXUxHrex30E",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+
 
    if (req.params.tv_id == 3030088801){
       res.json({
