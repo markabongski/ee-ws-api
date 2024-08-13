@@ -106,14 +106,14 @@ router.get('/authentication/guest_session/new', function(req, res, next) {
   res.json({
     "success": true,
     "guest_session_id": "0f88ad697dea11655e0016a2cacf01f1",
-    "expires_at": "2023-11-20 22:26:54 UTC"
+    "expires_at": "2024-11-20 22:26:54 UTC"
   });
 });
 
 router.get('/authentication/token/new', function(req, res, next) {
   res.json({
     "success": true,
-    "expires_at": "2023-11-19 23:28:29 UTC",
+    "expires_at": "2024-11-19 23:28:29 UTC",
     "request_token": "86b587231e4b4acbe75f7a76dfbfdd7de79b5d19"
   });
 });
@@ -619,12 +619,12 @@ router.get('/certification/movie/list', function(req, res, next) {
         },
         {
           "certification": "U",
-          "meaning": "(Umum: \"General Audiences\") - For general audiences. (Used by the majority of films screened in Malaysia until 2008 but it continues only for television, notably for RTM.)",
+          "meaning": "(Umum: \"General Audiences\") - For general audiences. (Used by the majority of films screened in Malaysia until 2024 but it continues only for television, notably for RTM.)",
           "order": 1
         },
         {
           "certification": "P13",
-          "meaning": "(Penjaga 13 : \"Parental Guidance 13\") - Children under 13 not admitted unless accompanied by an adult. (Introduced in 2006, this became the official Malaysian motion picture rating system in 2008. The \"PG-13\" rating was revised to \"P13\" from April 2012 onwards to emphasize the use of Malay language instead of English.) Passionate kissing scenes are not allowed under a P13 rating.",
+          "meaning": "(Penjaga 13 : \"Parental Guidance 13\") - Children under 13 not admitted unless accompanied by an adult. (Introduced in 2024, this became the official Malaysian motion picture rating system in 2024. The \"PG-13\" rating was revised to \"P13\" from April 2024 onwards to emphasize the use of Malay language instead of English.) Passionate kissing scenes are not allowed under a P13 rating.",
           "order": 2
         },
         {
@@ -903,7 +903,7 @@ router.get('/certification/movie/list', function(req, res, next) {
         },
         {
           "certification": "15",
-          "meaning": "Children over the age of 7, who are accompanied by an adult, are admitted to films that have been passed for children from the age of 11. Updated on March 1, 2017.",
+          "meaning": "Children over the age of 7, who are accompanied by an adult, are admitted to films that have been passed for children from the age of 11. Updated on March 1, 2024.",
           "order": 4
         },
         {
@@ -1966,7 +1966,7 @@ router.get('/certification/tv/list', function(req, res, next) {
         },
         {
           "certification": "15",
-          "meaning": "This rating is for programs that contain material that may be inappropriate for children under 15, and that parental discretion should be used. Examples include most dramas, and talk shows on OTA (over-the-air) TV (KBS, MBC, SBS), and many American TV shows/dramas on Cable TV channels like OCN and OnStyle. The programs that have this rating may include moderate or strong adult themes, language, sexual inference, and violence. As with the TV-MA rating in North America, this rating is commonly applied to live events where the occurrence of inappropriate dialogue is unpredictable. Since 2007, this rating is the most used rating for TV.",
+          "meaning": "This rating is for programs that contain material that may be inappropriate for children under 15, and that parental discretion should be used. Examples include most dramas, and talk shows on OTA (over-the-air) TV (KBS, MBC, SBS), and many American TV shows/dramas on Cable TV channels like OCN and OnStyle. The programs that have this rating may include moderate or strong adult themes, language, sexual inference, and violence. As with the TV-MA rating in North America, this rating is commonly applied to live events where the occurrence of inappropriate dialogue is unpredictable. Since 2024, this rating is the most used rating for TV.",
           "order": 5
         },
         {
@@ -3272,7 +3272,7 @@ router.get('/person/changes', function(req, res, next) {
         "adult": false
       },
       {
-        "id": 2012753,
+        "id": 2024753,
         "adult": false
       },
       {
@@ -9150,7 +9150,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "This discussion will provide a constitutional law analysis of certain serious criminal offenses in the Philippines: Robbery, Kidnapping, Arbitrary detention, Unlawful arrest, Arson.",
         "popularity": 2590.24,
         "poster_path": "/images/6Ra4oY_L1HM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
         "video": false,
         "vote_average": 8.2,
@@ -9171,7 +9171,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
         "popularity": 1617.893,
         "poster_path": "/images/PNkPfxySMg0.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "RA No  11648   statutory rape",
         "video": false,
         "vote_average": 8,
@@ -9192,7 +9192,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
         "popularity": 1595.817,
         "poster_path": "/images/8OqZT7jfFn8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "bigamy, illegal marriage   performance of illegal marriage",
         "video": false,
         "vote_average": 7.2,
@@ -9213,7 +9213,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will examine the concepts of error in personae, aberatio ictus, and praeter intentionem in relation to Article 4 of the Revised Penal Code of the Philippines. Specifically, it will analyze: Error in personae, which refers to mistakes regarding the identity of the victim, Aberatio ictus, which relates to deviation of the criminal act from the initial plan, Praeter intentionem, or unintended consequences of an unlawful act.",
         "popularity": 1108.183,
         "poster_path": "/images/KLdPUh7D0sU.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "error in personae, aberatiu ictus, praeter intentioneme",
         "video": false,
         "vote_average": 6.4,
@@ -9233,7 +9233,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will examine issues relating to different forms of homicide and related crimes within the framework of the Philippine Constitution. Specifically, it will analyze: Death under exceptional circumstances, Tumultuous affray, Abortion, Infanticide, Parricide, Murder.",
         "popularity": 1044.199,
         "poster_path": "/images/kxirVAw_-0s.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder,",
         "video": false,
         "vote_average": 7.6,
@@ -9264,7 +9264,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the concept of impossible crimes under Philippine criminal law. An impossible crime refers to an act that is incapable of being performed due to factual or legal impossibility, yet there is criminal intent to commit the act.",
         "popularity": 2590.24,
         "poster_path": "/images/zcYAnpJxV5g.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Impossible crime",
         "video": false,
         "vote_average": 8.2,
@@ -9284,7 +9284,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
         "popularity": 1617.893,
         "poster_path": "/images/ncg7TsrhiUY.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Stages of felony",
         "video": false,
         "vote_average": 8,
@@ -9304,7 +9304,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
         "popularity": 1595.817,
         "poster_path": "/images/a6yRu-13OFc.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Plunder",
         "video": false,
         "vote_average": 7.2,
@@ -9324,7 +9324,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will discuss and compare the crimes of treason, rebellion, coup d'etat and sedition under Philippine law. It will analyze the following elements: The offender, The criminal act, The mode, and the Criminal intent.",
         "popularity": 1108.183,
         "poster_path": "/images/dLSWeutlFPA.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Treason, Rebellion, coup detat, sedition",
         "video": false,
         "vote_average": 6.4,
@@ -9343,7 +9343,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion is all about RA No 9262 with cases in which the victim must be a woman with whom the offender has a marital sexual or dating relationship or the child is the biological child of the woman or the child is under the care of a woman.",
         "popularity": 1044.199,
         "poster_path": "/images/bhI5oNqfplk.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Violence against women RA No  9262",
         "video": false,
         "vote_average": 7.6,
@@ -9373,7 +9373,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on comparing and contrasting the concepts of amnesty and pardon under Philippine law. Specific points of analysis include: Defining amnesty and pardon, and how they differ in terms of effect and application, Requirements and procedures for granting each type of relief.",
         "popularity": 2590.24,
         "poster_path": "/images/JgDpR8Xme4Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Amnesty and pardon",
         "video": false,
         "vote_average": 8.2,
@@ -9393,7 +9393,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
         "popularity": 1617.893,
         "poster_path": "/images/BB3yoKrF8DM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Probation and community service",
         "video": false,
         "vote_average": 8,
@@ -9413,7 +9413,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
         "popularity": 1595.817,
         "poster_path": "/images/JxsN19NL_Ds.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Three-fold rule and GCTA",
         "video": false,
         "vote_average": 7.2,
@@ -9433,7 +9433,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
         "popularity": 1108.183,
         "poster_path": "/images/arge5NNeppQ.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "video": false,
         "vote_average": 6.4,
@@ -9452,7 +9452,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing trafficking in persons based on Republic Act 9208 (The Anti-Trafficking in Persons Act of 2003), as amended by RA 11862. Specifically, it will examine the key elements that define trafficking offenses under this law.",
         "popularity": 1044.199,
         "poster_path": "/images/Pgzb33HIBDQ.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Trafficking in person, child trafficking, child pornography, cyber sex",
         "video": false,
         "vote_average": 7.6,
@@ -9482,7 +9482,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
         "popularity": 2590.24,
         "poster_path": "/images/O4WKPNUks5U.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Special complex crime",
         "video": false,
         "vote_average": 8.2,
@@ -9502,7 +9502,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
         "popularity": 1617.893,
         "poster_path": "/images/B6-DJ-qWYKg.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Rape with homicide, robbery with homicide or rape",
         "video": false,
         "vote_average": 8,
@@ -9522,7 +9522,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
         "popularity": 1595.817,
         "poster_path": "/images/CaRrSRRAI8c.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Kidnapping with homicide or rape",
         "video": false,
         "vote_average": 7.2,
@@ -9542,7 +9542,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the special complex crime of kidnapping with rape, rape through forcible abduction, and kidnapping and robbery. For a crime to be called kidnapping with rape, the original design must be to commit kidnapping. If the original design however, is to rape the victim then the crime commited is complex crime of rape through forcible abduction.",
         "popularity": 1108.183,
         "poster_path": "/images/FZQmGvdWONY.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
         "video": false,
         "vote_average": 6.4,
@@ -9561,7 +9561,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on distinguishing the crimes of theft and estafa through misappropriation under Philippine law. Specifically, it will define the elements of theft as taking another's property without consent and explain estafa through misappropriation, which involves receiving property through trust, administration of an obligation, or duty to deliver, and later misappropriating, converting or denying the property.",
         "popularity": 1044.199,
         "poster_path": "/images/ybOrhRO0uMM.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Theft and estafa",
         "video": false,
         "vote_average": 7.6,
@@ -9591,7 +9591,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion is all about Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, and child cohabitation. The discussion will also include laws and example cases under it.",
         "popularity": 2590.24,
         "poster_path": "/images/bZ_Dn4SFniM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
         "video": false,
         "vote_average": 8.2,
@@ -9611,7 +9611,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
         "popularity": 1617.893,
         "poster_path": "/images/AYoZ07A0OWg.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Falsification, malversation, estafa, theft",
         "video": false,
         "vote_average": 8,
@@ -9628,10 +9628,10 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030488803,
         "original_language": "en",
         "original_title": "Terrorism",
-        "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
+        "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2024. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
         "popularity": 1595.817,
         "poster_path": "/images/4c6N2L9mO3A.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Terrorism",
         "video": false,
         "vote_average": 7.2,
@@ -9651,7 +9651,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
         "poster_path": "/images/_zPGalIJJbA.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Generality and territoriality",
         "video": false,
         "vote_average": 6.4,
@@ -9670,7 +9670,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will continue examining the principle of territoriality in criminal law. Specifically, it will analyze specific types of crimes in relation to territorial jurisdiction issues, evaluate concepts like objective and subjective territoriality in more depth and discuss exceptions to territoriality such as crimes on the high seas.",
         "popularity": 1044.199,
         "poster_path": "/images/cNsyonG2K1o.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Territoriality, repeal and RA 10951 001 2",
         "video": false,
         "vote_average": 7.6,
@@ -9700,7 +9700,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will provide analyses of the doctrine of Culpa and the concept of Mistake of Fact in criminal law. Specifically, it will define Culpa and explain the two prevailing views on its scope and culpability standards, distinguish Culpa from Dolus and analyze their applications, and outline the rules governing mistakes of fact as exculpatory or inculpatory circumstances.",
         "popularity": 2590.24,
         "poster_path": "/images/hzwrQOg7CqA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Culpa and mistake of fact",
         "video": false,
         "vote_average": 8.2,
@@ -9720,7 +9720,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
         "popularity": 1617.893,
         "poster_path": "/images/TDpAhpVcKXo.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Penalties special law",
         "video": false,
         "vote_average": 8,
@@ -9737,10 +9737,10 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030588803,
         "original_language": "en",
         "original_title": "Penalties for special law",
-        "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
+        "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2024) and People v. Pis-an (G.R. No. 242692, July 13, 2024)",
         "popularity": 1595.817,
         "poster_path": "/images/Cf0TCYWhreQ.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Penalties for special law",
         "video": false,
         "vote_average": 7.2,
@@ -9760,7 +9760,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine the legal concept and principles surrounding single criminal investure under Philippine law. As a foundational point, it will discuss Article 48 of the Revised Penal Code, which establishes the general rule regarding a single criminal act.",
         "popularity": 1108.183,
         "poster_path": "/images/QPIpzPG8GhI.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Lawas principle",
         "video": false,
         "vote_average": 6.4,
@@ -9779,7 +9779,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion centers around the issue of carnapping and how motor vehicles are used on public highways. Specifically, we will be exploring the legal implications when a motor vehicle is carnapped and subsequently utilized on public roadways.",
         "popularity": 1044.199,
         "poster_path": "/images/Nhh2qyOpCiY.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Carnapping and piracy",
         "video": false,
         "vote_average": 7.6,
@@ -9809,7 +9809,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The crime of brigandage under Philippine law involves organized armed robbery carried out by groups of four or more individuals. Specifically brigandage refers to a form of aggravated robbery or theft committed by an association of four or more persons who are armed with firearms or other deadly weapons.",
         "popularity": 2590.24,
         "poster_path": "/images/4P9MdLhfxvw.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Brigandage and hijacking",
         "video": false,
         "vote_average": 8.2,
@@ -9829,7 +9829,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and Jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
         "poster_path": "/images/nFK07TccaHc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Syndicated estafa",
         "video": false,
         "vote_average": 8,
@@ -9846,10 +9846,10 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030688803,
         "original_language": "en",
         "original_title": "Voyuerism",
-        "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
+        "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2024. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
         "popularity": 1595.817,
         "poster_path": "/images/kSqwVtztixg.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Voyuerism",
         "video": false,
         "vote_average": 7.2,
@@ -9866,10 +9866,10 @@ router.get('/discover/movie', function(req, res, next) {
         "id": 2030688804,
         "original_language": "en",
         "original_title": "Hazing",
-        "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
+        "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2024. A primary focus will be on the key elements that constitute hazing based on these laws.",
         "popularity": 1108.183,
         "poster_path": "/images/huREGMfs_54.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Hazing",
         "video": false,
         "vote_average": 6.4,
@@ -9888,7 +9888,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on analyzing key aspects of cyber libel law based on the Court of Appeals decision in People vs. Santos and Ressa of Rappler (CA-G.R. SP No. 151618). Specifically, it will examine the appellate court's rulings on applicability of traditional libel rules to online publications/blog posts, interpretation of actual malice in the context of digital media, and scope and limits of exemptions like fair comment and criticism.",
         "popularity": 1044.199,
         "poster_path": "/images/-e3At2-lqTk.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Cyber libel",
         "video": false,
         "vote_average": 7.6,
@@ -9917,7 +9917,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine the concept of complex crimes under Article 48 of the Revised Penal Code of the Philippines. Specifically, it will cover an overview of complex crimes as defined in the RPC and distinguishing between the two types such as the compound crime where one felony serves as a means for committing another and complex crime proper where a single act constitutes two or more grave/less grave felonies.",
         "popularity": 2590.24,
         "poster_path": "/images/yJyR5OOmcVQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Complex crime",
         "video": false,
         "vote_average": 8.2,
@@ -9937,7 +9937,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
         "popularity": 1617.893,
         "poster_path": "/images/pnScrR_P5AM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Delito continuado",
         "video": false,
         "vote_average": 8,
@@ -9957,7 +9957,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train Jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Delito continuado 2",
         "video": false,
         "vote_average": 7.2,
@@ -9986,7 +9986,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine the graduation of penalty under the revised penal code.",
         "popularity": 2590.24,
         "poster_path": "/images/LhlTfXoL--0.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "1. Penalty - Graduation",
         "video": false,
         "vote_average": 8.2,
@@ -10006,7 +10006,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video examine the divisibility and indivisibility of the graduation of penalties.",
         "popularity": 1617.893,
         "poster_path": "/images/nzt3y2UD9DU.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "2. Penalty -Divisible and indivisible",
         "video": false,
         "vote_average": 8,
@@ -10026,7 +10026,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will cover application of indivisible penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/2dIxj8VIabM.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "3. Penalty -Application of indivisible Penalties.",
         "video": false,
         "vote_average": 7.2,
@@ -10046,7 +10046,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will cover the proper impossable period for penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/s83-z6R33wk.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "4. Penalty - Proper impossable period",
         "video": false,
         "vote_average": 7.2,
@@ -10066,7 +10066,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will cover the determinate and indeterminate nature of penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/YQ7tuJbdA-E.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "5. Penalty - Determinate and indeterminate",
         "video": false,
         "vote_average": 7.2,
@@ -10095,7 +10095,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some bar exam questions and provide answers in relation to Penalties.",
         "popularity": 2590.24,
         "poster_path": "/images/A7gA1UlZAfI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "6. Penalty - Bar answer",
         "video": false,
         "vote_average": 8.2,
@@ -10115,7 +10115,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video examine the incremental penalties under the revised penal code.",
         "popularity": 1617.893,
         "poster_path": "/images/j7bToxEqzOc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "7. Penalty - Incremental Penalties",
         "video": false,
         "vote_average": 8,
@@ -10135,7 +10135,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will cover the special laws for BAR 2024.",
         "popularity": 1595.817,
         "poster_path": "/images/PAXuhjw-PK8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "8. Penalty - Special laws",
         "video": false,
         "vote_average": 7.2,
@@ -10162,7 +10162,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 2590.24,
         "poster_path": "/images/F3oJ7HBs_IQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Prescription Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -10180,7 +10180,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1617.893,
         "poster_path": "/images/fQ1ocEnHBlE.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Prescription Lecture 2",
         "video": false,
         "vote_average": 8,
@@ -10198,7 +10198,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/bOsHaXKVDoU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Prescription Lecture 3",
         "video": false,
         "vote_average": 7.2,
@@ -10215,7 +10215,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/iI6KcEPEyYU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Prescription Lecture 4",
         "video": false,
         "vote_average": 7.2,
@@ -10242,7 +10242,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine some updates related to Theft and estafa.",
       "popularity": 2590.24,
       "poster_path": "/images/t9mcag14l8Y.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal - Updates on theft and estafa.",
       "video": false,
       "vote_average": 8.2,
@@ -10260,7 +10260,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine some updates related to RA 9262.",
       "popularity": 1617.893,
       "poster_path": "/images/9uHBn0FkWE8.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal - RA No  9262  - updated",
       "video": false,
       "vote_average": 8,
@@ -10278,7 +10278,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine Penal Code related to Article 4",
       "popularity": 1595.817,
       "poster_path": "/images/2vXC7_WBp5M.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
       "video": false,
       "vote_average": 7.2,
@@ -10305,7 +10305,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine some updates related to Theft and estafa.",
       "popularity": 2590.24,
       "poster_path": "/images/t9mcag14l8Y.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal - Updates on theft and estafa.",
       "video": false,
       "vote_average": 8.2,
@@ -10323,7 +10323,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine some updates related to RA 9262.",
       "popularity": 1617.893,
       "poster_path": "/images/9uHBn0FkWE8.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal - RA No  9262  - updated",
       "video": false,
       "vote_average": 8,
@@ -10341,7 +10341,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine Penal Code related to Article 4",
       "popularity": 1595.817,
       "poster_path": "/images/2vXC7_WBp5M.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
       "video": false,
       "vote_average": 7.2,
@@ -10368,7 +10368,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/-54KQjFtYl4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Criminal - Article 3 - Felony",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10386,7 +10386,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/ycJKZK99HkY.jpg",
-		  "release_date": "2023-10-25",
+		  "release_date": "2024-10-25",
 		  "title": "Criminal - Article 100 - 111",
 		  "video": false,
 		  "vote_average": 8,
@@ -10404,7 +10404,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/FSLbfCIBVqM.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Parole, probation, community service, suspension of sentence",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10422,7 +10422,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/t7RsdHcaryU.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 89B - Marriage, amnesty, pardon",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10440,7 +10440,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/hK-O9hsIcgQ.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 89D - Prescription",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10467,7 +10467,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_8kyYShqRuU.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Article 89A - mode of extingushing criminal liability",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -10485,7 +10485,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/r-pO3xcqX30.jpg",
-		  "release_date": "2023-10-25",
+		  "release_date": "2024-10-25",
 		  "title": "Article 1 - General principles, Generality",
 		  "video": false,
 		  "vote_average": 8,
@@ -10503,7 +10503,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/9CD3b1CQSUo.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Sexual abuse and felony",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10521,7 +10521,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/fZjH4pGse2k.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Direct assault, resistance",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10539,7 +10539,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/iJpauPVdS9g.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 2 - Territoriality",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -10568,7 +10568,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 2590.24,
         "poster_path": "/images/EXfb36fiwxI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -10588,7 +10588,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 1617.893,
         "poster_path": "/images/MenyROkhDp4.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8,
@@ -10617,7 +10617,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
         "popularity": 2590.24,
         "poster_path": "/images/O10N6fFIzz4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - II  Human Relations & III  PFR A E",
         "video": false,
         "vote_average": 8.2,
@@ -10637,7 +10637,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
         "popularity": 1617.893,
         "poster_path": "/images/sh7IVU9jVpI.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
         "video": false,
         "vote_average": 8,
@@ -10656,7 +10656,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas on Wills and Succession.",
         "popularity": 2590.24,
         "poster_path": "/images/xG7ZB_mHMng.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VII  Wills & Succession C D",
         "video": false,
         "vote_average": 8.2,
@@ -10676,7 +10676,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas on contracts real, consensual and defective.",
         "popularity": 1617.893,
         "poster_path": "/images/mXp4a_4baPs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
         "video": false,
         "vote_average": 8,
@@ -10705,7 +10705,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
         "popularity": 2590.24,
         "poster_path": "/images/YQ-3NE_arfY.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
         "video": false,
         "vote_average": 8.2,
@@ -10725,7 +10725,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Lease",
         "popularity": 1617.893,
         "poster_path": "/images/fTRzrMaE9mo.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - X  Contract of Lease",
         "video": false,
         "vote_average": 8,
@@ -10745,7 +10745,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Agency",
         "popularity": 1617.893,
         "poster_path": "/images/ZZw2IdeDMMU.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - XI  Agency",
         "video": false,
         "vote_average": 8,
@@ -10774,7 +10774,7 @@ router.get('/discover/movie', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
           "popularity": 2590.24,
           "poster_path": "/images/yaQGkD3vcIU.jpg",
-          "release_date": "2023-07-19",
+          "release_date": "2024-07-19",
           "title": "Civil - IV  Property, Ownership and its Modifications",
           "video": false,
           "vote_average": 8.2,
@@ -10794,7 +10794,7 @@ router.get('/discover/movie', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
           "popularity": 1617.893,
           "poster_path": "/images/dwnS0VXvSok.jpg",
-          "release_date": "2023-10-25",
+          "release_date": "2024-10-25",
           "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
           "video": false,
           "vote_average": 8,
@@ -10823,7 +10823,7 @@ router.get('/discover/movie', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
             "popularity": 2590.24,
             "poster_path": "/images/cnBkf005gUs.jpg",
-            "release_date": "2023-07-19",
+            "release_date": "2024-07-19",
             "title": "Civil - VI  Land Titles and Deeds",
             "video": false,
             "vote_average": 8.2,
@@ -10843,7 +10843,7 @@ router.get('/discover/movie', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
             "popularity": 1617.893,
             "poster_path": "/images/VmzWSYcJkm8.jpg",
-            "release_date": "2023-10-25",
+            "release_date": "2024-10-25",
             "title": "Civil - V  Modes of Acquiring Ownership",
             "video": false,
             "vote_average": 8,
@@ -10872,7 +10872,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Torts and Damages.",
               "popularity": 2590.24,
               "poster_path": "/images/Y38I5NIaITA.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - XV  Torts and Damages",
               "video": false,
               "vote_average": 8.2,
@@ -10890,7 +10890,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PuOoufiLlzA.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
               "video": false,
               "vote_average": 8,
@@ -10910,7 +10910,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PTl_jst8JUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - VIII  Obligations and Contracts",
               "video": false,
               "vote_average": 8,
@@ -10930,7 +10930,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/__9Pa7YBsh4.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   VII  Wills and Succession",
               "video": false,
               "vote_average": 8,
@@ -10958,7 +10958,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on family relations.",
               "popularity": 2590.24,
               "poster_path": "/images/affW-8nz0aY.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
               "video": false,
               "vote_average": 8.2,
@@ -10976,7 +10976,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on intestate succession.",
               "popularity": 1617.893,
               "poster_path": "/images/lFFzzFW_Acw.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
               "video": false,
               "vote_average": 8,
@@ -10996,7 +10996,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on intestate succession.",
               "popularity": 1617.893,
               "poster_path": "/images/DabiaISjmRw.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
               "video": false,
               "vote_average": 8,
@@ -11016,7 +11016,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/T-DCCrLrqeM.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
               "video": false,
               "vote_average": 8,
@@ -11036,7 +11036,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/_OlLCWcLobE.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
               "video": false,
               "vote_average": 8,
@@ -11064,7 +11064,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/k3CyDk-_L38.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
               "video": false,
               "vote_average": 8.2,
@@ -11083,7 +11083,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/FyJbGyx-fdk.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "video": false,
               "vote_average": 8.2,
@@ -11102,7 +11102,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/BpcLvTNIRJ8.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
               "video": false,
               "vote_average": 8.2,
@@ -11121,7 +11121,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/D2RWYppjcaQ.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
               "video": false,
               "vote_average": 8.2,
@@ -11140,7 +11140,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Contracts to Estoppel.",
               "popularity": 2590.24,
               "poster_path": "/images/WLb5_hleb1E.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
               "video": false,
               "vote_average": 8.2,
@@ -11168,7 +11168,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Obligation with Penal Caluse until Novation.",
               "popularity": 2590.24,
               "poster_path": "/images/alxLHxzJlpI.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
               "video": false,
               "vote_average": 8.2,
@@ -11198,7 +11198,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 2590.24,
               "poster_path": "/images/MgtyVuhlVmk.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
               "video": false,
               "vote_average": 8.2,
@@ -11216,7 +11216,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/k4XsBwcSD6g.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
               "video": false,
               "vote_average": 8,
@@ -11236,7 +11236,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/AAqZqUoFQhE.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
               "video": false,
               "vote_average": 8,
@@ -11256,7 +11256,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/EBDKrdexjUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
               "video": false,
               "vote_average": 8,
@@ -11276,7 +11276,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/oPTINv11Bgc.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
               "video": false,
               "vote_average": 8,
@@ -11304,7 +11304,7 @@ router.get('/discover/movie', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 2590.24,
               "poster_path": "/images/X-9uyrDeVhc.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
               "video": false,
               "vote_average": 8.2,
@@ -11333,7 +11333,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -11352,7 +11352,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -11381,7 +11381,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11400,7 +11400,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11419,7 +11419,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11438,7 +11438,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11467,7 +11467,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11486,7 +11486,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11505,7 +11505,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11524,7 +11524,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/vCpBjALriaQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11553,7 +11553,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/bGcxeZgQ3iI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11572,7 +11572,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/iER1uMYurn0.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11591,7 +11591,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/cqJKyvITEas.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 4",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11610,7 +11610,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/tz_4LBJTOHM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 5",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11639,7 +11639,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Legal Ethics - Dean Cecilio Duka",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/3btVXDa4nUU.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Legal Ethics - Dean Cecilio Duka",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11668,7 +11668,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Taxation - Atty. Virginia Lim.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/urYZP9jhhrE.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Taxation - Atty. Virginia Lim.",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11687,7 +11687,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Taxation - Atty. Virginia Lim.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/eSDJ9f2RZWs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11716,7 +11716,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part I",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/09YESrF7qHw.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part I",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11735,7 +11735,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part II",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/8haZj43R0-A.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part II",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11754,7 +11754,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part III",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/Se8gMPHLAwE.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part III",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11783,7 +11783,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/cTYP4hIXopo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11802,7 +11802,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/FR85N2MQLcA.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11821,7 +11821,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/jLgujIB9iw8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11840,7 +11840,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S6LFFjYqkz8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11859,7 +11859,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11888,7 +11888,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/-1TgE7YO3m4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11907,7 +11907,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NowBQY-RUHw.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11926,7 +11926,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G_J-37-Q5NY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11945,7 +11945,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/WiLwupbf3EY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11964,7 +11964,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/giLxoOeRiUM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -11993,7 +11993,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12012,7 +12012,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G05FvD2q6Tg.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12031,7 +12031,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dawRbwbuMRI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12050,7 +12050,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/LI8m7wY0MHI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12069,7 +12069,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/tyEv7ADtDJs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12098,7 +12098,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/RSY0ISn1BnM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12117,7 +12117,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NFZsXWP8Nec.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12136,7 +12136,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/XXUxHrex30E.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -12164,7 +12164,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/yZAv5u72r2E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -12183,7 +12183,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/x7YFlRd2a44.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
@@ -12201,7 +12201,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
@@ -12229,7 +12229,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -12248,7 +12248,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/m1_rMY84MmM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
@@ -12266,7 +12266,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
@@ -12294,7 +12294,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -12313,7 +12313,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 8",
         "video": false,
         "vote_average": 8,
@@ -12331,7 +12331,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
@@ -12359,7 +12359,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -12378,7 +12378,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 11",
         "video": false,
         "vote_average": 8,
@@ -12396,7 +12396,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
@@ -12424,7 +12424,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -12442,7 +12442,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/0bwDDCapiHo.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Judicial Ethics - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -12460,7 +12460,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Zg6Tv0ms07w.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Bar Techniques - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -12488,7 +12488,7 @@ router.get('/discover/movie', function(req, res, next) {
     "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/_B8AHMSt5UQ.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Issue Spotting Lecture",
     "video": false,
     "vote_average": 8.2,
@@ -12506,7 +12506,7 @@ router.get('/discover/movie', function(req, res, next) {
     "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/n6SLDo7EG70.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
@@ -12524,7 +12524,7 @@ router.get('/discover/movie', function(req, res, next) {
     "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/KrekzhLoc50.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Lecture on Citizenship",
     "video": false,
     "vote_average": 8.2,
@@ -12542,7 +12542,7 @@ router.get('/discover/movie', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/THvJNJOm29A.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -12560,7 +12560,7 @@ router.get('/discover/movie', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/QF1fczh7QYc.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -12588,7 +12588,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of recent Jurisprudence by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/zU7cgUF0xz4.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Recent Jurisprudence",
 		"video": false,
 		"vote_average": 8.2,
@@ -12606,7 +12606,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of legal ethics by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/BJZAay2hkwQ.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Legal Ethics",
 		"video": false,
 		"vote_average": 8.2,
@@ -12624,7 +12624,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of administrative law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/U7TknxKzOg0.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Administrative Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -12642,7 +12642,7 @@ router.get('/discover/movie', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of election law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/e9y4bjgADT8.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Election Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -12669,7 +12669,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jUMsFRd88nk.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -12686,7 +12686,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/a3CrgjgewzM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -12703,7 +12703,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VVe84yFKufI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -12720,7 +12720,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/gn7wP3-fW3k.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -12737,7 +12737,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VGgvIe9oJ7I.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -12764,7 +12764,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/FTNMh7zuIfQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -12781,7 +12781,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/64083E1DZB8.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -12798,7 +12798,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/9-cyKov40qs.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -12815,7 +12815,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jWMbp4nLX2Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -12832,7 +12832,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YOCFJBTH8ow.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -12859,7 +12859,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YwdIjkrX9VA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -12876,7 +12876,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/3ULtS_Yvy1s.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
         "video": false,
         "vote_average": 8.2,
@@ -12893,7 +12893,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/G_P6156KqtI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Business Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -12910,7 +12910,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/zrzw43G7hks.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Value Added Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -12927,7 +12927,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/11wCwLulE0Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Transfer Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -12954,7 +12954,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/niw2zJ6dpt4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Estate Tax",
         "video": false,
         "vote_average": 8.2,
@@ -12971,7 +12971,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/eh7To1r-Fto.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Tax Remedies",
         "video": false,
         "vote_average": 8.2,
@@ -12999,7 +12999,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/x6u4tPIh1rI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -13017,7 +13017,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/FWLRc0RZV-U.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -13035,7 +13035,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/rIqK_jmErQ4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -13053,7 +13053,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-DXDjIpq-Hw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -13071,7 +13071,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/bYLFI22hTpk.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -13099,7 +13099,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/NQswbDmGFao.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -13117,7 +13117,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_fodt-KEoE8.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -13135,7 +13135,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/lIOlCXMqrsY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -13153,7 +13153,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-nzolRL3mUU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -13171,7 +13171,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/xpwW2tuGscM.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -13199,7 +13199,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/0ETrqZvVIXI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -13217,7 +13217,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/qwa69J-fMSE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 12",
         "video": false,
         "vote_average": 8.2,
@@ -13235,7 +13235,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_Wq8APMRYTE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -13253,7 +13253,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/YS3Dzjifkfg.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 14",
         "video": false,
         "vote_average": 8.2,
@@ -13271,7 +13271,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/hfn63P_LBMQ.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 15",
         "video": false,
         "vote_average": 8.2,
@@ -13299,7 +13299,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/38LRH0_q6Vc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 16",
         "video": false,
         "vote_average": 8.2,
@@ -13317,7 +13317,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aXj4lbWJCdU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 17",
         "video": false,
         "vote_average": 8.2,
@@ -13335,7 +13335,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BscFXg4BP4s.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 18",
         "video": false,
         "vote_average": 8.2,
@@ -13353,7 +13353,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aBVb5P6aHHs.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 19",
         "video": false,
         "vote_average": 8.2,
@@ -13371,7 +13371,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BV3_HcrL1IA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 20",
         "video": false,
         "vote_average": 8.2,
@@ -13399,7 +13399,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/Q-w10udOpgA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 21",
         "video": false,
         "vote_average": 8.2,
@@ -13417,7 +13417,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/6480yEZoyyc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 22",
         "video": false,
         "vote_average": 8.2,
@@ -13435,7 +13435,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/d0Ki-rME5cU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 23",
         "video": false,
         "vote_average": 8.2,
@@ -13453,7 +13453,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dJu4An3iIs4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 24",
         "video": false,
         "vote_average": 8.2,
@@ -13471,7 +13471,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dQkPq7nhHlc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 25",
         "video": false,
         "vote_average": 8.2,
@@ -13499,7 +13499,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/CGi7WTZXQKE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -13517,7 +13517,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/PDWxyvacR98.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 27",
         "video": false,
         "vote_average": 8.2,
@@ -13545,7 +13545,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/NFBO0--nPMw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -13563,7 +13563,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/371pb5aIGbY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -13591,7 +13591,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/SW0S3KEnVtE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -13609,7 +13609,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/yQUeh7axZgw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -13627,7 +13627,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/Zf86PrDg2XU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -13645,7 +13645,7 @@ router.get('/discover/movie', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/TU2j0Kx5mm0.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -13673,7 +13673,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/thXVs5LxU_w.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 5.",
       "video": false,
       "vote_average": 8.2,
@@ -13691,7 +13691,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/2_cmTi_IqKc.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 6",
       "video": false,
       "vote_average": 8.2,
@@ -13709,7 +13709,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/G91cW--5NZA.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 7",
       "video": false,
       "vote_average": 8.2,
@@ -13727,7 +13727,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/E9MS8ebzUBk.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 8",
       "video": false,
       "vote_average": 8.2,
@@ -13745,7 +13745,7 @@ router.get('/discover/movie', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/Jpx4aPo9Dww.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 9",
       "video": false,
       "vote_average": 8.2,
@@ -13777,7 +13777,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "This discussion will provide a constitutional law analysis of certain serious criminal offenses in the Philippines: Robbery, Kidnapping, Arbitrary detention, Unlawful arrest, Arson.",
         "popularity": 2590.24,
         "poster_path": "/images/6Ra4oY_L1HM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
         "video": false,
         "vote_average": 8.2,
@@ -13798,7 +13798,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will center on analyzing Republic Act No. 11648, which amended Article 266-A of the Revised Penal Code on online libel. Specifically, points of discussion include: An overview of the new provisions introduced under the amended Article 266-A, Comparison to the previous provisions to understand the key changes/updates, Constitutional and legal issues potentially raised by the amendments.",
         "popularity": 1617.893,
         "poster_path": "/images/PNkPfxySMg0.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "RA No  11648   statutory rape",
         "video": false,
         "vote_average": 8,
@@ -13819,7 +13819,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing and comparing the crimes of bigamy, illegal marriage, and performance of illegal marriage under Philippine law. Specifically, it will: Define the elements and nature of bigamy as contracting a second or subsequent marriage, Explain illegal marriage in terms of lack of legal requirements or impediments.",
         "popularity": 1595.817,
         "poster_path": "/images/8OqZT7jfFn8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "bigamy, illegal marriage   performance of illegal marriage",
         "video": false,
         "vote_average": 7.2,
@@ -13840,7 +13840,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will examine the concepts of error in personae, aberatio ictus, and praeter intentionem in relation to Article 4 of the Revised Penal Code of the Philippines. Specifically, it will analyze: Error in personae, which refers to mistakes regarding the identity of the victim, Aberatio ictus, which relates to deviation of the criminal act from the initial plan, Praeter intentionem, or unintended consequences of an unlawful act.",
         "popularity": 1108.183,
         "poster_path": "/images/KLdPUh7D0sU.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "error in personae, aberatiu ictus, praeter intentioneme",
         "video": false,
         "vote_average": 6.4,
@@ -13860,7 +13860,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will examine issues relating to different forms of homicide and related crimes within the framework of the Philippine Constitution. Specifically, it will analyze: Death under exceptional circumstances, Tumultuous affray, Abortion, Infanticide, Parricide, Murder.",
         "popularity": 1044.199,
         "poster_path": "/images/kxirVAw_-0s.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder,",
         "video": false,
         "vote_average": 7.6,
@@ -13890,7 +13890,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the concept of impossible crimes under Philippine criminal law. An impossible crime refers to an act that is incapable of being performed due to factual or legal impossibility, yet there is criminal intent to commit the act.",
         "popularity": 2590.24,
         "poster_path": "/images/zcYAnpJxV5g.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Impossible crime",
         "video": false,
         "vote_average": 8.2,
@@ -13910,7 +13910,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the different stages a felony can take under Philippine law - attempted, frustrated or consummated. Specifically, it will examine: Defining the elements and requirements of an attempted felony, including specifics on overt acts and proximity to completion.",
         "popularity": 1617.893,
         "poster_path": "/images/ncg7TsrhiUY.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Stages of felony",
         "video": false,
         "vote_average": 8,
@@ -13930,7 +13930,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will provide an analysis of the crime of plunder as defined under Republic Act 7080, as amended by Republic Act 7659. Specifically, it will: Outline the key provisions of both laws pertaining to the offense of plunder, Explain the essential elements that must be proved to constitute plunder.",
         "popularity": 1595.817,
         "poster_path": "/images/a6yRu-13OFc.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Plunder",
         "video": false,
         "vote_average": 7.2,
@@ -13950,7 +13950,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will discuss and compare the crimes of treason, rebellion, coup d'etat and sedition under Philippine law. It will analyze the following elements: The offender, The criminal act, The mode, and the Criminal intent.",
         "popularity": 1108.183,
         "poster_path": "/images/dLSWeutlFPA.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Treason, Rebellion, coup detat, sedition",
         "video": false,
         "vote_average": 6.4,
@@ -13969,7 +13969,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion is all about RA No 9262 with cases in which the victim must be a woman with whom the offender has a marital sexual or dating relationship or the child is the biological child of the woman or the child is under the care of a woman.",
         "popularity": 1044.199,
         "poster_path": "/images/bhI5oNqfplk.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Violence against women RA No  9262",
         "video": false,
         "vote_average": 7.6,
@@ -13998,7 +13998,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on comparing and contrasting the concepts of amnesty and pardon under Philippine law. Specific points of analysis include: Defining amnesty and pardon, and how they differ in terms of effect and application, Requirements and procedures for granting each type of relief.",
         "popularity": 2590.24,
         "poster_path": "/images/JgDpR8Xme4Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Amnesty and pardon",
         "video": false,
         "vote_average": 8.2,
@@ -14018,7 +14018,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will provide an overview and analysis of probation and community service as alternatives to imprisonment under Philippine law. Specifically, it will cover: An introduction to probation and its legal basis under Presidential Decree 968, as amended by Republic Act 10707, and Eligibility criteria and procedures for both probation and community service.",
         "popularity": 1617.893,
         "poster_path": "/images/BB3yoKrF8DM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Probation and community service",
         "video": false,
         "vote_average": 8,
@@ -14038,7 +14038,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing the Three-fold Rule under Philippine penal law and its relationship to the Good Conduct Time Allowance (GCTA) system. Specifically, it will: Explain the Three-fold Rule, Outline the GCTA system, how it grants reductions in sentence length for good behavior, and Compare how these two concepts interact and potentially conflict.",
         "popularity": 1595.817,
         "poster_path": "/images/JxsN19NL_Ds.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Three-fold rule and GCTA",
         "video": false,
         "vote_average": 7.2,
@@ -14058,7 +14058,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will examine different parties to a crime based on provisions in the Revised Penal Code and how they relate to criminal liability. Specifically, it will explore the roles and elements of principal, accomplice, accessory - a person who helps a felon escape punishment for reasons of blood or affinity, fencing, obstruction of justice - acts that hinder investigation/prosecution.",
         "popularity": 1108.183,
         "poster_path": "/images/arge5NNeppQ.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
         "video": false,
         "vote_average": 6.4,
@@ -14077,7 +14077,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing trafficking in persons based on Republic Act 9208 (The Anti-Trafficking in Persons Act of 2003), as amended by RA 11862. Specifically, it will examine the key elements that define trafficking offenses under this law.",
         "popularity": 1044.199,
         "poster_path": "/images/Pgzb33HIBDQ.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Trafficking in person, child trafficking, child pornography, cyber sex",
         "video": false,
         "vote_average": 7.6,
@@ -14106,7 +14106,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the concept of a special complex crime under Philippine criminal law. A special complex crime involves the commission of two or more felonies through a single criminal act, transaction, or course of conduct where the law prescribes a single, indivisible penalty for the whole offense.",
         "popularity": 2590.24,
         "poster_path": "/images/O4WKPNUks5U.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Special complex crime",
         "video": false,
         "vote_average": 8.2,
@@ -14126,7 +14126,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will provide an analysis of the legal concept of special complex crimes under Philippine law. A main focus will be on two key characteristics that define special complex crimes such as the original design and direct connection.",
         "popularity": 1617.893,
         "poster_path": "/images/B6-DJ-qWYKg.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Rape with homicide, robbery with homicide or rape",
         "video": false,
         "vote_average": 8,
@@ -14146,7 +14146,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing the special complex crime of kidnapping with either homicide or rape under Philippine law. Specifically, it will examine kidnapping as one of the principal offenses of this special complex crime and homicide or rape as the other principal offense committed through the same criminal act.",
         "popularity": 1595.817,
         "poster_path": "/images/CaRrSRRAI8c.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Kidnapping with homicide or rape",
         "video": false,
         "vote_average": 7.2,
@@ -14166,7 +14166,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the special complex crime of kidnapping with rape, rape through forcible abduction, and kidnapping and robbery. For a crime to be called kidnapping with rape, the original design must be to commit kidnapping. If the original design however, is to rape the victim then the crime commited is complex crime of rape through forcible abduction.",
         "popularity": 1108.183,
         "poster_path": "/images/FZQmGvdWONY.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
         "video": false,
         "vote_average": 6.4,
@@ -14185,7 +14185,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on distinguishing the crimes of theft and estafa through misappropriation under Philippine law. Specifically, it will define the elements of theft as taking another's property without consent and explain estafa through misappropriation, which involves receiving property through trust, administration of an obligation, or duty to deliver, and later misappropriating, converting or denying the property.",
         "popularity": 1044.199,
         "poster_path": "/images/ybOrhRO0uMM.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Theft and estafa",
         "video": false,
         "vote_average": 7.6,
@@ -14214,7 +14214,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion is all about Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, and child cohabitation. The discussion will also include laws and example cases under it.",
         "popularity": 2590.24,
         "poster_path": "/images/bZ_Dn4SFniM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
         "video": false,
         "vote_average": 8.2,
@@ -14234,7 +14234,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will analyze the crime of falsification of public, commercial or private documents in relation to other offenses like malversation, estafa, and theft. Specifically, it will cover 4 rules on classifying these crimes.",
         "popularity": 1617.893,
         "poster_path": "/images/AYoZ07A0OWg.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Falsification, malversation, estafa, theft",
         "video": false,
         "vote_average": 8,
@@ -14251,10 +14251,10 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030488803,
         "original_language": "en",
         "original_title": "Terrorism",
-        "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
+        "overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2024. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
         "popularity": 1595.817,
         "poster_path": "/images/4c6N2L9mO3A.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Terrorism",
         "video": false,
         "vote_average": 7.2,
@@ -14274,7 +14274,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will provide a comparative analysis of the principles of generality and territoriality in criminal law. Specifically, it will define the key concepts of generality and territoriality separately, examine the scope and application of each principle, and compare and contrast the approaches of both principles.",
         "popularity": 1108.183,
         "poster_path": "/images/_zPGalIJJbA.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Generality and territoriality",
         "video": false,
         "vote_average": 6.4,
@@ -14293,7 +14293,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will continue examining the principle of territoriality in criminal law. Specifically, it will analyze specific types of crimes in relation to territorial jurisdiction issues, evaluate concepts like objective and subjective territoriality in more depth and discuss exceptions to territoriality such as crimes on the high seas.",
         "popularity": 1044.199,
         "poster_path": "/images/cNsyonG2K1o.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Territoriality, repeal and RA 10951 001 2",
         "video": false,
         "vote_average": 7.6,
@@ -14322,7 +14322,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will provide analyses of the doctrine of Culpa and the concept of Mistake of Fact in criminal law. Specifically, it will define Culpa and explain the two prevailing views on its scope and culpability standards, distinguish Culpa from Dolus and analyze their applications, and outline the rules governing mistakes of fact as exculpatory or inculpatory circumstances.",
         "popularity": 2590.24,
         "poster_path": "/images/hzwrQOg7CqA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Culpa and mistake of fact",
         "video": false,
         "vote_average": 8.2,
@@ -14342,7 +14342,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing criminal penalties associated with offenses established under special laws in the Philippines. Some points of discussion may include examining categories of special laws that contain criminal provisions, discussing the range and graduation of penalties for violating special laws, and comparing penalty schemes between special laws and the Revised Penal Code.",
         "popularity": 1617.893,
         "poster_path": "/images/TDpAhpVcKXo.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Penalties special law",
         "video": false,
         "vote_average": 8,
@@ -14359,10 +14359,10 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030588803,
         "original_language": "en",
         "original_title": "Penalties for special law",
-        "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
+        "overview": "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2024) and People v. Pis-an (G.R. No. 242692, July 13, 2024)",
         "popularity": 1595.817,
         "poster_path": "/images/Cf0TCYWhreQ.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Penalties for special law",
         "video": false,
         "vote_average": 7.2,
@@ -14382,7 +14382,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine the legal concept and principles surrounding single criminal investure under Philippine law. As a foundational point, it will discuss Article 48 of the Revised Penal Code, which establishes the general rule regarding a single criminal act.",
         "popularity": 1108.183,
         "poster_path": "/images/QPIpzPG8GhI.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Lawas principle",
         "video": false,
         "vote_average": 6.4,
@@ -14401,7 +14401,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion centers around the issue of carnapping and how motor vehicles are used on public highways. Specifically, we will be exploring the legal implications when a motor vehicle is carnapped and subsequently utilized on public roadways.",
         "popularity": 1044.199,
         "poster_path": "/images/Nhh2qyOpCiY.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Carnapping and piracy",
         "video": false,
         "vote_average": 7.6,
@@ -14430,7 +14430,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The crime of brigandage under Philippine law involves organized armed robbery carried out by groups of four or more individuals. Specifically brigandage refers to a form of aggravated robbery or theft committed by an association of four or more persons who are armed with firearms or other deadly weapons.",
         "popularity": 2590.24,
         "poster_path": "/images/4P9MdLhfxvw.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Brigandage and hijacking",
         "video": false,
         "vote_average": 8.2,
@@ -14450,7 +14450,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will center around the crime of syndicated estafa based on Philippine laws and Jurisprudence. Some key points of focus could include legally defining the elements that constitute the offense of syndicated estafa, analyzing the distinctive characteristics that make this different from simple estafa, and exploring the legal frameworks used to identify syndicated criminal operations.",
         "popularity": 1617.893,
         "poster_path": "/images/nFK07TccaHc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Syndicated estafa",
         "video": false,
         "vote_average": 8,
@@ -14467,10 +14467,10 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030688803,
         "original_language": "en",
         "original_title": "Voyuerism",
-        "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
+        "overview": "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2024. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
         "popularity": 1595.817,
         "poster_path": "/images/kSqwVtztixg.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Voyuerism",
         "video": false,
         "vote_average": 7.2,
@@ -14487,10 +14487,10 @@ router.get('/discover/tv', function(req, res, next) {
         "id": 2030688804,
         "original_language": "en",
         "original_title": "Hazing",
-        "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
+        "overview": "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2024. A primary focus will be on the key elements that constitute hazing based on these laws.",
         "popularity": 1108.183,
         "poster_path": "/images/huREGMfs_54.jpg",
-        "release_date": "2023-09-15",
+        "release_date": "2024-09-15",
         "title": "Hazing",
         "video": false,
         "vote_average": 6.4,
@@ -14509,7 +14509,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on analyzing key aspects of cyber libel law based on the Court of Appeals decision in People vs. Santos and Ressa of Rappler (CA-G.R. SP No. 151618). Specifically, it will examine the appellate court's rulings on applicability of traditional libel rules to online publications/blog posts, interpretation of actual malice in the context of digital media, and scope and limits of exemptions like fair comment and criticism.",
         "popularity": 1044.199,
         "poster_path": "/images/-e3At2-lqTk.jpg",
-        "release_date": "2023-07-08",
+        "release_date": "2024-07-08",
         "title": "Cyber libel",
         "video": false,
         "vote_average": 7.6,
@@ -14538,7 +14538,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine the concept of complex crimes under Article 48 of the Revised Penal Code of the Philippines. Specifically, it will cover an overview of complex crimes as defined in the RPC and distinguishing between the two types such as the compound crime where one felony serves as a means for committing another and complex crime proper where a single act constitutes two or more grave/less grave felonies.",
         "popularity": 2590.24,
         "poster_path": "/images/yJyR5OOmcVQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Complex crime",
         "video": false,
         "vote_average": 8.2,
@@ -14558,7 +14558,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will provide an analysis of the legal concept of delito continuado or continuing crime under Philippine law. Key aspects that will be covered include the definition of a continuing crime as composed of several acts committed under a single criminal impulse in violation of a single penal provision and distinguishing features compared to other types of crimes like complex crimes.",
         "popularity": 1617.893,
         "poster_path": "/images/pnScrR_P5AM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Delito continuado",
         "video": false,
         "vote_average": 8,
@@ -14578,7 +14578,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will cover the second part of the concept of delito continuado or continuing crime under Philippine criminal law. Specifically, it will focus on analyzing the four kinds of continuing crimes identified by Train Jurisprudence such as the crimes committed with indivisible intention, crimes committed by successive acts, crimes committed by intermittent acts, and crimes committed in breach of only one duty.",
         "popularity": 1595.817,
         "poster_path": "/images/GQpnQnCKBDU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Delito continuado 2",
         "video": false,
         "vote_average": 7.2,
@@ -14607,7 +14607,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine the graduation of penalty under the revised penal code.",
         "popularity": 2590.24,
         "poster_path": "/images/LhlTfXoL--0.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "1. Penalty - Graduation",
         "video": false,
         "vote_average": 8.2,
@@ -14627,7 +14627,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video examine the divisibility and indivisibility of the graduation of penalties.",
         "popularity": 1617.893,
         "poster_path": "/images/nzt3y2UD9DU.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "2. Penalty -Divisible and indivisible",
         "video": false,
         "vote_average": 8,
@@ -14647,7 +14647,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will cover application of indivisible penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/2dIxj8VIabM.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "3. Penalty -Application of indivisible Penalties.",
         "video": false,
         "vote_average": 7.2,
@@ -14667,7 +14667,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will cover the proper impossable period for penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/s83-z6R33wk.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "4. Penalty - Proper impossable period",
         "video": false,
         "vote_average": 7.2,
@@ -14687,7 +14687,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will cover the determinate and indeterminate nature of penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/YQ7tuJbdA-E.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "5. Penalty - Determinate and indeterminate",
         "video": false,
         "vote_average": 7.2,
@@ -14716,7 +14716,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some bar exam questions and provide answers in relation to Penalties.",
         "popularity": 2590.24,
         "poster_path": "/images/A7gA1UlZAfI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "6. Penalty - Bar answer",
         "video": false,
         "vote_average": 8.2,
@@ -14736,7 +14736,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video examine the incremental penalties under the revised penal code.",
         "popularity": 1617.893,
         "poster_path": "/images/j7bToxEqzOc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "7. Penalty - Incremental Penalties",
         "video": false,
         "vote_average": 8,
@@ -14756,7 +14756,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will cover the special laws for BAR 2024.",
         "popularity": 1595.817,
         "poster_path": "/images/PAXuhjw-PK8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "8. Penalty - Special laws",
         "video": false,
         "vote_average": 7.2,
@@ -14783,7 +14783,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 2590.24,
         "poster_path": "/images/F3oJ7HBs_IQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Prescription Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -14801,7 +14801,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1617.893,
         "poster_path": "/images/fQ1ocEnHBlE.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Prescription Lecture 2",
         "video": false,
         "vote_average": 8,
@@ -14819,7 +14819,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/bOsHaXKVDoU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Prescription Lecture 3",
         "video": false,
         "vote_average": 7.2,
@@ -14836,7 +14836,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas related to Prescription of Crime and/or Penalties.",
         "popularity": 1595.817,
         "poster_path": "/images/iI6KcEPEyYU.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Prescription Lecture 4",
         "video": false,
         "vote_average": 7.2,
@@ -14863,7 +14863,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine some updates related to Theft and estafa.",
       "popularity": 2590.24,
       "poster_path": "/images/t9mcag14l8Y.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal -  Updates on theft and estafa",
       "video": false,
       "vote_average": 8.2,
@@ -14881,7 +14881,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine some updates related to RA 9262.",
       "popularity": 1617.893,
       "poster_path": "/images/9uHBn0FkWE8.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal - RA No  9262  - updated",
       "video": false,
       "vote_average": 8,
@@ -14899,7 +14899,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine Penal Code related to Article 4",
       "popularity": 1595.817,
       "poster_path": "/images/2vXC7_WBp5M.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
       "video": false,
       "vote_average": 7.2,
@@ -14926,7 +14926,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine some updates related to Theft and estafa.",
       "popularity": 2590.24,
       "poster_path": "/images/t9mcag14l8Y.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal - Updates on theft and estafa.",
       "video": false,
       "vote_average": 8.2,
@@ -14944,7 +14944,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine some updates related to RA 9262.",
       "popularity": 1617.893,
       "poster_path": "/images/9uHBn0FkWE8.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal - RA No  9262  - updated",
       "video": false,
       "vote_average": 8,
@@ -14962,7 +14962,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine Penal Code related to Article 4",
       "popularity": 1595.817,
       "poster_path": "/images/2vXC7_WBp5M.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
       "video": false,
       "vote_average": 7.2,
@@ -14989,7 +14989,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/-54KQjFtYl4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Criminal - Article 3 - Felony",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -15007,7 +15007,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/ycJKZK99HkY.jpg",
-		  "release_date": "2023-10-25",
+		  "release_date": "2024-10-25",
 		  "title": "Criminal - Article 100 - 111",
 		  "video": false,
 		  "vote_average": 8,
@@ -15025,7 +15025,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/FSLbfCIBVqM.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Parole, probation, community service, suspension of sentence",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15043,7 +15043,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/t7RsdHcaryU.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 89B - Marriage, amnesty, pardon",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15061,7 +15061,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/hK-O9hsIcgQ.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 89D - Prescription",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15088,7 +15088,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_8kyYShqRuU.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Article 89A - mode of extingushing criminal liability",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -15106,7 +15106,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/r-pO3xcqX30.jpg",
-		  "release_date": "2023-10-25",
+		  "release_date": "2024-10-25",
 		  "title": "Article 1 - General principles, Generality",
 		  "video": false,
 		  "vote_average": 8,
@@ -15124,7 +15124,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine criminal law.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/9CD3b1CQSUo.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Sexual abuse and felony",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15142,7 +15142,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/fZjH4pGse2k.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Direct assault, resistance",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15160,7 +15160,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine Penal Codes.",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/iJpauPVdS9g.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal - Article 2 - Territoriality",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -15189,7 +15189,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 2590.24,
         "poster_path": "/images/EXfb36fiwxI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -15209,7 +15209,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 1617.893,
         "poster_path": "/images/MenyROkhDp4.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8,
@@ -15238,7 +15238,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
         "popularity": 2590.24,
         "poster_path": "/images/O10N6fFIzz4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - II  Human Relations & III  PFR A E",
         "video": false,
         "vote_average": 8.2,
@@ -15258,7 +15258,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
         "popularity": 1617.893,
         "poster_path": "/images/sh7IVU9jVpI.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
         "video": false,
         "vote_average": 8,
@@ -15277,7 +15277,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas on Wills and Succession.",
         "popularity": 2590.24,
         "poster_path": "/images/xG7ZB_mHMng.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VII  Wills & Succession C D",
         "video": false,
         "vote_average": 8.2,
@@ -15297,7 +15297,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas on contracts real, consensual and defective.",
         "popularity": 1617.893,
         "poster_path": "/images/mXp4a_4baPs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
         "video": false,
         "vote_average": 8,
@@ -15326,7 +15326,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
         "popularity": 2590.24,
         "poster_path": "/images/YQ-3NE_arfY.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
         "video": false,
         "vote_average": 8.2,
@@ -15346,7 +15346,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Lease",
         "popularity": 1617.893,
         "poster_path": "/images/fTRzrMaE9mo.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - X  Contract of Lease",
         "video": false,
         "vote_average": 8,
@@ -15366,7 +15366,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Agency",
         "popularity": 1617.893,
         "poster_path": "/images/ZZw2IdeDMMU.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - XI  Agency",
         "video": false,
         "vote_average": 8,
@@ -15395,7 +15395,7 @@ router.get('/discover/tv', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
           "popularity": 2590.24,
           "poster_path": "/images/yaQGkD3vcIU.jpg",
-          "release_date": "2023-07-19",
+          "release_date": "2024-07-19",
           "title": "Civil - IV  Property, Ownership and its Modifications",
           "video": false,
           "vote_average": 8.2,
@@ -15415,7 +15415,7 @@ router.get('/discover/tv', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
           "popularity": 1617.893,
           "poster_path": "/images/dwnS0VXvSok.jpg",
-          "release_date": "2023-10-25",
+          "release_date": "2024-10-25",
           "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
           "video": false,
           "vote_average": 8,
@@ -15444,7 +15444,7 @@ router.get('/discover/tv', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
             "popularity": 2590.24,
             "poster_path": "/images/cnBkf005gUs.jpg",
-            "release_date": "2023-07-19",
+            "release_date": "2024-07-19",
             "title": "Civil - VI  Land Titles and Deeds",
             "video": false,
             "vote_average": 8.2,
@@ -15464,7 +15464,7 @@ router.get('/discover/tv', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
             "popularity": 1617.893,
             "poster_path": "/images/VmzWSYcJkm8.jpg",
-            "release_date": "2023-10-25",
+            "release_date": "2024-10-25",
             "title": "Civil - V  Modes of Acquiring Ownership",
             "video": false,
             "vote_average": 8,
@@ -15493,7 +15493,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Torts and Damages.",
               "popularity": 2590.24,
               "poster_path": "/images/Y38I5NIaITA.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - XV  Torts and Damages",
               "video": false,
               "vote_average": 8.2,
@@ -15511,7 +15511,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PuOoufiLlzA.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
               "video": false,
               "vote_average": 8,
@@ -15531,7 +15531,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PTl_jst8JUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - VIII  Obligations and Contracts",
               "video": false,
               "vote_average": 8,
@@ -15551,7 +15551,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/__9Pa7YBsh4.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   VII  Wills and Succession",
               "video": false,
               "vote_average": 8,
@@ -15580,7 +15580,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on family relations.",
               "popularity": 2590.24,
               "poster_path": "/images/affW-8nz0aY.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
               "video": false,
               "vote_average": 8.2,
@@ -15598,7 +15598,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on intestate succession.",
               "popularity": 1617.893,
               "poster_path": "/images/lFFzzFW_Acw.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
               "video": false,
               "vote_average": 8,
@@ -15618,7 +15618,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on intestate succession.",
               "popularity": 1617.893,
               "poster_path": "/images/DabiaISjmRw.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
               "video": false,
               "vote_average": 8,
@@ -15638,7 +15638,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/T-DCCrLrqeM.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   Atty  Judy Lardizabal - Succession Part 1",
               "video": false,
               "vote_average": 8,
@@ -15658,7 +15658,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/_OlLCWcLobE.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil   Atty  Judy Lardizabal - Succession Part 2",
               "video": false,
               "vote_average": 8,
@@ -15686,7 +15686,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/k3CyDk-_L38.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 3",
               "video": false,
               "vote_average": 8.2,
@@ -15705,7 +15705,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/FyJbGyx-fdk.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 4",
               "video": false,
               "vote_average": 8.2,
@@ -15724,7 +15724,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/BpcLvTNIRJ8.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 5",
               "video": false,
               "vote_average": 8.2,
@@ -15743,7 +15743,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on succession.",
               "popularity": 2590.24,
               "poster_path": "/images/D2RWYppjcaQ.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Succession Part 6",
               "video": false,
               "vote_average": 8.2,
@@ -15762,7 +15762,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Contracts to Estoppel.",
               "popularity": 2590.24,
               "poster_path": "/images/WLb5_hleb1E.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Contracts to Estoppel",
               "video": false,
               "vote_average": 8.2,
@@ -15790,7 +15790,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Obligation with Penal Caluse until Novation.",
               "popularity": 2590.24,
               "poster_path": "/images/alxLHxzJlpI.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
               "video": false,
               "vote_average": 8.2,
@@ -15820,7 +15820,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 2590.24,
               "poster_path": "/images/MgtyVuhlVmk.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
               "video": false,
               "vote_average": 8.2,
@@ -15838,7 +15838,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/k4XsBwcSD6g.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
               "video": false,
               "vote_average": 8,
@@ -15858,7 +15858,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/AAqZqUoFQhE.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
               "video": false,
               "vote_average": 8,
@@ -15878,7 +15878,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/EBDKrdexjUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
               "video": false,
               "vote_average": 8,
@@ -15898,7 +15898,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/oPTINv11Bgc.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
               "video": false,
               "vote_average": 8,
@@ -15927,7 +15927,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 2590.24,
               "poster_path": "/images/X-9uyrDeVhc.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
               "video": false,
               "vote_average": 8.2,
@@ -15956,7 +15956,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -15975,7 +15975,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -16004,7 +16004,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16023,7 +16023,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16042,7 +16042,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16061,7 +16061,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16090,7 +16090,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16109,7 +16109,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16128,7 +16128,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16147,7 +16147,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the Insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/9000388804.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Atty. Erickson Balmes - Insurance Law Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16176,7 +16176,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16195,7 +16195,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16224,7 +16224,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/cTYP4hIXopo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16243,7 +16243,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/FR85N2MQLcA.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16262,7 +16262,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/jLgujIB9iw8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16281,7 +16281,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S6LFFjYqkz8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16300,7 +16300,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16329,7 +16329,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/-1TgE7YO3m4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16348,7 +16348,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NowBQY-RUHw.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16367,7 +16367,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G_J-37-Q5NY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16386,7 +16386,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/WiLwupbf3EY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16405,7 +16405,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/giLxoOeRiUM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16435,7 +16435,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16454,7 +16454,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G05FvD2q6Tg.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16473,7 +16473,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dawRbwbuMRI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16492,7 +16492,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/LI8m7wY0MHI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16511,7 +16511,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/tyEv7ADtDJs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16540,7 +16540,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/RSY0ISn1BnM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16559,7 +16559,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NFZsXWP8Nec.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16578,7 +16578,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/XXUxHrex30E.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -16607,7 +16607,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/yZAv5u72r2E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -16626,7 +16626,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/x7YFlRd2a44.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
@@ -16644,7 +16644,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
@@ -16672,7 +16672,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -16691,7 +16691,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/m1_rMY84MmM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
@@ -16709,7 +16709,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
@@ -16737,7 +16737,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -16756,7 +16756,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 8",
         "video": false,
         "vote_average": 8,
@@ -16774,7 +16774,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
@@ -16802,7 +16802,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -16821,7 +16821,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 11",
         "video": false,
         "vote_average": 8,
@@ -16839,7 +16839,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
@@ -16867,7 +16867,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -16885,7 +16885,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/0bwDDCapiHo.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Judicial Ethics - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -16903,7 +16903,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Zg6Tv0ms07w.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Bar Techniques - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -16931,7 +16931,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/_B8AHMSt5UQ.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Issue Spotting Lecture",
     "video": false,
     "vote_average": 8.2,
@@ -16949,7 +16949,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/n6SLDo7EG70.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
@@ -16967,7 +16967,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/KrekzhLoc50.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Lecture on Citizenship",
     "video": false,
     "vote_average": 8.2,
@@ -16985,7 +16985,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/THvJNJOm29A.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -17003,7 +17003,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/QF1fczh7QYc.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -17031,7 +17031,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of recent Jurisprudence by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/zU7cgUF0xz4.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Recent Jurisprudence",
 		"video": false,
 		"vote_average": 8.2,
@@ -17049,7 +17049,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of legal ethics by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/BJZAay2hkwQ.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Legal Ethics",
 		"video": false,
 		"vote_average": 8.2,
@@ -17067,7 +17067,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of administrative law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/U7TknxKzOg0.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Administrative Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -17085,7 +17085,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the discussion of election law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/e9y4bjgADT8.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Election Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -17112,7 +17112,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jUMsFRd88nk.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -17129,7 +17129,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/a3CrgjgewzM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -17146,7 +17146,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VVe84yFKufI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -17163,7 +17163,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/gn7wP3-fW3k.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -17180,7 +17180,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VGgvIe9oJ7I.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -17207,7 +17207,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/FTNMh7zuIfQ.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -17224,7 +17224,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/64083E1DZB8.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -17241,7 +17241,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/9-cyKov40qs.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -17258,7 +17258,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jWMbp4nLX2Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -17275,7 +17275,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YOCFJBTH8ow.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -17302,7 +17302,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YwdIjkrX9VA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -17319,7 +17319,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/3ULtS_Yvy1s.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
         "video": false,
         "vote_average": 8.2,
@@ -17336,7 +17336,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/G_P6156KqtI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Business Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -17353,7 +17353,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/zrzw43G7hks.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Value Added Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -17370,7 +17370,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/11wCwLulE0Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Transfer Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -17397,7 +17397,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/niw2zJ6dpt4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Estate Tax",
         "video": false,
         "vote_average": 8.2,
@@ -17414,7 +17414,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/eh7To1r-Fto.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Tax Remedies",
         "video": false,
         "vote_average": 8.2,
@@ -17442,7 +17442,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/x6u4tPIh1rI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -17460,7 +17460,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/FWLRc0RZV-U.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -17478,7 +17478,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/rIqK_jmErQ4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -17496,7 +17496,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-DXDjIpq-Hw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -17514,7 +17514,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/bYLFI22hTpk.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -17542,7 +17542,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/NQswbDmGFao.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -17560,7 +17560,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_fodt-KEoE8.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -17578,7 +17578,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/lIOlCXMqrsY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -17596,7 +17596,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-nzolRL3mUU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -17614,7 +17614,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/xpwW2tuGscM.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -17642,7 +17642,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/0ETrqZvVIXI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -17660,7 +17660,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/qwa69J-fMSE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 12",
         "video": false,
         "vote_average": 8.2,
@@ -17678,7 +17678,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_Wq8APMRYTE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -17696,7 +17696,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/YS3Dzjifkfg.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 14",
         "video": false,
         "vote_average": 8.2,
@@ -17714,7 +17714,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/hfn63P_LBMQ.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 15",
         "video": false,
         "vote_average": 8.2,
@@ -17742,7 +17742,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/38LRH0_q6Vc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 16",
         "video": false,
         "vote_average": 8.2,
@@ -17760,7 +17760,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aXj4lbWJCdU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 17",
         "video": false,
         "vote_average": 8.2,
@@ -17778,7 +17778,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BscFXg4BP4s.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 18",
         "video": false,
         "vote_average": 8.2,
@@ -17796,7 +17796,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aBVb5P6aHHs.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 19",
         "video": false,
         "vote_average": 8.2,
@@ -17814,7 +17814,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BV3_HcrL1IA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 20",
         "video": false,
         "vote_average": 8.2,
@@ -17842,7 +17842,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/Q-w10udOpgA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 21",
         "video": false,
         "vote_average": 8.2,
@@ -17860,7 +17860,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/6480yEZoyyc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 22",
         "video": false,
         "vote_average": 8.2,
@@ -17878,7 +17878,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/d0Ki-rME5cU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 23",
         "video": false,
         "vote_average": 8.2,
@@ -17896,7 +17896,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dJu4An3iIs4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 24",
         "video": false,
         "vote_average": 8.2,
@@ -17914,7 +17914,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dQkPq7nhHlc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 25",
         "video": false,
         "vote_average": 8.2,
@@ -17942,7 +17942,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/CGi7WTZXQKE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -17960,7 +17960,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/PDWxyvacR98.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 27",
         "video": false,
         "vote_average": 8.2,
@@ -17988,7 +17988,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/NFBO0--nPMw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -18006,7 +18006,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/371pb5aIGbY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -18034,7 +18034,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/SW0S3KEnVtE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -18052,7 +18052,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/yQUeh7axZgw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -18070,7 +18070,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/Zf86PrDg2XU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -18088,7 +18088,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/TU2j0Kx5mm0.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "video": false,
         "vote_average": 8.2,
@@ -18116,7 +18116,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/thXVs5LxU_w.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 5.",
       "video": false,
       "vote_average": 8.2,
@@ -18134,7 +18134,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/2_cmTi_IqKc.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 6",
       "video": false,
       "vote_average": 8.2,
@@ -18152,7 +18152,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/G91cW--5NZA.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 7",
       "video": false,
       "vote_average": 8.2,
@@ -18170,7 +18170,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/E9MS8ebzUBk.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 8",
       "video": false,
       "vote_average": 8.2,
@@ -18188,7 +18188,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
       "popularity": 2590.24,
       "poster_path": "/images/Jpx4aPo9Dww.jpg",
-      "release_date": "2023-12-30",
+      "release_date": "2024-12-30",
       "title": "Remedial - Dean Salvador Moya III - Part 0",
       "video": false,
       "vote_average": 8.2,
@@ -18215,7 +18215,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 2590.24,
       "poster_path": "/images/lLDfz8MLhDo.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal - Judge Campanilla - Article 14, 15 Aggravating and alternative circumstances",
       "video": false,
       "vote_average": 8.2,
@@ -18233,7 +18233,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1617.893,
       "poster_path": "/images/ywvq08jokdM.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal  - Judge Campanilla - Article 15 20 conspiracy, proposal, principal, accomplice & accessory",
       "video": false,
       "vote_average": 8,
@@ -18251,7 +18251,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/kDhmh7azOEc.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Judge Campanilla - Article 89   community service, suspension of sentence",
       "video": false,
       "vote_average": 7.2,
@@ -18269,7 +18269,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/7blyu0gYRD4.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Judge Campanilla - Article 89   Mode of extingushing criminal liability",
       "video": false,
       "vote_average": 7.2,
@@ -18287,7 +18287,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/iJpauPVdS9g.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Judge Campanilla  - Article 2 - Territoriality",
       "video": false,
       "vote_average": 7.2,
@@ -18314,7 +18314,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 2590.24,
       "poster_path": "/images/ZjZIsN14U4Q.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Criminal - Judge Campanilla - Article 89   Pardon, amnesty, parole, probation",
       "video": false,
       "vote_average": 8.2,
@@ -18332,7 +18332,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1617.893,
       "poster_path": "/images/9ZH-wfowScw.jpg",
-      "release_date": "2023-10-25",
+      "release_date": "2024-10-25",
       "title": "Criminal - Judge Campanilla mala in se and prohibita Art 11 12 Justifiying and exempting",
       "video": false,
       "vote_average": 8,
@@ -18350,7 +18350,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/8UIn8GgCPrI.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal   Judge Campanilla - Plurality of crimes Delito continuado, single criminal impulse",
       "video": false,
       "vote_average": 7.2,
@@ -18368,7 +18368,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/fWipLfs4dLc.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal - Judge Campanilla -  Plurality of crimes 2   special complex crime",
       "video": false,
       "vote_average": 7.2,
@@ -18386,7 +18386,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the criminal law of the Philippines",
       "popularity": 1595.817,
       "poster_path": "/images/5VgR2GVt1XA.jpg",
-      "release_date": "2023-09-27",
+      "release_date": "2024-09-27",
       "title": "Criminal   Judge Campanilla - Theories, nullum crimen, pro reo, limitations, territoriality, general",
       "video": false,
       "vote_average": 7.2,
@@ -18413,7 +18413,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the criminal law of the Philippines",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/D_ukpdotfmA.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Criminal  - Judge Campanilla  - UP UPDATE ",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -18431,7 +18431,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the criminal law of the Philippines",
 		  "popularity": 1617.893,
 		  "poster_path": "/images/XzJYzfO_7y8.jpg",
-		  "release_date": "2023-10-25",
+		  "release_date": "2024-10-25",
 		  "title": "Criminal  - Judge Campanilla  - UP Update - RA No 9262",
 		  "video": false,
 		  "vote_average": 8,
@@ -18449,7 +18449,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the criminal law of the Philippines",
 		  "popularity": 1595.817,
 		  "poster_path": "/images/yn3FEYSdK8o.jpg",
-		  "release_date": "2023-09-27",
+		  "release_date": "2024-09-27",
 		  "title": "Criminal  - Judge Campanilla  - UP UPDATE - Theft and Estafa",
 		  "video": false,
 		  "vote_average": 7.2,
@@ -18478,7 +18478,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 2590.24,
         "poster_path": "/images/EXfb36fiwxI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8.2,
@@ -18498,7 +18498,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Sales",
         "popularity": 1617.893,
         "poster_path": "/images/MenyROkhDp4.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - Sales Lecture Part 2",
         "video": false,
         "vote_average": 8,
@@ -18527,7 +18527,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Human Relations & Persons and Family Relations.",
         "popularity": 2590.24,
         "poster_path": "/images/O10N6fFIzz4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - II  Human Relations & III  PFR A E",
         "video": false,
         "vote_average": 8.2,
@@ -18547,7 +18547,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Persons and Family Relations.",
         "popularity": 1617.893,
         "poster_path": "/images/sh7IVU9jVpI.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - III  Persons and Family Relations Marriage to  Legal Separation",
         "video": false,
         "vote_average": 8,
@@ -18566,7 +18566,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas on Wills and Succession.",
         "popularity": 2590.24,
         "poster_path": "/images/xG7ZB_mHMng.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VII  Wills & Succession C D",
         "video": false,
         "vote_average": 8.2,
@@ -18586,7 +18586,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas on contracts real, consensual and defective.",
         "popularity": 1617.893,
         "poster_path": "/images/mXp4a_4baPs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
         "video": false,
         "vote_average": 8,
@@ -18615,7 +18615,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Principles of Contracts.",
         "popularity": 2590.24,
         "poster_path": "/images/YQ-3NE_arfY.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
         "video": false,
         "vote_average": 8.2,
@@ -18635,7 +18635,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Lease",
         "popularity": 1617.893,
         "poster_path": "/images/fTRzrMaE9mo.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - X  Contract of Lease",
         "video": false,
         "vote_average": 8,
@@ -18655,7 +18655,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The video will examine some areas and pointers on the Law of Agency",
         "popularity": 1617.893,
         "poster_path": "/images/ZZw2IdeDMMU.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Civil - XI  Agency",
         "video": false,
         "vote_average": 8,
@@ -18684,7 +18684,7 @@ router.get('/discover/tv', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Property, Ownership and its Modifications.",
           "popularity": 2590.24,
           "poster_path": "/images/yaQGkD3vcIU.jpg",
-          "release_date": "2023-07-19",
+          "release_date": "2024-07-19",
           "title": "Civil - IV  Property, Ownership and its Modifications",
           "video": false,
           "vote_average": 8.2,
@@ -18704,7 +18704,7 @@ router.get('/discover/tv', function(req, res, next) {
           "overview": "The video will examine some areas and pointers on Effects and Application of Laws; Human Relations",
           "popularity": 1617.893,
           "poster_path": "/images/dwnS0VXvSok.jpg",
-          "release_date": "2023-10-25",
+          "release_date": "2024-10-25",
           "title": "Civil - I  - II  Effects and Application of Laws; Human Relations",
           "video": false,
           "vote_average": 8,
@@ -18733,7 +18733,7 @@ router.get('/discover/tv', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Land Titles and Deeds.",
             "popularity": 2590.24,
             "poster_path": "/images/cnBkf005gUs.jpg",
-            "release_date": "2023-07-19",
+            "release_date": "2024-07-19",
             "title": "Civil - VI  Land Titles and Deeds",
             "video": false,
             "vote_average": 8.2,
@@ -18753,7 +18753,7 @@ router.get('/discover/tv', function(req, res, next) {
             "overview": "The video will examine some areas and pointers on Modes of Acquiring Ownership.",
             "popularity": 1617.893,
             "poster_path": "/images/VmzWSYcJkm8.jpg",
-            "release_date": "2023-10-25",
+            "release_date": "2024-10-25",
             "title": "Civil - V  Modes of Acquiring Ownership",
             "video": false,
             "vote_average": 8,
@@ -18782,7 +18782,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Torts and Damages.",
               "popularity": 2590.24,
               "poster_path": "/images/Y38I5NIaITA.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - XV  Torts and Damages",
               "video": false,
               "vote_average": 8.2,
@@ -18800,7 +18800,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Cred Transactions;  Compromise Agreement; Quasi Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PuOoufiLlzA.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
               "video": false,
               "vote_average": 8,
@@ -18820,7 +18820,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Obligations and Contracts.",
               "popularity": 1617.893,
               "poster_path": "/images/PTl_jst8JUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - VIII  Obligations and Contracts",
               "video": false,
               "vote_average": 8,
@@ -18840,7 +18840,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Succession.",
               "popularity": 1617.893,
               "poster_path": "/images/__9Pa7YBsh4.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - VII - Wills and Succession",
               "video": false,
               "vote_average": 8,
@@ -18869,7 +18869,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 2590.24,
               "poster_path": "/images/MgtyVuhlVmk.jpg",
-              "release_date": "2023-07-19",
+              "release_date": "2024-07-19",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
               "video": false,
               "vote_average": 8.2,
@@ -18887,7 +18887,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/k4XsBwcSD6g.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
               "video": false,
               "vote_average": 8,
@@ -18907,7 +18907,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/AAqZqUoFQhE.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
               "video": false,
               "vote_average": 8,
@@ -18927,7 +18927,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/EBDKrdexjUs.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
               "video": false,
               "vote_average": 8,
@@ -18947,7 +18947,7 @@ router.get('/discover/tv', function(req, res, next) {
               "overview": "The video will examine some areas and pointers on Civil Lecture by Dean Myra Gallardo-Batungbakal.",
               "popularity": 1617.893,
               "poster_path": "/images/oPTINv11Bgc.jpg",
-              "release_date": "2023-10-25",
+              "release_date": "2024-10-25",
               "title": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
               "video": false,
               "vote_average": 8,
@@ -18976,7 +18976,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the new Law of Corporation.",
       "popularity": 2590.24,
       "poster_path": "/images/pclRwzhkLr8.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - New Corporation Law (6 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -18995,7 +18995,7 @@ router.get('/discover/tv', function(req, res, next) {
       "overview": "The video will examine the Law of Partnership.",
       "popularity": 2590.24,
       "poster_path": "/images/zxzIXXrN2HA.jpg",
-      "release_date": "2023-07-19",
+      "release_date": "2024-07-19",
       "title": "Commercial - Partnership (2.5 hours)",
       "video": false,
       "vote_average": 8.2,
@@ -19024,7 +19024,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/6ZywHeXopT0.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19043,7 +19043,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/_DeM5rTjbH4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19062,7 +19062,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the new Banking Laws.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/mZM3zjC4CaY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - New Banking Laws - 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19081,7 +19081,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the data privacy act.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/HgWpFD-sUGQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Data Privacy",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19110,7 +19110,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S3rm1bS_dmk.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19129,7 +19129,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/v1uO5NkPWZo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19148,7 +19148,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the transportation law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Transportation Law - Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19167,7 +19167,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the Insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dOb_IMrQc4Y.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 1",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19196,7 +19196,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/bGcxeZgQ3iI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 2",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19215,7 +19215,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/iER1uMYurn0.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 3",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19234,7 +19234,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/cqJKyvITEas.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 4",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19253,7 +19253,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "The video will examine the insurance law.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/tz_4LBJTOHM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Commercial - Insurance Law - Part 5",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19282,7 +19282,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Legal Ethics - Dean Cecilio Duka",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/3btVXDa4nUU.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Legal Ethics - Dean Cecilio Duka",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19311,7 +19311,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Taxation - Atty. Virginia Lim.",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/urYZP9jhhrE.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Taxation - Atty. Virginia Lim.",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19330,7 +19330,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/eSDJ9f2RZWs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Taxation - Atty. Virginia Lim. - Part II",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19359,7 +19359,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part I",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/09YESrF7qHw.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part I",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19378,7 +19378,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part II",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/8haZj43R0-A.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part II",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19397,7 +19397,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Criminal - Judge Campanilla - Part III",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/Se8gMPHLAwE.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Criminal - Judge Campanilla - Part III",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19427,7 +19427,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/cTYP4hIXopo.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19446,7 +19446,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/FR85N2MQLcA.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19465,7 +19465,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/jLgujIB9iw8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19484,7 +19484,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/S6LFFjYqkz8.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19503,7 +19503,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/Gl2r-pVQZIs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19532,7 +19532,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/-1TgE7YO3m4.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19551,7 +19551,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NowBQY-RUHw.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19570,7 +19570,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G_J-37-Q5NY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19589,7 +19589,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/WiLwupbf3EY.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19608,7 +19608,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/giLxoOeRiUM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19638,7 +19638,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/ZCZS9pLNygQ.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19657,7 +19657,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/G05FvD2q6Tg.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19676,7 +19676,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/dawRbwbuMRI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19695,7 +19695,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/LI8m7wY0MHI.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19714,7 +19714,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/tyEv7ADtDJs.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19743,7 +19743,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/RSY0ISn1BnM.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19762,7 +19762,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/NFZsXWP8Nec.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19781,7 +19781,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "overview": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "popularity": 2590.24,
 		  "poster_path": "/images/XXUxHrex30E.jpg",
-		  "release_date": "2023-07-19",
+		  "release_date": "2024-07-19",
 		  "title": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
 		  "video": false,
 		  "vote_average": 8.2,
@@ -19810,7 +19810,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the first part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/yZAv5u72r2E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -19829,7 +19829,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the second part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/x7YFlRd2a44.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 2",
         "video": false,
         "vote_average": 8,
@@ -19847,7 +19847,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the third part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/9wdgsK5gBN0.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 3",
         "video": false,
         "vote_average": 7.2,
@@ -19875,7 +19875,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fourth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/aIKEU6YktdA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -19894,7 +19894,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fifth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/m1_rMY84MmM.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 5",
         "video": false,
         "vote_average": 8,
@@ -19912,7 +19912,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the sixth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/Ckd2JrSXI9A.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 6",
         "video": false,
         "vote_average": 7.2,
@@ -19940,7 +19940,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the seventh part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Vi6lV7KAi7M.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -19959,7 +19959,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the eighth part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/CiaiqmGR3Bs.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 8",
         "video": false,
         "vote_average": 8,
@@ -19977,7 +19977,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the ninth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/7QUIPi5-yF8.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 9",
         "video": false,
         "vote_average": 7.2,
@@ -20005,7 +20005,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the tenth part of Political Law by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/kxwEc2oi8-E.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -20024,7 +20024,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the eleventh part of Political Law by Dean Loanzon.",
         "popularity": 1617.893,
         "poster_path": "/images/NhaoeTyNLkc.jpg",
-        "release_date": "2023-10-25",
+        "release_date": "2024-10-25",
         "title": "Political Dean Loanzon Lecture 11",
         "video": false,
         "vote_average": 8,
@@ -20042,7 +20042,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the twelfth part of Political Law by Dean Loanzon.",
         "popularity": 1595.817,
         "poster_path": "/images/FOc_FnSXp6U.jpg",
-        "release_date": "2023-09-27",
+        "release_date": "2024-09-27",
         "title": "Political Dean Loanzon Lecture 12",
         "video": false,
         "vote_average": 7.2,
@@ -20070,7 +20070,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/q8kQ3KriJL8.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Political Dean Loanzon Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -20088,7 +20088,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the judicial ethics by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/0bwDDCapiHo.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Judicial Ethics - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -20106,7 +20106,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the Bar Techniques by Atty. Loanzon.",
         "popularity": 2590.24,
         "poster_path": "/images/Zg6Tv0ms07w.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Judicial Ethics - Atty. Loanzon Lecture",
         "video": false,
         "vote_average": 8.2,
@@ -20134,7 +20134,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on the fundamentals of local government by Dean Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/_B8AHMSt5UQ.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Issue Spotting Lecture",
     "video": false,
     "vote_average": 8.2,
@@ -20152,7 +20152,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on the Judicial ethics by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/n6SLDo7EG70.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
@@ -20170,7 +20170,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Citizenship by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/KrekzhLoc50.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon - Plain English Bar",
     "video": false,
     "vote_average": 8.2,
@@ -20188,7 +20188,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/THvJNJOm29A.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part I Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -20206,7 +20206,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Recent Jurisprudence in Political and Public International Law by Atty. Loanzon.",
     "popularity": 2590.24,
     "poster_path": "/images/QF1fczh7QYc.jpg",
-    "release_date": "2023-07-19",
+    "release_date": "2024-07-19",
     "title": "Political Dean Loanzon -Part II Recent Jurisprudence in Political and Public International Law",
     "video": false,
     "vote_average": 8.2,
@@ -20234,7 +20234,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on recent jurisprudence by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/zU7cgUF0xz4.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Recent Jurisprudence",
 		"video": false,
 		"vote_average": 8.2,
@@ -20252,7 +20252,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/BJZAay2hkwQ.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Legal Ethics",
 		"video": false,
 		"vote_average": 8.2,
@@ -20270,7 +20270,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the Administrative law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/U7TknxKzOg0.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Administrative Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -20288,7 +20288,7 @@ router.get('/discover/tv', function(req, res, next) {
 		"overview": "The discussion will focus on the Election law by Dean Loanzon.",
 		"popularity": 2590.24,
 		"poster_path": "/images/e9y4bjgADT8.jpg",
-		"release_date": "2023-07-19",
+		"release_date": "2024-07-19",
 		"title": "Political Dean Loanzon - Election Law",
 		"video": false,
 		"vote_average": 8.2,
@@ -20316,7 +20316,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jUMsFRd88nk.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -20334,7 +20334,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/a3CrgjgewzM.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -20352,7 +20352,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VVe84yFKufI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -20370,7 +20370,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/gn7wP3-fW3k.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -20388,7 +20388,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on the fundamentals of Taxation by Atty Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/VGgvIe9oJ7I.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -20416,7 +20416,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/FTNMh7zuIfQ.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Taxation Atty. Lim - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -20434,7 +20434,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/64083E1DZB8.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Taxation Atty. Lim - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -20452,7 +20452,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/9-cyKov40qs.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Taxation Atty. Lim - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -20470,7 +20470,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/jWMbp4nLX2Y.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Taxation Atty. Lim - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -20488,7 +20488,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Law by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YOCFJBTH8ow.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Taxation Atty. Lim - Lecture 10ss",
         "video": false,
         "vote_average": 8.2,
@@ -20515,7 +20515,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/YwdIjkrX9VA.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -20532,7 +20532,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/3ULtS_Yvy1s.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Corporate Income Taxes + Create Law",
         "video": false,
         "vote_average": 8.2,
@@ -20549,7 +20549,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/G_P6156KqtI.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Business Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -20566,7 +20566,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/zrzw43G7hks",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Value Added Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -20583,7 +20583,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/11wCwLulE0Y.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Transfer Taxes",
         "video": false,
         "vote_average": 8.2,
@@ -20610,7 +20610,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/niw2zJ6dpt4.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Estate Tax",
         "video": false,
         "vote_average": 8.2,
@@ -20627,7 +20627,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Taxation Laws by Atty. Virginia Lim.",
         "popularity": 2590.24,
         "poster_path": "/images/eh7To1r-Fto.jpg",
-        "release_date": "2023-07-19",
+        "release_date": "2024-07-19",
         "title": "Taxation Atty. Lim - Tax Remedies",
         "video": false,
         "vote_average": 8.2,
@@ -20655,7 +20655,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/x6u4tPIh1rI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 1",
         "video": false,
         "vote_average": 8.2,
@@ -20673,7 +20673,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/FWLRc0RZV-U.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -20691,7 +20691,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/rIqK_jmErQ4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 3",
         "video": false,
         "vote_average": 8.2,
@@ -20709,7 +20709,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-DXDjIpq-Hw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 4",
         "video": false,
         "vote_average": 8.2,
@@ -20727,7 +20727,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/bYLFI22hTpk.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 5",
         "video": false,
         "vote_average": 8.2,
@@ -20755,7 +20755,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/NQswbDmGFao.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 6",
         "video": false,
         "vote_average": 8.2,
@@ -20773,7 +20773,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_fodt-KEoE8.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 7",
         "video": false,
         "vote_average": 8.2,
@@ -20791,7 +20791,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/lIOlCXMqrsY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 8",
         "video": false,
         "vote_average": 8.2,
@@ -20809,7 +20809,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/-nzolRL3mUU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 9",
         "video": false,
         "vote_average": 8.2,
@@ -20827,7 +20827,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/xpwW2tuGscM.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 10",
         "video": false,
         "vote_average": 8.2,
@@ -20855,7 +20855,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/0ETrqZvVIXI.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 11",
         "video": false,
         "vote_average": 8.2,
@@ -20873,7 +20873,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/qwa69J-fMSE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 12",
         "video": false,
         "vote_average": 8.2,
@@ -20891,7 +20891,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/_Wq8APMRYTE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 13",
         "video": false,
         "vote_average": 8.2,
@@ -20909,7 +20909,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/YS3Dzjifkfg.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 14",
         "video": false,
         "vote_average": 8.2,
@@ -20927,7 +20927,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/hfn63P_LBMQ.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 15",
         "video": false,
         "vote_average": 8.2,
@@ -20955,7 +20955,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/38LRH0_q6Vc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 16",
         "video": false,
         "vote_average": 8.2,
@@ -20973,7 +20973,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aXj4lbWJCdU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 17",
         "video": false,
         "vote_average": 8.2,
@@ -20991,7 +20991,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BscFXg4BP4s.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 18",
         "video": false,
         "vote_average": 8.2,
@@ -21009,7 +21009,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/aBVb5P6aHHs.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 19",
         "video": false,
         "vote_average": 8.2,
@@ -21027,7 +21027,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/BV3_HcrL1IA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 20",
         "video": false,
         "vote_average": 8.2,
@@ -21055,7 +21055,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/Q-w10udOpgA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 21",
         "video": false,
         "vote_average": 8.2,
@@ -21073,7 +21073,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/6480yEZoyyc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 22",
         "video": false,
         "vote_average": 8.2,
@@ -21091,7 +21091,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/d0Ki-rME5cU.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 23",
         "video": false,
         "vote_average": 8.2,
@@ -21109,7 +21109,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dJu4An3iIs4.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 24",
         "video": false,
         "vote_average": 8.2,
@@ -21127,7 +21127,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/dQkPq7nhHlc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 25",
         "video": false,
         "vote_average": 8.2,
@@ -21155,7 +21155,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/CGi7WTZXQKE.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -21173,7 +21173,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Pearlito Campanilla.",
         "popularity": 2590.24,
         "poster_path": "/images/PDWxyvacR98.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 27",
         "video": false,
         "vote_average": 8.2,
@@ -21201,7 +21201,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Atty. Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/NFBO0--nPMw.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor - Atty Pearlito Campanilla - Lecture 26",
         "video": false,
         "vote_average": 8.2,
@@ -21219,7 +21219,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Labor Law by Benedict Kato.",
         "popularity": 2590.24,
         "poster_path": "/images/371pb5aIGbY.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Labor Atty. Benedict Kato Lecture 2",
         "video": false,
         "vote_average": 8.2,
@@ -21247,7 +21247,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "popularity": 2590.24,
     "poster_path": "/images/SW0S3KEnVtE.jpg",
-    "release_date": "2023-12-30",
+    "release_date": "2024-12-30",
     "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "video": false,
     "vote_average": 8.2,
@@ -21265,7 +21265,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "popularity": 2590.24,
     "poster_path": "/images/yQUeh7axZgw.jpg",
-    "release_date": "2023-12-30",
+    "release_date": "2024-12-30",
     "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "video": false,
     "vote_average": 8.2,
@@ -21283,7 +21283,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "popularity": 2590.24,
     "poster_path": "/images/Zf86PrDg2XU.jpg",
-    "release_date": "2023-12-30",
+    "release_date": "2024-12-30",
     "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "video": false,
     "vote_average": 8.2,
@@ -21301,7 +21301,7 @@ router.get('/discover/tv', function(req, res, next) {
     "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "popularity": 2590.24,
     "poster_path": "/images/TU2j0Kx5mm0.jpg",
-    "release_date": "2023-12-30",
+    "release_date": "2024-12-30",
     "title": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
     "video": false,
     "vote_average": 8.2,
@@ -21329,7 +21329,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/thXVs5LxU_w.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 5.",
         "video": false,
         "vote_average": 8.2,
@@ -21347,7 +21347,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/2_cmTi_IqKc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 6",
         "video": false,
         "vote_average": 8.2,
@@ -21365,7 +21365,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/G91cW--5NZA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 7",
         "video": false,
         "vote_average": 8.2,
@@ -21393,7 +21393,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/thXVs5LxU_w.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 5.",
         "video": false,
         "vote_average": 8.2,
@@ -21411,7 +21411,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/2_cmTi_IqKc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 6",
         "video": false,
         "vote_average": 8.2,
@@ -21429,7 +21429,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/G91cW--5NZA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 7",
         "video": false,
         "vote_average": 8.2,
@@ -21457,7 +21457,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/E9MS8ebzUBk.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 5.",
         "video": false,
         "vote_average": 8.2,
@@ -21475,7 +21475,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/2_cmTi_IqKc.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 6",
         "video": false,
         "vote_average": 8.2,
@@ -21493,7 +21493,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/G91cW--5NZA.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 7",
         "video": false,
         "vote_average": 8.2,
@@ -21511,7 +21511,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/E9MS8ebzUBk.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 8",
         "video": false,
         "vote_average": 8.2,
@@ -21529,7 +21529,7 @@ router.get('/discover/tv', function(req, res, next) {
         "overview": "The discussion will focus on Remedial Law by Dean Salvador Moya III.",
         "popularity": 2590.24,
         "poster_path": "/images/Jpx4aPo9Dww.jpg",
-        "release_date": "2023-12-30",
+        "release_date": "2024-12-30",
         "title": "Remedial - Dean Salvador Moya III - Part 9",
         "video": false,
         "vote_average": 8.2,
@@ -22290,8 +22290,8 @@ router.get('/list/:list_id', function(req, res, next) {
 router.get('/movie/now_playing', function(req, res, next) {
   res.json({
 "dates": {
-  "maximum": "2023-11-22",
-  "minimum": "2023-10-11"
+  "maximum": "2024-11-22",
+  "minimum": "2024-10-11"
 },
 "page": 1,
 "results": [
@@ -22327,8 +22327,8 @@ router.get('/movie/top_rated', function(req, res, next) {
 router.get('/movie/upcoming', function(req, res, next) {
   res.json({
 "dates": {
-  "maximum": "2023-12-13",
-  "minimum": "2023-11-22"
+  "maximum": "2024-12-13",
+  "minimum": "2024-11-22"
 },
 "page": 1,
 "results": [
@@ -22399,7 +22399,7 @@ router.get('/movie/:movie_id', function(req, res, next) {
     "name": "United Kingdom"
   }
 ],
-"release_date": "2007-04-05",
+"release_date": "2024-04-05",
 "revenue": 34806812,
 "runtime": 107,
 "spoken_languages": [
@@ -22540,7 +22540,7 @@ router.get('/movie/:movie_id/videos', function(req, res, next) {
             "size": 1080,
             "type": "Trailer",
             "official": false,
-            "published_at": "2022-08-24T13:00:27.000Z",
+            "published_at": "2024-08-24T13:00:27.000Z",
             "id": "763cf1f8ed6c3000096d5629f"
           },
           {
@@ -22552,7 +22552,7 @@ router.get('/movie/:movie_id/videos', function(req, res, next) {
             "size": 1080,
             "type": "Trailer",
             "official": false,
-            "published_at": "2022-08-24T13:00:27.000Z",
+            "published_at": "2024-08-24T13:00:27.000Z",
             "id": "863cf1f8ed6c3000096d5629f"
           },
           {
@@ -22564,7 +22564,7 @@ router.get('/movie/:movie_id/videos', function(req, res, next) {
             "size": 1080,
             "type": "Trailer",
             "official": false,
-            "published_at": "2022-08-24T13:00:27.000Z",
+            "published_at": "2024-08-24T13:00:27.000Z",
             "id": "963cf1f8ed6c3000096d5629f"
           },
           {
@@ -22576,7 +22576,7 @@ router.get('/movie/:movie_id/videos', function(req, res, next) {
             "size": 1080,
             "type": "Trailer",
             "official": false,
-            "published_at": "2022-08-24T13:00:27.000Z",
+            "published_at": "2024-08-24T13:00:27.000Z",
             "id": "1063cf1f8ed6c3000096d5629f"
           },
           {
@@ -22588,7 +22588,7 @@ router.get('/movie/:movie_id/videos', function(req, res, next) {
             "size": 1080,
             "type": "Trailer",
             "official": false,
-            "published_at": "2022-08-24T13:00:27.000Z",
+            "published_at": "2024-08-24T13:00:27.000Z",
             "id": "1163cf1f8ed6c3000096d5629f"
           }
         ]
@@ -22703,7 +22703,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "",
     "popularity": 2091.944,
     "poster_path": "/1k2Xaetf31vXEg4oAEKJzzK5aBa.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "The Justice",
     "vote_average": 7.667,
     "vote_count": 3
@@ -22743,7 +22743,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "Xu Si (Gong Jun), an investment professional who moves back to mainland China from a Hong Kong investment bank, meets Jiang Hu (Zhong Chuxi), the only daughter of the chairman of a national clothing conglomerate. Due to their differing business philosophies, the two are at odds with each other. When Jiang Hu's father's company suddenly goes bankrupt, she finds herself plummeting from the heights of success. Meanwhile, Xu Si, who has always been ambitious, sets his sights on the rubber-soled shoe brand \"Tengyue,\" which was once created by Jiang Hu's father. Determined to save \"Tengyue\" at all costs, Jiang Hu, despite her downfall, engages in a fierce battle with Xu Si.\n\nUltimately, their interactions and struggles will determine the fate of \"Tengyue\" and whether it can be revived.",
     "popularity": 1862.213,
     "poster_path": "/cZSb43j1O1pRZIwwn0fgCx5XJIP.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "Rising With the Wind",
     "vote_average": 0,
     "vote_count": 0
@@ -22763,7 +22763,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "In the reign of Emperor Taizong (627—649), which was called the Prosperity of Zhenguan, former clothing maker An is framed and imprisoned. When she was in danger, she entrusts her young daughter Liu Li to an old friend in the palace. Liu Li grows up in the palace and becomes a medical officer, responsible for epidemic prevention.",
     "popularity": 1772.978,
     "poster_path": "/96xFaFO71aYXcDEbiNd9tmWSKV9.jpg",
-    "first_air_date": "2021-01-27",
+    "first_air_date": "2024-01-27",
     "name": "Weaving a Tale of Love",
     "vote_average": 5.5,
     "vote_count": 6
@@ -22783,7 +22783,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "In this cheeky new iteration, romance meets reality as fan-favorite Islanders are faced with both team and couples' challenges, all while navigating dating, eliminations, recoupling, dramatic arrivals and new competition twists and turns like never before.",
     "popularity": 1604.52,
     "poster_path": "/1ACzNV3c4alBW7rUyo51n8uGoJw.jpg",
-    "first_air_date": "2023-11-01",
+    "first_air_date": "2024-11-01",
     "name": "Love Island Games",
     "vote_average": 10,
     "vote_count": 1
@@ -22801,7 +22801,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "",
     "popularity": 1529.448,
     "poster_path": "/ot9MBwaVWb8vJU3mrUPXSuIcxUP.jpg",
-    "first_air_date": "2023-10-15",
+    "first_air_date": "2024-10-15",
     "name": "Stardance XII ...kolem dokola",
     "vote_average": 10,
     "vote_count": 1
@@ -22824,7 +22824,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
     "popularity": 1282.049,
     "poster_path": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
-    "first_air_date": "2013-12-02",
+    "first_air_date": "2024-12-02",
     "name": "Rick and Morty",
     "vote_average": 8.701,
     "vote_count": 8776
@@ -22887,7 +22887,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "In a land where no magic is present. A land where the strong make the rules and weak have to obey. A land filled with alluring treasures and beauty, yet also filled with unforeseen danger. Three years ago, Xiao Yan, who had shown talents none had seen in decades, suddenly lost everything. His powers, his reputation, and his promise to his mother. What sorcery has caused him to lose all of his powers? And why has his fiancee suddenly shown up?",
     "popularity": 636.191,
     "poster_path": "/a9bJPlezCXF6u0siDxf7cZaSXaJ.jpg",
-    "first_air_date": "2017-01-07",
+    "first_air_date": "2024-01-07",
     "name": "Fights Break Sphere",
     "vote_average": 8.694,
     "vote_count": 36
@@ -22908,7 +22908,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question.",
     "popularity": 620.056,
     "poster_path": "/l7N9aS6VyYvjelKoCB2eZge0Qky.jpg",
-    "first_air_date": "2015-08-23",
+    "first_air_date": "2024-08-23",
     "name": "Fear the Walking Dead",
     "vote_average": 7.692,
     "vote_count": 4636
@@ -22928,7 +22928,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "Luo Yingwei used to be a staff member of the government, and passed the judicial examination by self-studying the law. However, she suffered a blow: her husband Liu Ming broke up with her, and Liu Ming owed a huge amount of usury in China, which made Luo Yingwei deeply involved in a debt crisis. But Luo Yingwei did not give up, she chose to fight back with legal means. As a newcomer to the law firm, Luo Yingwei is burdened with huge debts on one hand and faces pressure in the workplace on the other. Fortunately, she met like-minded partners - Qiu Hua and Xia Shu. They always adhere to their faith in the law and uphold justice. Together, they witness the diversity of human nature and the warmth of society through different cases.",
     "popularity": 597.726,
     "poster_path": "/oQgga07JBpi8EQtr266VLW2JYie.jpg",
-    "first_air_date": "2023-11-03",
+    "first_air_date": "2024-11-03",
     "name": "Fearless",
     "vote_average": 0,
     "vote_count": 0
@@ -22947,10 +22947,10 @@ router.get('/tv/airing_today', function(req, res, next) {
     ],
     "original_language": "cn",
     "original_name": "東張西望",
-    "overview": "Scoop is a comprehensive information programme of Television Broadcasts Limited.\n\nThe content of the program is mainly based on entertainment news and personal follow-up of the artists, and will also be interspersed with the latest trends of TVB dramas and artists. Some entertainment news content clips will be rebroadcast on the next day's \"Entertainment Live\".\n\nThis program will be broadcast on Jade Channel from 19:30-20:00 (Hong Kong time) from June 6, 2005, and will be broadcast every day from March 3, 2019, and will be broadcast on myTV (later myTV SUPER) to provide \"Program Review\".",
+    "overview": "Scoop is a comprehensive information programme of Television Broadcasts Limited.\n\nThe content of the program is mainly based on entertainment news and personal follow-up of the artists, and will also be interspersed with the latest trends of TVB dramas and artists. Some entertainment news content clips will be rebroadcast on the next day's \"Entertainment Live\".\n\nThis program will be broadcast on Jade Channel from 19:30-20:00 (Hong Kong time) from June 6, 2024, and will be broadcast every day from March 3, 2024, and will be broadcast on myTV (later myTV SUPER) to provide \"Program Review\".",
     "popularity": 436.154,
     "poster_path": "/qo6y0XvSBlKM3XCbYVdcR3a6qyQ.jpg",
-    "first_air_date": "2005-06-06",
+    "first_air_date": "2024-06-06",
     "name": "Scoop",
     "vote_average": 6.714,
     "vote_count": 14
@@ -22971,7 +22971,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "Taichu, ancient sacred tree of Xuefeng mountain, and Xinyue, the saint of Snowluo tribe, help Donglin Wang Guangye in competitions. Disputes between countries, including King Beirong, Princess Regent of Nanchu, and others. Who will dominate the Central Plains? Masters like Shangguan Zui, Meng Yilang and Yanshi Meng Ji enter the scene with cunning strategies and chess figures. What will this bring to Bo Yun's chaotic world?",
     "popularity": 426.947,
     "poster_path": "/g99KfIA4XNnoR2jq2x5Wm7xyKtw.jpg",
-    "first_air_date": "2023-11-01",
+    "first_air_date": "2024-11-01",
     "name": "Sacred Tree Has Heart",
     "vote_average": 0,
     "vote_count": 0
@@ -22992,7 +22992,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "These days, variety entertainment is gradually disappearing. It is one of Korea's representative variety entertainment shows that has been in charge of Sunday evenings for over 10 years. In this program, many stars and members play games and missions together. It is characterized by going around several places. In particular, this program focuses solely on laughter among the many fun elements of entertainment.\n\nOpen your eyes! Big fun enters!\n\nOpen your mouth!  A big smile enters!\n\nOpen your mind! Instructive lesson enters!",
     "popularity": 423.828,
     "poster_path": "/2Wmmu1MkqxJ48J7aySET9EKEjXz.jpg",
-    "first_air_date": "2010-07-11",
+    "first_air_date": "2024-07-11",
     "name": "Running Man",
     "vote_average": 8.3,
     "vote_count": 167
@@ -23013,7 +23013,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "Life is hard on the Flemings' ranch in the Alberta foothills where abused or neglected horses find refuge with a kind, hard-working family. Debts abound and the bank is about to foreclose. Can they keep the ranch running?",
     "popularity": 409.296,
     "poster_path": "/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
-    "first_air_date": "2007-10-14",
+    "first_air_date": "2024-10-14",
     "name": "Heartland",
     "vote_average": 8.286,
     "vote_count": 536
@@ -23031,7 +23031,7 @@ router.get('/tv/airing_today', function(req, res, next) {
     "overview": "The Spy Ninjas are back. The legends of the past and young heroes of the future must unite to defend their home from a threat that corrupts anything in its way. Join the Spy Ninjas on their quest to ensure their existence isn't erased from the internet.",
     "popularity": 394.713,
     "poster_path": "/eXKl6qhZMwLPYjROYjHBShv3ugq.jpg",
-    "first_air_date": "2023-11-11",
+    "first_air_date": "2024-11-11",
     "name": "Spy Ninjas: Corruption",
     "vote_average": 0,
     "vote_count": 0
@@ -23123,7 +23123,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "",
     "popularity": 2091.944,
     "poster_path": "/stAFsiKB8No9wYtNpX6yyjRgrkO.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "The Justice",
     "vote_average": 7.7,
     "vote_count": 3
@@ -23163,7 +23163,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Xu Si (Gong Jun), an investment professional who moves back to mainland China from a Hong Kong investment bank, meets Jiang Hu (Zhong Chuxi), the only daughter of the chairman of a national clothing conglomerate. Due to their differing business philosophies, the two are at odds with each other. When Jiang Hu's father's company suddenly goes bankrupt, she finds herself plummeting from the heights of success. Meanwhile, Xu Si, who has always been ambitious, sets his sights on the rubber-soled shoe brand \"Tengyue,\" which was once created by Jiang Hu's father. Determined to save \"Tengyue\" at all costs, Jiang Hu, despite her downfall, engages in a fierce battle with Xu Si.\n\nUltimately, their interactions and struggles will determine the fate of \"Tengyue\" and whether it can be revived.",
     "popularity": 1862.213,
     "poster_path": "/cZSb43j1O1pRZIwwn0fgCx5XJIP.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "Rising With the Wind",
     "vote_average": 0,
     "vote_count": 0
@@ -23186,7 +23186,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Seven friends who met in their youth at an English course meet again 25 years later; Lara, Taís, Helena, Adriana, Renée, Natália and Carol, each of them has a different personality and origin, but they share a deep affection.",
     "popularity": 1836.795,
     "poster_path": "/m0cvvnhnRXdQhLARx7qt9lz7hTE.jpg",
-    "first_air_date": "2023-09-25",
+    "first_air_date": "2024-09-25",
     "name": "Elas por Elas",
     "vote_average": 7.364,
     "vote_count": 11
@@ -23206,7 +23206,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "In the reign of Emperor Taizong (627—649), which was called the Prosperity of Zhenguan, former clothing maker An is framed and imprisoned. When she was in danger, she entrusts her young daughter Liu Li to an old friend in the palace. Liu Li grows up in the palace and becomes a medical officer, responsible for epidemic prevention.",
     "popularity": 1772.978,
     "poster_path": "/96xFaFO71aYXcDEbiNd9tmWSKV9.jpg",
-    "first_air_date": "2021-01-27",
+    "first_air_date": "2024-01-27",
     "name": "Weaving a Tale of Love",
     "vote_average": 5.5,
     "vote_count": 6
@@ -23226,7 +23226,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "In this cheeky new iteration, romance meets reality as fan-favorite Islanders are faced with both team and couples' challenges, all while navigating dating, eliminations, recoupling, dramatic arrivals and new competition twists and turns like never before.",
     "popularity": 1604.52,
     "poster_path": "/1ACzNV3c4alBW7rUyo51n8uGoJw.jpg",
-    "first_air_date": "2023-11-01",
+    "first_air_date": "2024-11-01",
     "name": "Love Island Games",
     "vote_average": 10,
     "vote_count": 1
@@ -23244,7 +23244,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "",
     "popularity": 1529.448,
     "poster_path": "/ot9MBwaVWb8vJU3mrUPXSuIcxUP.jpg",
-    "first_air_date": "2023-10-15",
+    "first_air_date": "2024-10-15",
     "name": "Stardance XII ...kolem dokola",
     "vote_average": 10,
     "vote_count": 1
@@ -23266,7 +23266,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Hung Sue Gan starting from the bottom, established his own logistics company, which is now running smoothly. His only concern now are his three daughters. His eldest daughter has immigrated overseas. His second daughter Hung Yeuk Shui has reached the marriageable age, but has no hopes for marriage anytime soon. She is constantly bickering with her younger sister Hung Sum Yue, who is an honour student, over trivial matters, causing their father to not know whether to laugh or cry. Hung Sue Yan, Hung Sue Gan's brother, moves in with the family, temporarily ending his life as a nomadic photographer. He joins Hung Yeuk Shui's company and encounters Ko Pak Fei, the director of an online shop. The two appear to be former lovers, making for lots of laughter. Since Hung Sue Yan moved in, a series of strange events have occurred in the family. Upon investigation, the source is traced to Lung Ging Fung, a promising young man who is the son of department store mogul Lung Gam Wai.",
     "popularity": 1333.13,
     "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
-    "first_air_date": "2017-02-06",
+    "first_air_date": "2024-02-06",
     "name": "Come Home Love: Lo and Behold",
     "vote_average": 5.032,
     "vote_count": 32
@@ -23289,7 +23289,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
     "popularity": 1282.049,
     "poster_path": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
-    "first_air_date": "2013-12-02",
+    "first_air_date": "2024-12-02",
     "name": "Rick and Morty",
     "vote_average": 8.701,
     "vote_count": 8776
@@ -23311,7 +23311,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "When her husband is killed in a land grabbing attempt, Aline takes charge of cultivating his land and protecting his family. Facing the powerful Antonio La Selva, responsible for the death of her husband and the largest landowner in the region, Aline is determined to keep possession of her land and invest in its production. However, she didn't expect that she would fall in love with Daniel, son of her rival, who is at odds with his rebellious half-brother, Caio, who, in turn, also falls in love with the girl. In the interior of Brazil, Aline will have to fight two battles: the dispute for her lands and for her heart.",
     "popularity": 1264.527,
     "poster_path": "/6SgKArqMYmqSl5XlHEucGXvotw.jpg",
-    "first_air_date": "2023-05-08",
+    "first_air_date": "2024-05-08",
     "name": "Land of Desire",
     "vote_average": 6.541,
     "vote_count": 123
@@ -23332,7 +23332,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "The department store Fuzue, specialized in popular items, is a success led by Nero Braga e Silva. Little does he know that the store's grounds have hidden relics for over 300 years.",
     "popularity": 1147.757,
     "poster_path": "/zNNFg8z3z7uT817n6M0kHRcYwq1.jpg",
-    "first_air_date": "2023-08-14",
+    "first_air_date": "2024-08-14",
     "name": "Fuzue",
     "vote_average": 5.8,
     "vote_count": 20
@@ -23353,7 +23353,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Abandoned by his wife, Martin is lying to his daughter not to be upset. But as Hanka grows, these lies become unbearable. Martin meets Nada unexpectedly, asked her to be a rent-a-mother and all lives are completely changed.",
     "popularity": 1136.182,
     "poster_path": "/fH7PP2Rkdlo414IHvZABBHhtoqd.jpg",
-    "first_air_date": "2023-01-09",
+    "first_air_date": "2024-01-09",
     "name": "Mom for rent",
     "vote_average": 6.083,
     "vote_count": 12
@@ -23418,7 +23418,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
     "popularity": 971.05,
     "poster_path": "/hFWP5HkbVEe40hrXgtCeQxoccHE.jpg",
-    "first_air_date": "2020-10-03",
+    "first_air_date": "2024-10-03",
     "name": "Jujutsu Kaisen",
     "vote_average": 8.567,
     "vote_count": 2907
@@ -23439,7 +23439,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "\"Al rojo vivo\" is a program on laSexta focused on the analysis and debate of national and international political current affairs. The format is hosted and directed by Antonio García Ferreras and produced by the News Services of laSexta.",
     "popularity": 920.828,
     "poster_path": "/ag6PmoBxkF2s1uY3An618NCEt3g.jpg",
-    "first_air_date": "2011-01-10",
+    "first_air_date": "2024-01-10",
     "name": "Al rojo vivo",
     "vote_average": 3.262,
     "vote_count": 21
@@ -23460,7 +23460,7 @@ router.get('/tv/on_the_air', function(req, res, next) {
     "overview": "A student’s death causes a scandal at the prestigious Northford High. Investigations conclude it was a suicide. The victim’s twin sister thinks otherwise. As she searches for truth, she will unravel secrets that are far more shocking and dangerous.",
     "popularity": 863.95,
     "poster_path": "/k285iD6gZIoLsVSczSjc4WIXkdc.jpg",
-    "first_air_date": "2023-08-28",
+    "first_air_date": "2024-08-28",
     "name": "Senior High",
     "vote_average": 0,
     "vote_count": 0
@@ -23552,7 +23552,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "",
     "popularity": 2091.944,
     "poster_path": "/stAFsiKB8No9wYtNpX6yyjRgrkO.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "The Justice",
     "vote_average": 7.7,
     "vote_count": 3
@@ -23592,7 +23592,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "Xu Si (Gong Jun), an investment professional who moves back to mainland China from a Hong Kong investment bank, meets Jiang Hu (Zhong Chuxi), the only daughter of the chairman of a national clothing conglomerate. Due to their differing business philosophies, the two are at odds with each other. When Jiang Hu's father's company suddenly goes bankrupt, she finds herself plummeting from the heights of success. Meanwhile, Xu Si, who has always been ambitious, sets his sights on the rubber-soled shoe brand \"Tengyue,\" which was once created by Jiang Hu's father. Determined to save \"Tengyue\" at all costs, Jiang Hu, despite her downfall, engages in a fierce battle with Xu Si.\n\nUltimately, their interactions and struggles will determine the fate of \"Tengyue\" and whether it can be revived.",
     "popularity": 1862.213,
     "poster_path": "/cZSb43j1O1pRZIwwn0fgCx5XJIP.jpg",
-    "first_air_date": "2023-10-30",
+    "first_air_date": "2024-10-30",
     "name": "Rising With the Wind",
     "vote_average": 0,
     "vote_count": 0
@@ -23615,7 +23615,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "Seven friends who met in their youth at an English course meet again 25 years later; Lara, Taís, Helena, Adriana, Renée, Natália and Carol, each of them has a different personality and origin, but they share a deep affection.",
     "popularity": 1836.795,
     "poster_path": "/m0cvvnhnRXdQhLARx7qt9lz7hTE.jpg",
-    "first_air_date": "2023-09-25",
+    "first_air_date": "2024-09-25",
     "name": "Elas por Elas",
     "vote_average": 7.364,
     "vote_count": 11
@@ -23635,7 +23635,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "In the reign of Emperor Taizong (627—649), which was called the Prosperity of Zhenguan, former clothing maker An is framed and imprisoned. When she was in danger, she entrusts her young daughter Liu Li to an old friend in the palace. Liu Li grows up in the palace and becomes a medical officer, responsible for epidemic prevention.",
     "popularity": 1772.978,
     "poster_path": "/96xFaFO71aYXcDEbiNd9tmWSKV9.jpg",
-    "first_air_date": "2021-01-27",
+    "first_air_date": "2024-01-27",
     "name": "Weaving a Tale of Love",
     "vote_average": 5.5,
     "vote_count": 6
@@ -23655,7 +23655,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "In this cheeky new iteration, romance meets reality as fan-favorite Islanders are faced with both team and couples' challenges, all while navigating dating, eliminations, recoupling, dramatic arrivals and new competition twists and turns like never before.",
     "popularity": 1604.52,
     "poster_path": "/1ACzNV3c4alBW7rUyo51n8uGoJw.jpg",
-    "first_air_date": "2023-11-01",
+    "first_air_date": "2024-11-01",
     "name": "Love Island Games",
     "vote_average": 10,
     "vote_count": 1
@@ -23673,7 +23673,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "",
     "popularity": 1529.448,
     "poster_path": "/ot9MBwaVWb8vJU3mrUPXSuIcxUP.jpg",
-    "first_air_date": "2023-10-15",
+    "first_air_date": "2024-10-15",
     "name": "Stardance XII ...kolem dokola",
     "vote_average": 10,
     "vote_count": 1
@@ -23693,7 +23693,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "When Gu Yunzheng, an associate professor of neurosurgery, goes on a medical aid mission in Lacaya, he meets Su Wei'an, a \"deserter\" who has abandoned her medical career to become a businessperson. From bickering all the time to falling in love with each other, he gradually discovers that all her abnormal behavior is caused by a genetic disease called Huntington's disease. The love for his beloved one makes him empathize with the sadness and despair of this incurable disease faced by 30,000 patients and their families across the country. Finally, Gu Yunzheng decides to give up his promising career and devote his life to the research of curing this rare disease, fighting alongside his lover to carve light out of the darkness.",
     "popularity": 1472.728,
     "poster_path": "/d2FwkOhWrimCjqhi6P0YUEPeVH9.jpg",
-    "first_air_date": "2023-11-02",
+    "first_air_date": "2024-11-02",
     "name": "Love is Panacea",
     "vote_average": 6.667,
     "vote_count": 3
@@ -23714,7 +23714,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
     "popularity": 1370.678,
     "poster_path": "/voHUmluYmKyleFkTu3lOXQG702u.jpg",
-    "first_air_date": "2021-06-09",
+    "first_air_date": "2024-06-09",
     "name": "Loki",
     "vote_average": 8.18,
     "vote_count": 10732
@@ -23736,7 +23736,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "Hung Sue Gan starting from the bottom, established his own logistics company, which is now running smoothly. His only concern now are his three daughters. His eldest daughter has immigrated overseas. His second daughter Hung Yeuk Shui has reached the marriageable age, but has no hopes for marriage anytime soon. She is constantly bickering with her younger sister Hung Sum Yue, who is an honour student, over trivial matters, causing their father to not know whether to laugh or cry. Hung Sue Yan, Hung Sue Gan's brother, moves in with the family, temporarily ending his life as a nomadic photographer. He joins Hung Yeuk Shui's company and encounters Ko Pak Fei, the director of an online shop. The two appear to be former lovers, making for lots of laughter. Since Hung Sue Yan moved in, a series of strange events have occurred in the family. Upon investigation, the source is traced to Lung Ging Fung, a promising young man who is the son of department store mogul Lung Gam Wai.",
     "popularity": 1333.13,
     "poster_path": "/lgD4j9gUGmMckZpWWRJjorWqGVT.jpg",
-    "first_air_date": "2017-02-06",
+    "first_air_date": "2024-02-06",
     "name": "Come Home Love: Lo and Behold",
     "vote_average": 5.032,
     "vote_count": 32
@@ -23759,7 +23759,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
     "popularity": 1282.049,
     "poster_path": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
-    "first_air_date": "2013-12-02",
+    "first_air_date": "2024-12-02",
     "name": "Rick and Morty",
     "vote_average": 8.701,
     "vote_count": 8776
@@ -23781,7 +23781,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "When her husband is killed in a land grabbing attempt, Aline takes charge of cultivating his land and protecting his family. Facing the powerful Antonio La Selva, responsible for the death of her husband and the largest landowner in the region, Aline is determined to keep possession of her land and invest in its production. However, she didn't expect that she would fall in love with Daniel, son of her rival, who is at odds with his rebellious half-brother, Caio, who, in turn, also falls in love with the girl. In the interior of Brazil, Aline will have to fight two battles: the dispute for her lands and for her heart.",
     "popularity": 1264.527,
     "poster_path": "/6SgKArqMYmqSl5XlHEucGXvotw.jpg",
-    "first_air_date": "2023-05-08",
+    "first_air_date": "2024-05-08",
     "name": "Land of Desire",
     "vote_average": 6.541,
     "vote_count": 123
@@ -23802,7 +23802,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "The department store Fuzue, specialized in popular items, is a success led by Nero Braga e Silva. Little does he know that the store's grounds have hidden relics for over 300 years.",
     "popularity": 1147.757,
     "poster_path": "/zNNFg8z3z7uT817n6M0kHRcYwq1.jpg",
-    "first_air_date": "2023-08-14",
+    "first_air_date": "2024-08-14",
     "name": "Fuzue",
     "vote_average": 5.8,
     "vote_count": 20
@@ -23823,7 +23823,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "Abandoned by his wife, Martin is lying to his daughter not to be upset. But as Hanka grows, these lies become unbearable. Martin meets Nada unexpectedly, asked her to be a rent-a-mother and all lives are completely changed.",
     "popularity": 1136.182,
     "poster_path": "/fH7PP2Rkdlo414IHvZABBHhtoqd.jpg",
-    "first_air_date": "2023-01-09",
+    "first_air_date": "2024-01-09",
     "name": "Mom for rent",
     "vote_average": 6.083,
     "vote_count": 12
@@ -23844,7 +23844,7 @@ router.get('/tv/popular', function(req, res, next) {
     "overview": "The story revolves around the people of Sète, France. Their lives are punctuated by family rivalries, romance and scenes from daily life, but also by plots involving police investigations, secrets and betrayals.",
     "popularity": 1058.895,
     "poster_path": "/3uU5uJzOX7xe7mn7YKpBM9oiEZO.jpg",
-    "first_air_date": "2017-07-17",
+    "first_air_date": "2024-07-17",
     "name": "Tomorrow is Ours",
     "vote_average": 6.216,
     "vote_count": 44
@@ -23918,7 +23918,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
     "popularity": 422.169,
     "poster_path": "/3xnWaLQjelJDDF7LT1WBo6f4BRe.jpg",
-    "first_air_date": "2008-01-20",
+    "first_air_date": "2024-01-20",
     "name": "Breaking Bad",
     "vote_average": 8.894,
     "vote_count": 12647
@@ -23941,7 +23941,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
     "popularity": 93.725,
     "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
-    "first_air_date": "2021-11-06",
+    "first_air_date": "2024-11-06",
     "name": "Arcane",
     "vote_average": 8.7,
     "vote_count": 3426
@@ -23986,7 +23986,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
     "popularity": 1282.049,
     "poster_path": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
-    "first_air_date": "2013-12-02",
+    "first_air_date": "2024-12-02",
     "name": "Rick and Morty",
     "vote_average": 8.701,
     "vote_count": 8776
@@ -24007,7 +24007,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "A coming-of-age story about an outsider who, against all odds and numerous challenges, fights for love and acceptance and for her place in the world. The series centers on a young orphaned girl in the late 1890’s, who, after an abusive childhood spent in orphanages and the homes of strangers, is mistakenly sent to live with an elderly woman and her aging brother. Over time, 13-year-old Anne will transform their lives and eventually the small town in which they live with her unique spirit, fierce intellect and brilliant imagination.",
     "popularity": 93.108,
     "poster_path": "/6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg",
-    "first_air_date": "2017-03-19",
+    "first_air_date": "2024-03-19",
     "name": "Anne with an E",
     "vote_average": 8.694,
     "vote_count": 4412
@@ -24029,7 +24029,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Disregard for alchemy’s laws ripped half of Ed Elric’s limbs from his body and left Al’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric’s course, but their purpose will remain unchanged and their bond unbreakable.",
     "popularity": 115.005,
     "poster_path": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
-    "first_air_date": "2009-04-05",
+    "first_air_date": "2024-04-05",
     "name": "Fullmetal Alchemist: Brotherhood",
     "vote_average": 8.693,
     "vote_count": 1793
@@ -24051,7 +24051,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
     "popularity": 97.788,
     "poster_path": "/cHFZA8Tlv03nKTGXhLOYOLtqoSm.jpg",
-    "first_air_date": "2005-02-21",
+    "first_air_date": "2024-02-21",
     "name": "Avatar: The Last Airbender",
     "vote_average": 8.7,
     "vote_count": 3556
@@ -24073,7 +24073,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
     "popularity": 93.17,
     "poster_path": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
-    "first_air_date": "2019-04-06",
+    "first_air_date": "2024-04-06",
     "name": "Demon Slayer: Kimetsu no Yaiba",
     "vote_average": 8.683,
     "vote_count": 5713
@@ -24096,7 +24096,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father’s tutelage.",
     "popularity": 822.277,
     "poster_path": "/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg",
-    "first_air_date": "2021-03-25",
+    "first_air_date": "2024-03-25",
     "name": "Invincible",
     "vote_average": 8.671,
     "vote_count": 3860
@@ -24118,7 +24118,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
     "popularity": 200.317,
     "poster_path": "/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg",
-    "first_air_date": "2013-04-07",
+    "first_air_date": "2024-04-07",
     "name": "Attack on Titan",
     "vote_average": 8.665,
     "vote_count": 5674
@@ -24139,7 +24139,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
     "popularity": 44.552,
     "poster_path": "/ivOLM47yJt90P19RH1NvJrAJz9F.jpg",
-    "first_air_date": "2016-04-03",
+    "first_air_date": "2024-04-03",
     "name": "My Hero Academia",
     "vote_average": 8.664,
     "vote_count": 4546
@@ -24159,7 +24159,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.",
     "popularity": 96.227,
     "poster_path": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
-    "first_air_date": "2019-05-06",
+    "first_air_date": "2024-05-06",
     "name": "Chernobyl",
     "vote_average": 8.654,
     "vote_count": 5489
@@ -24181,7 +24181,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "In his quest for a bride to break his immortal curse, a 939-year-old guardian of souls meets a grim reaper and a sprightly student with a tragic past.",
     "popularity": 79.054,
     "poster_path": "/sPkxHNw5BFvuCFGWw825TS7n6X3.jpg",
-    "first_air_date": "2016-12-02",
+    "first_air_date": "2024-12-02",
     "name": "Goblin",
     "vote_average": 8.652,
     "vote_count": 2555
@@ -24202,7 +24202,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts criminal in criminal lawyer.",
     "popularity": 248.451,
     "poster_path": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
-    "first_air_date": "2015-02-08",
+    "first_air_date": "2024-02-08",
     "name": "Better Call Saul",
     "vote_average": 8.652,
     "vote_count": 4482
@@ -24223,7 +24223,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Two bored groundskeepers, Mordecai (a six-foot-tall blue jay) and Rigby (a hyperactive raccoon) are best friends who spend their days trying to entertain themselves by any means necessary, much to the displeasure of their boss. Their everyday pursuits often lead to things spiraling out of control and into the surreal.",
     "popularity": 309.9,
     "poster_path": "/mS5SLxMYcKfUxA0utBSR5MOAWWr.jpg",
-    "first_air_date": "2010-09-06",
+    "first_air_date": "2024-09-06",
     "name": "Regular Show",
     "vote_average": 8.648,
     "vote_count": 1806
@@ -24243,7 +24243,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
     "popularity": 208.901,
     "poster_path": "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
-    "first_air_date": "2023-01-15",
+    "first_air_date": "2024-01-15",
     "name": "The Last of Us",
     "vote_average": 8.643,
     "vote_count": 4217
@@ -24267,7 +24267,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "An animated fantasy-comedy series that follows Luz, a self-assured teenage girl who accidentally stumbles upon a portal to a magical world where she befriends a rebellious witch, Eda, and an adorably tiny warrior, King. Despite not having magical abilities, Luz pursues her dream of becoming a witch by serving as Eda's apprentice at the Owl House and ultimately finds a new family in an unlikely setting.",
     "popularity": 160.734,
     "poster_path": "/zhdy3PcNVE15wj1wrxn45ARZBnx.jpg",
-    "first_air_date": "2020-01-10",
+    "first_air_date": "2024-01-10",
     "name": "The Owl House",
     "vote_average": 8.64,
     "vote_count": 1398
@@ -24288,7 +24288,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "The series revolves around Gabo, a soccer-loving teenager who, upon receiving a scholarship from the prestigious Sports Academic Institute (IAD) of Buenos Aires, will see his dream of playing at Los Halcones Dorados, the renowned amateur team of the school, and also his longing to become a professional footballer.",
     "popularity": 118.927,
     "poster_path": "/sen4We5WQCRsGZe82ohTEmxFD06.jpg",
-    "first_air_date": "2017-06-19",
+    "first_air_date": "2024-06-19",
     "name": "Once",
     "vote_average": 8.64,
     "vote_count": 1372
@@ -24310,7 +24310,7 @@ router.get('/tv/top_rated', function(req, res, next) {
     "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
     "popularity": 95.342,
     "poster_path": "/iigTJJskR1PcjjXqxdyJwVB3BoU.jpg",
-    "first_air_date": "2006-10-04",
+    "first_air_date": "2024-10-04",
     "name": "Death Note",
     "vote_average": 8.639,
     "vote_count": 3683
@@ -24361,7 +24361,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24370,7 +24370,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Robbery, kidnapping, arbitrary detention, unlawful arrest, arson",
@@ -24435,7 +24435,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  {
 			"id": 18,
@@ -24456,7 +24456,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "RA No  11648 statutory rape",
@@ -24515,7 +24515,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24524,7 +24524,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "bigamy, illegal marriage performance of illegal marriage",
@@ -24583,7 +24583,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24592,7 +24592,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "error in personae, aberatiu ictus, praeter intentioneme",
@@ -24651,7 +24651,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24660,7 +24660,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "death under exceptional circumstance, tumultous affray, abortion, infanticide, parricide, murder",
@@ -24719,7 +24719,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24728,7 +24728,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Impossible crime",
@@ -24787,7 +24787,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24796,7 +24796,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Stages of felony",
@@ -24855,7 +24855,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24864,7 +24864,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Plunder",
@@ -24923,7 +24923,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -24932,7 +24932,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Treason, Rebellion, coup detat, sedition",
@@ -24991,7 +24991,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25000,7 +25000,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Violence against women RA No  9262",
@@ -25059,7 +25059,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25068,7 +25068,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Amnesty and pardon",
@@ -25127,7 +25127,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -25137,7 +25137,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Probation and community service",
@@ -25196,7 +25196,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25205,7 +25205,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Three-fold rule and GCTA",
@@ -25264,7 +25264,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		
 		],
@@ -25274,7 +25274,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Principal, accomplice, accessory, fencing, obstruction of justice 1",
@@ -25333,7 +25333,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 	
 		],
@@ -25343,7 +25343,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Trafficking in person, child trafficking, child pornography, cyber sex",
@@ -25402,7 +25402,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -25412,7 +25412,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Special complex crime",
@@ -25471,7 +25471,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25480,7 +25480,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Rape with homicide, robbery with homicide or rape",
@@ -25539,7 +25539,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25548,7 +25548,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Kidnapping with homicide or rape",
@@ -25607,7 +25607,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -25617,7 +25617,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Kidnapping with rape, rape through forcible abduction, kidnapping and robbery",
@@ -25676,7 +25676,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -25686,7 +25686,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Theft and estafa",
@@ -25745,7 +25745,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
  
 		],
@@ -25755,7 +25755,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Rape, sexual assault, acts of lasciviouness, sexual abuse, child prostituiton, child cohabitation",
@@ -25814,7 +25814,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -25824,7 +25824,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Falsification, malversation, estafa, theft",
@@ -25883,7 +25883,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -25892,7 +25892,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Terrorism",
@@ -25912,7 +25912,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Terrorism",
-		"overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2020. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
+		"overview": "The video will analyze the concept of terrorism under Republic Act 11479 or the Anti-Terrorism Act of 2024. Specifically, it will cover an overview of the definition of terrorism provided in RA 11479 and the acts classified as terrorism and potential issues around vagueness/overreach.",
 		"popularity": 23.139,
         "poster_path": "/images/4c6N2L9mO3A.jpg",
 		"production_companies": [
@@ -25951,7 +25951,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -25961,7 +25961,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Generality and territoriality",
@@ -26020,7 +26020,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -26030,7 +26030,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Territoriality, repeal and RA 10951 001 2",
@@ -26089,7 +26089,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -26099,7 +26099,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Culpa and mistake of fact",
@@ -26158,7 +26158,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -26168,7 +26168,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Penalties special law",
@@ -26227,7 +26227,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  {
 			"id": 18,
@@ -26248,7 +26248,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Penalties for special law",
@@ -26268,7 +26268,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Penalties for special law",
-		"overview":  "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2019) and People v. Pis-an (G.R. No. 242692, July 13, 2020)",
+		"overview":  "The discussion will center on analyzing special penal laws and applicable penalties through examination of two case studies such as People v. Obias (G.R. No. 222187, March 25, 2024) and People v. Pis-an (G.R. No. 242692, July 13, 2024)",
 		"popularity": 23.139,
         "poster_path": "/images/Cf0TCYWhreQ.jpg",
 		"production_companies": [
@@ -26307,7 +26307,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -26316,7 +26316,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Lawas principle",
@@ -26375,7 +26375,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -26385,7 +26385,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Carnapping and piracy",
@@ -26444,7 +26444,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -26454,7 +26454,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Brigandage and hijacking",
@@ -26513,7 +26513,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -26523,7 +26523,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Syndicated estafa",
@@ -26582,7 +26582,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		   
 		],
@@ -26592,7 +26592,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Voyuerism",
@@ -26612,7 +26612,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Voyuerism",
-		"overview":  "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2009. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
+		"overview":  "The discussion will center around analyzing Republic Act 9995, also known as the Anti-Photo and Video Voyeurism Act of 2024. Some potential discussion points include defining key terms related to photo/video voyeurism as outlined in the law, examining the specific acts that are deemed illegal photo/video voyeurism, and discussing the intent and objectives of RA 9995 in addressing these issues.",
 		"popularity": 23.139,
         "poster_path": "/images/kSqwVtztixg.jpg",
 		"production_companies": [
@@ -26651,7 +26651,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -26661,7 +26661,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Hazing",
@@ -26681,7 +26681,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		],
 		"original_language": "en",
 		"original_name": "Hazing",
-		"overview":  "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2018. A primary focus will be on the key elements that constitute hazing based on these laws.",
+		"overview":  "The discussion will center around analyzing the legal framework for hazing under Republic Act 8049 (also known as the Anti-Hazing Law of 1995), as subsequently amended by RA 11053 in 2024. A primary focus will be on the key elements that constitute hazing based on these laws.",
 		"popularity": 23.139,
         "poster_path": "/images/huREGMfs_54.jpg",
 		"production_companies": [
@@ -26720,7 +26720,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		  
 		],
@@ -26730,7 +26730,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Cyber libel",
@@ -26789,7 +26789,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -26799,7 +26799,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Special Complex crime",
@@ -26858,7 +26858,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -26867,7 +26867,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Delito continuado",
@@ -26926,7 +26926,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -26935,7 +26935,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Delito continuado 2",
@@ -26995,7 +26995,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -27005,7 +27005,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "1. Penalty - Graduation",
@@ -27064,7 +27064,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27073,7 +27073,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "2. Penalty -Divisible and indivisible",
@@ -27132,7 +27132,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27141,7 +27141,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "3. Penalty -Application of indivisible penalties",
@@ -27200,7 +27200,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27209,7 +27209,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "4. Penalty - Proper impossable period",
@@ -27268,7 +27268,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27277,7 +27277,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "5. Penalty - Determinate and indeterminate",
@@ -27336,7 +27336,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -27346,7 +27346,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "6. Penalty - Bar answer",
@@ -27405,7 +27405,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27414,7 +27414,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "7. Penalty - Incremental penalties",
@@ -27473,7 +27473,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27482,7 +27482,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "8. Penalty - Special laws",
@@ -27542,7 +27542,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		 
 		],
@@ -27552,7 +27552,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Prescription Lecture 1",
@@ -27611,7 +27611,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27620,7 +27620,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Prescription Lecture 2",
@@ -27679,7 +27679,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27688,7 +27688,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Prescription Lecture 3",
@@ -27747,7 +27747,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -27756,7 +27756,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Prescription Lecture 4",
@@ -27816,7 +27816,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -27825,7 +27825,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Criminal -  Updates on theft and estafa",
@@ -27884,7 +27884,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "episode_run_time": [
           43
         ],
-        "first_air_date": "2005-04-13",
+        "first_air_date": "2024-04-13",
         "genres": [
         ],
         "homepage": "",
@@ -27893,7 +27893,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "languages": [
           "en"
         ],
-        "last_air_date": "2005-05-18",
+        "last_air_date": "2024-05-18",
         "last_episode_to_air": {
         },
         "name": "Criminal - RA No  9262  - updated",
@@ -27951,7 +27951,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -27960,7 +27960,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
@@ -28018,7 +28018,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28027,7 +28027,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Updates on theft and estafa.",
@@ -28085,7 +28085,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28094,7 +28094,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - RA No  9262  - updated",
@@ -28152,7 +28152,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28161,7 +28161,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Lecture Article 4 with 2 J. Lopez cases",
@@ -28220,7 +28220,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28229,7 +28229,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 3 - Felony",
@@ -28287,7 +28287,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28296,7 +28296,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 100 - 111",
@@ -28354,7 +28354,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28363,7 +28363,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Article 89C - Parole, probation, community service, suspension of sentence",
@@ -28421,7 +28421,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28430,7 +28430,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 89B - Marriage, amnesty, pardon",
@@ -28488,7 +28488,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28497,7 +28497,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 89D - Prescription",
@@ -28555,7 +28555,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28564,7 +28564,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal  - Judge Campanilla - Article 89A - mode of extingushing criminal liability",
@@ -28622,7 +28622,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28631,7 +28631,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 1 - General principles, Generality",
@@ -28689,7 +28689,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28698,7 +28698,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Sexual abuse and felony",
@@ -28756,7 +28756,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28765,7 +28765,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla  - Direct assault, resistance",
@@ -28823,7 +28823,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -28832,7 +28832,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Criminal - Judge Campanilla - Article 2 - Territoriality",
@@ -28892,7 +28892,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -28901,7 +28901,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Civil - Sales Lecture Part 1",
@@ -28960,7 +28960,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -28969,7 +28969,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Sales Lecture Part 2",
@@ -29028,7 +29028,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "episode_run_time": [
           43
         ],
-        "first_air_date": "2005-04-13",
+        "first_air_date": "2024-04-13",
         "genres": [
         ],
         "homepage": "",
@@ -29037,7 +29037,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "languages": [
           "en"
         ],
-        "last_air_date": "2005-05-18",
+        "last_air_date": "2024-05-18",
         "last_episode_to_air": {
         },
         "name": "Civil - II  Human Relations & III  PFR A E",
@@ -29096,7 +29096,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "episode_run_time": [
             43
           ],
-          "first_air_date": "2005-04-13",
+          "first_air_date": "2024-04-13",
           "genres": [
           ],
           "homepage": "",
@@ -29105,7 +29105,7 @@ router.get('/tv/:series_id', function(req, res, next) {
           "languages": [
             "en"
           ],
-          "last_air_date": "2005-05-18",
+          "last_air_date": "2024-05-18",
           "last_episode_to_air": {
           },
           "name": "Civil - III  Persons and Family Relations Marriage to Legal Separation",
@@ -29164,7 +29164,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "episode_run_time": [
               43
             ],
-            "first_air_date": "2005-04-13",
+            "first_air_date": "2024-04-13",
             "genres": [
             ],
             "homepage": "",
@@ -29173,7 +29173,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "languages": [
               "en"
             ],
-            "last_air_date": "2005-05-18",
+            "last_air_date": "2024-05-18",
             "last_episode_to_air": {
             },
             "name": "Civil - VII  Wills & Succession C D",
@@ -29232,7 +29232,7 @@ router.get('/tv/:series_id', function(req, res, next) {
               "episode_run_time": [
                 43
               ],
-              "first_air_date": "2005-04-13",
+              "first_air_date": "2024-04-13",
               "genres": [
               ],
               "homepage": "",
@@ -29241,7 +29241,7 @@ router.get('/tv/:series_id', function(req, res, next) {
               "languages": [
                 "en"
               ],
-              "last_air_date": "2005-05-18",
+              "last_air_date": "2024-05-18",
               "last_episode_to_air": {
               },
               "name": "Civil - VIII  Oblicon B  Contracts 3 4 Real vs Consensual until Defective Contracts",
@@ -29300,7 +29300,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                 "episode_run_time": [
                   43
                 ],
-                "first_air_date": "2005-04-13",
+                "first_air_date": "2024-04-13",
                 "genres": [
                 ],
                 "homepage": "",
@@ -29309,7 +29309,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                 "languages": [
                   "en"
                 ],
-                "last_air_date": "2005-05-18",
+                "last_air_date": "2024-05-18",
                 "last_episode_to_air": {
                 },
                 "name": "Civil - VIII  Oblicon B Contracts 2a e Principles of Contracts",
@@ -29368,7 +29368,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                   "episode_run_time": [
                     43
                   ],
-                  "first_air_date": "2005-04-13",
+                  "first_air_date": "2024-04-13",
                   "genres": [
                   ],
                   "homepage": "",
@@ -29377,7 +29377,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                   "languages": [
                     "en"
                   ],
-                  "last_air_date": "2005-05-18",
+                  "last_air_date": "2024-05-18",
                   "last_episode_to_air": {
                   },
                   "name": "Civil - X  Contract of Lease",
@@ -29436,7 +29436,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                     "episode_run_time": [
                       43
                     ],
-                    "first_air_date": "2005-04-13",
+                    "first_air_date": "2024-04-13",
                     "genres": [
                     ],
                     "homepage": "",
@@ -29445,7 +29445,7 @@ router.get('/tv/:series_id', function(req, res, next) {
                     "languages": [
                       "en"
                     ],
-                    "last_air_date": "2005-05-18",
+                    "last_air_date": "2024-05-18",
                     "last_episode_to_air": {
                     },
                     "name": "Civil - XI  Agency",
@@ -29504,7 +29504,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "episode_run_time": [
           43
         ],
-        "first_air_date": "2005-04-13",
+        "first_air_date": "2024-04-13",
         "genres": [
         ],
         "homepage": "",
@@ -29513,7 +29513,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "languages": [
           "en"
         ],
-        "last_air_date": "2005-05-18",
+        "last_air_date": "2024-05-18",
         "last_episode_to_air": {
         },
         "name": "Civil - IV  Property, Ownership and its Modifications",
@@ -29571,7 +29571,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29580,7 +29580,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - I-II  Effects and Application of Laws; Human Relations",
@@ -29638,7 +29638,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29647,7 +29647,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - VI  Land Titles and Deeds",
@@ -29705,7 +29705,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29714,7 +29714,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - V Modes of Acquiring Ownership",
@@ -29772,7 +29772,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29781,7 +29781,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - XV  Torts and Damages",
@@ -29839,7 +29839,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29848,7 +29848,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Atty. Judy Lardizabal Persons and Family Relations",
@@ -29906,7 +29906,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29915,7 +29915,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 1",
@@ -29973,7 +29973,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -29982,7 +29982,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Atty  Judy Lardizabal - Intestate Succession Part 2",
@@ -30040,7 +30040,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30049,7 +30049,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Atty  Judy Lardizabal - Succession Part 1",
@@ -30107,7 +30107,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30116,7 +30116,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal   Succession Part 2",
@@ -30174,7 +30174,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30183,7 +30183,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal   Succession Part 3",
@@ -30241,7 +30241,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30250,7 +30250,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal - Succession Part 4",
@@ -30308,7 +30308,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30317,7 +30317,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal   Succession Part 5",
@@ -30375,7 +30375,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30384,7 +30384,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal   Succession Part 6",
@@ -30442,7 +30442,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30451,7 +30451,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil   Atty  Judy Lardizabal - Contracts to Estoppel",
@@ -30509,7 +30509,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30518,7 +30518,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Atty  Judy Lardizabal - Obligation with Penal Caluse until Novation",
@@ -30576,7 +30576,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30585,7 +30585,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - XII XIV  Cred Transactions;  Compromise Agreement; Quasi Contracts",
@@ -30643,7 +30643,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30652,7 +30652,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - VIII  Obligations and Contracts",
@@ -30710,7 +30710,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30719,7 +30719,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 1",
@@ -30777,7 +30777,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30786,7 +30786,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 2",
@@ -30844,7 +30844,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30853,7 +30853,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 3",
@@ -30911,7 +30911,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30920,7 +30920,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 4",
@@ -30978,7 +30978,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -30987,7 +30987,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 5",
@@ -31045,7 +31045,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31054,7 +31054,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - Dean Myra Gallardo-Batungbakal Lecture 6",
@@ -31112,7 +31112,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31121,7 +31121,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Civil - VII  Wills and Succession",
@@ -31179,7 +31179,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "episode_run_time": [
               43
             ],
-            "first_air_date": "2005-04-13",
+            "first_air_date": "2024-04-13",
             "genres": [
             ],
             "homepage": "",
@@ -31188,7 +31188,7 @@ router.get('/tv/:series_id', function(req, res, next) {
             "languages": [
               "en"
             ],
-            "last_air_date": "2005-05-18",
+            "last_air_date": "2024-05-18",
             "last_episode_to_air": {
             },
             "name": "Commercial - New Corporation Law (6 hours)",
@@ -31247,7 +31247,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31256,7 +31256,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Law on Partnership (2.5 hours)",
@@ -31315,7 +31315,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31324,7 +31324,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 1",
@@ -31383,7 +31383,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31392,7 +31392,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 2",
@@ -31451,7 +31451,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31460,7 +31460,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - New Banking Laws - 3",
@@ -31519,7 +31519,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31528,7 +31528,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Data Privacy Act",
@@ -31587,7 +31587,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31596,7 +31596,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 1",
@@ -31655,7 +31655,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31664,7 +31664,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 2",
@@ -31723,7 +31723,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31732,7 +31732,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Transportation Law - Part 3",
@@ -31791,7 +31791,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31800,7 +31800,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 1",
@@ -31859,7 +31859,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31868,7 +31868,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 2",
@@ -31927,7 +31927,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -31936,7 +31936,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 3",
@@ -31995,7 +31995,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32004,7 +32004,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 4",
@@ -32063,7 +32063,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32072,7 +32072,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Commercial - Atty. Balmes - Insurance Law - Part 5",
@@ -32131,7 +32131,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32140,7 +32140,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Legal Ethics - Dean Cecilio Duka",
@@ -32199,7 +32199,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32208,7 +32208,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Taxation - Atty. Virginia Lim",
@@ -32267,7 +32267,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32276,7 +32276,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Taxation - Atty. Virginia Lim - Part II",
@@ -32335,7 +32335,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32344,7 +32344,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Criminal - Judge Campanilla - Part I",
@@ -32403,7 +32403,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32412,7 +32412,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Criminal - Judge Campanilla - Part II",
@@ -32471,7 +32471,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32480,7 +32480,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Criminal - Judge Campanilla - Part III",
@@ -32540,7 +32540,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32549,7 +32549,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 28",
@@ -32608,7 +32608,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32617,7 +32617,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 29",
@@ -32676,7 +32676,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32685,7 +32685,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 30",
@@ -32744,7 +32744,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32753,7 +32753,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 31",
@@ -32812,7 +32812,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32821,7 +32821,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 32",
@@ -32880,7 +32880,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32889,7 +32889,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 33",
@@ -32948,7 +32948,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -32957,7 +32957,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 34",
@@ -33016,7 +33016,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33025,7 +33025,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 35",
@@ -33084,7 +33084,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33093,7 +33093,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 36",
@@ -33152,7 +33152,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33161,7 +33161,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 37",
@@ -33221,7 +33221,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33230,7 +33230,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 38",
@@ -33289,7 +33289,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33298,7 +33298,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 39",
@@ -33357,7 +33357,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33366,7 +33366,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 40",
@@ -33425,7 +33425,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33434,7 +33434,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 41",
@@ -33493,7 +33493,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33502,7 +33502,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 42",
@@ -33562,7 +33562,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33571,7 +33571,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 43",
@@ -33630,7 +33630,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33639,7 +33639,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 44",
@@ -33698,7 +33698,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -33707,7 +33707,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 45",
@@ -33767,7 +33767,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -33776,7 +33776,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 1",
@@ -33830,7 +33830,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -33839,7 +33839,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 2",
@@ -33898,7 +33898,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -33907,7 +33907,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 3",
@@ -33966,7 +33966,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -33975,7 +33975,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 4",
@@ -34034,7 +34034,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34043,7 +34043,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 5",
@@ -34102,7 +34102,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34111,7 +34111,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 6",
@@ -34170,7 +34170,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34179,7 +34179,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 7",
@@ -34238,7 +34238,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34247,7 +34247,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 8",
@@ -34306,7 +34306,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34315,7 +34315,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 9",
@@ -34374,7 +34374,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34383,7 +34383,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 10",
@@ -34442,7 +34442,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34451,7 +34451,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 11",
@@ -34510,7 +34510,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34519,7 +34519,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 12",
@@ -34578,7 +34578,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34587,7 +34587,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Political Dean Loanzon Lecture 13",
@@ -34646,7 +34646,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34655,7 +34655,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Judicial Ethics - Atty. Loanzon Lecture",
@@ -34714,7 +34714,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -34723,7 +34723,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Bar Techniques Lecture - Atty. Loanzon Lecture",
@@ -34782,7 +34782,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -34791,7 +34791,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Issue Spotting Lecture",
@@ -34850,7 +34850,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "episode_run_time": [
           43
         ],
-        "first_air_date": "2005-04-13",
+        "first_air_date": "2024-04-13",
         "genres": [
         ],
         "homepage": "",
@@ -34859,7 +34859,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "languages": [
           "en"
         ],
-        "last_air_date": "2005-05-18",
+        "last_air_date": "2024-05-18",
         "last_episode_to_air": {
         },
         "name": "Political Dean Loanzon - Plain English Bar",
@@ -34918,7 +34918,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "episode_run_time": [
           43
         ],
-        "first_air_date": "2005-04-13",
+        "first_air_date": "2024-04-13",
         "genres": [
         ],
         "homepage": "",
@@ -34927,7 +34927,7 @@ router.get('/tv/:series_id', function(req, res, next) {
         "languages": [
           "en"
         ],
-        "last_air_date": "2005-05-18",
+        "last_air_date": "2024-05-18",
         "last_episode_to_air": {
         },
         "name": "Political Dean Loanzon - Citizenship",
@@ -34986,7 +34986,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -34995,7 +34995,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Part I Recent Jurisprudence in Political and Public International Law",
@@ -35054,7 +35054,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -35063,7 +35063,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Part II Recent Jurisprudence in Political and Public International Law",
@@ -35122,7 +35122,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -35131,7 +35131,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Recent Jurisprudence",
@@ -35190,7 +35190,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -35199,7 +35199,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Legal Ethics",
@@ -35258,7 +35258,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -35267,7 +35267,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Administrative law",
@@ -35326,7 +35326,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -35335,7 +35335,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Political Dean Loanzon - Election law",
@@ -35394,7 +35394,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35403,7 +35403,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 1",
@@ -35462,7 +35462,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35471,7 +35471,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 2",
@@ -35530,7 +35530,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35539,7 +35539,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 3",
@@ -35598,7 +35598,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35607,7 +35607,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 4",
@@ -35666,7 +35666,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35675,7 +35675,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 5",
@@ -35734,7 +35734,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35743,7 +35743,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 6",
@@ -35802,7 +35802,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35811,7 +35811,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 7",
@@ -35870,7 +35870,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35879,7 +35879,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 8",
@@ -35938,7 +35938,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -35947,7 +35947,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 9",
@@ -36006,7 +36006,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36015,7 +36015,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 10",
@@ -36074,7 +36074,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36083,7 +36083,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Lecture 11",
@@ -36142,7 +36142,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36151,7 +36151,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Corporate Income Taxes + Create LAW",
@@ -36210,7 +36210,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36219,7 +36219,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Business Taxes",
@@ -36278,7 +36278,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36287,7 +36287,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Value Added Taxes",
@@ -36346,7 +36346,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36355,7 +36355,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Transfer Taxes",
@@ -36414,7 +36414,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36423,7 +36423,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Estate Taxes",
@@ -36482,7 +36482,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36491,7 +36491,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Taxation Atty. Lim - Tax Remedies",
@@ -36550,7 +36550,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36559,7 +36559,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 1",
@@ -36618,7 +36618,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36627,7 +36627,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 2",
@@ -36686,7 +36686,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36695,7 +36695,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 3",
@@ -36754,7 +36754,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36763,7 +36763,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 4",
@@ -36822,7 +36822,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36831,7 +36831,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 5",
@@ -36890,7 +36890,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36899,7 +36899,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 6",
@@ -36958,7 +36958,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -36967,7 +36967,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 7",
@@ -37026,7 +37026,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37035,7 +37035,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 8",
@@ -37094,7 +37094,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37103,7 +37103,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 9",
@@ -37162,7 +37162,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37171,7 +37171,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 10",
@@ -37230,7 +37230,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37239,7 +37239,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 11",
@@ -37298,7 +37298,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37307,7 +37307,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 12",
@@ -37366,7 +37366,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37375,7 +37375,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 13",
@@ -37434,7 +37434,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37443,7 +37443,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 14",
@@ -37502,7 +37502,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37511,7 +37511,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 15",
@@ -37570,7 +37570,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37579,7 +37579,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 16",
@@ -37638,7 +37638,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37647,7 +37647,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 17",
@@ -37706,7 +37706,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37715,7 +37715,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 18",
@@ -37774,7 +37774,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37783,7 +37783,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 19",
@@ -37843,7 +37843,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37852,7 +37852,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 20",
@@ -37911,7 +37911,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37920,7 +37920,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 21",
@@ -37979,7 +37979,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -37988,7 +37988,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 22",
@@ -38047,7 +38047,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38056,7 +38056,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 23",
@@ -38115,7 +38115,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38124,7 +38124,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 24",
@@ -38183,7 +38183,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38192,7 +38192,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 25",
@@ -38251,7 +38251,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38260,7 +38260,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 26",
@@ -38319,7 +38319,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38328,7 +38328,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 27",
@@ -38387,7 +38387,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38396,7 +38396,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Benedict Kato - Lecture 1",
@@ -38455,7 +38455,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38464,7 +38464,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Labor - Atty Pearlito Campanilla - Lecture 27",
@@ -38523,7 +38523,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38532,7 +38532,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Remedial - Dean Salvador Moya III - Lecture 1",
@@ -38591,7 +38591,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38600,7 +38600,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Remedial - Dean Salvador Moya III - Lecture 2",
@@ -38659,7 +38659,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38668,7 +38668,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Remedial - Dean Salvador Moya III - Lecture 3",
@@ -38727,7 +38727,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38736,7 +38736,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Remedial - Dean Salvador Moya III - Lecture 4",
@@ -38795,7 +38795,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"episode_run_time": [
 		  43
 		],
-		"first_air_date": "2005-04-13",
+		"first_air_date": "2024-04-13",
 		"genres": [
 		],
 		"homepage": "",
@@ -38804,7 +38804,7 @@ router.get('/tv/:series_id', function(req, res, next) {
 		"languages": [
 		  "en"
 		],
-		"last_air_date": "2005-05-18",
+		"last_air_date": "2024-05-18",
 		"last_episode_to_air": {
 		},
 		"name": "Remedial - Dean Salvador Moya III - Part 5",
@@ -38863,7 +38863,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -38872,7 +38872,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Remedial - Dean Salvador Moya III - Part 6",
@@ -38931,7 +38931,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -38940,7 +38940,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Remedial - Dean Salvador Moya III - Part 7",
@@ -38999,7 +38999,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -39008,7 +39008,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Remedial - Dean Salvador Moya III - Part 8",
@@ -39067,7 +39067,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "episode_run_time": [
         43
       ],
-      "first_air_date": "2005-04-13",
+      "first_air_date": "2024-04-13",
       "genres": [
       ],
       "homepage": "",
@@ -39076,7 +39076,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "languages": [
         "en"
       ],
-      "last_air_date": "2005-05-18",
+      "last_air_date": "2024-05-18",
       "last_episode_to_air": {
       },
       "name": "Remedial - Dean Salvador Moya III - Part 9",
@@ -40081,7 +40081,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40101,7 +40101,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40121,7 +40121,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40141,7 +40141,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40161,7 +40161,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40181,7 +40181,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40201,7 +40201,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40221,7 +40221,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40241,7 +40241,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40261,7 +40261,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40281,7 +40281,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40301,7 +40301,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40321,7 +40321,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40341,7 +40341,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40361,7 +40361,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40381,7 +40381,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40401,7 +40401,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40421,7 +40421,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40441,7 +40441,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40461,7 +40461,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40481,7 +40481,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40501,7 +40501,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40521,7 +40521,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40541,7 +40541,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40561,7 +40561,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40581,7 +40581,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40601,7 +40601,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40621,7 +40621,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40641,7 +40641,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40661,7 +40661,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40681,7 +40681,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40701,7 +40701,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40721,7 +40721,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40741,7 +40741,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40761,7 +40761,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40781,7 +40781,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40801,7 +40801,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40821,7 +40821,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40842,7 +40842,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40862,7 +40862,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40882,7 +40882,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40902,7 +40902,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40922,7 +40922,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40943,7 +40943,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40963,7 +40963,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -40983,7 +40983,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41003,7 +41003,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41023,7 +41023,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41043,7 +41043,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41063,7 +41063,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41083,7 +41083,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41103,7 +41103,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41123,7 +41123,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41143,7 +41143,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41163,7 +41163,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41183,7 +41183,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41203,7 +41203,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41223,7 +41223,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41243,7 +41243,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41263,7 +41263,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41283,7 +41283,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41303,7 +41303,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41323,7 +41323,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -41343,7 +41343,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41362,7 +41362,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41382,7 +41382,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41402,7 +41402,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41422,7 +41422,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41442,7 +41442,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41462,7 +41462,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41482,7 +41482,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41502,7 +41502,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41522,7 +41522,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41542,7 +41542,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41562,7 +41562,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41582,7 +41582,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41603,7 +41603,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41623,7 +41623,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41643,7 +41643,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41663,7 +41663,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41683,7 +41683,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41703,7 +41703,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41723,7 +41723,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41743,7 +41743,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41763,7 +41763,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41783,7 +41783,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41803,7 +41803,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41823,7 +41823,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41843,7 +41843,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41863,7 +41863,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41883,7 +41883,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41903,7 +41903,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41923,7 +41923,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41944,7 +41944,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41964,7 +41964,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -41984,7 +41984,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42004,7 +42004,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42024,7 +42024,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42044,7 +42044,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42064,7 +42064,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42084,7 +42084,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42104,7 +42104,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42124,7 +42124,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42144,7 +42144,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42164,7 +42164,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42184,7 +42184,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42204,7 +42204,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42224,7 +42224,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42244,7 +42244,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42264,7 +42264,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42284,7 +42284,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42304,7 +42304,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42324,7 +42324,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42344,7 +42344,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42364,7 +42364,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42384,7 +42384,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42404,7 +42404,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42424,7 +42424,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42444,7 +42444,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42464,7 +42464,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42484,7 +42484,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42503,7 +42503,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42522,7 +42522,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42541,7 +42541,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42560,7 +42560,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42580,7 +42580,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42599,7 +42599,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42618,7 +42618,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42637,7 +42637,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42656,7 +42656,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42676,7 +42676,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42695,7 +42695,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42714,7 +42714,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42733,7 +42733,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42752,7 +42752,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42772,7 +42772,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42791,7 +42791,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42810,7 +42810,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42830,7 +42830,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42850,7 +42850,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42870,7 +42870,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42890,7 +42890,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42910,7 +42910,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42930,7 +42930,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42950,7 +42950,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42970,7 +42970,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -42990,7 +42990,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43010,7 +43010,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43030,7 +43030,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43050,7 +43050,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43070,7 +43070,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43090,7 +43090,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43110,7 +43110,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43130,7 +43130,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43151,7 +43151,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43171,7 +43171,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43191,7 +43191,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43211,7 +43211,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43231,7 +43231,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43251,7 +43251,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43271,7 +43271,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43291,7 +43291,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43311,7 +43311,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43331,7 +43331,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43351,7 +43351,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43371,7 +43371,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43391,7 +43391,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43411,7 +43411,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43431,7 +43431,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43451,7 +43451,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43471,7 +43471,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43491,7 +43491,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43511,7 +43511,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43531,7 +43531,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43551,7 +43551,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43571,7 +43571,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43591,7 +43591,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43611,7 +43611,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43631,7 +43631,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43651,7 +43651,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43671,7 +43671,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43691,7 +43691,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43711,7 +43711,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43731,7 +43731,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43751,7 +43751,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43771,7 +43771,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43791,7 +43791,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43811,7 +43811,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43831,7 +43831,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43851,7 +43851,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43871,7 +43871,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43891,7 +43891,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43911,7 +43911,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43931,7 +43931,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43951,7 +43951,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43971,7 +43971,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -43991,7 +43991,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44011,7 +44011,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44031,7 +44031,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44051,7 +44051,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44071,7 +44071,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44091,7 +44091,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44111,7 +44111,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44131,7 +44131,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44151,7 +44151,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44171,7 +44171,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44191,7 +44191,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44211,7 +44211,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44231,7 +44231,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44251,7 +44251,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44271,7 +44271,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44291,7 +44291,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -44311,7 +44311,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -44331,7 +44331,7 @@ if (req.params.series_id == 7030188804){
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -44351,7 +44351,7 @@ if (req.params.series_id == 7030288801){
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -44371,7 +44371,7 @@ if (req.params.series_id == 7030288802){
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -44391,7 +44391,7 @@ if (req.params.series_id == 7030288803){
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -44412,7 +44412,7 @@ if (req.params.series_id == 7030288804){
 	  "size": 480,
 	  "type": "Trailer",
 	  "official": false,
-	  "published_at": "2015-08-04T13:24:39.000Z",
+	  "published_at": "2024-08-04T13:24:39.000Z",
 	  "id": "613bba4b322b2b0029644ad8"
 	}
   ]
@@ -44433,7 +44433,7 @@ if (req.params.series_id == 7030288805){
 	  "size": 480,
 	  "type": "Trailer",
 	  "official": false,
-	  "published_at": "2015-08-04T13:24:39.000Z",
+	  "published_at": "2024-08-04T13:24:39.000Z",
 	  "id": "613bba4b322b2b0029644ad8"
 	}
   ]
@@ -44613,7 +44613,7 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
     "iso_639_1": "en",
     "iso_3166_1": "US",
     "list_type": "movie",
-    "name": "2010-2018;US;All",
+    "name": "2024-2024;US;All",
     "poster_path": null
   },
   {
@@ -44652,7 +44652,7 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
   {
     "description": "",
     "favorite_count": 0,
-    "id": 32023,
+    "id": 32024,
     "item_count": 2611,
     "iso_639_1": "en",
     "iso_3166_1": "US",
@@ -44703,7 +44703,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44723,7 +44723,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44743,7 +44743,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44763,7 +44763,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44783,7 +44783,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44803,7 +44803,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44823,7 +44823,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44843,7 +44843,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44863,7 +44863,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44883,7 +44883,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44903,7 +44903,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44923,7 +44923,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44943,7 +44943,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44963,7 +44963,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -44983,7 +44983,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45003,7 +45003,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45023,7 +45023,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45043,7 +45043,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45063,7 +45063,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45083,7 +45083,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45103,7 +45103,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45123,7 +45123,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45143,7 +45143,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45163,7 +45163,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45183,7 +45183,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45203,7 +45203,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45223,7 +45223,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45243,7 +45243,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45263,7 +45263,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45283,7 +45283,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45303,7 +45303,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45323,7 +45323,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45343,7 +45343,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45363,7 +45363,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45383,7 +45383,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45403,7 +45403,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45423,7 +45423,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45443,7 +45443,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45463,7 +45463,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45483,7 +45483,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45503,7 +45503,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45523,7 +45523,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45543,7 +45543,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45563,7 +45563,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45583,7 +45583,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45603,7 +45603,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45623,7 +45623,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45643,7 +45643,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45663,7 +45663,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45683,7 +45683,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45703,7 +45703,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45724,7 +45724,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45744,7 +45744,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45764,7 +45764,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45784,7 +45784,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45804,7 +45804,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45824,7 +45824,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45844,7 +45844,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45864,7 +45864,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45884,7 +45884,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45904,7 +45904,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 			  "size": 480,
 			  "type": "Trailer",
 			  "official": false,
-			  "published_at": "2015-08-04T13:24:39.000Z",
+			  "published_at": "2024-08-04T13:24:39.000Z",
 			  "id": "613bba4b322b2b0029644ad8"
 			}
 		  ]
@@ -45924,7 +45924,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45943,7 +45943,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45963,7 +45963,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -45983,7 +45983,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46004,7 +46004,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46024,7 +46024,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46045,7 +46045,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46065,7 +46065,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46085,7 +46085,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46105,7 +46105,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46125,7 +46125,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46145,7 +46145,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46165,7 +46165,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46185,7 +46185,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46205,7 +46205,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46225,7 +46225,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46245,7 +46245,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46265,7 +46265,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46285,7 +46285,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46305,7 +46305,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46325,7 +46325,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46345,7 +46345,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46365,7 +46365,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46385,7 +46385,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46405,7 +46405,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46425,7 +46425,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46445,7 +46445,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46465,7 +46465,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46485,7 +46485,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46505,7 +46505,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46525,7 +46525,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46545,7 +46545,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46565,7 +46565,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46585,7 +46585,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46605,7 +46605,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46625,7 +46625,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46645,7 +46645,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46665,7 +46665,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46685,7 +46685,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46705,7 +46705,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46725,7 +46725,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46745,7 +46745,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46765,7 +46765,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46785,7 +46785,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46805,7 +46805,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46825,7 +46825,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46845,7 +46845,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46865,7 +46865,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46885,7 +46885,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46905,7 +46905,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46924,7 +46924,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46943,7 +46943,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46962,7 +46962,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -46981,7 +46981,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47001,7 +47001,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47020,7 +47020,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47039,7 +47039,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47058,7 +47058,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47077,7 +47077,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47097,7 +47097,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47116,7 +47116,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47135,7 +47135,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47154,7 +47154,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47173,7 +47173,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47193,7 +47193,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47212,7 +47212,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47231,7 +47231,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47252,7 +47252,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47272,7 +47272,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47292,7 +47292,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47312,7 +47312,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47332,7 +47332,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47352,7 +47352,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47372,7 +47372,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47392,7 +47392,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47412,7 +47412,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47432,7 +47432,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47452,7 +47452,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47472,7 +47472,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47492,7 +47492,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47512,7 +47512,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47532,7 +47532,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47552,7 +47552,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47572,7 +47572,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47592,7 +47592,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47612,7 +47612,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47632,7 +47632,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47652,7 +47652,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47672,7 +47672,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47692,7 +47692,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47712,7 +47712,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47732,7 +47732,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47752,7 +47752,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47772,7 +47772,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47792,7 +47792,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47812,7 +47812,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47832,7 +47832,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47852,7 +47852,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47872,7 +47872,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47892,7 +47892,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47912,7 +47912,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47932,7 +47932,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47952,7 +47952,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47972,7 +47972,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -47992,7 +47992,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48012,7 +48012,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48032,7 +48032,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48052,7 +48052,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48072,7 +48072,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48092,7 +48092,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48112,7 +48112,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48132,7 +48132,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48152,7 +48152,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48172,7 +48172,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48192,7 +48192,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48212,7 +48212,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48232,7 +48232,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48252,7 +48252,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48272,7 +48272,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48292,7 +48292,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48312,7 +48312,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48332,7 +48332,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48352,7 +48352,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48372,7 +48372,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48392,7 +48392,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48412,7 +48412,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48432,7 +48432,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48452,7 +48452,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48472,7 +48472,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48492,7 +48492,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48512,7 +48512,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48532,7 +48532,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48552,7 +48552,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48572,7 +48572,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48592,7 +48592,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48612,7 +48612,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48632,7 +48632,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48652,7 +48652,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48672,7 +48672,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "size": 480,
           "type": "Trailer",
           "official": false,
-          "published_at": "2015-08-04T13:24:39.000Z",
+          "published_at": "2024-08-04T13:24:39.000Z",
           "id": "613bba4b322b2b0029644ad8"
         }
       ]
@@ -48692,7 +48692,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48712,7 +48712,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -48732,7 +48732,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       "size": 480,
       "type": "Trailer",
       "official": false,
-      "published_at": "2015-08-04T13:24:39.000Z",
+      "published_at": "2024-08-04T13:24:39.000Z",
       "id": "613bba4b322b2b0029644ad8"
     }
   ]
@@ -48752,7 +48752,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48772,7 +48772,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48792,7 +48792,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48812,7 +48812,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 		  "size": 480,
 		  "type": "Trailer",
 		  "official": false,
-		  "published_at": "2015-08-04T13:24:39.000Z",
+		  "published_at": "2024-08-04T13:24:39.000Z",
 		  "id": "613bba4b322b2b0029644ad8"
 		}
 	  ]
@@ -48832,7 +48832,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
 		  "size": 480,
 		  "type": "Trailer",
 		  "official": false,
-		  "published_at": "2015-08-04T13:24:39.000Z",
+		  "published_at": "2024-08-04T13:24:39.000Z",
 		  "id": "613bba4b322b2b0029644ad8"
 		}
 	  ]
@@ -48852,7 +48852,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48872,7 +48872,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48892,7 +48892,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48912,7 +48912,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48932,7 +48932,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48952,7 +48952,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
@@ -48972,7 +48972,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         "size": 480,
         "type": "Trailer",
         "official": false,
-        "published_at": "2015-08-04T13:24:39.000Z",
+        "published_at": "2024-08-04T13:24:39.000Z",
         "id": "613bba4b322b2b0029644ad8"
       }
     ]
