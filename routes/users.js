@@ -47229,7 +47229,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
           "iso_639_1": "en",
           "iso_3166_1": "US",
 		  "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 16",
-          "key": "Se8gMPHLAwE",
+          "key": "RSY0ISn1BnMs",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
