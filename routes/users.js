@@ -22081,6 +22081,14 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part 1'
 			},
 			{
+				"id": 900071,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
+			},
+			{
+				"id": 900072,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
+			},
+			{
 				"id": 90008,
 				"name": 'Preweek - Labor - Dean Pearlito Campanilla - Part I'
 			},
@@ -22342,7 +22350,15 @@ router.get('/genre/tv/list', function(req, res, next) {
 			},
 			{
 				"id": 90007,
-				"name": 'Preweek - Criminal - Judge Campanilla - Part 1'
+				"name": 'Preweek - Criminal - Judge Campanilla - Part I'
+			},
+			{
+				"id": 900071,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
+			},
+			{
+				"id": 900072,
+				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
 			},
 			{
 				"id": 90008,
