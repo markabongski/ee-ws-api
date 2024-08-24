@@ -11785,6 +11785,162 @@ router.get('/discover/movie', function(req, res, next) {
 	  });
 	}
 
+  if (req.query.with_genres == 90071 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/09YESrF7qHw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007188801,
+		  "original_language": "en",
+		  "original_title": "1 Delito Continuado",
+		  "overview": "1 Delito Continuado",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/09YESrF7qHw.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "1 Delito Continuado",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/nqNi5FFVGfk",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007188802,
+		  "original_language": "en",
+		  "original_title": "2  Complex crime",
+		  "overview": "2  Complex crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/nqNi5FFVGfk",
+		  "release_date": "2024-07-19",
+		  "title": "2  Complex crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/zpnLOVlxti8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007188803,
+		  "original_language": "en",
+		  "original_title": "3  Special complex crime",
+		  "overview": "3  Special complex crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/zpnLOVlxti8.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "3  Special complex crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XDW7rqZmtR8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007188804,
+		  "original_language": "en",
+		  "original_title": "4  Robbery with homicide or rape",
+		  "overview": "4  Robbery with homicide or rape",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XDW7rqZmtR8.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "4  Robbery with homicide or rape",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/-Oh221Ssfrs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 900718885,
+		  "original_language": "en",
+		  "original_title": "5  Carnapping, Kidnapping with homicide or rape",
+		  "overview": "5  Carnapping, Kidnapping with homicide or rape",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/-Oh221Ssfrs.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "5  Carnapping, Kidnapping with homicide or rape",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+ 
+  if (req.query.with_genres == 90072 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/Z7jFkdILsLI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288801,
+		  "original_language": "en",
+		  "original_title": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "overview": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/Z7jFkdILsLI.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/0UVeOs-GDwY",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9007288802,
+		  "original_language": "en",
+		  "original_title": "Mode of criminal extinction",
+		  "overview": "Mode of criminal extinction",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/0UVeOs-GDwY",
+		  "release_date": "2024-07-19",
+		  "title": "Mode of criminal extinction",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+
+
+
   if (req.query.with_genres == 90008 ){
 		res.json({
 	  "page": 1,
