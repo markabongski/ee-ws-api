@@ -22078,7 +22078,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 			},
 			{
 				"id": 90007,
-				"name": 'Preweek - Criminal - Judge Campanilla - Part 1'
+				"name": 'Preweek - Criminal - Judge Campanilla - Part I'
 			},
 			{
 				"id": 90071,
@@ -33219,7 +33219,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90071888045,
+      "id": 9007188805,
       "in_production": false,
       "languages": [
         "en"
