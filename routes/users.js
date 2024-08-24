@@ -19606,7 +19606,7 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
  
-  if (req.query.with_genres == 900072 ){
+  if (req.query.with_genres == 90072 ){
 		res.json({
 	  "page": 1,
 	  "results": [
@@ -19617,7 +19617,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007288801,
+		  "id": 9007288801,
 		  "original_language": "en",
 		  "original_title": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
 		  "overview": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
@@ -19636,7 +19636,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007288802,
+		  "id": 9007288802,
 		  "original_language": "en",
 		  "original_title": "Mode of criminal extinction",
 		  "overview": "Mode of criminal extinction",
@@ -22085,7 +22085,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
 			},
 			{
-				"id": 900072,
+				"id": 90072,
 				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
 			},
 			{
@@ -22357,7 +22357,7 @@ router.get('/genre/tv/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
 			},
 			{
-				"id": 900072,
+				"id": 90072,
 				"name": 'Preweek - Criminal - Judge Campanilla - Part III'
 			},
 			{
@@ -33273,7 +33273,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007288801){
+  if (req.params.series_id == 9007288801){
     res.json(
       {
       "adult": false,
@@ -33287,7 +33287,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007288801,
+      "id": 9007288801,
       "in_production": false,
       "languages": [
         "en"
@@ -33341,7 +33341,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007288802){
+  if (req.params.series_id == 9007288802){
     res.json(
       {
       "adult": false,
@@ -33355,7 +33355,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007288802,
+      "id": 9007288802,
       "in_production": false,
       "languages": [
         "en"
@@ -43886,9 +43886,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 90007288801){
+	if (req.params.series_id == 9007288801){
       res.json({
-      "id": 90007288801,
+      "id": 9007288801,
       "results": [
         {
           "iso_639_1": "en",
@@ -43906,9 +43906,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 90007288802){
+	if (req.params.series_id == 9007288802){
       res.json({
-      "id": 90007288802,
+      "id": 9007288802,
       "results": [
         {
           "iso_639_1": "en",
@@ -48143,9 +48143,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 90007288801){
+	if (req.params.tv_id == 9007288801){
       res.json({
-      "id": 90007288801,
+      "id": 9007288801,
       "results": [
         {
           "iso_639_1": "en",
@@ -48163,9 +48163,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 90007288802){
+	if (req.params.tv_id == 9007288802){
       res.json({
-      "id": 90007288802,
+      "id": 9007288802,
       "results": [
         {
           "iso_639_1": "en",
