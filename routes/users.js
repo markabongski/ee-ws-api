@@ -19501,7 +19501,7 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
  
-  if (req.query.with_genres == 900071 ){
+  if (req.query.with_genres == 90071 ){
 		res.json({
 	  "page": 1,
 	  "results": [
@@ -19512,7 +19512,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007188801,
+		  "id": 9007188801,
 		  "original_language": "en",
 		  "original_title": "1 Delito Continuado",
 		  "overview": "1 Delito Continuado",
@@ -19531,7 +19531,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007188802,
+		  "id": 9007188802,
 		  "original_language": "en",
 		  "original_title": "2  Complex crime",
 		  "overview": "2  Complex crime",
@@ -19550,7 +19550,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007188803,
+		  "id": 9007188803,
 		  "original_language": "en",
 		  "original_title": "3  Special complex crime",
 		  "overview": "3  Special complex crime",
@@ -19569,7 +19569,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 90007188804,
+		  "id": 9007188804,
 		  "original_language": "en",
 		  "original_title": "4  Robbery with homicide or rape",
 		  "overview": "4  Robbery with homicide or rape",
@@ -19588,7 +19588,7 @@ router.get('/discover/tv', function(req, res, next) {
 			18,
 			36
 		  ],
-		  "id": 9000718885,
+		  "id": 900718885,
 		  "original_language": "en",
 		  "original_title": "5  Carnapping, Kidnapping with homicide or rape",
 		  "overview": "5  Carnapping, Kidnapping with homicide or rape",
@@ -22081,7 +22081,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part 1'
 			},
 			{
-				"id": 900071,
+				"id": 90071,
 				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
 			},
 			{
@@ -22353,7 +22353,7 @@ router.get('/genre/tv/list', function(req, res, next) {
 				"name": 'Preweek - Criminal - Judge Campanilla - Part I'
 			},
 			{
-				"id": 900071,
+				"id": 90071,
 				"name": 'Preweek - Criminal - Judge Campanilla - Part II'
 			},
 			{
@@ -32933,7 +32933,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007188801){
+  if (req.params.series_id == 9007188801){
     res.json(
       {
       "adult": false,
@@ -32947,7 +32947,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007188801,
+      "id": 9007188801,
       "in_production": false,
       "languages": [
         "en"
@@ -33001,7 +33001,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
    
-  if (req.params.series_id == 90007188802){
+  if (req.params.series_id == 9007188802){
     res.json(
       {
       "adult": false,
@@ -33015,7 +33015,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007188802,
+      "id": 9007188802,
       "in_production": false,
       "languages": [
         "en"
@@ -33069,7 +33069,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007188803){
+  if (req.params.series_id == 9007188803){
     res.json(
       {
       "adult": false,
@@ -33083,7 +33083,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007188803,
+      "id": 9007188803,
       "in_production": false,
       "languages": [
         "en"
@@ -33137,7 +33137,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007188804){
+  if (req.params.series_id == 9007188804){
     res.json(
       {
       "adult": false,
@@ -33151,7 +33151,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 90007188804,
+      "id": 9007188804,
       "in_production": false,
       "languages": [
         "en"
@@ -33205,7 +33205,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
-  if (req.params.series_id == 90007188805){
+  if (req.params.series_id == 9007188805){
     res.json(
       {
       "adult": false,
@@ -33219,7 +33219,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "genres": [
       ],
       "homepage": "",
-      "id": 900071888045,
+      "id": 90071888045,
       "in_production": false,
       "languages": [
         "en"
@@ -43786,9 +43786,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     } 
 	
-	if (req.params.series_id == 90007188801){
+	if (req.params.series_id == 9007188801){
       res.json({
-      "id": 90007188801,
+      "id": 9007188801,
       "results": [
         {
           "iso_639_1": "en",
@@ -43806,9 +43806,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     } 
 	
-	if (req.params.series_id == 90007188802){
+	if (req.params.series_id == 9007188802){
       res.json({
-      "id": 90007188802,
+      "id": 9007188802,
       "results": [
         {
           "iso_639_1": "en",
@@ -43826,9 +43826,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 90007188803){
+	if (req.params.series_id == 9007188803){
       res.json({
-      "id": 90007188803,
+      "id": 9007188803,
       "results": [
         {
           "iso_639_1": "en",
@@ -43846,9 +43846,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 90007188804){
+	if (req.params.series_id == 9007188804){
       res.json({
-      "id": 90007188804,
+      "id": 9007188804,
       "results": [
         {
           "iso_639_1": "en",
@@ -43866,9 +43866,9 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
-	if (req.params.series_id == 90007188805){
+	if (req.params.series_id == 9007188805){
       res.json({
-      "id": 90007188805,
+      "id": 9007188805,
       "results": [
         {
           "iso_639_1": "en",
@@ -48043,9 +48043,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
     } 
 
    
-   if (req.params.tv_id == 90007188801){
+   if (req.params.tv_id == 9007188801){
       res.json({
-      "id": 90007188801,
+      "id": 9007188801,
       "results": [
         {
           "iso_639_1": "en",
@@ -48063,9 +48063,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     } 
 	
-	if (req.params.tv_id == 90007188802){
+	if (req.params.tv_id == 9007188802){
       res.json({
-      "id": 90007188802,
+      "id": 9007188802,
       "results": [
         {
           "iso_639_1": "en",
@@ -48083,9 +48083,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 90007188803){
+	if (req.params.tv_id == 9007188803){
       res.json({
-      "id": 90007188803,
+      "id": 9007188803,
       "results": [
         {
           "iso_639_1": "en",
@@ -48103,9 +48103,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 90007188804){
+	if (req.params.tv_id == 9007188804){
       res.json({
-      "id": 90007188804,
+      "id": 9007188804,
       "results": [
         {
           "iso_639_1": "en",
@@ -48123,9 +48123,9 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
-	if (req.params.tv_id == 90007188805){
+	if (req.params.tv_id == 9007188805){
       res.json({
-      "id": 90007188805,
+      "id": 9007188805,
       "results": [
         {
           "iso_639_1": "en",
