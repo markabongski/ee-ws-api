@@ -19501,8 +19501,160 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
  
+  if (req.query.with_genres == 900071 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/09YESrF7qHw.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007188801,
+		  "original_language": "en",
+		  "original_title": "1 Delito Continuado",
+		  "overview": "1 Delito Continuado",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/09YESrF7qHw.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "1 Delito Continuado",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/nqNi5FFVGfk",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007188802,
+		  "original_language": "en",
+		  "original_title": "2  Complex crime",
+		  "overview": "2  Complex crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/nqNi5FFVGfk",
+		  "release_date": "2024-07-19",
+		  "title": "2  Complex crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/zpnLOVlxti8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007188803,
+		  "original_language": "en",
+		  "original_title": "3  Special complex crime",
+		  "overview": "3  Special complex crime",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/zpnLOVlxti8.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "3  Special complex crime",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/XDW7rqZmtR8.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007188804,
+		  "original_language": "en",
+		  "original_title": "4  Robbery with homicide or rape",
+		  "overview": "4  Robbery with homicide or rape",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/XDW7rqZmtR8.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "4  Robbery with homicide or rape",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/-Oh221Ssfrs.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 9000718885,
+		  "original_language": "en",
+		  "original_title": "5  Carnapping, Kidnapping with homicide or rape",
+		  "overview": "5  Carnapping, Kidnapping with homicide or rape",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/-Oh221Ssfrs.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "5  Carnapping, Kidnapping with homicide or rape",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
  
-   if (req.query.with_genres == 90008 ){
+  if (req.query.with_genres == 900072 ){
+		res.json({
+	  "page": 1,
+	  "results": [
+		 {
+		  "adult": false,
+		  "backdrop_path": "/images/Z7jFkdILsLI.jpg",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007288801,
+		  "original_language": "en",
+		  "original_title": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "overview": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/Z7jFkdILsLI.jpg",
+		  "release_date": "2024-07-19",
+		  "title": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		},
+		{
+		  "adult": false,
+		  "backdrop_path": "/images/0UVeOs-GDwY",
+		  "genre_ids": [
+			18,
+			36
+		  ],
+		  "id": 90007288802,
+		  "original_language": "en",
+		  "original_title": "Mode of criminal extinction",
+		  "overview": "Mode of criminal extinction",
+		  "popularity": 2590.24,
+		  "poster_path": "/images/0UVeOs-GDwY",
+		  "release_date": "2024-07-19",
+		  "title": "Mode of criminal extinction",
+		  "video": false,
+		  "vote_average": 8.2,
+		  "vote_count": 4588
+		}
+	  ],
+	  "total_pages": 1,
+	  "total_results": 5
+	  });
+	}
+  
+  if (req.query.with_genres == 90008 ){
 		res.json({
 	  "page": 1,
 	  "results": [
@@ -32765,6 +32917,481 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  if (req.params.series_id == 90007188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007188801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "1 Delito Continuado",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/urYZP9jhhrE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "1 Delito Continuado",
+      "overview": "1 Delito Continuado",
+      "popularity": 23.139,
+      "poster_path": "/images/lnP2YRrfaV0.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+   
+  if (req.params.series_id == 90007188802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007188802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "2  Complex crime",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/urYZP9jhhrE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "2  Complex crime",
+      "overview": "2  Complex crime",
+      "popularity": 23.139,
+      "poster_path": "/images/nqNi5FFVGfk.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 90007188803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007188803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "3  Special complex crime",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/zpnLOVlxti8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "3  Special complex crime",
+      "overview": "3  Special complex crime",
+      "popularity": 23.139,
+      "poster_path": "/images/zpnLOVlxti8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 90007188804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007188804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "4  Robbery with homicide or rape",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/XDW7rqZmtR8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "4  Robbery with homicide or rape",
+      "overview": "4  Robbery with homicide or rape",
+      "popularity": 23.139,
+      "poster_path": "/images/XDW7rqZmtR8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 90007188805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 900071888045,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "5  Carnapping, Kidnapping with homicide or rape",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/zpnLOVlxti8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5  Carnapping, Kidnapping with homicide or rape",
+      "overview": "5  Carnapping, Kidnapping with homicide or rape",
+      "popularity": 23.139,
+      "poster_path": "/images/-Oh221Ssfrs.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 90007288801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007288801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/zpnLOVlxti8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+      "overview": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+      "popularity": 23.139,
+      "poster_path": "/images/Z7jFkdILsLI.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 90007288802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 90007288802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-05-18",
+      "last_episode_to_air": {
+      },
+      "name": "Mode of criminal extinction",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/0UVeOs-GDwY.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Mode of criminal extinction",
+      "overview": "Mode of criminal extinction",
+      "popularity": 23.139,
+      "poster_path": "/images/0UVeOs-GDwY.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
   
   if (req.params.series_id == 9000888801){
     res.json(
@@ -43143,6 +43770,146 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     } 
 	
+	if (req.params.series_id == 90007188801){
+      res.json({
+      "id": 90007188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "1 Delito Continuado",
+          "key": "lnP2YRrfaV0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	
+	if (req.params.series_id == 90007188802){
+      res.json({
+      "id": 90007188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "2  Complex crime",
+          "key": "nqNi5FFVGfk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 90007188803){
+      res.json({
+      "id": 90007188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "3  Special complex crime",
+          "key": "zpnLOVlxti8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 90007188804){
+      res.json({
+      "id": 90007188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "4  Robbery with homicide or rape",
+          "key": "XDW7rqZmtR8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 90007188805){
+      res.json({
+      "id": 90007188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "5  Carnapping, Kidnapping with homicide or rape",
+          "key": "-Oh221Ssfrs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 90007288801){
+      res.json({
+      "id": 90007288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+          "key": "Z7jFkdILsLI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 90007288802){
+      res.json({
+      "id": 90007288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Mode of criminal extinction",
+          "key": "0UVeOs-GDwY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
    if (req.params.series_id == 9001288801){
       res.json({
       "id": 9001288801,
@@ -47259,6 +48026,146 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     } 
 
+   
+   if (req.params.tv_id == 90007188801){
+      res.json({
+      "id": 90007188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "1 Delito Continuado",
+          "key": "lnP2YRrfaV0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    } 
+	
+	if (req.params.tv_id == 90007188802){
+      res.json({
+      "id": 90007188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "2  Complex crime",
+          "key": "nqNi5FFVGfk",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 90007188803){
+      res.json({
+      "id": 90007188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "3  Special complex crime",
+          "key": "zpnLOVlxti8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 90007188804){
+      res.json({
+      "id": 90007188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "4  Robbery with homicide or rape",
+          "key": "XDW7rqZmtR8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 90007188805){
+      res.json({
+      "id": 90007188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "5  Carnapping, Kidnapping with homicide or rape",
+          "key": "-Oh221Ssfrs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 90007288801){
+      res.json({
+      "id": 90007288801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "6  Forcible abduction, kidnapping, robbery, arbitrary detention",
+          "key": "Z7jFkdILsLI",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 90007288802){
+      res.json({
+      "id": 90007288802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+		  "name": "Mode of criminal extinction",
+          "key": "0UVeOs-GDwY",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
    
     if (req.params.tv_id == 9000888801){
       res.json({
