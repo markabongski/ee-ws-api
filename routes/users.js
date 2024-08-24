@@ -11810,7 +11810,7 @@ router.get('/discover/movie', function(req, res, next) {
 		},
 		{
 		  "adult": false,
-		  "backdrop_path": "/images/nqNi5FFVGfk",
+		  "backdrop_path": "/images/nqNi5FFVGfk.jpg",
 		  "genre_ids": [
 			18,
 			36
@@ -11820,7 +11820,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "original_title": "2  Complex crime",
 		  "overview": "2  Complex crime",
 		  "popularity": 2590.24,
-		  "poster_path": "/images/nqNi5FFVGfk",
+		  "poster_path": "/images/nqNi5FFVGfk.jpg",
 		  "release_date": "2024-07-19",
 		  "title": "2  Complex crime",
 		  "video": false,
@@ -11915,7 +11915,7 @@ router.get('/discover/movie', function(req, res, next) {
 		},
 		{
 		  "adult": false,
-		  "backdrop_path": "/images/0UVeOs-GDwY",
+		  "backdrop_path": "/images/0UVeOs-GDwY.jpg",
 		  "genre_ids": [
 			18,
 			36
@@ -11925,7 +11925,7 @@ router.get('/discover/movie', function(req, res, next) {
 		  "original_title": "Mode of criminal extinction",
 		  "overview": "Mode of criminal extinction",
 		  "popularity": 2590.24,
-		  "poster_path": "/images/0UVeOs-GDwY",
+		  "poster_path": "/images/0UVeOs-GDwY.jpg",
 		  "release_date": "2024-07-19",
 		  "title": "Mode of criminal extinction",
 		  "video": false,
@@ -19682,7 +19682,7 @@ router.get('/discover/tv', function(req, res, next) {
 		},
 		{
 		  "adult": false,
-		  "backdrop_path": "/images/nqNi5FFVGfk",
+		  "backdrop_path": "/images/nqNi5FFVGfk.jpg",
 		  "genre_ids": [
 			18,
 			36
@@ -19692,7 +19692,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "original_title": "2  Complex crime",
 		  "overview": "2  Complex crime",
 		  "popularity": 2590.24,
-		  "poster_path": "/images/nqNi5FFVGfk",
+		  "poster_path": "/images/nqNi5FFVGfk.jpg",
 		  "release_date": "2024-07-19",
 		  "title": "2  Complex crime",
 		  "video": false,
@@ -19787,7 +19787,7 @@ router.get('/discover/tv', function(req, res, next) {
 		},
 		{
 		  "adult": false,
-		  "backdrop_path": "/images/0UVeOs-GDwY",
+		  "backdrop_path": "/images/0UVeOs-GDwY.jpg",
 		  "genre_ids": [
 			18,
 			36
@@ -19797,7 +19797,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  "original_title": "Mode of criminal extinction",
 		  "overview": "Mode of criminal extinction",
 		  "popularity": 2590.24,
-		  "poster_path": "/images/0UVeOs-GDwY",
+		  "poster_path": "/images/0UVeOs-GDwY.jpg",
 		  "release_date": "2024-07-19",
 		  "title": "Mode of criminal extinction",
 		  "video": false,
