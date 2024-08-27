@@ -22485,7 +22485,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 				"name": 'Preweek - Labor - Dean Pearlito Campanilla - Part IV'
 			},
 			{
-				title: 'Preweek - Commercial - Judge Rocille Aquino Tambasacan - Part 1',
+				title: '	',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90012&with_watch_providers=8&watch_region=PH`
 			},
 			{
