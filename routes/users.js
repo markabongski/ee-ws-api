@@ -17281,7 +17281,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  }
 		 ],
 		"total_pages": 1,
-		"total_results": 3
+		"total_results": 5
 		});
 	 }
 	 
@@ -17363,7 +17363,7 @@ router.get('/discover/tv', function(req, res, next) {
 		  }
 		 ],
 		"total_pages": 1,
-		"total_results": 3
+		"total_results": 5
 		});
 	 }
 	 
@@ -23015,6 +23015,7 @@ router.get('/genre/movie/list', function(req, res, next) {
 			{
 				"id": 90015,
 				"name": 'Preweek - Commercial - Atty. Erickson Balmes'
+			},
 			{
 				"id": 90020,
 				"name": 'Preweek - Political - Atty. Victoria Loanzon - Part I'
@@ -23305,6 +23306,7 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				"id": 90015,
 				"name": 'Preweek - Commercial - Atty. Erickson Balmes'
+			},
 			{
 				"id": 90020,
 				"name": 'Preweek - Political - Atty. Victoria Loanzon - Part I'
