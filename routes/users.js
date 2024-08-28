@@ -12483,12 +12483,12 @@ router.get('/discover/movie', function(req, res, next) {
         ],
         "id": 9001588801,
         "original_language": "en",
-        "original_title": "Preweek - Commercial - Atty. Erickson Balmes",
-        "overview": "Preweek - Commercial - Atty. Erickson Balmes",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
         "popularity": 2590.24,
         "poster_path": "/images/STwcWHgj_xE.jpg",
         "release_date": "2024-07-19",
-        "title": "Preweek - Commercial - Atty. Erickson Balmes",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
         "video": false,
         "vote_average": 8.2,
         "vote_count": 4588
@@ -12498,6 +12498,210 @@ router.get('/discover/movie', function(req, res, next) {
     "total_results": 3
     });
  }
+ 
+ if (req.query.with_genres == 90020 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/pepTjongxL0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088801,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "popularity": 2590.24,
+        "poster_path": "/images/pepTjongxL0.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Yq4rqlL-ni8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088802,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "popularity": 2590.24,
+        "poster_path": "/images/Yq4rqlL-ni8.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/OTtja8RhRrE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088803,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "popularity": 2590.24,
+        "poster_path": "/images/OTtja8RhRrE.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/IDbq100WmC8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088804,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "popularity": 2590.24,
+        "poster_path": "/images/IDbq100WmC8.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/TpQ0T_Izbr4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088805,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "popularity": 2590.24,
+        "poster_path": "/images/TpQ0T_Izbr4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+ 
+ if (req.query.with_genres == 90021 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/AIuDUU7jbvc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188801,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "popularity": 2590.24,
+        "poster_path": "/images/AIuDUU7jbvc.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/71Y5b-38vt4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188802,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "popularity": 2590.24,
+        "poster_path": "/images/71Y5b-38vt4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/j8ePDJQvAjQ.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188803,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "popularity": 2590.24,
+        "poster_path": "/images/j8ePDJQvAjQ.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/LU6x5sIX-_g.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188804,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "popularity": 2590.24,
+        "poster_path": "/images/LU6x5sIX-_g.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Fz6CcoSotjs.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188805,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "popularity": 2590.24,
+        "poster_path": "/images/Fz6CcoSotjs.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+ 
+ 
 
   if (req.query.with_genres == 30301 ){
       res.json({
@@ -17036,13 +17240,13 @@ router.get('/discover/tv', function(req, res, next) {
 			
 			],
 			"id": 9001588801,
-			"original_language": "en",
-			"original_title": "Preweek - Commercial - Atty. Erickson Balmes",
-			"overview": "Preweek - Commercial - Atty. Erickson Balmes",
+			"original_language": "eng",
+			"original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
+			"overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
 			"popularity": 2590.24,
 			"poster_path": "/images/STwcWHgj_xE.jpg",
 			"release_date": "2024-07-19",
-			"title": "Preweek - Commercial - Atty. Erickson Balmes",
+			"title": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
 			"video": false,
 			"vote_average": 8.2,
 			"vote_count": 4588
@@ -17052,6 +17256,208 @@ router.get('/discover/tv', function(req, res, next) {
 		"total_results": 3
 		});
 	 }
+	 
+	 
+	  if (req.query.with_genres == 90020 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/pepTjongxL0.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088801,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "popularity": 2590.24,
+        "poster_path": "/images/pepTjongxL0.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Yq4rqlL-ni8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088802,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "popularity": 2590.24,
+        "poster_path": "/images/Yq4rqlL-ni8.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/OTtja8RhRrE.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088803,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "popularity": 2590.24,
+        "poster_path": "/images/OTtja8RhRrE.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/IDbq100WmC8.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088804,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "popularity": 2590.24,
+        "poster_path": "/images/IDbq100WmC8.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/TpQ0T_Izbr4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002088805,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "popularity": 2590.24,
+        "poster_path": "/images/TpQ0T_Izbr4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
+ 
+ 
+ if (req.query.with_genres == 90021 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/AIuDUU7jbvc.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188801,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "popularity": 2590.24,
+        "poster_path": "/images/AIuDUU7jbvc.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/71Y5b-38vt4.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188802,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "popularity": 2590.24,
+        "poster_path": "/images/71Y5b-38vt4.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/j8ePDJQvAjQ.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188803,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "popularity": 2590.24,
+        "poster_path": "/images/j8ePDJQvAjQ.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/LU6x5sIX-_g.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188804,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "popularity": 2590.24,
+        "poster_path": "/images/LU6x5sIX-_g.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/Fz6CcoSotjs.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9002188805,
+        "original_language": "en",
+        "original_title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "popularity": 2590.24,
+        "poster_path": "/images/Fz6CcoSotjs.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 3
+    });
+ }
 
   if (req.query.with_genres == 30301 ){
       res.json({
@@ -22503,6 +22909,14 @@ router.get('/genre/movie/list', function(req, res, next) {
 			{
 				title: 'Preweek - Commercial - Atty. Erickson Balmes',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90021&with_watch_providers=8&watch_region=PH`
 			}
 	  ]
 });
@@ -22786,6 +23200,14 @@ router.get('/genre/tv/list', function(req, res, next) {
 			{
 				title: 'Preweek - Commercial - Atty. Erickson Balmes',
 				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90015&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part I',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90020&with_watch_providers=8&watch_region=PH`
+			},
+			{
+				title: 'Preweek - Political - Atty. Victoria Loanzon - Part II',
+				endpoint: `/discover/movie?api_key=${API_KEY}&with_genres=90021&with_watch_providers=8&watch_region=PH`
 			}
   ]
 });
@@ -35271,7 +35693,7 @@ router.get('/tv/:series_id', function(req, res, next) {
       "last_air_date": "2024-08-22",
       "last_episode_to_air": {
       },
-      "name": "Preweek - Commercial - Atty. Erickson Balmes",
+      "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
       "next_episode_to_air": null,
       "networks": [
         {
@@ -35287,10 +35709,690 @@ router.get('/tv/:series_id', function(req, res, next) {
         "US"
       ],
       "original_language": "en",
-      "original_name": "Preweek - Commercial - Atty. Erickson Balmes",
-      "overview": "Preweek - Commercial - Atty. Erickson Balmes",
+      "original_name": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
+      "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
       "popularity": 23.139,
       "poster_path": "/images/STwcWHgj_xE.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002088801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002088801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/pepTjongxL0.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+      "popularity": 23.139,
+      "poster_path": "/images/pepTjongxL0.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002088802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002088802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Yq4rqlL-ni8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+      "popularity": 23.139,
+      "poster_path": "/images/Yq4rqlL-ni8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+
+  if (req.params.series_id == 9002088803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002088803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/OTtja8RhRrE.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+      "popularity": 23.139,
+      "poster_path": "/images/OTtja8RhRrE.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002088804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002088804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/IDbq100WmC8.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+      "popularity": 23.139,
+      "poster_path": "/images/IDbq100WmC8.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002088805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002088805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/TpQ0T_Izbr4.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+      "popularity": 23.139,
+      "poster_path": "/images/TpQ0T_Izbr4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002188801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002188801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/AIuDUU7jbvc.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+      "popularity": 23.139,
+      "poster_path": "/images/AIuDUU7jbvc.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002188802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002188802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/71Y5b-38vt4.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+      "popularity": 23.139,
+      "poster_path": "/images/71Y5b-38vt4.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002188803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002188803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/j8ePDJQvAjQ.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+      "popularity": 23.139,
+      "poster_path": "/images/j8ePDJQvAjQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002188804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002188804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/LU6x5sIX-_g.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+      "popularity": 23.139,
+      "poster_path": "/images/LU6x5sIX-_g.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9002188805){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9002188805,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/Fz6CcoSotjs.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+      "overview": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+      "popularity": 23.139,
+      "poster_path": "/images/Fz6CcoSotjs.jpg",
       "production_companies": [
       ],
       "production_countries": [
@@ -44747,7 +45849,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-          "name": "Preweek - Commercial - Atty. Erickson Balmes",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
           "key": "STwcWHgj_xE",
           "site": "YouTube",
           "size": 480,
