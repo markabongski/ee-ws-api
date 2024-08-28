@@ -45491,7 +45491,7 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-		  "name": "Preweek - Criminal - Judge Campanilla - Part 15",
+		  "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 15",
           "key": "tyEv7ADtDJs",
           "site": "YouTube",
           "size": 480,
@@ -45851,6 +45851,206 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
           "iso_3166_1": "US",
           "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 1",
           "key": "STwcWHgj_xE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002088801){
+      res.json({
+      "id": 9002088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+          "key": "pepTjongxL0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002088802){
+      res.json({
+      "id": 9002088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+          "key": "Yq4rqlL-ni8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002088803){
+      res.json({
+      "id": 9002088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+          "key": "OTtja8RhRrE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002088804){
+      res.json({
+      "id": 9002088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+          "key": "IDbq100WmC8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002088805){
+      res.json({
+      "id": 9002088805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+          "key": "TpQ0T_Izbr4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002188801){
+      res.json({
+      "id": 9002188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+          "key": "AIuDUU7jbvc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002188802){
+      res.json({
+      "id": 9002188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+          "key": "71Y5b-38vt4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002188803){
+      res.json({
+      "id": 9002188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+          "key": "j8ePDJQvAjQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002188804){
+      res.json({
+      "id": 9002188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+          "key": "LU6x5sIX-_g",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9002188805){
+      res.json({
+      "id": 9002188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+          "key": "Fz6CcoSotjs",
           "site": "YouTube",
           "size": 480,
           "type": "Trailer",
@@ -47654,6 +47854,229 @@ router.get('/movie/:movie_id/lists', function(req, res, next) {
 });
 
 router.get('/tv/:tv_id/season/1', function(req, res, next) {
+  
+  
+   if (req.params.tv_id == 9002088801){
+      res.json({
+      "id": 9002088801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 1",
+          "key": "pepTjongxL0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002088802){
+      res.json({
+      "id": 9002088802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 2",
+          "key": "Yq4rqlL-ni8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002088803){
+      res.json({
+      "id": 9002088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 3",
+          "key": "OTtja8RhRrE",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002088804){
+      res.json({
+      "id": 9002088804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 4",
+          "key": "IDbq100WmC8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002088805){
+      res.json({
+      "id": 9002088805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 5",
+          "key": "TpQ0T_Izbr4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002188801){
+      res.json({
+      "id": 9002188801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 6",
+          "key": "AIuDUU7jbvc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002188802){
+      res.json({
+      "id": 9002188802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 7",
+          "key": "71Y5b-38vt4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002188803){
+      res.json({
+      "id": 9002188803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 8",
+          "key": "j8ePDJQvAjQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002188804){
+      res.json({
+      "id": 9002188804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 9",
+          "key": "LU6x5sIX-_g",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9002188805){
+      res.json({
+      "id": 9002188805,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Political - Atty. Victoria Loanzon - Lecture 10",
+          "key": "Fz6CcoSotjs",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+   if (req.params.tv_id == 3030088803){
+      res.json({
+      "id": 3030088803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Political Dean Loanzon Lecture 3",
+          "key": "MJZW11VWas8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+
+  
   
    if (req.params.tv_id == 2030088801){
       res.json({
@@ -50294,7 +50717,7 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
         {
           "iso_639_1": "en",
           "iso_3166_1": "US",
-		  "name": "Preweek - Criminal - Judge Campanilla - Part 15",
+		  "name": "Preweek - Labor - Dean Pearlito Campanilla - Part 15",
           "key": "tyEv7ADtDJs",
           "site": "YouTube",
           "size": 480,
