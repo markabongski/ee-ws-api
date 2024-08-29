@@ -12553,6 +12553,88 @@ router.get('/discover/movie', function(req, res, next) {
     });
  }
  
+ if (req.query.with_genres == 90016 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/xyd_Yct9o20.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688801,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "popularity": 2590.24,
+        "poster_path": "/images/xyd_Yct9o20.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/jRYqKChdpEU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688802,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "popularity": 2590.24,
+        "poster_path": "/images/jRYqKChdpEU.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/DrHf9dXI9To.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688803,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "popularity": 2590.24,
+        "poster_path": "/images/DrHf9dXI9To.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/iztIusa4cWQ.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688804,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "popularity": 2590.24,
+        "poster_path": "/images/iztIusa4cWQ.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }
+ 
  
  
  if (req.query.with_genres == 90020 ){
@@ -17257,7 +17339,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
  
-	 if (req.query.with_genres == 90014 ){
+  if (req.query.with_genres == 90014 ){
 		  res.json({
 		"page": 1,
 		"results": [
@@ -17285,7 +17367,7 @@ router.get('/discover/tv', function(req, res, next) {
 		});
 	 }
 	 
-	 if (req.query.with_genres == 90015 ){
+  if (req.query.with_genres == 90015 ){
 		  res.json({
 		"page": 1,
 		"results": [
@@ -17366,9 +17448,90 @@ router.get('/discover/tv', function(req, res, next) {
 		"total_results": 5
 		});
 	 }
+	
+  if (req.query.with_genres == 90016 ){
+      res.json({
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/images/xyd_Yct9o20.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688801,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "popularity": 2590.24,
+        "poster_path": "/images/xyd_Yct9o20.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/jRYqKChdpEU.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688802,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "popularity": 2590.24,
+        "poster_path": "/images/jRYqKChdpEU.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/DrHf9dXI9To.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688803,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "popularity": 2590.24,
+        "poster_path": "/images/DrHf9dXI9To.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      },
+	  {
+        "adult": false,
+        "backdrop_path": "/images/iztIusa4cWQ.jpg",
+        "genre_ids": [
+        
+        ],
+        "id": 9001688804,
+        "original_language": "en",
+        "original_title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "popularity": 2590.24,
+        "poster_path": "/images/iztIusa4cWQ.jpg",
+        "release_date": "2024-07-19",
+        "title": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 4588
+      }
+     ],
+    "total_pages": 1,
+    "total_results": 5
+    });
+ }	
 	 
-	 
-	  if (req.query.with_genres == 90020 ){
+  if (req.query.with_genres == 90020 ){
       res.json({
     "page": 1,
     "results": [
@@ -17468,8 +17631,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
  
- 
- if (req.query.with_genres == 90021 ){
+  if (req.query.with_genres == 90021 ){
       res.json({
     "page": 1,
     "results": [
@@ -20704,7 +20866,6 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
 
-  
   if (req.query.with_genres == 90010 ){
 		res.json({
 	  "page": 1,
@@ -20904,7 +21065,6 @@ router.get('/discover/tv', function(req, res, next) {
 	  });
 	}
 	
-	
   if (req.query.with_genres == 30300 ){
       res.json({
     "page": 1,
@@ -20970,7 +21130,7 @@ router.get('/discover/tv', function(req, res, next) {
     });
  }
 
-	  if (req.query.with_genres == 90013 ){
+  if (req.query.with_genres == 90013 ){
 		  res.json({
 		"page": 1,
 		"results": [
@@ -20998,7 +21158,7 @@ router.get('/discover/tv', function(req, res, next) {
 		});
 	 }
  
-	 if (req.query.with_genres == 90014 ){
+  if (req.query.with_genres == 90014 ){
 		  res.json({
 		"page": 1,
 		"results": [
@@ -23014,7 +23174,11 @@ router.get('/genre/movie/list', function(req, res, next) {
 			},
 			{
 				"id": 90015,
-				"name": 'Preweek - Commercial - Atty. Erickson Balmes'
+				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part I'
+			},
+			{
+				"id": 90016,
+				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part II'
 			},
 			{
 				"id": 90020,
@@ -23305,7 +23469,11 @@ router.get('/genre/tv/list', function(req, res, next) {
 			},
 			{
 				"id": 90015,
-				"name": 'Preweek - Commercial - Atty. Erickson Balmes'
+				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part I'
+			},
+			{
+				"id": 90016,
+				"name": 'Preweek - Commercial - Atty. Erickson Balmes - Part II'
 			},
 			{
 				"id": 90020,
@@ -36049,6 +36217,278 @@ router.get('/tv/:series_id', function(req, res, next) {
       });
   }
   
+  if (req.params.series_id == 9001688801){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001688801,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/xyd_Yct9o20.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+      "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+      "popularity": 23.139,
+      "poster_path": "/images/xyd_Yct9o20.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001688802){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001688802,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/jRYqKChdpEU.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+      "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+      "popularity": 23.139,
+      "poster_path": "/images/jRYqKChdpEU.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001688803){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001688803,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/DrHf9dXI9To.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+      "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+      "popularity": 23.139,
+      "poster_path": "/images/DrHf9dXI9To.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
+  if (req.params.series_id == 9001688804){
+    res.json(
+      {
+      "adult": false,
+      "backdrop_path": null,
+      "created_by": [
+      ],
+      "episode_run_time": [
+        43
+      ],
+      "first_air_date": "2024-04-13",
+      "genres": [
+      ],
+      "homepage": "",
+      "id": 9001688804,
+      "in_production": false,
+      "languages": [
+        "en"
+      ],
+      "last_air_date": "2024-08-22",
+      "last_episode_to_air": {
+      },
+      "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+      "next_episode_to_air": null,
+      "networks": [
+        {
+        "id": 6,
+        "logo_path": "/9bHsSh8OG6Q.jpg",
+        "name": "NBC",
+        "origin_country": "US"
+        }
+      ],
+      "number_of_episodes": 1,
+      "number_of_seasons": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+      "overview": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+      "popularity": 23.139,
+      "poster_path": "/images/iztIusa4cWQ.jpg",
+      "production_companies": [
+      ],
+      "production_countries": [
+        {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+        }
+      ],
+      "seasons": [
+  
+      ],
+      "spoken_languages": [
+        {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+        }
+      ],
+      "status": "Ended",
+      "tagline": "",
+      "type": "Miniseries",
+      "vote_average": 5.7,
+      "vote_count": 29
+      });
+  }
+  
   if (req.params.series_id == 9002088801){
     res.json(
       {
@@ -46232,6 +46672,86 @@ router.get('/tv/:series_id/videos', function(req, res, next) {
       });
     }
 	
+	if (req.params.series_id == 9001688801){
+      res.json({
+      "id": 9001688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+          "key": "xyd_Yct9o20",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9001688802){
+      res.json({
+      "id": 9001688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+          "key": "jRYqKChdpEU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9001688803){
+      res.json({
+      "id": 9001688803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+          "key": "DrHf9dXI9To",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.series_id == 9001688804){
+      res.json({
+      "id": 9001688804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+          "key": "iztIusa4cWQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
 	if (req.params.series_id == 9002088801){
       res.json({
       "id": 9002088801,
@@ -51359,7 +51879,85 @@ router.get('/tv/:tv_id/season/1', function(req, res, next) {
       });
     }
 	
+	if (req.params.tv_id == 9001688801){
+      res.json({
+      "id": 9001688801,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 5",
+          "key": "xyd_Yct9o20",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 	
+	if (req.params.tv_id == 9001688802){
+      res.json({
+      "id": 9001688802,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 6",
+          "key": "jRYqKChdpEU",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9001688803){
+      res.json({
+      "id": 9001688803,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 7",
+          "key": "DrHf9dXI9To",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
+	
+	if (req.params.tv_id == 9001688804){
+      res.json({
+      "id": 9001688804,
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preweek - Commercial - Atty. Erickson Balmes - Part 8",
+          "key": "iztIusa4cWQ",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2024-08-04T13:24:39.000Z",
+          "id": "613bba4b322b2b0029644ad8"
+        }
+      ]
+      });
+    }
 
    if (req.params.tv_id == 3030088803){
       res.json({
